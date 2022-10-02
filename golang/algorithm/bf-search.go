@@ -44,6 +44,7 @@ func strStr(haystack, needle string) int {
 	return bfSearch(haystack, needle)
 }
 
+// 字符串之-BF算法
 func main() {
 	s := "Hello, nice to meet you!"
 	p := "to"

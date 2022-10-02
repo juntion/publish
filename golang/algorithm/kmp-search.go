@@ -79,6 +79,7 @@ func kmpStrStr(haystack, needle string) int {
 	return kmpSearch(haystack, needle)
 }
 
+// 字符串之-KMP算法
 func main() {
 	s := "Hello, nice to meet you!"
 	p := "to"

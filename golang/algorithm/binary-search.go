@@ -37,6 +37,7 @@ func binarySearch(nums []int, num, low, high int) int {
 	}
 }
 
+// 二分查找算法
 func main() {
 	nums := []int{30, 26, 10, 23, 5, 8, 12, 1, 16}
 	sort.Ints(nums)
