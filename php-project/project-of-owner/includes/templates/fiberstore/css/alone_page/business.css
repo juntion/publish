@@ -1,0 +1,150 @@
+/**********************************************************************************Business_Account*******/
+.Bus_banner{height: 380px;text-align: center;}
+.Bus_content{margin: 0 140px;}
+.Bus_banner_bg{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Alone/business_account_banner.jpg) no-repeat;background-position:center}
+.Bus_banner_a{display:inline-block;text-decoration:none;width:260px;height:45px;line-height:45px;border:1px solid #fff;border-radius:3px;color:#fff;margin-top:24px;font-size:1pc;transition:all .4s;box-sizing: border-box;transition: all .3s;}
+.Bus_banner_a:hover{background: #FFFFFF;color: #616265;}
+.Bus_banner_tit{padding-top: 82px;}
+.Bus_Plate_tit{padding-top: 44px;padding-bottom: 28px;}
+
+.Bua_container_after:after{content:"";display:block;clear:both}
+.Bua_container_after{width:50%;float:left}
+.Bua_container_dl{width:50%;float:left}
+.Bua_container_dl dt{width:66px;height:72px;margin:0 auto;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Alone/Business_account_icon1.png) no-repeat;position:relative}
+.Bua_dashed{width:112px;position:absolute;right:-204px;top:35px}
+.Bua_dashed i{width:6px;height:6px;border-radius:50%;float:left;background:#DEDEDE;margin-right:4px}
+.Bua_business_tit{font-size:18px;line-height:26px;color:#232323;font-weight:400;text-align:center;padding-top:40px;margin-bottom:20px}
+.Bua_container_after_dl_two dt{background-position:-221px 0}
+.Bua_container_after_dl_three dt{background-position:-437px 0}
+.Bua_container_after_dl_four dt{background-position:-658px 0}
+.Bus_business_tit{padding-top:24px;padding-bottom:23px}
+.Bua_container:after{content:"";display:block;clear:both}
+.Bua_container{padding-top:7px}
+.Bus_business_txt{margin-right:30px;margin-left:30px;box-sizing:border-box;border-bottom:2px solid #e5e5e5;min-height:96px;height: 96px;padding-bottom: 29px;}
+.bus_img_container{text-align: center;}
+.bus_img_01{display: inline-block;margin-top: -10px;}
+
+.Bus_dl_container:after{content:"";display:block;clear:both}
+.Bus_dl_container{margin-top:10px}
+.Bua_container_left_dl{width:25%;float:left;margin-bottom:30px}
+.bus_dl_half dt{width:40px;height:40px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Alone/Business_account_icon_2.png) no-repeat;background-position:-2px -15px;margin:0 auto}
+.Bua_business_tit{font-size:18px;line-height:26px;color:#232323;font-weight:400;text-align:center;padding-top:40px;margin-bottom:20px}
+.Bua_business_left{text-align:left;padding-left:0;padding-top:0}
+.Bua_business_txt{font-size:14px;color:#616265;text-align:center;line-height:24px;padding-bottom:20px;font-weight:400;padding-right:30px;padding-left:30px}
+.Bua_business_left{text-align:left;padding-left:0;padding-top:0}
+.Bua_business_right{padding-right:100px}
+.bus_dl_half{float:left;width:25%}
+.Bus_dl_tit{margin-top:15px;margin-bottom:15px}
+.bus_dl_half:nth-child(2) dt{background-position: -180px -15px;}
+.bus_dl_half:nth-child(3) dt{background-position: -364px -15px;}
+.bus_dl_half:nth-child(4) dt{background-position: -538px -15px;}
+
+.bus_div_oublic{width: 720px;height: 330px;}
+.alone_float_left{float: left;}
+.alone_float_right{float: right;background: #5a595e;padding: 65px 0 0 100px;}
+.bus_a_nol{width: 254px;height: 45px;line-height: 40px;display: inline-block;border: 1px solid #FFFFFF;border-radius: 3px;margin-top: 17px;transition: all .3s;}
+.bus_a_nol:hover{background: #FFFFFF;color: #616265;}
+.alone_txt_padding{margin-bottom: 37px;}
+.bus_dl_Gain{width: 33%;float: left;}
+.bus_dl_Gain dt{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Alone/Business_account_icon_3.png) no-repeat;margin-bottom: 24px;}
+.bus_dl_Gain:first-child dt{background-position: 0;}
+.bus_dl_Gain:nth-child(2) dt{background-position: -218px -4px;}
+.bus_dl_Gain:last-child dt{background-position: -443px -4px;}
+.Bus_bottom_tit{padding-bottom: 18px;padding-top: 65px;}
+.bus_a_container{text-align: center;}
+.bus_a_one:hover a{color: #0070BC;}
+.bus_a_one:hover .icon{color: #0070BC;}
+.bus_a_one .icon{font-size: 12px;margin-left: 5px;}
+.bus_btm_padding{padding-bottom: 15px;}
+.Bua_container_img{margin-top: 20px;overflow: hidden;margin-bottom: 45px;}
+.Bua_container_content{width: 990px;margin: 0 auto;}
+.Bua_container_content div{float: left;width: 20%;}
+.bus_btn_bg{background: #f7f7f7;padding: 30px 40px 30px 40px;}
+.bus_float{float: left;}
+.bus_left_one{width: 80%;}
+.bus_right_one{width: 20%;padding-top: 10px;}
+.bus_btn_tit01{padding-bottom: 10px;}
+.bus_a_only{width: 140px;height: 42px;display: inline-block;line-height: 42px;border: 1px solid #0070BC;transition: all .3s;}
+.bus_span_bg{margin-right: 15px;display: inline-block;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Alone/Email_icon.png) no-repeat;width: 18px;height: 14px;vertical-align: middle;margin-top: -4px;}
+.bus_a_only:hover{background: #0070BC;color: #FFFFFF;}
+.bus_a_only:hover .bus_span_bg{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Alone/Email_hover_icon.png) no-repeat;}
+.bus_min{height: 130px;}
+.bus_position{position: relative;}
+
+
+
+@media(max-width:1420px){
+    .bus_div_oublic{width: 50%;}
+    .Bus_business_txt{border-bottom: none;height: inherit;min-height: inherit;}
+
+}
+@media(max-width:1200px){
+    .alone_float_right{padding: 25px 20px 0 30px;}
+    .Bua_dashed{display: none;}
+}
+@media(max-width:960px){
+    .box, .content{width: 100%;box-sizing: border-box;}
+    .Bua_container_content{width: 100%;}
+    .Bus_Plate_tit br,.alone_txt br{display: none;}
+    .Bua_container_after{width: 100%;}
+    .bus_dl_half{width: 50%;}
+    .Bus_min_height{height: 100px;min-height:100px;display: block;}
+    .bus_btn_bg{padding: 30px 10px 30px 10px;}
+    .bus_div_oublic{width: inherit;}
+    .alone_float_right{width: 50%;position: absolute;right: 0;}
+
+}
+@media(max-width:800px){
+    .bus_left_one,.bus_right_one{width: 100%;}
+    .alone_float_right{padding: 40px 10px 30px 30px;}
+
+}
+@media(max-width:730px){
+    .bus_div_oublic{width: 100%;height: inherit;position: inherit;}
+    .Bua_container_content div{width: 50%;text-align: center;margin-bottom: 20px;}
+    .Bua_container_img{margin-bottom: 25px;}
+}
+
+@media(max-width:480px){
+    .content{
+        width: auto;
+        padding: 0 10px;
+    }
+    .alone_banner{/*banner*/
+        height: 220px;
+        text-align: center;
+    }
+    .alone_banner_bg{
+        height: 220px;
+    }
+    .alone_banner_tit{
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    .alone_tit{
+        font-size: 18px;
+        line-height: 20px;
+        padding: 20px 0 0;
+    }
+    .Bus_banner_tit{padding-top: 20px;}
+    .bus_font_s{font-size: 16px;}
+    .Bua_container_dl{width: 100%;}
+    .Bus_Plate_tit{padding-bottom: 20px;}
+    .Bus_business_txt{margin-left: 10px;margin-right: 10px;}
+    .bus_dl_half{width: 100%;}
+    .alone_float_right{padding: 20px 10px 0 10px;box-sizing: border-box;height: inherit;padding-bottom: 30px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

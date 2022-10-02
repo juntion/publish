@@ -1,0 +1,11 @@
+<?php
+define("FS_REVIEW_PURCHASE_1",'製品レビューを書く');
+define("FS_REVIEW_PURCHASE_2",'ご購入製品のレビューをお書きください。');
+define("FS_REVIEW_PURCHASE_3",'製品を検索:');
+define("FS_REVIEW_PURCHASE_4",'レビューを書く');
+define("FS_REVIEW_PURCHASE_5",'製品が見つからない場合は、他の検索条件でお試し下さい。');
+define("FS_REVIEW_PURCHASE_6",'買い物を始めよう');
+define("FS_REVIEW_PURCHASE_7",'製品が見つかりません。');
+define("FS_REVIEW_PURCHASE_8",'製品ID');
+define("FS_REVIEW_PURCHASE_9",'注文番号');
+define("FS_REVIEW_PURCHASE_10",'注文番号/製品ID');

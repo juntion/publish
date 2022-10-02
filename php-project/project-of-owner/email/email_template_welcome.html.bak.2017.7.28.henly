@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Fiberstore.</title>
+</head>
+
+<body>
+
+<table width="650"  border="0" cellpadding="0" cellspacing="0" style=" font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; color:#232323; border:0;">
+  <tr>
+    <td  style=" font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; line-height:18px;">
+Dear $EMAIL_FIRST_NAME $EMAIL_LAST_NAME ,<br />
+<br />
+Congratulations. You have been successfully registered and get an account. 
+<br />
+Your user name is below. Note that it is in the form of an email address:
+
+<br />
+With the account, you could enjoy the following services now:<br />
+1. Purchase online<br />
+2. Enjoy various of payment terms<br />
+3. Track the status of your order<br />
+4. Enjoy after-sale service online<br />
+5. Manage your account information <br />
+<br />
+Now, you could further complete your account information, view our web, and purchase with the account.
+<br />
+<br />
+
+Tips: If your e-mail into the trash, please add me as your friend service@fs.com.
+<br />
+Once again, welcome to fs.com.
+<br />
+331 Andover Park East Ste330, Tukwila, WA 98188,United States <br />
+Phone: +1-425-226-2035<br />
+Fax: +1-253-246-7881<br />
+
+</td>
+  </tr>
+</table>
+
+</body>
+</html>

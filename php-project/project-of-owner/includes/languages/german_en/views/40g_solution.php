@@ -1,0 +1,57 @@
+<?php
+//by helun 2018 5 16
+define('FS_CANONICAL_HREF',reset_url('40g-data-center-solutions.html'));
+define("FS_G_FS","FS.COM Comprehensive 40G Data Center Solution");
+define("FS_G_MIGRATING","Migrating to 40G As Easy As Pie");
+define("FS_G_WHY","Why Do You Need 40G Solutions?");
+define("FS_G_NOWADAYS","Nowadays, no matter the speed, bandwidth or network traffic, the common 1G and 10G network can no longer meet the increasing growth. The migration to higher level is inevitable. Have you optimized your network to be 40G? FS.COM 40G solution, featuring high-density, fast speed and great flexibility, boosts your data to reach any distance.");
+define("FS_G_RURAL"," Like driving on the rural road");
+define("FS_G_ORDINARY"," Like driving on the ordinary road");
+define("FS_G_LIKE"," Like driving on the highway");
+define("FS_G_MODERN","Modern 40G Data Center");
+define("FS_G_MODERN1","Modern 40G data center is a high-performance and high density architecture. To support 40G connectivity is not as tough as you assume. What you need to prepare for 40G data center cabling infrastructure mainly include switches, 40G QSFP+ transceiver modules, QSFP+ DAC or AOC, MTP/MPO cables, MTP-LC cassettes, breakout patch panel, etc.");
+define("FS_G_CORE","Core/Spine Switches");
+define("FS_G_QSFP","40G QSFP+");
+define("FS_G_AOC","40G QSFP+ AOC");
+define("FS_G_TOR","ToR/Leaf Switches");
+define("FS_G_SFP","4x10G SFP+");
+define("FS_G_SFP1","10G SFP+ DACs & AOCs");
+define("FS_G_SERVER","Servidor");
+define("FS_G_SFP2","10G SFP+");
+define("FS_G_SFP3","10G SFP+ DACs & AOCs");
+define("FS_G_FS_G","FS.COM 40G Solutions");
+define("FS_G_FS_COM","FS.COM provides a full series of 40G cabling solutions for high speed network, including transceivers and DACs, high density MTP patch cables, MTP cassettes and so on. All products are100% certified and tested to ensure excellent performance and ready stock in our warehouse.");
+define("FS_G_DATA","40G Data Center Switches");
+define("FS_G_PROMOTE","FS.COM promotes S5850 series and S8050 series Ethernet switches which support all our generic transceivers. These high performance switches can meet Layer2/3, Enterprise, data center and metro network requirements.");
+define("FS_G_TRANS"," 40G QSFP+ Transceivers");
+define("FS_G_OFFERS","FS.COM offers a wide range of 40G QSFP+ modules for short and long distance transmission, which are compatible with most famous brands such as Cisco, Juniper, HP, Brocade, etc. and 100% compatibility can be assured.");
+define("FS_G_CABLES","40G QSFP+ Cables");
+define("FS_G_IS","40G QSFP+ cable is a cost-effective solution for 40G link within racks and across adjacent racks.DAC and AOC compatible with major vendors such as Cisco, Juniper, Brocade, HP, and so on are available in FS.COM.");
+define("FS_G_MTP","MTP/MPO Cable");
+define("FS_G_PROVIDE","FS.COM provides singlemode and multimode MTP/MPO trunk cable, MTP/MPO-LC harness cable, and conversion cable, ranging from 8-72 fibers. This cable is good for space saving and cable management in 40G data center.");
+define("FS_G_PREPARE","Prepare for Deployment With FS.COM 40G Solution");
+define("FS_G_OFFER","FS.COM offers you a wide range of 40G solutions which meet your demands on high-density data center applications. For 40G direct connection, you can choose 40G QSFP+ transceivers, 40G QSFP+ to QSFP+ DAC or 40G QSFP+ to QSFP+ AOC. For 10G/40G migration, you can select MTP-LC breakout cabling solution by using MTP-LC harness cable, MTP-LC breakout patch panel, 40G QSFP+ to 4xSFP+ DACs or 40G QSFP+ to 4xSFP+ AOCs. ");
+define("FS_G_DIRECT","40G Direct Connection");
+define("FS_G_DIRECT1","Direct connection for 40G QSFP+ modules with MTP trunk cable");
+define("FS_G_DIRECT2","Direct connection for 40G QSFP+ to QSFP+ DAC");
+define("FS_G_DIRECT3","Direct connection for 40G QSFP+ to QSFP+ AOC");
+define("FS_G_MIGRATION","10G /40G Migration");
+define("FS_G_MIGRATION1","10G /40G migration with 40G QSFP+ to 4xSFP+ AOCs");
+define("FS_G_MIGRATION2","10G /40G migration with 40G QSFP+ to 4xSFP+ DACs");
+define("FS_G_MIGRATION3","10G /40G migration with MTP-LC harness cables");
+define("FS_G_MIGRATION4","10G /40G migration with 40G breakout panel");
+define("FS_G_RELATED","Related Solutions");
+define("FS_G_HOW","How to improve 40G data center management efficiency? FS.COM suggests FHD patching solution and Base-8 solution. FHD patching solution is beneficial to increase higher density and simplify cable management. Base-8 solution can save you costs and space for 10G/40G migration.");
+define("FS_G_FHD","FHD Series Solution");
+define("FS_G_USER","User-friendly cable management enclosures for Rack & Wall cabling applications");
+define("FS_G_BASE","FS.COM Base-8 Connectivity Solution");
+define("FS_G_TAKE","Take Base-8 Connectivity for Future-proof Network");
+define("FS_G_OUR","Our Advantages");
+define("FS_G_STRICT","Strict Quality Test ");
+define("FS_G_GUA","Guarantee data center high efficiency.");
+define("FS_G_WARE","Warehouse System");
+define("FS_G_ENSURE","Ensure your order reach you fast.");
+define("FS_G_OEM","OEM & Custom Service");
+define("FS_G_STAISFY"," Satisfy any personalized requirements.");
+
+?>

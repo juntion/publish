@@ -1,0 +1,16 @@
+{
+  "home": [
+    {
+      "uuid": "",
+      "name": "home.default",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "DefaultHome",
+        "zh-CN": "默认首页"
+      },
+      "comment": "首页权限"
+    }
+  ]
+}

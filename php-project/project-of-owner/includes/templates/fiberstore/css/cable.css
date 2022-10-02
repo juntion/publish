@@ -1,0 +1,207 @@
+.content{padding-top: 0;}
+.sale_banner { height: 380px; }
+.sale_banner_bg { position: absolute; width: 100%; height: 380px; left: 0;  z-index: -1;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/cable/cablebanner11.jpg) no-repeat center;}
+.sale_banner_tit{width:1200px;margin:0 auto;font-size: 38px; color: #fff; text-align: left; padding-top: 86px; margin-bottom: 14px;font-weight: 400;line-height: 60px;}
+.sale_banner_txt{width:1200px;margin:0 auto;font-size: 18px;color: #fff;font-weight: 400;text-align: left;line-height: 30px;}
+.box{width: 100%;}
+.cable_wap{width: 100%;background: #f7f7f7;}
+.cable_alone_con:after{content:"";display:block;clear:both;}
+.cable_alone_con{width: 1200px;margin: 0 auto;}
+.cable_tit{font-size: 26px;color: #232323;line-height: 40px;font-weight:400;text-align: center;padding-top: 16px;padding-bottom: 10px;}
+.cable_txt{font-size: 14px;line-height: 24px;color: #616265;padding-bottom: 32px;}
+.cable_tab_tit{font-size: 18px;color: #232323;line-height: 24px;font-weight: 600;float: left;display: inline-block;}
+.cable_table_top:after{content:"";display:block;clear:both;}
+.cable_table_top{margin-bottom: 14px;}
+.cable_table_right{float: right;font-size: 14px;line-height: 24px;color: #616265;}
+.cable_table_right em{display: inline-block;height: 10px;width: 1px;border-right: 1px solid #c0c0c1;margin-right: 5px;margin-left: 10px;}
+.cable_table_right span{color: #76bb1e;}
+.cable_tab{width: 100%;}
+.cable_tab tr th{background: #e1f0f9;padding: 14px 0;cursor: default;border-right: 1px solid #e2e2e2;font-size: 14px;color: #232323;font-weight: 600;border-right: none;}
+.cable_tab tr th:last-child{border-right: none;}
+.cable_tab tr th a{color: #232323;font-size: 14px;line-height: 22px;font-weight: 400;cursor: default;font-weight:600;}
+.cable_tab tr th:hover a{color: #232323;text-decoration: none;}
+.cable_tab tr td{text-align: center;border-right: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;background: #FFFFFF;cursor: default;font-size: 14px;color: #232323;padding: 0;vertical-align: middle;border-right: none;}
+.cable_tab tr td span{font-size: 14px;color: #232323;line-height: 24px;font-weight:400;}
+.cable_tab tr td:last-child{border-right: none;}
+.cable_tab tr:last-child td{border-bottom: none;}
+.cable_tab tr th.cable_tr{font-size: 18px;font-weight: 600;color: #232323;cursor: default;}
+.cable_tab tr td.cable_center{text-align: center;padding-left: 0;}
+.cable_tab tr td.cab_td1{border-right: 1px solid #e5e5e5;}
+.cable_tab tr td.cab_bottom_none{border-bottom: none;}
+.cable_Video_wap{background: #FFFFFF;}
+.cable_content:last-child{padding-bottom: 60px;}
+.new_help_tit{padding: 60px 0 40px;}
+.new_help{padding-bottom: 60px;}
+.cable_content{padding-bottom: 34px;}
+.cable_tab tr th{cursor: default;}
+.Point{display: inline-block;width: 10px;height: 10px;border-radius: 50%;background: #5091e2;margin-right: 6px;display:none}
+.gray{background: #afabab;}
+.black{background: #000000;}
+.green{background: #00b050;}
+.yellow{background: #f5f518;}
+.red{background: #ee1c1c;}
+.Light_color{background: #e6e6e6;}
+.purple{background: #7030a0;}
+.Blue{background: #5091e2;}
+.cable_tab tr th.cable_cospan{text-align: center;
+	padding-left: 0;
+	box-sizing: border-box;
+	width:8%;
+}
+.cable_content{padding-bottom: 24px;}
+.cable_content:last-child{padding-bottom: 50px;}
+.cable_tab tr td.cable_none{border-bottom: none;}
+.cable_tit02{font-size: 26px;line-height: 40px;color: #232323;font-weight:400;text-align: center;padding-top: 45px;padding-bottom: 10px;}
+.cable_txt02{font-size: 14px;line-height: 24px;color: #616265;text-align: center;}
+.new_copper_quality_video{text-align:center;margin-top:25px}
+.new_copper_quality_video_con{display:inline-block;color:#232323;cursor:pointer}
+.new_copper_quality_video_con_play{display:inline-block;width:25px;height:16px;border:1px solid #232323;border-radius:12px;transition:all .3s;position:relative;vertical-align:middle;float:left;margin-right:5px;vertical-align: middle;margin-top: 1px;}
+.new_copper_quality_video_con_play span{display:block;width:0;height:0;top:50%;margin-top:-5px;left:50%;margin-left:-2px;border-top:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid transparent;border-left:7px solid #232323;transition:all .3s;position:absolute}
+.new_copper_quality_video_con:hover .new_copper_quality_video_con_play{background-color:#232323}
+.new_copper_quality_video_con:hover .new_copper_quality_video_con_play span{border-left:7px solid #fff}
+.cable_img_wap{text-align: center;}
+.cable_img_wap img{margin: 0 auto;display: block;max-width: 100%;height: inherit;margin-top: 30px;}
+
+.cable_bottom{width: 1420px;margin: 0 auto;margin-bottom: 40px;}
+.new_help{padding-bottom: 15px;}
+.new_help_tit{padding: 50px 0 40px;font-size: 26px;color: #232323;font-weight:400;text-align: center;}
+.new_help_list{float: left;width: 32%;margin-right: 2%;background-color: #f7f7f7;height:320px;position: relative;}
+.new_help_list:last-child{margin-right: 0;}
+.new_help_list_icon{display: block;width:80px;height: 80px;margin: 30px auto 25px;background-image: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img_new/solution-contact-icon.png');}
+.new_help_list:first-child .new_help_list_icon{background-position: 0 0;}
+.new_help_list:nth-child(2) .new_help_list_icon{background-position: 0 -130px;}
+.new_help_list:last-child .new_help_list_icon{background-position: 0 -260px;}
+.new_help_list_icon.head_icon01{background-position:0 -390px !important;}
+.new_help_list_icon.head_icon02{background-position:0 -520px !important;}
+.new_help_list_icon.head_icon03{background-position:0 -650px !important;}
+.new_help_list_tit{font-size: 20px;color: #232323;text-align: center;font-weight: 400;margin-bottom: 15px;}
+.new_help_list_txt{font-size: 14px;color: #616265;line-height: 22px;text-align: center;padding: 0 30px;}
+.new_help_list_href{position: absolute;bottom: 35px;left: 50%;transform: translateX(-50%);}
+.new_help_list_href a{font-size: 14px;color: #1488d5;}
+.new_help_list_href .icon{font-size: 12px;color: #1488d5;margin-left: 3px;}
+.new_40g_product .swiper-container{display: none;padding-bottom: 50px;}
+.new_40g_product .swiper-pagination-bullet{border-radius: 0;width:20px;height: 2px;margin: 0 5px;background-color: #e2e2e4;opacity: 1;}
+.new_40g_product .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color: #ccc;}
+.cable_txt a{color: #0070BC;}
+.cable_tab tr td span .arrow{left: 136px !important;}
+.cable_tab tr td span .question_text_01 {bottom: 34px !important;}
+.cable_tab tr td:last-child .question_text_01 {left: inherit !important; right: 0 !important;}
+.cable_tab tr td:last-child span .arrow{left: inherit !important;right: 20px !important;}
+.cable_tab tr td img {
+	display: inline-block;
+	padding: 0 20px;
+}
+.cab_color_wap{padding: 0 10px;box-sizing: border-box;}
+.cable_tab tr td a{cursor:pointer;}
+.cable_tab tr td span.track_orders_wenhao{color:#76bb1e}
+
+.pro_item_color a{text-decoration: none;display: inline-block;width: 100%;height: 100%;padding:0;box-sizing: border-box}
+
+
+.cab_2_img{width: 120px;height: 120px;margin: 0 auto;display: block;}
+.cab_color{box-sizing: border-box;cursor: pointer;width: 30px;height: 30px;display: inline-block;margin: 5px;border: 1px solid #dedede;border-radius: 2px;position: relative;}
+.cab_color em{width: 22px;height: 22px;display: inline-block;transform: translate(-50%,-50%);position: absolute;left: 50%;top: 50%;}
+.cab_color.cab_blue em{background: #4e83ff;}
+.cab_color.cab_gray em{background: #7e7e7e;}
+.cab_color.cab_black em{background: #232323;}
+.cab_color.cab_red em{background: #fa4937;}
+.cab_color.cab_purple em{background: #ab7cd8;}
+.cab_color.cab_green em{background: #52b13d;}
+.cab_color.cab_white em{background: #ffffff;border: 1px solid #DEDEDE;box-sizing: border-box;}
+.cab_color.cab_yellow em{background: #f8d93e;}
+.cab_color.active{border: 2px solid #c00000;}
+.cab_color.active em{width: 20px;height: 20px;}
+.cab_a12{transition: all .3s;display: inline-block;border: 1px solid #4c4948;border-radius: 2px;color: #232323;padding: 8px 10px;box-sizing: border-box;}
+.cab_a12 .icon{font-size: 15px;color: #232323;margin-right: 5px;transition: all .3s;}
+.cab_a12:hover{text-decoration: none;background: #4c4948;color: #FFFFFF;}
+.cab_a12:hover .icon{color: #FFFFFF;}
+.cable_tab_wap .cart_basket_btn{vertical-align: middle;margin: 15px 0;}
+.cab_btm_wap{width: 1420px;margin: 0 auto;}
+.cab_btm_wap:after{content:"";display:block;clear:both;}
+.cab_left1{width: 936px;float: left;border-top: 6px solid #dedede;background: #FFFFFF;}
+.cab_right1{width: 450px;height:307px;float: right;border-top: 6px solid #dedede;background: #FFFFFF;}
+.cab_left1_h2{font-size: 20px;color: #232323;font-weight: 400;line-height: 22px;text-align: center;}
+.cab_left1_ul:after{content:"";display:block;clear:both;}
+.cab_left1_ul li a{font-size: 14px;color: #1287d5;line-height: 22px;}
+.cab_left1_ul li .icon{font-size: 16px;color: #1287d5;margin-right: 5px;}
+.cab_left1_ul li{float: left;width: 33%;padding-left: 80px;box-sizing: border-box;margin-bottom: 34px;}
+.cab_left1_ul{margin-top: 38px;}
+.cab_right1_p{padding: 0 30px;font-size: 14px;color: #616265;line-height: 22px;text-align: center;padding-top: 14px;}
+.cab_a_1{text-align: center;margin-top: 50px;}
+.cab_a_1 a{display: inline-block;font-size: 14px;color: #1488d5;}
+.cab_a_1 .icon{font-size: 12px;color: #1488d5;margin-left: 3px;}
+.cab_cent{text-align: center;padding: 30px 0 20px 0;}
+.cab_bg{width: 80px;height: 80px;display: inline-block;background: url(https://www.fs.com/includes/templates/fiberstore/images/specials/wx-icon.png) no-repeat;}
+.cab_2_01{background-position: -90px 0px;}
+.new_copper_quality_video_con{font-size: 14px;}
+
+.no_chages tr:first-child td:first-child{width:16%}
+.no_chages tr:first-child td:nth-child(2){width:16%}
+.no_chages tr:first-child td:nth-child(3){width:12%}
+.no_chages tr:first-child td:nth-child(4){width:12%}
+.no_chages tr:first-child td:nth-child(5){width:12%}
+.no_chages tr:first-child td:nth-child(6){width:12%}
+.no_chages tr:first-child td:nth-child(7){width:12%}
+.no_change tr:first-child td:first-child{width:16%}
+.no_change tr:first-child td:nth-child(2){width:16%}
+.no_change tr:first-child td:nth-child(3){width:12%}
+.no_change tr:first-child td:nth-child(4){width:12%}
+.no_change tr:first-child td:nth-child(5){width:12%}
+.no_change tr:first-child td:nth-child(6){width:12%}
+.no_change tr:first-child td:nth-child(7){width:12%}
+.no_chages,.no_change{border-top: 1px solid #e5e5e5;}
+.cable_tab tr td.cab_td1{border-bottom:none}
+.no_chages tr:first-child .cab_td1,.no_change tr:first-child .cab_td1{border-bottom: 1px solid #e5e5e5;}
+
+
+@media(max-width:1440px){
+	.cable_bottom{width: 1200px;}
+	
+	.cab_btm_wap{width: 1200px;}
+	.cab_left1{width: 810px;}
+	.cab_left1_ul li{padding-left: 50px;}
+	.cab_right1{width: 360px;}
+	.cab_right1 br{display: none;}
+}
+@media(max-width:1220px){
+	.content{width: 100%;}
+	.cable_bottom,.sale_banner_tit,.sale_banner_txt,.cable_alone_con{width: 960px;}
+	.cable_alone_con{margin: 0 auto;}
+	.cable_tab_wap{overflow-x: auto;}
+	.cable_tab{width: 1200px;}
+	.cable_tab_tit{margin-bottom: 10px;}
+	.cable_table_right{float: left;}
+	
+	.cab_btm_wap{width: 960px;}
+	.cab_left1{width: 600px;}
+	.cab_left1_ul li{padding-left: 50px;width: 50%;}
+	.cab_right1{width: 320px;}
+	.cab_right1{height: 363px;}
+}
+@media(max-width:960px){
+	.box{width: 100%;box-sizing: border-box;}
+	.content{width:auto;padding:0 !important;}
+	.cable_bottom,.sale_banner_tit,.sale_banner_txt,.cable_alone_con{width: 100%;}
+	.cable_alone_con,.sale_con_one{padding: 0 10px;box-sizing: border-box;}
+	.new_help_list{width: 100%;margin-bottom: 20px;}
+	.cable_tab tr td .track_orders_wenhao, .question_text{display:block}
+	
+	
+	.cab_btm_wap{width: 100%;padding: 0 10px;box-sizing: border-box;}
+	.cab_left1{width: 100%;}
+	.cab_left1_ul li{width: 33%;}
+	.cab_right1{width: 100%;}
+	.cab_right1{height: auto;padding-bottom:30px;margin-top: 30px;}
+}
+@media(max-width:480px){
+	.sale_banner,.sale_banner_bg{height:220px}
+	.sale_banner_tit{font-size: 24px;line-height: 30px;padding-top: 20px;}
+	.sale_banner_txt{font-size: 16px;line-height: 22px;box-sizing: border-box;}
+	.cable_tit,.cable_tit02{font-size: 22px;}
+	.cable_txt{padding-bottom: 0;}
+	.cable_tit02{padding-top: 20px;}
+	.track_orders_wenhao{display: block;}
+	.track_orders_wenhao .question_text_01.leftjt .arrow{margin-left: 50px;}
+	.cable_tab tr td:last-child .question_text_01{right: 10px !important;}
+	.cable_bottom{margin-bottom: 20px}
+}

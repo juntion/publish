@@ -1,0 +1,836 @@
+.box,.content{width: 100%;}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.business_top_wap{height:380px;width:100%;margin:0 auto;text-align:center}
+.purchase_order_bg{background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/jumpers_test/txjc-banner_pc.png);background-position:center;background-size:cover;position:absolute;left:0;width:100%;height:380px;z-index:-1}
+.purchase_order_tit{font-size:40px;line-height:48px;color:#fff;padding-top:128px;padding-bottom:14px;font-weight:400}
+.public_bg{background:#f7f7f7}
+.public_widht{width:1200px;margin:0 auto}
+.compatibility_wrap_main_nav_box{min-height:63px;display:block}
+.compatibility_wrap_main_nav_line{width:100%;position:absolute;left:0;border-bottom:1px solid #e5e5e5;z-index:0}
+.compatibility_wrap_main_nav{display:flex;background:#fff;width:100%;border-bottom:1px solid #e5e5e5}
+.compatibility_wrap_main_nav_ul{display:flex;width:1200px;margin:0 auto}
+.compatibility_wrap_main_nav_p{display:inline-block}
+.compatibility_wrap_main_nav_li,.compatibility_wrap_main_nav_right{font-size:14px;padding:20px 0;white-space:nowrap;cursor:pointer}
+.compatibility_wrap_main_nav_right{position:relative;cursor:default;display:none!important}
+.compatibility_wrap_main_nav_right>a{cursor:default}
+.compatibility_wrap_main_nav_right:hover .soluSeries-askAlert{display:block}
+.compatibility_wrap_main_nav_li{margin-right:30px;transform:translateY(1px)}
+.compatibility_wrap_main_nav_li .icon,.compatibility_wrap_main_nav_right .icon{font-size:24px;display:inline-block;vertical-align:middle;margin-right:5px;color:#4c4948}
+.compatibility_wrap_main_nav_li a,.compatibility_wrap_main_nav_right a{text-decoration:none}
+.compatibility_wrap_main_nav.fixed{position:fixed;left:0;top:0;z-index:10;box-shadow:0 2px 4px 0 rgba(0,0,0,.1)}
+.compatibility_wrap_main_nav_li.active{border-bottom:1px solid #232323}
+.each_txt{font-size:14px;color:#616265;line-height:24px;text-align:center;padding:44px 40px 0 40px;box-sizing:border-box}
+.Performance_left,.Performance_right{width:50%;float:left;position:relative}
+.alone_Performance{background:#f7f7f7}
+.Signal_tit{font-size:20px;color:#232323;font-weight:600;line-height:30px;padding-bottom:16px}
+.Signal_txt{font-size:13px;color:#616265;line-height:22px;padding-bottom:20px}
+.alone_txt{font-size:13px;color:#232323;line-height:22px;position:relative;padding-left:14px;padding-bottom:4px}
+.alone_txt i{display:inline-block;height:4px;width:4px;border-radius:50%;background:#232323;position:absolute;left:0;top:10px}
+.Performance_right{padding:48px 20px 0 42px}
+.alone_Performance.right .Performance_left{float:right}
+.aonut_absolute{position:absolute;width:15px;height:25px;top:50%;right:0;transform:translateY(-50%)}
+.alone_Performance.right .aonut_absolute{transform:rotate(180deg);margin-right:-21px;right:inherit;left:0}
+.Performance_img{display:block;max-width:100%;height:inherit}
+.public_tit{font-size:26px;color:#232323;font-weight:600;line-height:34px;text-align:center}
+.public_tit_01{padding-top:52px;padding-bottom:18px}
+.public_tit_02{padding-top:42px}
+.public_a{color:#0070bc}
+.public_a:hover{color:#0070bc}
+.public_video{text-align:center;margin-bottom:30px}
+.public_video_container:hover .video_content_open_play{color:#0070bc;background:#0070bc;border-color:#0070bc}
+.public_video_container:hover .video_content_open_play span{border-left-color:#fff}
+.video_content_open_play{cursor:pointer;width:26px;height:18px;border:1px solid #0070bc;border-radius:12px;transition:all .3s;position:relative;display:inline-block;margin-right:5px;vertical-align:middle;margin-top:-4px}
+.video_content_open_play span{display:block;width:0;height:0;top:50%;margin-top:-5px;left:50%;margin-left:-2px;border-top:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid transparent;border-left:7px solid #0070bc;transition:all .3s;position:absolute}
+.public_li{padding-bottom:50px}
+.optics_ul{border-bottom:1px solid #e5e5e5}
+.optics_ul li{width:20%;float:left;text-align:center}
+.optics_ul li span{font-size:16px;color:#616265;line-height:26px;cursor:pointer;padding-top:24px;padding-bottom:15px;display:inline-block}
+.optics_ul li.active span{border-bottom:1px solid #232323}
+.optics_ul li.active span{font-weight:600;color:#232323}
+.public_content_li{display:none}
+.public_content_li.active{display:block}
+.public_alone_tit{font-size:16px;color:#232323;line-height:26px;padding-top:24px;padding-bottom:16px}
+.public_alone_ul{display:flex}
+.public_alone_ul li{width:33%;margin-right:12px}
+.public_alone_ul li:last-child{margin-right:0}
+.public_alone_ul li img{display:block;max-width:100%;height:inherit;margin:0 auto}
+.public_alone_txt{font-size:14px;color:#232323;line-height:24px;text-align:center;background:#fff;padding:18px 0}
+.compatibility_wrap_tools_ul{display:flex;margin-top:30px;margin-bottom:10px}
+.compatibility_wrap_tools_ul li{width:33.33%;margin-right:12px;text-align:center;background:#f7f7f7;padding:70px 40px;min-height:338px}
+.compatibility_wrap_tools_ul li:last-child{margin-right:0}
+.compatibility_wrap_tools_a a{font-size:16px;color:#232323;font-weight:600;line-height:26px}
+.compatibility_wrap_tools_a .icon{color:#232323}
+.compatibility_wrap_tools_img{min-height:54px}
+.compatibility_wrap_tools_a{margin-top:36px}
+.compatibility_wrap_p{font-size:14px;color:#616265;line-height:24px;padding-top:10px}
+.only_ul{display:block}
+.only_ul li{float:left;margin-bottom:20px;width:32.667%}
+.only_ul li:nth-of-type(3n){margin-right:0}
+.public_video{text-align:center}
+.public_video:before{content:"";height:100%;display:inline-block;vertical-align:middle;box-sizing:border-box}
+.public_video .popup_width880{margin:inherit;left:inherit;top:inherit;right:inherit;bottom:inherit;display:inline-block;vertical-align:middle;position:initial}
+.public_video .new_popup_tit{text-align:left}
+.only_ul li.only_li{margin-bottom:0}
+.optics_content{background:#fff;border-radius:2px;font-size:14px;font-weight:600;text-align:left;color:#232323;padding:9px;display:none}
+.optics_content .icon{display:inline-flex;color:#232323;font-weight:400;float:right}
+.compatibility_m{padding:10px 15px;width:100%;display:none}
+.compatibility_m span{font-size:14px;color:#232323}
+.compatibility_m .icon{color:#232323;font-size:12px;float:right;display:inline-block;width:12px;height:12px}
+
+
+@media (max-width: 1220px){
+	.compatibility_wrap_main_nav_ul,.public_widht{width: 960px;}
+	.compatibility_wrap_tools_ul li{padding: 70px 10px;}
+	.only_ul li {width: 32.467%;}
+}
+@media (max-width: 960px){
+	.compatibility_wrap_main_nav_ul,.public_widht{width: 100%;}
+	.public_widht,.compatibility_wrap_main_nav_ul{padding: 0 15px;box-sizing: border-box;}
+	.Performance_left, .Performance_right {width: 100%;}
+	.alone_Performance {width: 50%;float: left;}
+	.alone_Performance {margin-right: 10px;}
+	.per_two .alone_Performance:last-child {margin-right: 0;}
+	.aonut_absolute{display: none;}
+	.per_two {display: flex;margin-bottom: 10px;}
+	.Performance_right {padding: 16px 10px 20px 20px;}
+	.per_two:last-child{margin-bottom: 0;}
+	.compatibility_wrap_tools_ul{display: block;overflow: hidden;}
+	.compatibility_wrap_tools_ul li{width: 49%;float: left;margin-bottom: 2%;margin-right: 2%;}
+	.compatibility_wrap_tools_ul li:last-child{margin-bottom: 0;}
+	.compatibility_wrap_tools_ul li:nth-of-type(2n){margin-right: 0;}  
+	.optics_ul li{padding: 24px 10px 15px 10px;}
+	.compatibility_wrap_main_nav_p{display: block;width: 100%;text-align: center;margin-top: 10px;white-space: inherit;}
+	.compatibility_wrap_main_nav_li{text-align: center;}
+	.each_txt{padding: 24px 20px 0 20px;}
+	.public_li{padding-bottom: 30px;}
+	.compatibility_wrap_main_nav_li, .compatibility_wrap_main_nav_right{white-space: inherit;}
+	.optics_ul li span{font-size: 13px;line-height: 22px;}
+	.purchase_order_tit{padding-left: 15px;padding-right: 15px;}
+	.purchase_order_tit br{display: none;}
+	.optics_ul{border-bottom: 1px solid #E5E5E5;}
+	.optics_ul li{border-bottom: none;}
+	.optics_ul li.active{border-bottom: 1px solid #232323;}
+}
+@media (max-width: 800px){
+	.public_alone_ul{display: block;overflow: hidden;}
+	.public_alone_ul li{width: 49%;float: left;margin-right: 2%;margin-bottom: 2%;}
+	.only_ul li:nth-of-type(3n){margin-right: 2%;}
+	.public_alone_ul li:nth-of-type(2n){margin-right: 0;}
+	.only_ul li.only_li{margin-bottom: 2%;}
+	.public_alone_ul li:last-child{margin-bottom: 0;} 
+}
+@media (max-width: 600px){
+	.per_two{display: block;margin-bottom: 0;}
+	.alone_Performance{width: 100%;margin-bottom: 15px;}
+	.per_two:last-child .alone_Performance:last-child{margin-bottom: 0;}
+	.compatibility_wrap_tools_ul li{width: 100%;margin-right: 0;}
+	.compatibility_wrap_tools_ul li{min-height: inherit;padding: 30px 10px;}
+	
+}
+@media (max-width: 480px){
+	.public_alone_ul li{width: 100%;}
+	.public_tit{font-size: 20px;line-height: 30px;padding-top: 22px;}
+	.compatibility_wrap_tools_ul{margin-top: 20px;}
+	.optics_ul{display: none;background: #fff;border-bottom: none;}
+	.optics_ul li{width: 100%;text-align: left;padding: 9px;}
+	.optics_ul li.active{border: none;}
+	.optics_ul li.active span{font-weight: 400;}
+	.optics_container_m{border: 1px solid #E5E5E5;margin-top: 16px;}
+	.optics_content{display: block;}
+	.public_alone_tit{padding: 14px 0 6px 0;}
+	.compatibility_m{display: block;}
+	.compatibility_wrap_main_nav_ul{display: none;position: absolute;z-index: 1;left: 0px;width: 100%;background: #fff;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);}
+	.compatibility_wrap_main_nav_ul li{width: 100%;text-align: left;padding: 15px 0;border-bottom: 1px solid #E5E5E5;}
+	.compatibility_wrap_main_nav_p{display: inline-block;width: auto;}
+	.compatibility_wrap_main_nav_ul li:last-child{border-bottom: none;}
+	.compatibility_wrap_main_nav{border-bottom: none;display: block;position: relative;}
+	.compatibility_wrap_main_nav_li.active{border-bottom: 1px solid #E5E5E5;}
+	.compatibility_wrap_main_nav_box{min-height: 40px;}
+	.compatibility_wrap_main_nav_p{margin-top: 0;}
+	.business_top_wap,.purchase_order_bg{height: 220px;}
+	.purchase_order_bg{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/jumpers_test/txjc-banner_m.png) no-repeat;background-position: 50%;background-size: cover;}
+	.purchase_order_tit {font-size: 26px;font-weight: 400;line-height: 34px;padding: 78px 20px 0 20px;}
+}
+
+
+
+/* 改版2020.06.01 */
+  .cableTesting-bg {
+	background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/cableTesting/cableTesting-bg.jpg);
+  }
+  .cableTesting-top .purchase_order_tit {
+	padding-top: 162px;
+  }
+  .cableTesting-main .compatibility_wrap_main_nav_p {
+	color: #232323;
+	font-size: 14px;
+  }
+  .cableTesting-each_txt {
+	padding: 3px 40px 0;
+  }
+  .cableTesting-overview-pro li {
+	margin-top: 35px;
+	background: #ffffff;
+	text-align: center;
+  }
+  .cableTesting-h3 {
+	font-size: 16px;
+	color: #232323;
+	padding-top: 40px;
+  }
+  .cableTesting-overview-pro .public_alone_txt {
+	padding: 13px 25px 37px;
+	color: #616265;
+  }
+  .cableTesting-test-a {
+	margin-top: 28px;
+  }
+  .index-service-btmBox-font {
+	text-align: center;
+	font-size: 14px;
+	color: #0070bc;
+	line-height: 20px;
+  }
+  .cableTesting-test-a .icon {
+	font-size: 13px;
+	margin-left: 5px;
+	color: #0070bc;
+  }
+  .cableTesting-test-a > a {
+	text-decoration: none;
+  }
+  .cableTesting-ECQ-img {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border: 1px solid #e5e5e5;
+	margin: 0 auto;
+  }
+  .cableTesting-ECQ-img > img:first-child {
+	margin-top: 20px;
+  }
+  .cableTesting-ECQ-img > img:first-child.ECQ_icon02 {
+	margin-top: 27px;
+  }
+  .cableTesting-ECQ-img > img:first-child.ECQ_icon03 {
+	margin-top: 30px;
+  }
+  .cableTesting-ECQ-img > img:first-child.ECQ_icon04 {
+	margin-top: 27px;
+  }
+  div.alone_Performance {
+	background: #ffffff;
+  }
+  li.public_li {
+	padding-bottom: 60px;
+  }
+  
+  .re_dl_container {
+	padding: 0 20px;
+	margin-top: 10px;
+  }
+  .re_dl {
+	width: 25%;
+	float: left;
+	padding: 0 33px;
+	text-align: center;
+  }
+  .re_dl dt {
+	position: relative;
+  }
+  .re_dl dd {
+	font-size: 13px;
+	color: #232323;
+	font-size: 14px;
+	line-height: 22px;
+	padding-top: 8px;
+	text-align: center;
+  }
+  .re_border {
+	position: absolute;
+	right: 0;
+	transform: translate(88%, -50%);
+	top: 50%;
+  }
+  .arrow {
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png)
+	  no-repeat -130px -126px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-left: 2px;
+  }
+  .track_orders_wenhao {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: normal;
+  }
+  .track_orders_wenhao .question_text_01 {
+	cursor: default;
+	font-size: 13px;
+	display: none;
+	color: #616265;
+	padding: 20px;
+	min-width: 210px;
+	left: 26px;
+	top: -25px;
+	text-decoration: none;
+	text-align: left;
+	white-space: normal;
+	background-color: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 1px 8px 0 rgba(120, 102, 102, 0.3);
+	-moz-box-shadow: 0px 1px 8px 0 rgba(120, 102, 102, 0.3);
+	box-shadow: 0px 1px 8px 0 rgba(120, 102, 102, 0.3);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	z-index: 999;
+	position: absolute;
+  }
+  .track_orders_wenhao:hover .question_text_01 {
+	display: block;
+  }
+  .track_orders_wenhao .arrow {
+	border-width: 11px;
+  }
+  .track_orders_wenhao .question_text_01 .arrow:after {
+	border-width: 10px;
+	content: "";
+  }
+  .track_orders_wenhao .question_text_01 .arrow,
+  .arrow:after {
+	border-color: rgba(0, 0, 0, 0);
+	border-style: solid;
+	display: block;
+	height: 0;
+	position: absolute;
+	width: 0;
+  }
+  .track_orders_wenhao .question_text_01 {
+	min-width: 260px;
+	left: -150px;
+	top: 26px;
+  }
+  .track_orders_wenhao .question_text_01.leftjt .arrow {
+	border-top-width: 0;
+	border-bottom-color: rgba(0, 0, 0, 0.08);
+	bottom: -11px;
+	left: 156px;
+	margin-left: -7px;
+	background: none;
+	transform: rotate(180deg);
+  }
+  .track_orders_wenhao .question_text_01.leftjt .arrow:after {
+	border-top-width: 0;
+	border-bottom-color: #fff;
+	bottom: -11px;
+	left: -10px;
+  }
+  div.track_orders_wenhao .question_text_01 {
+	top: auto !important;
+	bottom: 30px;
+  }
+  div.track_orders_wenhao .question_text_01 .arrow {
+	transform: rotate(180deg) !important;
+	top: auto !important;
+	bottom: -11px;
+  }
+  .after:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+  }
+  .popover-content a {
+	color: #0070bc;
+  }
+  .popover-content a:hover {
+	color: #0070bc;
+	text-decoration: underline;
+  }
+  .pro_authentication_icon {
+	text-align: center;
+	padding: 35px 0 0;
+  }
+  .pro_authentication_icon ul {
+	display: inline-block;
+  }
+  .pro_authentication_icon ul li {
+	display: inline-block;
+	background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/product_authentication_icon.png);
+	margin-right: 35px;
+	position: relative;
+	background-repeat: no-repeat;
+  }
+  div.pro_authentication_icon ul li:last-child {
+	margin-right: 0;
+  }
+  .pro_authentication_icon01 {
+	width: 60px;
+	height: 60px;
+	background-position: 0 -3px;
+  }
+  .pro_authentication_icon03 {
+	width: 59px;
+	height: 60px;
+	background-position: 0 -177px;
+  }
+  .pro_authentication_icon04 {
+	width: 67px;
+	height: 60px;
+	background-position: 0 -264px;
+  }
+  .pro_authentication_icon05 {
+	width: 62px;
+	height: 60px;
+	background-position: 0 -352px;
+  }
+  .pro_authentication_icon06 {
+	width: 108px;
+	height: 60px;
+	background-position: 0 -438px;
+  }
+  .pro_authentication_icon09 {
+	width: 72px;
+	height: 60px;
+	background-position: 0 -699px;
+  }
+  .pro_authentication_icon010 {
+	width: 62px;
+	height: 59px;
+	background-position: 0 -785px;
+  }
+  .pro_authentication_icon011 {
+	width: 66px;
+	height: 58px;
+	background-position: 0 -869px;
+  }
+  .pro_authentication_icon ul li .track_orders_wenhao {
+	position: absolute;
+  }
+  .pro_authentication_icon ul li:hover .track_orders_wenhao .question_text_01 {
+	display: block;
+	top: 75px !important;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: auto !important;
+	min-width: 300px;
+  }
+  .pro_authentication_icon
+	ul
+	li
+	.track_orders_wenhao
+	.question_text_01.leftjt
+	.arrow {
+	left: 146px;
+	top: -11px !important;
+	transform: none !important;
+  }
+  .pro_authentication_icon
+	ul
+	li:last-child
+	.track_orders_wenhao
+	.question_text_01.leftjt {
+	left: 0px;
+  }
+  .pro_authentication_icon
+	ul
+	li:last-child
+	.track_orders_wenhao
+	.question_text_01.leftjt
+	.arrow {
+	left: 50%;
+  }
+  .Performance_right {
+	padding: 72px 20px 0 42px;
+  }
+  ul.public_alone_ul li {
+	width: -webkit-calc(100% / 3);
+	width: -moz-calc(100% / 3);
+	width: -ms-calc(100% / 3);
+	width: calc(100% / 3);
+	margin-right: 10px;
+  }
+  .cableTesting-img-pc {
+	display: block!important;
+  }
+  .cableTesting-img-m {
+	display: none!important;
+  }
+  
+  @media (max-width: 1220px) {
+	.re_dl {
+	  padding: 0 20px;
+	}
+	.re_border {
+	  transform: translate(66%, -50%);
+	}
+	.track_orders_wenhao .question_text_01 {
+	  min-width: 220px;
+	}
+	.Performance_right {
+	  padding: 34px 20px 0 42px;
+	}
+  }
+  @media (max-width: 960px) {
+	.re_border {
+	  display: none;
+	}
+	.re_dl {
+	  width: 100%;
+	  float: none;
+	  padding: 0;
+	  margin-bottom: 20px;
+	}
+	.re_dl:last-child {
+	  margin-bottom: 0;
+	}
+	.re_dl dt {
+	  float: left;
+	  width: auto;
+	}
+	.re_dl dd {
+	  width: 100%;
+	  text-align: left;
+	  padding-left: 94px;
+	}
+	.pro_authentication_icon ul {
+	  display: block;
+	  width: 100%;
+	}
+	div.pro_authentication_icon ul li {
+	  float: left;
+	  background-size: 143px;
+	  width: 25%;
+	  margin: 0;
+	  cursor: pointer;
+	}
+	.pro_authentication_icon03 {
+	  background-position: 66px -141px;
+	}
+	.pro_authentication_icon01 {
+	  background: 66px -3px;
+	}
+	.pro_authentication_icon010 {
+	  background-position: 66px -638px;
+	}
+	.pro_authentication_icon09 {
+	  background-position: 62px -569px;
+	}
+	.pro_authentication_icon04 {
+	  background-position: 62px -210px;
+	}
+	.pro_authentication_icon05 {
+	  background-position: 66px -282px;
+	}
+	.pro_authentication_icon06 {
+	  background-position: 52px -353px;
+	}
+	.pro_authentication_icon011 {
+	  background-position: 66px -704px;
+	}
+	.cableTesting-each_txt {
+	  padding: 3px 15px 0;
+	}
+	.Performance_right {
+	  padding: 34px 20px 20px 42px;
+	}
+  }
+  @media (max-width: 768px) {
+	.pro_authentication_icon {
+	  padding: 35px 80px 0;
+	}
+	ul.public_alone_ul li{
+	  width: 49%;
+	}
+	.re_dl dd{
+	  padding-left: 120px;
+	}
+  }
+  @media (max-width: 480px) {
+	.cableTesting-bg {
+	  background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/cableTesting/cableTesting-bg-m.jpg);
+	}
+	.cableTesting-top .purchase_order_tit {
+	  padding-top: 76px;
+	}
+	.cableTesting-overview-pro li {
+	  margin-top: 17px;
+	}
+	.public_tit {
+	  padding-top: 52px;
+	}
+	div.alone_Performance {
+	  width: 100%;
+	  margin-bottom: 20px;
+	}
+	div.pro_authentication_icon ul {
+	  width: 100%;
+	  margin: 0 auto;
+	}
+	.re_dl_container {
+	  padding: 0px;
+	}
+	.re_dl dd {
+	  padding-top: 18px;
+	}
+	div.pro_authentication_icon ul li {
+	  margin-right: 0;
+	  height: 60px;
+	}
+	.pro_authentication_icon ul li:nth-child(n + 5) {
+	  margin-top: 10px;
+	}
+  
+	li.pro_authentication_icon011 {
+	  height: 35px;
+	  overflow: hidden;
+	  background-position: 0 -500px;
+	}
+  
+	li.pro_authentication_icon05 {
+	  background-position: 2px -203px;
+	  margin-right: 6% !important;
+	}
+	li.pro_authentication_icon06 {
+	  margin-right: 2px !important;
+	}
+	.pro_authentication_icon {
+	  padding: 15px 0 0;
+	}
+	.pro_authentication_icon ul {
+	  width: 300px;
+	  margin: 0 auto;
+	}
+	li.pro_authentication_icon03 {
+	  background-position: 12px -141px;
+	}
+	li.pro_authentication_icon01 {
+	  background: 20px -3px;
+	}
+	li.pro_authentication_icon010 {
+	  background-position: 22px -638px;
+	}
+	li.pro_authentication_icon09 {
+	  background-position: 62px -569px;
+	}
+	li.pro_authentication_icon04 {
+	  background-position: 26px -210px;
+	}
+	li.pro_authentication_icon05 {
+	  background-position: 66px -282px;
+	}
+	li.pro_authentication_icon06 {
+	  background-position: 52px -353px;
+	}
+	li.pro_authentication_icon011 {
+	  background-position: 66px -704px;
+	}
+	.re_dl dt {
+	  float: none;
+	  margin: 0 auto;
+	}
+	.re_dl dd {
+	  padding-left: 0;
+	  text-align: center;
+	}
+	.re_dl {
+	  background: #f7f7f7;
+	  padding: 40px 0;
+	}
+	.cableTesting-ECQ-img {
+	  background: #fff;
+	  border: 1px solid #fff;
+	}
+	.pro_authentication_icon ul li:hover .track_orders_wenhao .question_text_01 {
+	  display: none;
+	}
+	ul.public_alone_ul li {
+	  width: 100%;
+	}
+	.cableTesting-img-pc {
+	  display: none!important;
+	}
+	.cableTesting-img-m {
+	  display: block!important;
+	}
+  }
+
+
+  .new-compatibility-commonWidth .compatibility_wrap_h2{padding-top: 44px;}
+.new-compatibility-commonWidth{width: 1200px;margin: 0 auto;}
+.compatibility_wrap_main.choosez{min-height: 63px;}
+.compatibility_wrap_main.choosez .compatibility_wrap_smallMain{min-height: 63px;position: fixed;top: 0;left: 0;width: 100%;background: #fff;z-index: 10;}
+.compatibility_wrap_smallMain .compatibility_wrap_main_nav{justify-content: left;border-bottom: 0;}
+.compatibility_wrap_smallMain .compatibility_wrap_main_nav_ul{margin-right: 0;}
+.compatibility_wrap_main_nav_li.choosez{border-bottom: 2px solid #232323;}
+.compatibility_wrap_main_nav_li{transform: none;padding: 21px 0;}
+.compatibility_wrap_main_nav_li .icon{font-size: 22px;}
+.compatibility_wrap_main_nav_li_active{border-bottom: 2px solid var(--deepColor);transform: none;}
+.compatibility_wrap_main_nav_line {width: 100%;position: absolute;left:0;border-bottom: 1px solid #e5e5e5;z-index: 0;}
+.fiberOptic-box{background: #f7f7f7;}
+.change_public_container .public_tit_01{padding: 44px 0 28px;}
+.Performance_triangle{width: 0;height: 0;border-width:  15px 13px;border-style: solid;border-color: #fff transparent transparent transparent;transform: rotate(-90deg);display: inline-block;transition: all .3s;position: absolute;right: -13px;top: 50%;margin-top: -15px;}
+.fiberOptic-box .Performance_left{position: relative;}
+.change_public_container .alone_Performance .Performance_left .Performance_triangle{transform: rotate(90deg);right: 2px;}
+.change_public_container .alone_Performance.right .Performance_left .Performance_triangle{right: auto;left:2px;transform: rotate(-90deg);}
+.Performance_video_play{display: flex;width: 60px;height: 60px;border-radius: 100%;background:rgba(0,0,0,0.2);top: 50%;margin-top: -30px;left: 50%;margin-left: -30px;position: absolute;cursor: pointer;transition: all .3s;}
+.Performance_video_play:hover{background-color: rgba(0,0,0,.4);}
+.fiberOptic-box .Performance_right{min-height: 360px;padding: 0 20px 0 42px;display: table;}
+.fiberOptic-box .Performance_table{display: table-cell;vertical-align: middle;}
+.Performance_video_play i{width: 0;height: 0;border-width:  16px 9px;border-style: solid;border-color: #fff transparent transparent transparent;transform: rotate(-90deg);display: inline-block;border-radius: 2px;vertical-align: middle;position: absolute;top: 50%;margin-top: -16px;left: 50%;}
+.Performance_video_time{display: inline-block;font-style: normal;height: 20px;background:rgba(0,0,0,.5);border-radius: 2px;position: absolute;bottom: 10px;right: 10px;color: #fff;padding: 0 5px;font-size: 13px;line-height: 20px;}
+.change_public_container .public_alone_txt{background: #f7f7f7;border-radius: 0 2px 2px 0;}
+.change_public_container .public_alone_ul li img{width: 100%;}
+.change_public_container ul.public_alone_ul li{margin-right: 12px;}
+.change_public_container ul.public_alone_ul li:last-child {margin-right: 0;}
+.change_public_container .compatibility_wrap_tools_ul li{background: #fff;}
+#new_popup_video_title{opacity: 0;}
+.compati-selectMenu-box-m{display: none;}
+.Signal_txt{color: #232323;}
+@media (max-width: 1220px){
+    .new-compatibility-commonWidth{width: 960px;}
+    .compatibility_wrap_main_nav_li{margin-right: 5px;}
+}
+@media (max-width: 960px){
+    .new-compatibility-commonWidth{width: 100%;}
+    .compatibility_wrap_main_nav_li{margin-right: 10px;}
+    .fiberOptic-box .per_two{display: block;}
+    .fiberOptic-box .alone_Performance{width: 100%;float: none;}
+    .fiberOptic-box .Performance_left, .fiberOptic-box .Performance_right{width: 50%;}
+    .fiberOptic-box .Performance_right{min-height: auto;height: 100%;padding-top: 20px;}
+    #new_popup_video.fs-newchangeM-videoAlert .public_pop_up_widht_880{height: 100%;width: 100%;left: 0;top: 0;position: absolute;}
+    #new_popup_video.fs-newchangeM-videoAlert .public_pop_up_title{height:0;min-height: 0;padding: 0;}
+    #new_popup_video.fs-newchangeM-videoAlert .public_pop_content{display: table;height: 100%;width: 100%;}
+    #new_popup_video.fs-newchangeM-videoAlert .public_pop_up_layer_background{opacity:1;}
+    #new_popup_video.fs-newchangeM-videoAlert .public_close{color: #fff;}
+    #new_popup_video.fs-newchangeM-videoAlert .public_pop_up_content{background: initial;}
+    #new_popup_video.fs-newchangeM-videoAlert .new_popup_video {display: table-cell;vertical-align: middle;}
+    #new_popup_video.fs-newchangeM-videoAlert .public_pop_up_layer_background{opacity: 1;}
+    .compatibility_wrap_main_nav_box{display: none;}
+    .compatibility_wrap_smallMain .compati-categories-fix{padding: 0 15px;}
+    .compati-list{min-height: 48px;background: #fff;}
+    .compati-list .compati-categories-txt{font-size:14px;color: #232323;line-height:24px;display: block;margin-bottom: 0;background: none;border-bottom: 1px solid #e5e5e5;}
+    .compati-list .compati-categories-txt:last-child{border: 0;}
+    .compati-list .compati-categories-txt .icon{margin-right: 10px;font-size: 22px;}
+    .compati-list .compati-categories-txt a{display: flex;align-items: center;padding: 15px 0;}
+    .compati-list .compati-categories-tit {font-size: 14px;color: #232323;line-height: 14px;padding: 16px 0 14px;cursor: pointer;}
+    .compati-list .compati-categories-tit p{display: inline-block;}
+    .compati-list .compati-categories-tit a .icon{font-size: 22px;margin-right: 10px;display: inline-block;vertical-align: middle;margin-top: -1px;}
+    .compati-cate-icon {font-size: 13px;float: right;display: inline-block;transition: all .3s;margin-right: -4px;}
+    .compati-cate-icon.choosez{transform: rotate(180deg);margin-right: 0;}
+    .compati-categories-fix.choosez{position: fixed;}
+    .compati-selectMenu-box-m{display: block;}
+    .compati-list.choosez .compati-categories-fix{box-shadow: 0px 2px 3px 0px rgba(0,0,0,.1);width: 100%;position: fixed;top: 48px;left: 0;background: #fff;z-index: 100;min-height: 48px;border-top: 1px solid #e5e5e5;}
+}
+@media (max-width: 600px){
+    .new_popup_video {height: 210px;}
+    .fiberOptic-box .Performance_left, .fiberOptic-box .Performance_right{width: 100%;}
+    .change_public_container .public_tit_01:first-child{padding: 23px 0 15px;}
+    .change_public_container .public_tit_01{font-size: 20px;line-height: 30px;padding: 8px 0 15px;}
+    .fiberOptic-box .Performance_right{padding: 20px;}
+    .fiberOptic-box .Signal_txt{padding-bottom: 7px;}
+    .change_public_container li.public_li{padding-bottom: 30px;}
+    .change_public_container .public_tit{padding-top: 14px;}
+    .change_public_container .optics_ul li{padding: 4px 10px;}
+    .change_public_container .optics_ul li span{padding: 0;}
+    .change_public_container .optics_ul li:first-child{padding-top: 0px;}
+    .change_public_container .optics_ul li:last-child{padding-bottom: 10px;}
+    .change_public_container .optics_ul li.active span{border: 0;}
+    .change_public_container .public_tit.public_tit_03{padding-top: 24px;}
+    .change_public_container .alone_Performance.right .Performance_left .Performance_triangle{display: none;}
+
+}
+  
+
+
+.Performance_video_time {
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 6px;
+  }
+  /* .reticle-main */
+  .displayFlexCenter {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+  }
+  .reticle-a {
+	margin: 10px 0 0 15px;
+  }
+  .reticle-main #new_popup_video_title {
+	opacity: 1;
+  }
+  .reticle-main .fiberOptic-box .Performance_right {
+	padding: 0 55px 0 60px;
+  }
+  
+  .change_public_container .public_tit_01.reticle-Quality {
+	padding: 44px 0 20px;
+  }
+  .pro_authentication_icon012 {
+	width: 52px;
+	height: 60px;
+	background-position: 0 -953px;
+  }
+  @media (max-width: 960px) {
+	.reticle-main div.pro_authentication_icon ul li {
+	  width: 20%;
+	}
+	.pro_authentication_icon .pro_authentication_icon012 {
+	  width: 52px;
+	  height: 58px;
+	  background-position: 66px -771px;
+	}
+	.reticle-main .pro_authentication_icon01 {
+	  background-position: 66px 0px;
+	}
+	.reticle-main .pro_authentication_icon010 {
+	  background-position: 66px -635px;
+	}
+  }
+  @media (max-width: 480px) {
+	.reticle-main .fiberOptic-box .Performance_right {
+	  padding: 30px 20px;
+	}
+	.reticle-main .compatibility_wrap_tools_ul li {
+	  padding: 30px 20px;
+	}
+	.pro_authentication_icon .pro_authentication_icon012 {
+	  background-position: 20px -771px;
+	  margin-top: 0 !important;
+	}
+	.reticle-main li.pro_authentication_icon04 {
+	  background-position: 10px -210px;
+	}
+	.reticle-main .Performance_triangle {
+	  display: none;
+	}
+	.reticle-main .pro_authentication_icon01 {
+	  background-position-x: 10px;
+	}
+	.reticle-main .pro_authentication_icon010 {
+	  background-position-x: 10px;
+	}
+	.reticle-main .alone_Performance {
+		margin-bottom: 0;
+	}
+	.reticle-main .change_public_container .public_tit_01 {
+		padding-top: 23px;
+	}
+  }
+  

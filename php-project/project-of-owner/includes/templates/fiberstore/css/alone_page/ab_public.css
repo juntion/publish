@@ -1,0 +1,78 @@
+.content{padding: 0;}
+a:hover{text-decoration: none;}
+
+.alone_banner_tit{/*banner标题文字*/
+    font-size: 40px;font-weight: 400;line-height: 48px;margin-bottom: 20px;}
+.alone_banner_txt{/*banner文字*/
+    font-size: 16px;line-height: 24px;font-weight: 400;}
+.alone_tit{/*内容区域标题*/
+    font-size: 26px;font-weight:400;line-height:34px;text-align: center;padding-top: 42px;}
+.alone_txt{/*内容区域标题下文字*/
+    font-size: 14px;color: #616265;line-height: 24px;text-align: center;}
+.alone_center{/*居中效果*/
+    text-align: center;}
+.color_White{/*文字颜色--白色*/
+    color: #FFFFFF;}
+.color_Red{/*文字颜色--红色*/
+    color: #c00000;}
+.color_Normal{/*文字颜色--正常体*/
+    color: #232323;}
+.color_Blue{/*文字颜色--蓝色*/
+    color: #0070BC;}
+.alone_banner{/*banner*/
+    height: 380px;text-align: center;}
+.alone_banner_bg{/*banner背景*/
+    position:absolute;left:0;width:100%;height:20pc;z-index:-1;height: 380px;background-size: cover;background-repeat: no-repeat;
+    background-position-x: center;}
+
+.alone_font_blod{/*粗体*/
+    font-weight: 600;}
+.alone_font_light{/*细体*/
+    font-weight:400;}
+.alone_font_normal{/*正常体*/
+    font-weight: 400;}
+.divide_line{/*分割线*/
+    border-bottom: 2px solid #e5e5e5;}
+.alone_after:after{/*清除浮动  防止父元素高度塌陷*/
+    content:"";display:block;clear:both;visibility:hidden;height:0;}
+.alone_box_sizing{/*box-sizing: border-box;*/
+    box-sizing: border-box;}
+.alone_float_left{/*左浮动*/
+    float: left;}
+.alone_float_right{/*右浮动*/
+    float: right;}
+.alone_img{/*图片自适应*/
+    max-width: 100%;height: inherit;display: block;margin: 0 auto;}
+.alone_a_inherit:hover{/*a标签hover状态-1*/
+    text-decoration: underline;}
+.alone_a_none:hover{/*a标签hover状态-2*/
+    text-decoration: none;}
+.alone_radius{/*圆角*/
+    border-radius: 3px;}
+
+/*手机端自适应*/
+@media(max-width:960px){
+    .alone_banner_tit{
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 15px;
+        font-weight: 400;
+        padding: 50px 15px 0 15px;
+    }
+}
+
+@media(max-width:480px){
+    .content{
+        width: auto;
+        padding: 0 10px;
+    }
+    .alone_banner{/*banner*/
+        height: 220px;
+        text-align: center;
+    }
+    .alone_banner_bg{
+        height: 220px;
+    }
+    .alone_tit{font-size: 20px;font-weight: 400;line-height: 30px;padding-top: 35px;}
+
+}

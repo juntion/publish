@@ -1,0 +1,10 @@
+[
+  {
+    "menu": "system",
+    "route": [
+      "permission",
+      "route",
+      "admin"
+    ]
+  }
+]

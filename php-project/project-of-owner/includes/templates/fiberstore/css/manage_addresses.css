@@ -1,0 +1,155 @@
+.ce_form_choose_country {
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 3px;
+    padding-left: 38px;
+    font-size: 13px;
+    color: #232323;
+    width: 100%;
+    box-sizing: border-box;
+    height: 38px;
+    z-index: 10;
+}
+
+.ce_form_choose_country p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    left: 0;
+    text-indent: 36px;
+    line-height: 36px;
+}
+
+.ce_form_choose_country p a {
+    color: #232323;
+    text-decoration: none;
+}
+
+.ce_form_countryList li em {
+    top: 5px;
+    left: 10px;
+}
+
+.ce_form_choose_country em {
+    background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/country.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 15px;
+    top: 10px;
+}
+
+.ce_form_choose_country .showMore {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat right -482px #fff;
+}
+
+.ce_form_choose_country .flag {
+    top: 7px;
+}
+
+.ce_form_searchCountry {
+    width: 100%;
+    text-align: left;
+    height: auto;
+    clear: both;
+    position: absolute;
+    top: 37px;
+    z-index: 1111;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+    left: -1px;
+    padding-top: 10px;
+}
+
+.ce_form_search_input {
+    width: 100%;
+    line-height: 28px;
+    background-color: #f7f7f7;
+    text-indent: 10px;
+    font-size: 13px;
+    color: #8d8d8f;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.ce_form_search_block {
+    padding: 0 10px;
+    position: relative;
+}
+
+.ce_form_countryList {
+    position: relative;
+    height:215px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 4px;
+    -webkit-overflow-scrolling:touch;
+}
+
+.ce_form_countryList li {
+    width: 100%;
+    height: 30px;
+    line-height: 20px;
+}
+
+.ce_form_countryList li:hover {
+    text-decoration: underline;
+}
+
+.ce_form_countryList li a {
+    text-decoration: none;
+    color: #232323;
+    line-height: 15px;
+    position: relative;
+    display: block;
+    padding: 5px 0 5px 32px;
+    font-size: 13px;
+}
+.product_sticky .product_container{width: 1420px;}
+.product_proinfo dl dt img{width: 60px;height: 60px;}
+.product_proinfo dl dd{padding-left: 80px;}
+.product_proinfo .product_tab01{padding-left: 0;}
+.detail_proRight .product_sticky.active .product_sticky_add>ul{line-height: inherit;}
+.product_sticky_add ul li{
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.product_sticky_newDetali_txt{font-size: 13px;color: #616265;line-height: 18px;}
+.product_sticky_btn .new_pro_addCart_btn{margin-left: 20px;}
+.Failure_pub{display: table;width: 100%;}
+.fa_tr{display: table-row;}
+.fa_td,.fa_th{display: table-cell;}
+.fa_one img{width: 80px;height: 80px;}
+.fa_tr .fa_th{font-size: 14px;font-weight: 600;color: #232323;}
+.fa_one{width: 14%;}
+.fa_two{width: 72%;padding-left: 20px;}
+.fa_three{width: 72px;float: right;}
+.fa_two p{width: 80%;font-size: 13px;color: #232323;line-height: 20px;display: inline-block;vertical-align: top;margin-top: -6px;}
+.fa_two span{display: block;font-size: 14px;}
+.fa_td{vertical-align: top;}
+.fa_th{vertical-align: middle;padding-bottom: 15px;}
+@media (max-width: 480px){
+	.Failure_pub,.fa_tr,.fa_td{display: inline-block;}
+	.fa_th{display: none;}
+	.fa_one{width: 80px;}
+	.fa_two{width: 68%;}
+	.fa_three{padding-left: 104px;float: left;}
+	.fa_two p{width: 100%;}
+	.Failure_pub{margin-bottom: 20px;}
+}
+
+.spinWrap #loader_order_alone{width: 80px;height: 80px;margin-left: -40px;margin-top: -40px;}
+.public_bg_wap #loader_order_alone .path{animation: dash 1.5s ease-in-out infinite,shopping_color 6s ease-in-out infinite;}
+.public_bg_wap{position:absolute;width:100%;height:100%;z-index:10;top:0;left:0}
+.public_bg_wap .loader{height:80px;width:80px;position:absolute;top:50%;left:50%;margin-top:-40px;margin-left:-40px;opacity:1;filter:alpha(opacity=100)}
+

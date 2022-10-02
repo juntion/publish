@@ -1,0 +1,25 @@
+{
+    "name": "modules/share",
+    "description": "资源共享项目",
+    "authors": [
+        {
+            "name": "fly.fei",
+            "email": "fly.fei@feisu.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Share\\Providers\\ShareServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Share\\": "Modules/Share/"
+        }
+    }
+}

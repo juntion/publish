@@ -1,0 +1,15 @@
+[
+  {
+    "permission": "route.view",
+    "uuid": "",
+    "guard_name": "",
+    "type": "",
+    "route": "/route",
+    "name": "route",
+    "locale": {
+      "en-US": "AccessManage",
+      "zh-CN": "入口管理"
+    },
+    "comment": "侧边栏分类入口管理"
+  }
+]

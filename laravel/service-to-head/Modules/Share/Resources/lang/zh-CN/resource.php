@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'UUIDNotExists'                 => '该资源不存在',
+    'storeSuccess'                  => '上传成功!',
+    'uploadFailed'                  => '资源上传失败',
+    'updateSuccess'                 => '修改成功',
+    'updateFailed'                  => '修改失败',
+    'batchUpdateSuccess'            => '批量修改成功',
+    'batchUpdateFailed'             => '批量修改失败',
+    'deleteSuccess'                 => '删除成功',
+    'deleteFailed'                  => '删除失败',
+    'batchDeleteSuccess'            => '批量删除成功',
+    'batchDeleteFailed'             => '批量删除失败',
+    'copyCategorySuccess'           => '复制分类成功',
+    'cantCopyAgain'                 => '资源已在该分类下，无法再次复制',
+    'copyCategoryFailed'            => '复制分类失败',
+    'moveCategorySuccess'           => '移动分类成功',
+    'moveCategoryFailed'            => '移动分类失败',
+    'targetCategoryHasThisResource' => '移动分类失败,目标分类下已存在该资源',
+    'originCategoryNotExists'       => '移动分类失败,原分类UUID参数错误',
+    'addTagSuccess'                 => '添加标签成功',
+    'addTagFailed'                  => '添加标签失败',
+    'resourceHasThisTag'            => '资源已经含有该标签，无法重复添加',
+    'tagNotExistsOrNotYour'         => '删除标签失败,资源无该标签不存在或不是您添加的标签',
+    'deleteTagSuccess'              => '删除标签成功',
+];

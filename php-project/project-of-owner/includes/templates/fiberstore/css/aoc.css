@@ -1,0 +1,182 @@
+.content { padding-top:0;}
+.fiber_optic_banner { width:100%; height:380px;}
+.fiber_optic_banner_bg { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/aoc_img/AOC_bg_01.jpg) no-repeat center 0;  width:100%; height:380px; position:absolute; left:0; z-index:-1;}
+.fiber_optic_banner_con { text-align:center; padding-top:100px;}
+.fiber_optic_banner_con h1 { color:#fff; font-size:40px; font-weight:normal; margin-bottom:20px; line-height:52px;}
+.fiber_optic_banner_con p { color:#fff; font-size:20px;}
+.fiber_optic_con { width:100%; margin:0 auto;padding-bottom: 50px;}
+.fiber_optic_con_bg { background:#f6f6f6; position:absolute; left:0; width:100%; height:3516px; z-index:-1;}
+.fiber_optic_section { width:100%; height:auto; overflow:hidden;}
+.fiber_optic_section ul li { width:32%; margin-right:2%; float:left;background:#fff; text-align:center; transition: all .3s ease;padding-bottom: 45px;}
+.fiber_optic_section ul li:last-child { margin-right:0;}
+.fiber_optic_section ul li img { display:block; margin:0 auto; max-width:100%;}
+.fiber_optic_section ul li h1 { font-size:24px; color:#232323;font-weight:normal;padding-top: 40px;}
+.fiber_optic_section01 {margin:30px 0 25px 0; text-align:center;}
+.fiber_optic_section01 span {display: inline-block; border:1px solid #dedede; border-radius:3px; padding:5px 10px; font-size:14px; margin-right:20px; font-weight:400;}
+.fiber_optic_section01 span:last-child { margin-right:0;}
+.fiber_optic_section ul li a{font-size: 16px;color: #0070BC;font-weight:400;}
+.fiber_optic_section ul li a i{font-style: normal;font-size: 12px;margin-left: 5px;}
+.fiber_optic_section ul li a:hover { text-decoration:underline;}
+.fiber_optic_section ul li p { color:#616265; font-weight:400; font-size:16px; margin-bottom:24px;margin-top: 20px;}
+.fiber_transceiver {overflow: hidden;}
+.fiber_transceiver h1 { font-size:26px; font-weight:400; color:#232323; float:left;}
+.fiber_transceiver_link { float:right;}
+.fiber_transceiver_link a { font-size:18px;transition: all .3s;}
+.fiber_transceiver_link a:hover { text-decoration:none; opacity:0.8;}
+.fiber_transceiver_link i { font-size:14px;}
+.fiber_transceiver_banner { width:100%; height:400px;}
+.fiber_transceiver_banner_bg {background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/aoc_img/AOC_bac_01.jpg) no-repeat center 0;width:100%; height:400px; position:absolute; left:0; z-index:-1;}
+.fiber_transceiver_banner01_bg { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/aoc_img/AOC_bac_02.jpg) no-repeat center 0;}
+.fiber_transceiver_banner02_bg { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/aoc_img/AOC_bac_03.jpg) no-repeat center 0;}
+.fiber_transceiver_banner03_bg { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/aoc_img/AOC_bac_04.jpg) no-repeat center 0;}
+.fiber_transceiver_title { overflow:hidden; margin-bottom:25px;padding-top: 50px;}
+.fiber_transceiver_banner_con {padding-top:100px;}
+.fiber_transceiver_banner_pro {min-height:300px; width:610px; background:#fff; position: relative;transition: all .3s ease;vertical-align: bottom;}
+.fiber_transceiver_banner_pic { position:absolute; left:0; width:40%;padding-top: 40px;}
+.fiber_transceiver_banner_pic img { display:block; max-width:100%;margin: 0 auto;}
+.fiber_transceiver_banner_text {position:absolute; right:0; width:50%; padding-top:80px;padding-right: 10%;}
+.fiber_transceiver_banner_text h1 { font-size:20px; font-weight:400; line-height:28px; margin-bottom:20px;color: #232323;}
+.fiber_transceiver_banner_text p { font-size:16px; margin-bottom:20px; font-weight:400;color: #616265;}
+.fiber_transceiver_banner_text .price,.fiber_transceiver_pro ul li .price { color:#0070BC; font-size:14px;}
+.fiber_transceiver_banner_pro:hover {box-shadow: 0 15px 15px -10px rgba(0,0,0,.15);transition: all .3s;}
+.fiber_transceiver_pro { margin-top:20px; overflow:hidden;}
+.fiber_transceiver_pro ul li { width: 20%; float:left; background:#fff; border-right:1px solid #f6f6f6;box-sizing: border-box;}
+.fiber_transceiver_pro ul li:last-child { border-right:none;}
+.fiber_transceiver_pro ul li img { display:block; margin:0 auto; max-width:100%;}
+.fiber_transceiver_pro ul li h1 { font-size:14px; color:#232323; font-weight:400; margin-bottom:10px;height: 40px;}
+.fiber_transceiver_pro ul li h1:hover { opacity:0.8;}
+.fiber_transceiver_pro ul li p { font-size:14px; color:#616265; font-weight:400; margin-bottom:10px;}
+.fiber_transceiver_pro_text { margin:0 0 0 20px; margin-bottom:50px;}
+.fiber_transceiver_pro_text h1{float: none;}
+.fiber_transceiver_pro ul li a:hover { text-decoration:none;}
+.our_advantages { padding-top:60px; overflow:hidden;}
+.our_advantages h1 { font-size:30px; font-weight:normal; text-align:center; margin-bottom:50px;}
+.our_advantages p{font-size: 14px;font-weight:400;color: #616265;line-height: 22px;text-align: center;margin-bottom: 50px;}
+.our_advantages ul li { float:left; width: 25%; text-align:center;}
+.our_advantages ul li img { display:block; margin:0 auto;}
+.our_advantages_text { padding:20px 40px;}
+.our_advantages ul li h1 { font-size:18px; font-weight:normal; color:#232323; margin-bottom:10px;}
+.our_advantages ul li p { font-size:14px; color:#616265; font-weight:400;}
+.tn_slide{
+	padding: 50px 20px 0;
+	position: relative;
+	margin-bottom: 50px;
+}
+.tn_slide_main{
+	width: 100%;
+	overflow: hidden;
+}
+.tn_slide_main_show{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+}
+.tn_slide_main ul{
+	width: 1400px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+}
+.tn_slide_prev{
+    width: 16px;
+    height: 28px;
+    position: absolute;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/aoc_img/index_icon.png) -11px -320px no-repeat;
+    left: 0;
+    top: 50%;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.tn_slide_next{
+    width: 16px;
+    height: 28px;
+    position: absolute;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/aoc_img/index_icon.png) -53px -320px no-repeat;
+    right: 0;
+    top: 50%;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.tn_slide_list{
+	width: 200px;
+	float: left;
+}
+.tn_slide_list a,.swiper-slide a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: all .3s;
+}
+.tn_slide_list a:hover{
+	opacity: .8;
+}
+.tn_slide_list a img,.swiper-slide a img{
+	display: inline-block;
+}
+.tn_slide_list a h2,.swiper-slide a h2{
+	font-size: 14px;
+	color: #232323;
+	font-weight: 400;
+}
+.swiper-container{
+	display: none;
+}
+.tn_slide .swiper-button-prev{
+	background: none;
+	text-align: left;
+    font-size: 20px;
+    line-height: 44px;
+    color: #828282;
+    left: -2px;
+}
+.tn_slide .swiper-button-next{
+    background: none;
+    text-align: right;
+    font-size: 20px;
+    line-height: 44px;
+    color: #828282;
+    right: -2px;
+}
+@media (max-width: 1440px) {
+	.box { width:1200px;}
+	.tn_slide_main_show{width: 1044px;margin: 0 auto;}
+	.fiber_transceiver_pro ul li p{height: 40px;}
+	.fiber_optic_section01 span{margin-bottom: 10px;}
+	.fiber_transceiver_pro ul li h1{height: 60px;}
+	.fiber_optic_con_bg{height: 3678px;}
+	.tn_slide_list{width: 170px;margin-right: 4px;}
+	}
+@media (max-width: 1220px) {
+	.box{width: 960px;}.content { margin:0 auto;}
+	.fiber_optic_section01 span {display: inline-block; margin-bottom:10px;}
+	.fiber_optic_section ul li { min-height:460px;}
+	.fiber_transceiver_pro ul li { min-height:380px;}
+	.tn_slide_main_show{width: 870px;}
+	.fiber_optic_con_bg{height: 3646px;}
+}
+@media (max-width: 960px) {
+	.box{width: 100%;}
+	.fiber_optic_con { background: #f6f6f6; overflow:hidden;  height:auto;}
+	.fiber_optic_con_bg { display:none;}
+	.fiber_transceiver_banner_bg { display:none;}
+	.fiber_transceiver_banner_con { padding-top:0; max-width:100%; max-height:100%;}
+	.fiber_transceiver_banner_pro { width:100%;}
+	.fiber_optic_section ul li { width:100%; margin-right:0;}
+	.fiber_transceiver_banner { height:inherit;}
+	.fiber_transceiver_pro ul li { width:100%; border-bottom:1px solid #f6f6f6}
+	.our_advantages ul li { width:50%;}
+	.swiper-container{display: block;}
+	.tn_slide_main{display: none;}
+}
+@media (max-width: 480px) {
+	.fiber_optic_banner_con h1{font-size: 24px;line-height: 40px;}
+	.fiber_optic_banner_con p{font-size: 16px;line-height: 22px;font-weight:400;}
+	.fiber_transceiver h1 { float:none; margin-bottom:20px; font-size:24px;}
+	.fiber_transceiver_link { float:none;}
+	.fiber_transceiver_banner_text { padding-top:20px;}
+	.fiber_optic_banner_con { padding-top:40px;}
+	.our_advantages ul li { width:100%;}
+	.fiber_optic_banner,.fiber_optic_banner_bg{height: 220px;}
+	.our_advantages h1{font-size: 20px;line-height: 30px;}
+	}

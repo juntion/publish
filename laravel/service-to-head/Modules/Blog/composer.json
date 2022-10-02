@@ -1,0 +1,24 @@
+{
+    "name": "modules/blog",
+    "description": "fs blog",
+    "authors": [
+        {
+            "name": "fishep",
+            "email": "fishep@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Blog\\": "Modules/Blog/"
+        }
+    }
+}

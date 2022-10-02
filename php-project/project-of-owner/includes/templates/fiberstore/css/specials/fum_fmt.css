@@ -1,0 +1,197 @@
+/*样式 开始*/
+.content { padding-top: 0;}
+.fum_fmt_banner {width:100%;height:460px;}
+.fum_fmt_banner_bg {position:absolute;left:0;width:100%;height:460px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/FMU_FMT_banner.jpg) no-repeat center;z-index:-1;}
+.fum_fmt_banner_tit {font-size:40px;color:#fff;font-weight:500;padding:120px 0 0 80px;line-height:40px;}
+.fum_fmt_banner_txt {font-size:20px;color:#fff;padding:15px 920px 0 80px;font-weight:400;line-height:30px;}
+.fum_fmt_build {width:100%;}
+.fum_fmt_tit {font-size:24px;color:#232323;font-weight:400;text-align:center;padding:55px 0 15px 0;}
+.fum_fmt_txt {font-size:14px;color:#616265;font-weight:400;text-align:center;}
+.fum_fmt_build_main {position:relative;width:100%;}
+.fum_fmt_build_main_pic {margin-top:20px;position:relative;padding-bottom:50px; overflow:hidden;}
+.fum_fmt_build_main_pic_front {position:absolute;top:227px;left:875px;font-size:18px;color:#484746;}
+.fum_fmt_build_main_pic_front span {display:inline-block;width:0px;height:0;border-left:10px solid rgba(255,255,255,0);border-right:10px solid rgba(255,255,255,0);border-bottom:15px solid #ffaa0f;}
+.fum_fmt_build_main_pic_rear {position:absolute;top:395px;left:875px;font-size:18px;color:#484746;}
+.fum_fmt_build_main_pic_rear span {display:inline-block;width:0px;height:0;border-left:10px solid rgba(255,255,255,0);border-right:10px solid rgba(255,255,255,0);border-bottom:15px solid #ffaa0f;}
+.fum_fmt_build_main_pic img {display:block;margin:0 auto;}
+.fum_fmt_build_main_pic_explain01 {position:absolute;left:60px;top:50px;/*opacity:0;transition:all .5s;transition-delay:.5s;*/}
+.fum_fmt_build_main_pic_explain01.show {opacity:1;}
+.fum_fmt_build_main_pic_explain02 {position:absolute;left:60px;top:245px;/*opacity:0;transition:all .5s;transition-delay:1.5s;*/}
+.fum_fmt_build_main_pic_explain02.show {opacity:1;}
+.fum_fmt_build_main_pic_explain03 {position:absolute;top:115px;left:1070px;/*opacity:0;transition:all .5s;transition-delay:2.5s;*/}
+.fum_fmt_build_main_pic_explain03.show {opacity:1;}
+.fum_fmt_build_main_pic_explain04 {position:absolute;top:305px;left:1070px;/*opacity:0;transition:all .5s;transition-delay:3.5s;*/}
+.fum_fmt_build_main_pic_explain04.show {opacity:1;}
+.fum_fmt_build_main_pic_explain_tit {font-size:18px;color:#232323;font-weight:400;margin-bottom:10px;}
+.fum_fmt_build_main_pic_explain_li {font-size:14px;color:#616265;font-weight:400;list-style:none;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/fum_fmt_dot_03.png) no-repeat;padding-left:15px;background-position-y:7px;margin-bottom:8px;}
+.fum_fmt_build_main_pic_line01 {position:absolute;right:937px;top:113px;overflow:hidden;/*width:0;transition:all .5s;*/}
+.fum_fmt_build_main_pic_line02 {position:absolute;right:798px;top:180px;overflow:hidden;/*width:0;transition:all .5s;transition-delay:1s;*/}
+.fum_fmt_build_main_pic_line03 {position:absolute;left:895px;top:162px;overflow:hidden;/*width:0;transition:all .5s;transition-delay:2s;*/}
+.fum_fmt_build_main_pic_line04 {position:absolute;left:790px;top:350px;overflow:hidden;/*width:0;transition:all .5s;transition-delay:3s;*/}
+.fum_fmt_build_main_pic_line01.show {width:182px;}
+.fum_fmt_build_main_pic_line02.show {width:341px;}
+.fum_fmt_build_main_pic_line03.show {width:162px;}
+.fum_fmt_build_main_pic_line04.show {width:274px;}
+.fum_fmt_slide {width:100%;}
+.fum_fmt_slide_bg {position:absolute;z-index:-1;left:0;width:100%;height:692px;background-color:#f6f6f6;}
+.fum_fmt_slide_main {position:relative;height:500px;margin:50px 0 0 0 ; }
+.fum_fmt_slide_main_ul {position:relative;height:100%; margin: 0 5%}
+.fum_fmt_slide_main_li {position:absolute;overflow:hidden;opacity:0;left:0;}
+.fum_fmt_slide_main_li.active {z-index:5;}
+.fum_fmt_slide_main_left {float:left; position:relative;}
+.fum_fmt_magnifier{font-style: normal; position: absolute;width: 40px; height: 40px; border-radius: 3px; text-align: center; line-height: 40px;display: none;background: rgba(0,0, 0,0.4); z-index: 1; top: 50%; margin-top: -20px;left: 50%; margin-left: -20px; color: #fff;}
+.fum_fmt_slide_main_left:hover .fum_fmt_magnifier{ display:block;}
+.fum_fmt_slide_main_left_txt {color:#616265;font-size:14px;text-align:center;margin-top:20px;}
+.fum_fmt_slide_main_right {float:left;margin-left:100px;padding-top:110px;}
+.fum_fmt_slide_main_right_tit {color:#232323;font-size:18px;font-weight:400;margin-bottom:30px;max-width:455px;}
+.fum_fmt_slide_main_right_li {font-size:14px;color:#616265;list-style:none;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/fum_fmt_dot_03.png) no-repeat;padding-left:15px;background-position-y:7px;margin-bottom:12px;}
+.fum_fmt_slide_main_dot {position:absolute;width:100%;bottom:20px;left:0;text-align:center;}
+.fum_fmt_slide_main_dot em {display:inline-block;width:8px;height:8px;border-radius:50%;border:1px solid #313131;background-color:#fff;cursor:pointer;margin-right:10px;}
+.fum_fmt_slide_main_dot em.active {background-color:#313131;}
+.fum_fmt_slide_main_prev {position:absolute;left:0;top:50%;margin-top:-14px;width:16px;height:28px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/index_icon.png) no-repeat -11px -280px;cursor:pointer;z-index:10;}
+.fum_fmt_slide_main_next {position:absolute;right:0;top:50%;margin-top:-14px;width:16px;height:28px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/index_icon.png) no-repeat -53px -320px;cursor:pointer;z-index:10;}
+.fum_fmt_service {width:100%;height:484px;}
+.fum_fmt_service_bg {position:absolute;left:0;width:100%;height:484px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/FMU_FMT_service_bg_06.jpg) no-repeat;z-index:-1;}
+.fum_fmt_service_tit {font-size:24px;color:#fff;font-weight:400;text-align:center;padding-top:50px;}
+.fum_fmt_service_txt {font-size:14px;color:#fff;font-weight:400;margin-top:15px;text-align:center;}
+.fum_fmt_service_main {margin-top:35px;overflow:hidden;}
+.fum_fmt_service_main_left {float:left;}
+.fum_fmt_service_main_right {float:left;}
+.fum_fmt_service_main_right_tit {font-size:20px;color:#fff;font-weight:400;padding-top:40px;margin-bottom:12px;}
+.fum_fmt_service_main_right li {font-size:14px;font-weight:400;color:#fff;list-style:none;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/FMU_FMT_service_dot_03.png) no-repeat;background-position-y:7px;padding-left:15px;margin-bottom:10px;}
+.fum_fmt_series {width:100%;}
+.fum_fmt_series_main {width:100%;}
+.fum_fmt_series_main_nav {width:100%;border-bottom:1px solid #bbb;text-align:center;margin-top:20px;}
+.fum_fmt_series_main_nav li {font-size:16px;color:#616265;display:inline-block;margin-right:8%;padding-bottom:15px;cursor:pointer;transform:translateY(2px);}
+.fum_fmt_series_main_nav li.click {color:#0070BC;border-bottom:3px solid #0070BC;}
+.fum_fmt_series_main_content_one_left {float:left;text-align:center;}
+.fum_fmt_series_main_content_one {overflow:hidden;display:none; padding-top:30px;}
+.fum_fmt_series_main_content_one_left img {display:inline-block;}
+.fum_fmt_series_main_content_one_left h2 {font-size:16px;color:#232323;font-weight:400;text-align:center;margin-bottom:20px;}
+.fum_fmt_series_main_content_one_right {display:inline-block;text-align:center;margin-left:180px;padding-top:30px;}
+.fum_fmt_series_main_content_one_right img {display:inline-block;}
+.fum_fmt_series_main_content_one_right h2 {font-size:16px;color:#232323;font-weight:400;text-align:left;margin-bottom:20px;margin-top:15px;max-width:800px; line-height:24px;}
+.fum_fmt_series_main_content_one_right li {text-align:left;padding-left:15px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/fum_fmt_dot_03.png) no-repeat;background-position-y:7px;font-size:14px;font-weight:400;color:#616265;margin-bottom:10px;max-width:800px;}
+.fum_fmt_series_main_content_one_table{ min-height:196px;}
+.fum_fmt_series_main_content_one table {width:100%;margin-top:20px;clear:both;/*border:1px solid #dedede;*/border-bottom:none;}
+.fum_fmt_series_main_content_one table th {background-color:#8d8d8f;color:#fff;font-size:14px;font-weight:600;padding:10px 5px;}
+.fum_fmt_series_main_content_one table tr {border-bottom:1px solid #dedede;height:39px;color:#616265;font-size:14px;font-weight:400;}
+.fum_fmt_series_main_content_one table td {text-align:center;border-bottom:1px solid #dedede;color:#232323;font-size:14px;font-weight:400; padding:5px; }
+.fum_fmt_series_main .fum_fmt_series_main_content_one .fum_fmt_series_main_content_one_table .fum_fmt_series_main_content_one_table_left {text-align:left;}
+.fum_fmt_series_main_content_one table a {color:#0070BC;font-size:14px;font-weight:400;text-decoration:none;}
+.fum_fmt_series_main_content_one table a:hover {text-decoration:underline;}
+.fum_fmt_series02 {width:100%;margin:40px 0;}
+.fum_fmt_series02_bg {position:absolute;left:0;width:100%;height:880px;background-color:#f6f6f6;z-index:-1;}
+.fum_fmt_series02 .fum_fmt_series_main_nav li {margin-right:5%;}
+.fum_fmt_chassis_main {width:100%;}
+.fum_fmt_chassis_main ul {width:100%;overflow:hidden;margin-top:35px;}
+.fum_fmt_chassis_main_li {float:left;position:relative;margin-right:19px; width:32%; margin-right:2%;background-color: #f6f6f6;}
+.fum_fmt_chassis_main_li img{ margin:0 auto; display:block;}
+.fum_fmt_chassis_main_li:nth-child(3) {margin-right:0;}
+.fum_fmt_chassis_main_li_tit {text-align:center;font-size:18px;color:#232323;font-weight:400;width:100%; margin-bottom:15px;}
+.fum_fmt_chassis_main_li_href {color:#0070c0;width:100%; display:block;text-align:center;font-size:18px;text-decoration:none; margin-bottom:15px;}
+.fum_fmt_chassis_main_li_href:hover {text-decoration:underline;color:#0070c0;}
+.fum_fmt_chassis_main_li_introduce {text-align:center;font-size:16px;color:#232323;font-weight:400; padding:0 10px; margin-bottom:15px;}
+.fum_fmt_chassis_main_li_list {padding-left:15%;}
+.fum_fmt_chassis_main_li_list span {display:block;font-size:14px;font-weight:400;color:#616265;padding-left:15px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/fum_fmt_dot_03.png) no-repeat;background-position-y:7px;margin-bottom:15px;}
+.fum_fmt_chassis_main_li_text{ padding-bottom:15px;}
+.fum_fmt_learnmore {width:100%;margin-top:55px;}
+.fum_fmt_learnmore_tit {font-size:18px;color:#0070BC;font-weight:400;text-align:center;}
+.fum_fmt_learnmore_more {width:40px;height:40px;margin:20px auto;border-radius:50%;background-color:#0070BC;cursor:pointer;position:relative;transition:all 1s;}
+.fum_fmt_learnmore_more span {position:absolute;width:20px;height:20px;left:50%;margin-left:-10px;top:50%;margin-top:-10px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/fhd_series_more.png) no-repeat;}
+.fum_fmt_learnmore_more.roate {background-color:#616265;transform:rotate(45deg);}
+.fum_fmt_learnmore_morecontent {width:100%;height:0;overflow:hidden;transition:all 1s;}
+.fum_fmt_learnmore_morecontent_tit {text-align:center;font-weight:400;color:#232323;padding-top:45px;}
+.fum_fmt_learnmore_morecontent img {display:block;margin:30px auto;}
+.fum_fmt_last {width:100%;height:717px;margin-top:30px;}
+.fum_fmt_last_bg {position:absolute;left:0;z-index:-1;width:100%;height:717px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fum_fmt/applicatians_pic_bg.jpg) no-repeat center;}
+.fum_fmt_last_tit {font-size:24px;/*color:#fff;*/font-weight:400;text-align:center;padding-top:48px;}
+.fum_fmt_last img {display:block;margin:45px auto;margin-bottom:0;}
+@media(max-width:1440px) {.box {width:1200px; padding:0;}
+.fum_fmt_line {display:none !important;}
+.fum_fmt_build_main_pic_explain01 {position:initial;padding:0 1%; width:48%;margin-bottom:30px; float:left}
+.fum_fmt_build_main_pic_explain02 {position:initial;padding:0 1%; width:48%;margin-bottom:30px; float:left}
+.fum_fmt_build_main_pic_explain03 {position:initial;padding:0 1%; width:48%;margin-bottom:30px; float:left}
+.fum_fmt_build_main_pic_explain04 {position:initial;padding:0 1%; width:48%;margin-bottom:30px; float:left}
+.fum_fmt_build_main_pic_front {left:765px;}
+.fum_fmt_build_main_pic_rear {left:765px;}
+.fum_fmt_slide_main{ height:400px;}
+.fum_fmt_slide_main_li {/*left:50%;margin-left:-348.5px;*/}
+.fum_fmt_slide_main_left {/*float:none; */width:50%;}
+.fum_fmt_slide_main_left img{ max-width:100%;}
+.fum_fmt_slide_main_right {/*display:none;*/margin-left: 0; width:40%; padding:50px 5% 0 5%;}
+.fum_fmt_service_main_right {display:none;}
+.fum_fmt_service_main_left {float:none;}
+.fum_fmt_service_main_left img {display:block;margin:0 auto;}
+.fum_fmt_series_main_content_one_left { width:40%;margin:0 auto;}
+.fum_fmt_series_main_content_one_right { width:50%; padding:0 5%;margin:0 auto;}
+.fum_fmt_series02 {height:auto;}
+.fum_fmt_series02_bg { height:860px;}
+/*.fum_fmt_chassis_main_li {width:32%;overflow:hidden; padding-bottom:15px; background-color:#f6f6f6;}*/
+.fum_fmt_banner_txt {padding-right:0;}
+.fum_fmt_chassis_main_li img{ max-width:100%;}
+}
+@media(max-width:1200px) {.box {width:960px;}.fum_fmt_build_main_pic_front,.fum_fmt_build_main_pic_rear {left:695px;}
+.fum_fmt_series_main_content_one_right h2 {padding-left:20%;}
+.fum_fmt_series_main_content_one_right ul {padding-left:20%;}
+.fum_fmt_chassis_main_li img {width:100%;}
+.fum_fmt_slide_main{ height:350px;}
+
+}
+@media(max-width:960px) {.box {width:100%;}.fum_fmt_build_main_pic_front {display:none;}
+.fum_fmt_banner_tit {text-align:center;padding:50px 10px 0 10px;}
+.fum_fmt_banner_txt {text-align:center;padding:15px 10px 0 10px;}
+.fum_fmt_build_main_pic_rear {display:none;}
+.fum_fmt_slide{ background:#f6f6f6;}
+.fum_fmt_slide_main {padding-left:0; margin:0 0 0 0; padding:30px 0;}
+.fum_fmt_slide_main_li {width:100%;left:0;margin-left:0;}
+/*.fum_fmt_slide_main_left {width:100%;}
+.fum_fmt_slide_main_left img {width:100%;}
+.fum_fmt_build_main_pic img {width:100%;}*/
+.fum_fmt_series02_bg { display: none;}
+.fum_fmt_service_main_left img {width:100%;}
+.fum_fmt_series_main_content_one_left img { max-width:100%;}
+.fum_fmt_series_main_content_one_right img { max-width:100%;}
+.fum_fmt_series_main_content_one table {width:960px;}
+.fum_fmt_series_main_content_one_table {overflow-x:scroll;}
+.fum_fmt_learnmore_morecontent_main img {width:100%;}
+.fum_fmt_last img {max-width:100%;}
+/*.fum_fmt_chassis_main_li {margin-right:1%;}*/
+.fum_fmt_service_main_right{ display:none;}
+.fum_fmt_build,.fum_fmt_series,.fum_fmt_series02,.fum_fmt_chassis,.fum_fmt_learnmore{width:initial; padding: 0 10px;}
+.fum_fmt_tit{ font-size:20px; line-height:30px; }
+.fum_fmt_build_main_pic img{ max-width:100%;}
+.fum_fmt_slide_main_left{ width:100%;}
+.fum_fmt_slide_main_right{width:100%;padding:20px 0 0 0;}
+.fum_fmt_slide_bg{ display:none;}
+.fum_fmt_slide_main {position:relative;height:640px;}
+.fum_fmt_chassis_main_li{width:48%; margin-bottom:10px;}
+.fum_fmt_series_main_content_one_right h2,.fum_fmt_series_main_content_one_right ul{ padding-left:0;}
+.fum_fmt_learnmore_morecontent_tit,.fum_fmt_chassis_main_li_tit{ font-size:16px;}
+.fum_fmt_chassis_main_li_href{ font-size:14px;}
+.fum_fmt_last_tit{font-size:20px; line-height:28px;}
+.fum_fmt_series_main_nav li{ padding-bottom:10px;}
+
+}
+@media(max-width:480px) {/*.fum_fmt_chassis_main_li {width:100%;margin-right:0;margin-bottom:30px;}*/
+.fum_fmt_last {height:auto;padding-bottom:30px;overflow-y:hidden;}
+.fum_fmt_last_bg {height:420px;}
+.fum_fmt_banner_tit {font-size:30px;}
+.fum_fmt_banner_txt {font-size:18px;}
+.fum_fmt_build_main_pic_explain01 { width:100%; padding:0;}
+.fum_fmt_build_main_pic_explain02 { width:100%; padding:0;}
+.fum_fmt_build_main_pic_explain03 { width:100%; padding:0;}
+.fum_fmt_build_main_pic_explain04 { width:100%; padding:0;}
+.fum_fmt_slide_main{height: 470px;}
+.fum_fmt_series_main_content_one_left{ width:100%;}
+.fum_fmt_series_main_content_one_right{ width:100%; padding:0;}
+
+.fum_fmt_chassis_main_li{width: 100%; margin-right:0;}
+.fum_fmt_series_main_content_one_table{ min-height:inherit}
+.fum_fmt_series .fum_fmt_series_main_content_one table td{
+	text-align:left;
+}
+.fum_fmt_series_main_nav{
+	border-bottom: none;
+}
+}

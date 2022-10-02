@@ -1,0 +1,168 @@
+.box{box-sizing:border-box}
+.PU_banner{height:320px;}
+.PU_content{margin:0 140px}
+.PU_banner_bg{position:absolute;left:0;width:100%;height:320px;z-index:-1;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/payment_img/banner-02.jpg) no-repeat center}
+.PU_banner_tit{font-size: 40px;color: #fff;text-align: center;padding-top: 80px;margin-bottom: 20px;font-weight: 400;line-height: 48px;}
+.PU_banner_txt{font-size: 16px;color: #fff;font-weight: 400;text-align: center;line-height: 26px;}
+.PU_business_tit{font-size: 26px;color: #232323;font-weight: 400;line-height: 34px;padding-top: 42px;padding-bottom: 22px;}
+.PU_business_txt{font-size:14px;color:#616265;text-align:left;line-height:24px;padding-bottom:15px;}
+.PU_paypai:after{content:"";display:block;clear:both}
+.PU_paypai_top:after{content:"";display:block;clear:both}
+.PU_content:after{content:"";display:block;clear:both}
+.PU_paypai_top_left,.PU_paypai_top_right{float:left;width:50%}
+.PU_paypai_top_left img{max-width:100%;height:inherit;margin:0 auto;display:block}
+.PU_paypai_top_left_img_bottom{padding-bottom:50px}
+.PU_paypai_bottom,.PU_paypai_top{border-bottom:1px solid #e5e5e5}
+.PU_paypai_top_left_img_top{padding-top:50px}
+.PU_paypai_top_right_img_top{padding-top:50px;margin:0}
+.PU_img_bottom{padding-top:10px}
+.PU_content_img{display:block;margin:0 auto;padding-top:50px}
+.PU_tit_center{text-align:center}
+.PU_beneficiary_table{width:100%}
+.PU_beneficiary_gray{background:#f6fbff}
+.PU_beneficiary_blue{background:#def1ff}
+.PU_beneficiary_table tr td{font-size:14px;line-height:38px;width:48%;display:block;float:left}
+.PU_beneficiary_left{text-align:right;padding-right:10px}
+.PU_wire{margin-bottom:50px}
+.PU_prepare_dl{width:30%;float:left;background:#fff;height:296px;margin-bottom:50px;border:1px solid #f0f0f0}
+.PU_prepare_dl dd p{text-align:center}
+.PU_wire_bg{position:absolute;left:0;width:100%;height:557px;z-index:-1;background:#f6f6f6}
+.PU_prepare_dl:nth-child(1){margin-left:1%}
+.PU_prepare_dl:nth-child(2){margin:0 4%}
+.PU_prepare_dl dt img{padding:34px 0;display:block;margin:0 auto}
+.PU_business_txt_fl{padding-left:36px;padding-right:36px}
+.PU_wire_none{margin-bottom:0}
+.PU_div:after{content:"";display:block;clear:both}
+.PU_div{margin:50px 0 0 0;}
+.PU_div_dl{width:50%;float:left;height:340px}
+.PU_div_dl dt h2{font-size:16px;font-weight:400;color:#232323;padding-bottom:15px}
+.PU_div_dl dt p{padding-bottom:15px;font-size:13px;color:#616265;padding-right:88px;line-height: 22px;}
+.PU_div_dl dd img{margin:0;max-width:100%;}
+.PU_bottom_dl{width:32%;float:left;border-right:1px solid #e5e5e5;margin-bottom:24px}
+.PU_bottom_dl:last-child{border-right:none}
+.PU_bottom_dl dt img{max-width:100%;display:block;margin:0 auto;height:inherit}
+.PU_bottom_dl dt{padding-bottom:35px}
+.PU_bottom_dl dd p{padding-right:38px;padding-left:38px;font-size: 13px;line-height: 22px;}
+.PU_txt_bottom{padding-top:30px}
+.PU_bottom_div{text-align:center}
+.PU_bottom_div a{display:inline-block;text-decoration:none;width:254px;height:48px;border-radius:3px;background:#fff;font-size:18px;line-height:46px;color:#c00000;border:1px solid #c00000;transition: all .3s}
+.PU_bottom_div a:hover{background:#c00000;color:#fff}
+.PU_bottom_div a img{margin:0;float:left;height:initial;padding:8px 14px;width:36px;height:32px}
+.PU_bottom_div a .icon{font-size: 20px;vertical-align: middle;margin-right: 8px}
+.box .PU_margin{margin:0}
+.PU_left{float:right}
+.PU_a{color:#0070BC;font-size:14px;line-height:24px;text-decoration:none}
+.PU_a:hover{text-decoration:underline}
+.PU_paypai{margin-top:30px}
+.pu_ul{width:100%;padding-bottom:30px}
+.pu_ul li{font-size:14px;color:#232323;line-height:24px;font-weight:400}
+.pu_ul li i{padding-right:6px;vertical-align:sub}
+.box .pu_margin_right{margin-right:160px;margin-top:54px}
+.pu_bg{position:absolute;left:0;width:100%;height:506px;z-index:-1;background:#F6F6F6}
+.pu_padding_bottom{padding-bottom:30px}
+.pu_txt{font-size:14px;color:#232323;text-align:center;line-height:24px;font-weight:400}
+.pu_only{padding-bottom:50px}
+.pu_bene_ul{width:70%;margin:0 auto}
+.pu_bene_ul li{float:left;width:20%;margin-bottom:10px;font-size:14px;line-height:24px;color:#232323}
+.pu_bene_ul li i{width:17px;height:14px;display:inline-block;background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/country.png);background-repeat:no-repeat;margin-right:6px;vertical-align:middle;margin-left:26px}
+.pu_wire_only{margin-bottom:30px}
+.padding_none{padding-top:0}
+.margin_auto{margin: 0 auto !important;display: block !important;}
+.pu_only{margin-bottom: 0 !important;}
+.pu_wire_only{border-bottom: 1px solid #dedede !important;padding-bottom: 30px !important;margin-bottom: 0 !important;}
+.border_bottom{padding-bottom: 50px !important;border-bottom: 1px solid #DEDEDE !important; margin-bottom: 0 !important;}
+.PU_padding_top{
+    padding-top: 50px;
+}
+.PU_business_txt_circle{
+    color: #616265;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+/* adil 2019/2/26 */
+.PU_cashPay_tit{text-align: center;padding-top: 50px;}
+.PU_cashPay_txt01{color: #f24c1e;font-size: 30px;display: inline-block;vertical-align: middle;margin-left: 20px;margin-top: 12px;font-weight: 500;}
+.PU_cashPay_txt02{color: #0070BC;font-size: 30px;display: inline-block;vertical-align: middle;margin-left: 5px;margin-top: 12px;font-weight: 500;}
+.PU_cashPay_txt03{color: #616265;font-size: 14px;text-align: center;line-height: 20px;}
+.PU_cashPay_txt03 a{color: #0070BC;}
+.PU_cashPay_smallTit{font-size: 20px;color: #232323;text-align: center;margin-top: 35px;margin-bottom: 20px;}
+.PU_cashPay_txtBox{display: inline-block;}
+
+@media(max-width:1440px){.box{width:1200px}
+.PU_content{margin:0}
+.PU_div_dl dt p{padding-right:98px}
+}
+@media(max-width:1220px){.box{width:960px}
+.PU_div_dl dt p, .PU_div_dl dd{padding-right:58px}
+.PU_bottom_dl{width:49%}
+.PU_bottom_dl:nth-child(2){border-right:none}
+.pu_bene_ul{width:100%}
+}
+@media(max-width:960px){.box{width:100%}
+
+.PU_business_tit{font-size: 20px;line-height: 30px;padding: 35px 0 15px;}
+.content{width:auto;padding:0 15px !important;box-sizing: border-box;}
+.PU_prepare_dl{width:49%}
+.PU_prepare .PU_prepare_dl{width:45%;margin:2%}
+.box .pu_margin_right{margin-right:auto;margin-top:0}
+.pu_margin_only{padding-bottom:0}
+.pu_bene_ul li i{margin-left:0}
+.pu_bene_ul li{width:33%}
+.PU_tit_center{text-align:left}
+.PU_paypai_top_right_img_top{ max-width:200px;padding-top: 30px;}
+
+.PU_paypai_top_left img.PU_margin{ width:120px;}
+.PU_paypai_top_left img.PU_paypai_top_left_img_bottom{width: auto;}
+.PU_paypai_top_left img.PU_paypai_top_left_img_top{width: auto;}
+.PU_paypai_top_left img.PU_padding_top{width: 100px;padding-top: 50px;}
+
+img.PU_content_img{ width:150px;}
+.PU_content_img{    margin: inherit;padding-top:50px;}
+.PU_div_dl dt p, .PU_div_dl dd{    padding-right: 0;}
+.PU_div{margin:20px 0; padding:  0 15px;}
+.PU_bottom_dl dd p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+}
+@media(max-width:700px){.PU_prepare .PU_prepare_dl{width:100%;margin:0}
+.PU_wire_bg{display:none}
+.PU_div_dl{width:100%}
+.PU_div_dl:nth-child(1){margin-bottom:20px}
+.PU_bottom_dl{width:100%;margin:0;border:none}
+.PU_paypai_top_left,.PU_paypai_top_right{width:100%}
+/* .PU_paypai_top_left .PU_business_tit, .PU_paypai_top_right .PU_business_tit{} */
+.PU_left{float:left}
+.PU_paypai_top_left_img_top{padding-top:20px}
+
+
+.PU_beneficiary{overflow-x:auto}
+.PU_beneficiary_table{width:640px}
+.PU_div_dl{height:auto;}
+}
+@media(max-width:480px){.PU_banner{height:220px;overflow:hidden}
+.PU_banner_bg{height:220px}
+.PU_banner_tit{font-size: 26px;padding: 50px 15px 0 15px;line-height: 40px;margin-bottom: 15px;font-weight: 400;}
+
+/* .PU_business_tit{ padding:42px 0 15px 0;font-weight:400;color:#232323; line-height:26px;} */
+.PU_business_txt{padding-bottom:15px}
+.our_advantages ul li{width:100%}
+.our_advantages h1{font-size:20px;line-height:30px}
+.PU_div_dl dt h2{padding-top:20px;}
+.PU_paypai_top_left_img_top{padding-top:0px}
+.PU_padding_top{
+    padding-top:10px;
+}
+.PU_paypai_top_left_img_bottom{padding-bottom:10px;}
+.PU_paypai_top_left .PU_business_tit, .PU_paypai_top_right .PU_business_tit, .PU_wire .PU_business_tit {
+    padding: 10px 0 15px 0;
+}
+
+/* adil 2019/2/26 */
+.PU_cashPay_txtBox{display: block;}
+.PU_cashPay_tit{padding-top: 20px;}
+}

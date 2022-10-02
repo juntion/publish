@@ -1,0 +1,30 @@
+<?php 
+define('COMMON_SERVICE_01', 'Contattaci ora');
+define('COMMON_SERVICE_02', 'FS si concentra sul data centre'); 
+define('COMMON_SERVICE_03', 'Scopri gli altri modi per contattarci.'); 
+define('COMMON_SERVICE_04', 'Chat online'); 
+define('COMMON_SERVICE_05', 'Siamo a tua disposizione 24 ore al giorno, 7 giorni su 7. Inviaci un messaggio ora per una risposta rapida.'); 
+define('COMMON_SERVICE_06', 'Chatta ora'); 
+define('COMMON_SERVICE_07', 'Effettua una chiamata'); 
+define('COMMON_SERVICE_08', 'Chiama'); 
+define('COMMON_SERVICE_09', ''); 
+define('COMMON_SERVICE_10', 'Effettua una chiamata'); 
+define('COMMON_SERVICE_11', 'E-mail'); 
+define('COMMON_SERVICE_12', 'Il nostro team del servizio clienti ti risponderà il più presto possibile.'); 
+define('COMMON_SERVICE_13', 'Invia un\'e-mail ora'); 
+define('COMMON_SERVICE_14', 'Supporto soluzione'); 
+define('COMMON_SERVICE_15', 'Ottieni la progettazione e il supporto gratuiti della soluzione per il tuo progetto online.'); 
+define('COMMON_SERVICE_16', 'Ottieni il supporto'); 
+define('COMMON_SERVICE_17', 'Team show eccellente'); 
+define('COMMON_SERVICE_18', 'FS accetta di buon grado l\'ispirazione dei dipendenti e incoraggia sempre ogni singola persona a esprimere le proprie idee. Questa è la motivazione'); 
+define('COMMON_SERVICE_19', 'FS è in grado di servire sempre meglio i clienti di tutto il mondo.'); 
+define('COMMON_SERVICE_20', 'Per iniziare'); 
+define('FS_SHOP_CART_ALERT_JS_13', 'Da*'); 
+define('FS_SHOP_CART_ALERT_JS_14', 'A*'); 
+define('FS_SHOP_CART_ALERT_JS_15', 'Messaggio personale (facoltativo:'); 
+define('FS_VIEW_QUOTE_SHEET', 'Visualizza scheda preventivo'); 
+define('FS_PRODUCT_HAS_BEEN_ADDED', 'Il prodotto è stato aggiunto.'); 
+define('FS_SAVE_CSRT_LIMIT_TIP', 'Inserisci il nome del carrello massimo 50 parole.'); 
+define('FS_QUOTE', 'Preventivo'); 
+define('FS_SAVED_CART_EMAIL', 'E-mail'); 
+?>

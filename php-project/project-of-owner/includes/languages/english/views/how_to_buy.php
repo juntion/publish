@@ -1,0 +1,114 @@
+<?php
+/***************************content****************************/
+//ery		2016-9-8			add
+define('FS_HOW_TO_BY_1','Quick Help');
+define('FS_HOW_TO_BY_2','Purchase Help');
+define('FS_HOW_TO_BY_3','Forgot Your Password?');
+define('FS_HOW_TO_BY_4','Track Your Package ');
+define('FS_HOW_TO_BY_5','Purchase Help');
+define('FS_HOW_TO_BY_6','FS.COM brings you the simplest, easiest buying experience.');
+define('FS_HOW_TO_BY_7','Help & Support from FS.COM');
+define('FS_HOW_TO_BY_8','As one of our loyal customers who support and reply on FS.COM, we sincerely hope you find that shopping on FS.COM is simple and pleasant. However, we understand that you may have some questions during your shopping trip. Read the following details to find answers to those questions about order, payment, shipping, account, and more.');
+define('FS_HOW_TO_BY_9','My orders');
+define('FS_HOW_TO_BY_10','Payment');
+define('FS_HOW_TO_BY_11','Shipping & Delivery');
+define('FS_HOW_TO_BY_12','Return Support');
+define('FS_HOW_TO_BY_13','My Account');
+define('FS_HOW_TO_BY_14','My orders');
+define('FS_HOW_TO_BY_15','Check order status');
+define('FS_HOW_TO_BY_16','Thank you for shopping with us. We provide you an easy way to gain access to your orders.');
+define('FS_HOW_TO_BY_17','You can track the order status or check order history conveniently in your ');
+define('FS_HOW_TO_BY_18','account center');
+define('FS_HOW_TO_BY_19','to check your order status by entering your email address and order number.');
+define('FS_HOW_TO_BY_20','If you place order as a guest, please contact your sales representative directly for a status update');
+define('FS_HOW_TO_BY_21','My Orders');
+define('FS_HOW_TO_BY_99','Sign in FS.COM account and visit ');
+define('FS_HOW_TO_BY_21_1','page to view your orders.');
+define('FS_HOW_TO_BY_22',' page online to review after signing in our website with your FS.COM account.');
+define('FS_HOW_TO_BY_23','My Orders ');
+define('FS_HOW_TO_BY_24','page to view your orders.');
+define('FS_HOW_TO_BY_25','Once you submit your order, it immediately enters our order processing system. But if you do have to change the order, such as changing the product or quanity, etc. You can contact us to change your order as long as the order has not been shipped yet.');
+define('FS_HOW_TO_BY_26','Cancel order');
+define('FS_HOW_TO_BY_27','we understand that, in some cases, you may no longer need the products and want to cancel the order.');
+define('FS_HOW_TO_BY_28','If what you purchased are our standard products, usually, cancellation can be allowed before shipping. However, once customized items are processing, they are no longer eligible for cancellation.');
+define('FS_HOW_TO_BY_29','View or print invoice');
+define('FS_HOW_TO_BY_30','FS.COM creates an invoice for your order. ');
+define('FS_HOW_TO_BY_31','You can view or print individual invoices on your ');
+define('FS_HOW_TO_BY_32','My Orders ');
+define('FS_HOW_TO_BY_33','page after you sign in to your FS.COM account. Find the order and click the “Print Invoices” button to print your invoice.');
+define('FS_HOW_TO_BY_34','Payment');
+define('FS_HOW_TO_BY_35','Payment options');
+define('FS_HOW_TO_BY_36','FS.COM accepts a variety of payment methods for your purchase.');
+define('FS_HOW_TO_BY_37','We accept Paypal, Credit Card, Bank Transfer, Western Union, PO (Purchase Order) payment.');
+define('FS_HOW_TO_BY_38','For more details you can visit ');
+define('FS_HOW_TO_BY_39','Payment Methods');
+define('FS_HOW_TO_BY_40',' page in our website.');
+define('FS_HOW_TO_BY_41','Business pricing');
+define('FS_HOW_TO_BY_100','Change or edit order');
+
+define('FS_HOW_TO_BY_42','FS.COM offers business pricing to those customers whose FS.COM account are approved business accounts.');
+define('FS_HOW_TO_BY_42_1','As long as you place the orders through your FS.COM business account, you can get the products at a favorabla price. Want to get a discount for a large order?');
+define('FS_HOW_TO_BY_43',' Just update to a FS.COM ');
+define('FS_HOW_TO_BY_44','Business Account');
+define('FS_HOW_TO_BY_45','Shipping & Delivery');
+define('FS_HOW_TO_BY_46','Free shipping');
+define('FS_HOW_TO_BY_47','Orders with Free Shipping by FS.COM.');
+define('FS_HOW_TO_BY_48','Free shipping service will be applied to orders with a total amount over US$79 and a shipping address in United States, Mexico, Canada, UK or EU countries, and all items must be in stock in our warehouses. Large items, such as bulk cables and network cabinet, are not eligible for free shipping.');
+define('FS_HOW_TO_BY_49','Shipping options');
+define('FS_HOW_TO_BY_50','FS.COM offers different shipping methods for the convenience of local customers.');
+define('FS_HOW_TO_BY_51','FS.COM has built warehouse systems in America and Germany to support domestic shipping and international shipping to over 190 countries all around the world. For more details, please visit ');
+define('FS_HOW_TO_BY_52','Shipping & Delivery');
+define('FS_HOW_TO_BY_53',' page.');
+define('FS_HOW_TO_BY_54','Delivery time');
+define('FS_HOW_TO_BY_55','Orders are usually processed and shipped out within 48 hours, however there maybe a short delay during holidays and peak seasons.');
+define('FS_HOW_TO_BY_56','Delivery time varies depending on the carrier. Ususally, FedEX - within 1~4 business days, DHL- within 2~6 business days, UPS- within 2~5 business days, EMS - within 4~15 business days.');
+define('FS_HOW_TO_BY_57','For more information about shipping, please visit our website ');
+define('FS_HOW_TO_BY_58','Shipping & Delivery');
+define('FS_HOW_TO_BY_59',' page.');
+define('FS_HOW_TO_BY_60','Return Support');
+define('FS_HOW_TO_BY_61','Replacement or maintenance');
+define('FS_HOW_TO_BY_62','FS.COM\'s return policy allows you to return items for replacement or maintenance.');
+define('FS_HOW_TO_BY_63','Items you received that are damaged, defective, wrong or not work properly, can be returned for free replacement within 30 days from the date you received it. Free return for maintenance is offered until the end of warranty.');
+define('FS_HOW_TO_BY_64','For how to return items for replacement or maintenance, please refer to the ');
+define('FS_HOW_TO_BY_65','Return Policy');
+define('FS_HOW_TO_BY_66','Warranty Policy');
+define('FS_HOW_TO_BY_67','Refund');
+define('FS_HOW_TO_BY_68','If you want to return your items, we are here to help.');
+define('FS_HOW_TO_BY_69','FS.COM offers 30-Day “No Reason Return” policy. All products must be purchased from FS.COM and in good condition. Custom products are not eligible for return.');
+define('FS_HOW_TO_BY_70','For how to return items for refund, please refer to the ');
+define('FS_HOW_TO_BY_71','Return Policy');
+define('FS_HOW_TO_BY_72','My Account');
+define('FS_HOW_TO_BY_73','Business pricing');
+
+define('FS_HOW_TO_BY_74','Create an FS.COM account');
+define('FS_HOW_TO_BY_75','Shopping online through a FS.COM account is faster and more convenient.');
+define('FS_HOW_TO_BY_76','A free FS.COM account gives you easy access to all products online. You can sign in to make an order directly, check on an order status through the website, stay in touch with us at all times, and more.');
+define('FS_HOW_TO_BY_77','Just click on ');
+define('FS_HOW_TO_BY_78','Register Account');
+define('FS_HOW_TO_BY_79',' to create your FS.COM account.');
+define('FS_HOW_TO_BY_801','Manage account information');
+define('FS_HOW_TO_BY_80','It\'s easy to change or update any information on your account.');
+define('FS_HOW_TO_BY_81','After signing in to the “');
+
+define('FS_HOW_TO_BY_82','My Account');
+
+define('FS_HOW_TO_BY_83','” page, you can edit your information, update your address or email information, view order history, check order status, or raise any questions.');
+define('FS_HOW_TO_BY_84','Forgot & reset password');
+define('FS_HOW_TO_BY_85','Password can be easily reset to make sure your account stays safe and fuctions well as well as make orders online in time.');
+define('FS_HOW_TO_BY_86','If you forgot your password, you may reset it by clicking “');
+define('FS_HOW_TO_BY_87','Forgot Your Password');
+define('FS_HOW_TO_BY_88','” to get a new one.');
+define('FS_HOW_TO_BY_89','Still Have a Question?');
+define('FS_HOW_TO_BY_90','Talk to an expert via phone at +1 (877) 205 5306 or ');
+define('FS_HOW_TO_BY_91','chat now');
+define('FS_HOW_TO_BY_92','.');
+
+define('FS_HOW_TO_BY_93','Place an order');
+define('FS_HOW_TO_BY_94','Visit the FS.COM website at ');
+define('FS_HOW_TO_BY_95','We are here for you.');
+define('FS_HOW_TO_BY_96','Select the product that you want to buy online, click on "Add to Cart" button. Then, you can view your cart and proceed to check out, fill out the delivery details and payment details to pay and complete your order.');
+define('FS_HOW_TO_BY_97','Start your shopping now from our ');
+define('FS_HOW_TO_BY_98','homepage');
+define('FS_HOW_TO_BY_AND','and');
+
+?>

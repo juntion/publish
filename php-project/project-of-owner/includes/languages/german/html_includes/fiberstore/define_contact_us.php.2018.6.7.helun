@@ -1,0 +1,327 @@
+<div class="contact_us_banner">
+<div class="contact_us_banner_bg"></div>
+<div class="contact_us_banner_text">
+<h2>Kontakt</h2>
+<p>
+    <?php
+
+					$first_time=strtotime("08:00:00");//对应纽约时间上午八点
+					$morning_time = strtotime("08:00:00");// 对应纽约时间上午十一点
+					$last_time =strtotime("17:00:00");//对应纽约时间晚上八点
+					$nowtime=time();//获取西雅图时间
+					$time =date ('Y:m:d,H:i:s',$nowtime);
+					/* $first_kindom_time=strtotime("00:00:00");
+                    $last_kindom_time=strtotime("05:00:00"); */
+					$first_es_time=strtotime("06:30:00")-24*3600;
+					$last_es_time=strtotime("03:00:00");
+
+					$inline_tel ='<a href="tel:'.FS_PHONE_US.'">'.FS_PHONE_US.'</a>';
+					$offline_tel ='<a href="tel:'.FS_PHONE_US.'">'.FS_PHONE_US.'</a>';
+                    $german =array('BE','DE','AT','CH');
+					?>
+	<?php
+					if($countryCode==CN){
+						echo '<em>'.FS_CONTACT_UNITED.'</em> ';
+					}
+					if($countryCode==HK){
+						echo '<em>'.FS_CONTACT_HK .'</em>';
+					}
+
+					if($countryCode==US){
+						echo '<em>'.FS_CONTACT_UNITED.'</em>';
+					}
+
+					if($countryCode==MX){
+						echo '<em>'.FS_CONTACT_MEXICO.'</em> ';
+					}
+					if($countryCode==CA){
+						echo '<em>'.FS_CONTACT_CANADA.'</em>';
+					}
+					if($countryCode==BR){
+						echo '<em>'.FS_CONTACT_BRAZIL.'</em> ';
+					}
+					if($countryCode==AR){
+						echo '<em>'.FS_CONTACT_ARGENTINA.'</em>';
+					}
+
+
+					if($countryCode==GB){
+						echo '<em>'.FS_CONTACT_LONDON.'</em> ';
+					}
+					if($countryCode==FR){
+						echo '<em>'.FS_CONTACT_FRANCE.'</em>';
+					}
+					if($countryCode==NL){
+						echo '<em>'.FS_CONTACT_NETHERLANDS.'</em>';
+					}
+					if($countryCode==DE){
+						echo '<em>'.FS_CONTACT_GERMANY.'</em>';
+					}
+					if($countryCode==AU){
+						echo '<em>'.FS_CONTACT_AUSTRALIA.'</em> ';
+					}
+					if($countryCode==ES){
+						echo '<em>'.FS_CONTACT_SPAIN.'</em>';
+					}
+					if($countryCode==RU){
+						echo '<em>'.FS_CONTACT_RUSSIA.'</em> ';
+					}
+					if($countryCode==SG){
+						echo '<em>'.FS_CONTACT_SINGAPORE.'</em> ';
+					}
+					if($countryCode==TW){
+						echo '<em>'.FS_CONTACT_TW.'</em>';
+					}
+					/* if($countryCode==IT){
+						echo '<em>'.FS_CONTACT_ITALY.'</em>';
+					} */
+					if($countryCode==CH){
+						echo '<em>'.FS_CONTACT_SWITZERLAND.'</em>';
+					}
+					if($countryCode==DK){
+						echo '<em>'.FS_CONTACT_DENMARK.'</em> ';
+					}
+					if($countryCode==NZ){
+						echo '<em>'.FS_CONTACT_NZ.'</em>';
+					}
+					if($countryCode!=SG && $countryCode!=RU && $countryCode!=ES && $countryCode!=AU && $countryCode!=DE && $countryCode!=NL && $countryCode!=FR && $countryCode!=GB && $countryCode!=BR && $countryCode!=BR && $countryCode!=AR && $countryCode!=CA && $countryCode!=MX && $countryCode!=US && $countryCode!=HK && $countryCode!=CN && $countryCode!=TW && $countryCode!=CH && $countryCode!=DK  && $countryCode!=NZ   ){
+						echo '<em>'.FS_CONTACT_GLOBL.'</em>';
+					}
+					?>
+				
+						<?php
+						if($countryCode==HK){
+							echo '<a href="tel:'.FS_PHONE_HK.'">'.FS_PHONE_HK.'</a>';
+						}
+
+						if($countryCode==CN){
+							echo '<a href="tel:'.FS_PHONE_US.'">'.FS_PHONE_US.'</a>' ;
+
+						}
+
+						if($countryCode==US){
+							if($nowtime>$first_time && $nowtime<$last_time ){
+								echo '<a href="tel:'.FS_PHONE_US.'">'.FS_PHONE_US.'</a>';
+							}else{
+								echo '<a href="tel:'.FS_PHONE_US.'">'.FS_PHONE_US.'</a>' ;
+							}
+
+						}
+
+						if($countryCode==MX){
+							echo '<a href="tel:'.FS_PHONE_MX.'">'.FS_PHONE_MX.'</a>';
+						}
+						if($countryCode==CA){
+							echo '<a href="tel:'.FS_PHONE_CA.'">'.FS_PHONE_CA.'</a>';
+						}
+						if($countryCode==BR){
+							echo '<a href="tel:'.FS_PHONE_BR.'">'.FS_PHONE_BR.'</a>';
+						}
+
+						if($countryCode==AR){
+							echo '<a href="tel:'.FS_PHONE_AR.'">'.FS_PHONE_AR.'</a>';
+						}
+
+
+						if($countryCode==GB){
+							echo '<a href="tel:'.FS_PHONE_GB.'">'.FS_PHONE_GB.'</a></td>';
+						}
+						if($countryCode==FR){
+							echo '<a href="tel:'.FS_PHONE_FR.'">'.FS_PHONE_FR.'</a> ';
+						}
+						if($countryCode==NL){
+							echo '<a href="tel:'.FS_PHONE_NL.'">'.FS_PHONE_NL.'</a> ';
+						}
+						if(in_array($countryCode,$german)){
+							echo '<a href="tel:'.FS_PHONE_DE.'">'.FS_PHONE_DE.'</a> ';
+						}
+						if($countryCode==AU){
+							if($nowtime>$first_es_time && $nowtime<$last_es_time){
+								echo '<a href="tel:'.FS_PHONE_AU.'">'.FS_PHONE_AU.'</a></td> ';
+							}else{
+								echo '<span class="tit02"><a href="tel:'.FS_PHONE_AU.'">'.FS_PHONE_AU.'</a></span></td> ';
+							}
+						}
+						if($countryCode==ES){
+							echo '<a href="tel:'.FS_PHONE_ES.'">'.FS_PHONE_ES.'</a> ';
+						}
+						if($countryCode==RU){
+							echo '<a href="tel:'.FS_PHONE_RU.'">'.FS_PHONE_RU.'</a> ';
+						}
+						if($countryCode==SG){
+							echo '<a href="tel:'.FS_PHONE_SG.'">'.FS_PHONE_SG.'</a> ';
+						}
+						if($countryCode==TW){
+							echo '<a href="tel:'.FS_PHONE_TW.'">'.FS_PHONE_TW.'</a> ';
+						}
+						/* if($countryCode==IT){
+							echo '<a href="tel:'.FS_PHONE_IT.'">'.FS_PHONE_IT.'</a>';
+						} */
+						/* if($countryCode==CH){
+							echo '<a href="tel:'.FS_PHONE_CH.'">'.FS_PHONE_CH.'</a> ';
+						} */
+						if($countryCode==DK){
+							echo '<a href="tel:'.FS_PHONE_DK.'">'.FS_PHONE_DK.'</a> ';
+						}
+						if($countryCode==NZ){
+							echo '<a href="tel:'.FS_PHONE_NZ.'">'.FS_PHONE_NZ.'</a>';
+						}
+
+						if($countryCode!=SG && $countryCode!=RU && $countryCode!=ES && $countryCode!=AU && $countryCode!=DE && $countryCode!=NL && $countryCode!=FR && $countryCode!=GB && $countryCode!=BR && $countryCode!=BR && $countryCode!=AR && $countryCode!=CA && $countryCode!=MX && $countryCode!=US && $countryCode!=HK && $countryCode!=CN && $countryCode!=TW && $countryCode!=CH && $countryCode!=DK && $countryCode!=NZ && !in_array($countryCode,$german)){
+							echo   '<a href="tel:'.FS_PHONE_US.'">'.FS_PHONE_US.'</a> ';
+						}
+						?>
+	</p>
+  </div>
+</div>
+<div class="contact_country">
+  <h2 class="contact_us_title">Uns besuchen</h2>
+  <p class="contact_us_text">Sie sind jederzeit herzlich willkommen, uns zu besuchen.</p>
+  <div class="contact_country_bg"><img src="includes/templates/fiberstore/images/contact_map.png"/></div>
+  <div class="contact_country_con">
+	<dl>
+	  <dt class="icon01"></dt>
+	  <dd>
+		<h2>Nordamerika (Vereinigte Staaten)</h2>
+		<p>820 SW 34th Street Bldg W7 Suite H, Renton, WA 98057, Vereinigte Staaten</p>
+		<em>Telefon:<a href="Tel:+1 (877) 205 5306"> +1 (877) 205 5306</a></em></dd>
+	</dl>
+	<dl>
+	  <dt class="icon02"></dt>
+	  <dd>
+		<h2>Münchener Geschäftsstelle (Deutschland)</h2>
+		<p>NOVA Gewerbepark Neufahrn, Gebäude 7, Am Gfild 7, 85375, Neufahrn bei München, Deutschland</p>
+		<em>Telefon:<a href="Tel:+49 (0) 89 414176412"> +49 (0) 89 414176412</a></em></dd>
+	</dl>
+	<dl>
+	  <dt class="icon03"></dt>
+	  <dd>
+		<h2>Londoner Geschäftsstelle (Vereinigtes Königreich)</h2>
+		<p>Third Floor 207 Regent Street, London, W1B 3HH, Vereinigtes Königreich</p>
+		<em>Telefon:<a href="Tel:+44 (20) 3868 2768"> +44 (20) 3868 2768</a></em></dd>
+	</dl>
+	<dl>
+	  <dt class="icon04"></dt>
+	  <dd>
+		<h2>Asien (China)</h2>
+		<p>D Building 2/F, Optics Valley Software Park, Donghu Hi-Tech Development Zone, Wuhan, Hubei, China</p>
+		<em>Telefon:<a href="Tel:+86 (027) 87639823"> +86 (027) 87639823</a></em></dd>
+	</dl>
+  </div>
+</div>
+<hr />
+<div class="contact_phone">
+  <h2 class="contact_us_title">Per Telefon</h2>
+  <p class="contact_us_text">Wenn Sie sofortigen Service oder Support benötigen, wenden Sie sich bitte an Ihr zuständiges Support-Center. FS.COM bietet 24/7 Kundenservice.</p>
+  <div class="Cus_call_us">
+	<dl class="Cus_call_dl_wap">
+	  <dt class="first_dt">
+		<dl class="Cus_call_dl">
+		  <dt><i class="icon iconfont icon_btn">&#xf005;</i></dt>
+		  <dd> <span>Nordamerika</span><em class="icon iconfont icon_btn">&#xf057;</em></dd>
+		</dl>
+	  </dt>
+	  <dd class="Cus_call_dd">
+		<ul class="Cus_call_ul">
+		  <li> <a href="Tel: +1 (877) 205 5306">Vereinigte Staaten  &nbsp;+1 (877) 205 5306</a> </li>
+		  <li> <a href="tel:+52 (55) 3098 7566">Mexiko  +52 (55) 3098 7566</a> </li>
+		  <li> <a href="tel:+1 (647) 243 6342">Kanada  +1 (647) 243 6342</a> </li>
+		</ul>
+	  </dd>
+	</dl>
+	<dl class="Cus_call_dl_wap">
+	  <dt class="first_dt">
+		<dl class="Cus_call_dl">
+		  <dt><i class="icon iconfont icon_btn">&#xf005;</i></dt>
+		  <dd> <span>Südamerika</span><em class="icon iconfont icon_btn">&#xf057;</em></dd>
+		</dl>
+	  </dt>
+	  <dd class="Cus_call_dd">
+		<ul class="Cus_call_ul">
+		  <li> <a href="tel:+55 (11) 4349 6175">Brasilien  +55 (11) 4349 6175</a> </li>
+		  <li> <a href="tel:+54 (11) 5031 9542">Argentinien  +54 (11) 5031 9542</a> </li>
+		</ul>
+	  </dd>
+	</dl>
+	<dl class="Cus_call_dl_wap">
+	  <dt class="first_dt">
+		<dl class="Cus_call_dl">
+		  <dt><i class="icon iconfont icon_btn">&#xf005;</i></dt>
+		  <dd> <span>Europa</span><em class="icon iconfont icon_btn">&#xf057;</em></dd>
+		</dl>
+	  </dt>
+	  <dd class="Cus_call_dd">
+		<ul class="Cus_call_ul">
+		  <li> <a href="tel:+44 (20) 3868 2768">Vereinigtes Königreich  +44 (20) 3868 2768</a> </li>
+		  <li> <a href="tel:+33 (1) 82 884 336">Frankreich  +33 (1) 82 884 336</a> </li>
+		  <li> <a href="tel:+31 (20) 241 4029">Niederlande +31 (20) 241 4029</a> </li>
+		  <li> <a href="tel:+49 (0) 89 414176412">Deutschland  +49 (0) 89 414176412</a> </li>
+		  <li> <a href="tel:+34 (91) 123 7299">Spanien  +34 (91) 123 7299</a> </li>
+		  <li> <a href="tel:+41 (43) 508 5909">Schweiz  +41 (43) 508 5909</a> </li>
+		  <li> <a href="tel:+45 7876 8321">Dänemark  +45 7876 8321</a> </li>
+		  <li> <a href="tel:+7 (499) 643 4876">Russland  +7 (499) 643 4876</a> </li>
+		</ul>
+	  </dd>
+	</dl>
+	<dl class="Cus_call_dl_wap">
+	  <dt class="first_dt">
+		<dl class="Cus_call_dl">
+		  <dt><i class="icon iconfont icon_btn">&#xf005;</i></dt>
+		  <dd> <span>Asien</span> <em class="icon iconfont icon_btn">&#xf057;</em> </dd>
+		</dl>
+	  </dt>
+	  <dd class="Cus_call_dd">
+		<ul class="Cus_call_ul">
+		  <li> <a href="tel:+(65) 3163 0003">Singapur  +(65) 3163 0003</a> </li>
+		  <li> <a href="tel:+(852) 8176 3606">Hongkong  +(852) 8176 3606</a> </li>
+		  <li> <a href="tel:+886 (2) 6630 3968">Taiwan  +886 (2) 6630 3968</a> </li>
+		</ul>
+	  </dd>
+	</dl>
+	<dl class="Cus_call_dl_wap">
+	  <dt class="first_dt">
+		<dl class="Cus_call_dl">
+		  <dt><i class="icon iconfont icon_btn">&#xf005;</i></dt>
+		  <dd> <span>Ozeanien</span> <em class="icon iconfont icon_btn">&#xf057;</em></dd>
+		</dl>
+	  </dt>
+	  <dd class="Cus_call_dd">
+		<ul class="Cus_call_ul">
+		  <li> <a href="tel:+61 (2) 8317 1119">Australien  +61 (2) 8317 1119</a> </li>
+		  <li> <a href="tel:+64 (9) 985 3566">Neuseeland  +64 (9) 985 3566</a> </li>
+		</ul>
+	  </dd>
+	</dl>
+  </div>
+</div>
+<hr />
+<div class="contact_us_email">
+	<h2 class="contact_us_title">Per E-Mail</h2>
+	<p class="contact_us_text">Wir bieten einen schnellen E-Mail-Service und beantworten Ihre Frage innerhalb von 12 Stunden.</p>
+	<div class="contact_us_email_con">
+	<dl><dt class="icon01"></dt><dd><h2>Bestellungen</h2><p><a href="mailto: Sales@fs.com">Sales@fs.com</a></p></dd></dl>
+	<dl><dt class="icon02"></dt><dd><h2>Technische Unterstützung</h2><p><a href="mailto: Tech@fs.com">Tech@fs.com</a></p></dd></dl>
+	<dl><dt class="icon03"></dt><dd><h2>Produkte</h2><p><a href="mailto: Product@fs.com">Product@fs.com</a></p></dd></dl>
+	<dl><dt class="icon04"></dt><dd><h2>Service</h2><p><a href="mailto: legal@fs.com">legal@fs.com</a></p></dd></dl>
+	<dl><dt class="icon05"></dt><dd><h2>Bewerbungen</h2><p><a href="mailto: Job@fs.com">Job@fs.com</a></p></dd></dl>
+	<dl><dt class="icon06"></dt><dd><h2>Finanzdienstleistungen</h2><p><a href="mailto: Finance@fs.com">Finance@fs.com</a></p></dd></dl>
+	<dl><dt class="icon07"></dt><dd><h2>CEO Email</h2><p><a href="mailto: Daniel@fs.com">Daniel@fs.com</a></p></dd></dl>
+	<dl><dt class="icon08"></dt><dd><h2>Presse</h2><p><a href="mailto: Pr@fs.com">Pr@fs.com</a></p></dd></dl>
+	</div>
+</div>
+<script>
+		   $('.Cus_call_dl_wap .first_dt').click(function(){
+			   if($(this).closest('.Cus_call_dl_wap').hasClass('active')){
+				   $(this).closest('.Cus_call_dl_wap').removeClass('active');
+			   }else{
+				   $(this).closest('.Cus_call_dl_wap').addClass('active');
+			   }
+		   		$(this).siblings().slideToggle();
+		   		$(this).parent().siblings().children('dd').animate({height:"hide"},500);
+				$(this).closest('.Cus_call_dl_wap').siblings().removeClass('active');
+		   });
+		   setTimeout(function(){
+			   $('.Cus_Contact_bg').height($('.Cus_Contact').outerHeight());
+			   $('.Cus_email_us_bg').height($('.Cus_email_us').outerHeight());
+		   },1000)
+</script>

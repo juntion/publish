@@ -1,0 +1,145 @@
+<?php	
+/*首页语言包-fr*/
+
+/*content*/
+//fallwind	2016.8.25	add
+define('WHOLESALE','Achat en Gros');	//Wholesale
+define('LOWMOQS','MOQs Bas');		//Low MOQs
+define('SECURE_O_T','Transactions en Ligne Sécurisées, Achetez Immédiatement pour une Expédition Rapide');  //Secure Online Transactions Buy It Now for Fast Dispatch
+define('VIEWMORE','Voir Plus');		//View More
+
+define('OEM_CUSTOM','OEM & PERSONNALISATION');		//OEM&CUSTOM
+define('EXCELLENT_Q_S','Qualité et service excellents pour satisfaire toutes vos exigences.');		//Excellent Quality & Service to Satisfy All Your Requirements
+define('ANY_PRODUCT','Tout produit');	//Any product
+define('ANY_SIZE','Toute taille');			//Any size
+define('ANY_TYPE','Tout type');			//Any type
+define('ANY_COLOR','Toute couleur');		//Any color
+define('CUSTOM_INFORMATION','INFORMATION DE PERSONNALISATION');	//CUSTOM INFORMATION
+define('PARTNER_PROGROM','Programme Partenaire');		//Partner  Program
+define('GROWS_YOUR_BUSINESS','Développer Vos Affaires');	//Grows Your Business
+define('GLOBAL_SHIPPING','Livraison Mondiale');			//Global Shipping
+define('DELIVERY_TO_WORLDWIDE','2 à 3 Jours Ouvrables de Livraison dans le Monde');	//2 to 3 Days Delivery to Worldwide
+define('ISO_STANDARD','Norme ISO');		//ISO Standard
+define('FOCUSED_ON_Q_A_P','Concentré sur la Qualité et la Précision');		//Focused on Quality and Precision
+define('PAYMENT_METHOD','Modes de Paiement');		//Payment Method
+define('SECURED_PAYMENT','Paiement Sécurisé');		//Secured Payment
+define('LIFETIME_WARRANTY','Garantie à Vie');	//Lifetime Warranty
+define('UNDER_NORMAL_USE','Utilisation Normale');		//Under Normal Use
+
+define('HOT_PRODUCTS','Meilleures Ventes');		//Hot Products
+define('CISCO_SFP','Cisco SFP');			//Cisco SFP
+define('CISCO_10G_SFP','Cisco 10G SFP');	//Cisco 10G SFP
+define('LC_FIBER_CABLE','Câble Fibre Optique LC-LC');	//LC Fiber Cable
+define('PLC_SPLITTER','Splitter PLC');		//PLC Splitter			
+	
+define('FIBERSTORE_SUPPORT','Support Fiberstore');		//Fiberstore Support
+define('VIEW_ALL','Voir Tout');		//View All
+define('DATA_CENTER_SOLUTIONS','Solutions de Centre de Données');	//Data Center Solutions
+define('FS_COM_O_A_V','Fiberstore fournit des produits de câblage de réseau complets pour répondre aux exigences croissantes des centres de données de haute densité ...');	//FS.COM offers a variety of integrated, holistic physical infrastructure solutions ... 
+define('CUSTOMER_FEEDBACK','Commentaires des Clients');	//Customer Feedback
+define('TRANSCEIVERS_W_P_E',"Les transceivers ont été emballés exceptionnellement bien et ont parfaitement fonctionné. Les câbles à fibres optiques sur mesure ont dépassé mes attentes ...");	//Transceivers were packed exceptionally well and worked perfectly. Custom made fiber optic cables exceeded my expectation given ...
+define('BILL_KIRWIN','Bill Kirwin');	//Bill Kirwin
+define('LATEST_NEWS','Dernières Nouvelles');	//Latest News
+
+/******************************  以上不需要翻译，从下面的开始       ********************************* ***/
+//分类页面
+define('FS_COMPATIBLE_BRANDS', 'Marques Compatibles');
+define('FS_ALL', 'TOUT');
+define('FS_OTHER_PRODUCTS', 'Voir d\'autres produits');
+define('FS_RESULTS', 'résultats');
+define('FS_OF', '/');
+define('FS_SHOWING', 'Montrer');
+define('FS_RESULTS_BY', 'les Résultats par');
+define('FS_WE_FOUND', 'Désolé, nous avons trouvé ');
+define('FS_PRODUCTS_RECOMMENDED', 'Produits Recommandés');
+define('FS_APPCLICATION', 'Application');
+define('FS_DESCRIPTION', 'Description');
+define('FS_PART_NO', 'Réf.');
+define('FS_CABLE_DIAMETER', 'Diamètre du Câble(mm)');
+define('FS_CABLE_WEIGHT', 'Poids du Câble(kg/km)');
+define('FS_UNIT_PRICE', 'Prix Unitaire($/m)');
+define('FS_FIBER', 'Fibre');
+define('FS_FIBERS', 'Fibres');
+define('FS_OPTICAL_ATTENUATORS', 'Atténuateurs Optiques');
+define('FS_FIBER_OPTIC_MODEMS', 'Modems à Fibres Optiques');
+define('FS_OPERATING_WAVELENGTHS', 'Longueurs d\'onde de Fonctionnement');
+define('FS_MORE', 'Plus');
+define('FS_IMAGES', 'Images');
+define('FS_DETAILS', 'Détails');
+define('FS_QUICKFINDER', 'Recherche Rapide');
+define('FS_FILTER', 'Filtrer');
+
+define('FS_PRICE_LOW_HIGH', 'Prix : Bas à Haut');
+define('FS_PRICE_HIGH_LOW', 'Prix : Haut à Bas');
+define('FS_RATE_HOGH', 'Vitesse : Haut à Bas');
+define('FS_NEWEST_FIRST', 'Nouveautés');
+define('FS_POPULARITY', 'Popularité');
+define('FS_PROCESSING', 'En Traitement');
+define('FS_WAIT', 'Veuillez attendre');
+
+define('FS_SHOW_MORE', 'Montrer Plus de Marques');
+define('FS_SHOW_LESS', 'Montrer Moins de Marques');
+define('FS_CLEAR_SELECTIONS', 'Effacer les sélections');
+define('FS_SHOW_RESULT', 'Effacer les sélections');
+
+define('FS_CUSTOMER_FEEDBACK_01','The prices are impossible to beat. Though the shipping cost is quite high, as long as you include that in your total cost ...');
+define('FS_CUSTOMER_FEEDBACK_02','This is my first experience with fs.com purchasing. But it is my second time interacting with them. Both times ...');
+define('FS_CUSTOMER_FEEDBACK_03','Some delays in shipping, but overall a very good experience. They seem to have people actually reviewing orders ...');
+
+//define('FS_WHY_MICROSOFT_CHOOSE_FS',"Pourquoi Miscrosoft a Choisi FS?");
+define('FS_BASE_CONNECTIVITY_SOLUTION',"Système du Réseau SMB");
+//define('FS_EFFICIENT_SOLUTION',"Coopération sur le Projet de Centre de Données Sous-marin");
+define('FS_CWDM_DWDM_CONNECTIVITY',"Reconnu par Cloudflare");
+define('FS_BEST_SOLUTION_AND_BUDGET',"Partenaire Optimisé");
+//define('FS_FHD_SERIES_SOLUTION',"Solution de Câblage pour <br/> Centre de Données");
+//define('FS_INNOVATIVE_CABLE',"Les Meilleurs Produits de Série de FHD"); 
+define("FS_AOC_CABLES","Câbles Optiques Actifs");
+
+define("FS_DAC_CABLES","Câbles à Attache Directe");
+define('FS_PLC_SPLITTER',"Splitter PLC");
+
+define('FS_FIBER_OPTIC_TRANSCEIVERS', 'Modules Optiques SFP+');
+define('FS_FIBER_SFP_TRANSCEIVERS', 'Modules Optiques <br/>SFP');
+define('FS_DAC_AOC_CABLES', "Câbles DAC & AOC");
+define('FS_MTP_MPO_LC_CONNECTIVITY',"Connectivité MTP/MPO & LC");
+define('FS_RACKS_ENCLOSURES',"Racks & Boîtiers");
+define('FS_BREAKOUT_MTP_LC_PANELS',"Panneaux Breakout MTP-LC 40G/100G");
+define('FS_SWITCHES',"Baies & Boîtiers");
+//define('FS_CWDM_DWDM_MUX_DEMUX',"CWDM/DWDM MUX/DEMUX");
+define('FS_DATA_CENTER_JUMPERS',"Jarretière Optique"); 
+define('FS_OPTICAL_TRANSMISSION_NETWORK_SYSTEM',"Système de Transmission Optique"); 
+define('FS_CAT_PATCH_CABLES',"Câbles Réseau Cat5e/Cat6/Cat7"); 
+define('FS_NETWORK_CABLE_MANAGEMENT',"Gestion de Câble de Réseau"); 
+define('FS_TRUNK_ETHERNET_CABLES',"Câbles Trunk Ethernet Pré-Connectorisés"); 
+define('FS_FIBER_CLEANER_TEST_TOOLS',"Nettoyeur, Testeur & Outils à Fibre Optique"); 
+define('FS_TRANSCEIVERS',"Modules Émetteur-Récepteur Optiques"); 
+define('FS_DAC_AOC_CABLES_XIE',"Câbles DAC/AOC");
+define('FS_MTP_MPO_CABLES',"Câbles MTP/MPO");
+define('FS_RACKS_ENCLOSURES_XIE',"Racks/Boîtiers");
+define('FS_MTP_LC_PANELS',"Panneaux MTP-LC");
+//define('FS_PASSIVE_WDM',"WDM Passif");
+define('FS_OTN_SOLUTION',"Solution OTN");
+define('FS_COPPER_CABLES',"Systèmes en Cuivre");
+define('FS_CABLE_MANAGEMENT',"Gestion de Câble");
+define('FS_PRE_TERM_CABLES',"Câbles Pré-Connectorisés");
+define('FS_TESTERS_TOOLS',"Testeurs & Outils");
+
+define('FS_OEM_CUSTOM_SOLUTIONS',"OEM/Personnalisation");
+define('FS_EXCELLENT_QUALITY_SERVICE',"Qualité et service excellents pour satisfaire toutes vos exigences");
+define('FS_LEARN_MORE',"En Savoir Plus");
+//define('FS_CWDM_DWDM_CONNECTIVITY',"Connectivité de CWDM DWDM");
+//define('FS_BEST_SOLUTION_AND_BUDGET',"Meilleurs solution et budget pour votre OTN");
+define('FS_STOCK_IN_SEATTLE_WA',"Stock à Seattle, WA");
+define('FS_SAME_DAY_SHIPPING',"Expédition du Jour Même pour les articles en stock");
+define('FS_BASE_CONNECTIVITY_SOLUTION',"Système du Réseau SMB");
+define('FS_FUTURE_PROOFED',"Défis du Réseau Évolutif");
+define('FS_ADVANCED_TEST_PROGRAM',"Modules Optiques");
+define('FS_QUALITY_CERTIFIED',"Portfolio d'Interconnexion");
+//define('FS_FHD_SERIES_SOLUTION',"Solution de Série FHD");
+//define('FS_INNOVATIVE_CABLE',"Gestion de Câble Innovante pour l'Optique");
+
+define('FS_WHY_MICROSOFT_CHOOSE_FS',"Voulez-Vous Un Centre de Données Super Efficace ?");
+define('FS_EFFICIENT_SOLUTION',"Coopération du Projet de Centre de Données Sous-marin");
+define('FS_FHD_SERIES_SOLUTION',"Maîtrisez Votre Centre de Données");
+define('FS_INNOVATIVE_CABLE',"Atteigniez de Nouveaux Sommets");
+?>

@@ -1,0 +1,608 @@
+/*样式 开始*/
+.content { padding-top: 0; }
+.on_banner { height: 380px; }
+.on_banner_bg { position: absolute; left: 0; width: 100%; height:380px; z-index: -1; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/optical_network/optical_network_banner.jpg) no-repeat center; }
+.on_banner_tit { font-size: 40px; text-align: center; font-weight: 400; color: #fff; line-height: 40px; padding-top: 120px; }
+.on_banner_txt { font-size: 20px; color: #fff; text-align: center; line-height: 34px; margin-top: 15px; font-weight:400; }
+.on_tit { font-size: 30px; color: #232323; line-height: 32px; padding: 50px 0 20px; text-align: center; font-weight: 400; }
+.on_txt { font-size: 14px; color: #616265; font-weight:400; text-align: center; line-height: 22px; margin-bottom: 30px; }
+.on_txt a { color: #616265; text-decoration: none; }
+.on_txt a:hover { color: #555; text-decoration: underline; }
+.on_long { padding-bottom: 40px; }
+.on_long img { margin: 0 auto; display: block; }
+.on_long_bg { /*position: absolute;
+	left: 0;
+	width: 100%;
+	background-color: #f6f6f6;
+	z-index: -1;
+	height: 532px;*/
+	display: none; }
+.on_otn_main { position: relative; }
+.on_otn_main_pic { width: 100%; padding: 90px 0 220px; }
+.on_otn_main_pic img { margin: 0 auto; display: block; }
+.on_otn_main_left { position: absolute; top: 0; left: 0; width: 33%; }
+.on_otn_main_dl { overflow: hidden; margin-bottom: 10px; }
+.on_otn_main_dl dt { display: inline-block; margin-right: 15px; vertical-align: middle; }
+.on_otn_main_dl dd { display: inline-block; vertical-align: middle; width: 65%; }
+.on_otn_main_dl h2 { font-size: 18px; font-weight: 500; line-height: 1; margin-bottom: 15px; }
+.on_otn_main_dl h2 a { text-decoration: none; color: #232323; }
+.on_otn_main_dl h2 a:hover { color: #616265; text-decoration: underline; }
+.on_otn_main_dl p { font-size: 14px; color: #616265; font-weight:400; line-height: 22px; }
+.on_otn_main_right { position: absolute; top: 0; right: 0; width: 30%; }
+.on_otn_main_right dl dt { float: right; }
+.on_fmu { }
+.on_fmu_bg { position: absolute; left: 0; width: 100%; height: 1140px; z-index: -1; background-color: #f7f7f7; padding-bottom: 50px; }
+.on_little_tit { font-size: 24px; font-weight:400; color: #232323; text-align: center; margin-bottom: 15px; }
+.on_little_tit a:hover { text-decoration: none; color: #7a7a7a; }
+.on_fmu_con { border-bottom: 1px solid #dedede; text-align: center; padding-bottom: 30px; margin-bottom: 35px; }
+.on_fmu_con dl dt, .on_fmu_con dl dd { display: inline-block; vertical-align: middle; }
+.on_fmu_con dl dt:first-child { margin-right: 50px; }
+.on_fmu_con dl dt p { font-size: 16px; font-weight:400; text-align: center; }
+.on_fmu_con dl dt p i, .on_fmu_con dl dt i { display: block; font-weight: normal; font-style: normal; margin-top: 5px; color: #232323; font-size: 14px; }
+.on_fmu_con dl dt p a { color: #232323; text-decoration: none; }
+.on_fmu_con dl dt p a:hover { color: #555; text-decoration: underline; }
+.on_software_bg { position: absolute; width: 100%; height: 478px; left: 0; background-color: #f6f6f6; z-index: -1; } 
+.on_software_little_tit { text-align: center; }
+.on_software_little_tit p { font-size: 16px; color: #232323; display: inline-block; margin-right:20px; }
+.on_software_little_tit p:last-child { margin-right: 0; }
+.on_software_little_tit span { display: inline-block; width: 1px; height: 17px; background-color: #616265; margin-right:20px; vertical-align: middle; }
+.on_software_pic { text-align: center; margin-top: 35px; }
+.on_software_pic img { display: inline-block; margin-right: 40px;margin-bottom:40px;}
+.on_software_pic img:nth-of-type(2n) {
+ margin-right: 0;
+}
+.on_packet_con ul { overflow: hidden; }
+.on_packet_con_list { width: 32%; margin-right: 1%; float: left; background-color: #f9f9f9; overflow: hidden; }
+.on_packet_con_list:last-child { margin-right: 0; }
+.on_packet_con_list a { display: block; text-decoration: none; position: relative; overflow: hidden; }
+.on_packet_con_list img { margin: 0 auto; display: block; }
+.on_packet_con_list p { width: 100%; height: 56px; background-color: #e5e5e5; text-align: center; line-height: 56px; color: #232323; font-weight:400; font-size: 16px; }
+.on_packet_con_list span { display: block; width: 100%; background-color: #4c4948; color: #fff; height: 56px; line-height: 56px; text-align: center; font-size: 16px; font-weight:400; transform: translateY(0);  transition: all .5s;
+position: absolute; bottom: -56px; }
+.on_packet_con_list span em { display: inline-block; font-style: normal; margin-left: 5px; font-size: 12px; }
+.on_packet_con_list:hover span { transform: translateY(-56px); }
+.on_ring { height:680px; }
+.on_ring_bg { position: absolute; width: 100%; height:680px; left: 0; z-index: -1; background:#f6f6f6; }
+.on_ring_main { overflow: hidden; margin: 0 auto; }
+.on_ring_main ul li { float:left; width:49%; margin-right:2%; }
+.on_ring_main ul li:last-child { margin-right:0; }
+.on_ring_main ul li img { display:block; max-width:100%; margin:0 auto; }
+.optical_network_case_text { text-align:center; margin-top:30px; }
+.optical_network_case_text h1 { font-weight:400; font-size:20px; color:#232323; margin-bottom:10px; line-height:24px; }
+.optical_network_case_text p { font-size:14px; line-height:22px; color:#616265; font-weight:400; margin-bottom:20px; }
+.optical_network_case_text a { color:#0070BC; font-size:16px; font-weight:400; }
+.optical_network_case_text i { color: #0070BC; font-size: 12px; margin-left: 5px; }
+.on_ring_main_pic { float: right; }
+.on_ring_main_font { padding-top: 160px; float: left; }
+.on_ring_main_font_tit { font-size: 38px; color: #232323; font-weight: 400; margin-bottom: 15px; line-height: 30px; }
+.on_ring_main_font_txt { font-size: 20px; font-weight:400; color: #616265; margin-bottom: 25px; line-height: 24px; }
+.on_ring_main_font a { display: block; font-size: 14px; color: #0070BC; width: 128px; height: 36px; border: 1px solid #0070BC; border-radius: 3px; text-decoration: none; text-align: center; line-height: 36px;  transition: all .3s;
+}
+.on_ring_main_font a:hover { background-color: #0070BC; color: #fff; }
+/*2017.10.20.carr*/
+.on_ring { height: inherit; }
+.on_div:after { content:""; display:block; clear:both; }
+.on_div { margin-bottom: 70px; }
+.on_div div { width: 50%; float: left; }
+.on_div_left img { display: block; margin: 0 auto; max-width: 100%; height: inherit; }
+.on_div_right { box-sizing: border-box; padding-left: 70px; }
+.on_div_right h2 { font-size: 20px; font-weight:400; color: #232323; margin: 20px 0 30px 0; }
+.on_div_right p { font-size: 14px; color: #616265; font-weight:400; line-height: 22px; margin-bottom: 35px; }
+.on_div_right a { width: 160px; height: 46px; display: inline-block; border: 2px solid #4c4948; text-align: center; line-height: 46px; border-radius: 3px; text-decoration: none; color: #232323; font-size: 16px; transition: all .3s;
+}
+.on_div_right .icon { font-size: 14px; color: #232323; margin-left: 5px; transition: all .3s;
+}
+.on_div_right a:hover { color: #fff; background: #4c4948; }
+.on_div_right a:hover .icon { color: #fff; }
+.public_div { display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; flex-wrap: wrap; -webkit-wrap: wrap; }
+.public_dl { width: 32%; height: inherit; margin-bottom: 50px; }
+.public_dl dd { min-height: 150px; max-height: 150px; background: #fff; }
+.public_dl dt img { max-width: 100%; display: block; margin: 0 auto; height: inherit; }
+.public_dl dd h2 { line-height: 22px; color: #232323; font-weight:400; font-size: 18px; padding-top: 30px; padding-bottom: 10px; text-align: center; }
+.public_dl dd a:hover { color: #0070BC; }
+.public_dl dd a:hover h2 { color: #0070BC; }
+.public_dl dd p { line-height: 22px; color: #616265; font-weight:400; font-size: 14px; text-align: center; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; min-height: 44px; max-height: 44px; }
+.on_ring_bg { height: 1191px; }
+.public_bottom { padding-bottom: 70px; text-align: center; }
+.public_bottom a { display: inline-block; height: 46px; width: 196px; text-align: center; border: 2px solid #4c4948; border-radius: 3px; transition: all .3s;
+font-size: 16px; color: #232323; text-decoration: none; line-height: 46px; }
+.public_bottom .icon { color: #232323; padding-left: 5px; transition: all .3s;
+}
+.public_bottom a:hover { background: #4c4948; color: #fff; }
+.public_bottom a:hover .icon { color: #fff; }
+.on_otn_main_dl dt img {
+transition: all .3s; transform: scale(1); }
+.on_otn_main_dl:hover img { transform: scale(1.1); }
+ @media(max-width:1440px) {
+.on_otn_main_left, .on_otn_main_right {
+ position: static;
+ width: 100%;
+ overflow: hidden;}
+ .on_ring_bg {
+height: 1094px;
+}
+
+.on_otn_main_dl {
+ float: left;
+ width: 19%;
+ margin-right: 1%;
+}
+.on_otn_main_dl dd p br {
+ display: none;
+}
+.on_otn_main_dl dt {
+ width: 100%;
+ margin-right: 0;
+}
+.on_otn_main_right dl dt img, .on_otn_main_left dl dt img {
+ margin: 0 auto;
+}
+/*.on_otn_main_right dl dd,.on_otn_main_left dl dd{
+		text-align: center;
+	}*/
+.on_otn_main_dl dd {
+ width: 100%;
+}
+.on_otn_main_pic {
+ padding: 0 0 40px 0;
+}
+.on_otn_main {
+ margin-bottom: 30px;
+}
+.on_fmu_con dl dt:first-child {
+ margin-right: 0;
+}
+.on_fmu_con dt {
+ width: 35%;
+}
+.on_fmu_con dt img {
+ max-width: 100%;
+}
+.on_software_pic img {
+ width: 49%;
+ margin-right: 1%;
+ margin-bottom: 1%;
+}
+.on_ring_main {
+ width: 100%;
+}
+.on_ring_main_pic {
+ width: 50%;
+}
+.on_ring_main_font {
+ width: 50%;
+ padding-top: 120px;
+}
+.on_ring_main_pic img {
+ width: 100%;
+}
+.on_fmu_bg {
+height:1080px;
+}
+.on_software_bg {
+height:830px;
+}
+ .optical_network_case_text p br {
+ display:none;
+ }
+}
+@media(max-width:1200px) {
+.on_long img {
+ width: 100%;
+}
+.on_otn_main_left, .on_otn_main_right {
+ float: left;
+ width: 49%;
+ margin-right: 1%;
+}
+.on_otn_main_dl {
+ width: 100%;
+}
+.on_otn_main_dl dt {
+ width: 30%;
+ margin-right: 1%;
+}
+.on_otn_main_dl dd {
+ width: 49%;
+ text-align: left;
+}
+.on_otn_main {
+ overflow: hidden;
+}
+.on_packet_con_list img {
+ max-width: 100%;
+}
+.on_software_bg {
+ height: 700px;
+}
+.on_fmu_bg {
+ height: 1650px;
+}
+.on_ring_main_font {
+ padding-top: 50px;
+}
+.on_ring {
+ height: 610px;
+}
+.on_ring_bg {
+ height: 610px;
+}
+.on_otn_main_pic {
+ padding-top: 0;
+}
+.on_otn_main_right dl dt {
+ float: none;
+}
+.on_ring_main_font_tit {
+ font-size: 30px;
+ line-height: 30px;
+}
+.on_ring_bg {
+height: 1595px;
+}
+}
+@media(max-width:960px) {
+.on_banner_txt br {
+ display: none;
+}
+.on_txt br {
+ display: none;
+}
+.on_fmu_bg {
+ display: none;
+}
+.on_fmu {
+ background-color: #f7f7f7; padding:0 10px;
+}
+.on_software_bg {
+ display: none;
+}
+.on_software {
+ padding-bottom: 30px;
+ background-color: #f6f6f6;
+}
+.on_packet_con_list {
+ width: 100%;
+ margin-right: 0;
+ margin-bottom: 1%;
+}
+.on_software_pic img {
+ max-width: 100%;
+ margin-right: 0;
+ margin-bottom: 3%;
+}
+.on_fmu_con dd img {
+ width: 100%;
+}
+.on_fmu_con dt {
+ width: 100%;
+}
+.on_otn_main {
+ width: inherit;
+}
+/*.on_otn_main_left,.on_otn_main_right{
+		width: 100%;
+		margin: 0;
+	}*/
+	/*.on_otn_main_dl{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}*/
+.on_otn_main_dl dt {
+ width: 40%;
+}
+.on_otn_main_dl dd {
+ width: 55%;
+}
+.on_ring_bg {
+ display: none;
+}
+.on_ring {
+ height: auto;
+ background:#f6f6f6;
+}
+.on_ring_main_font {
+ float: none;
+ width: auto;
+ padding-left: 50px;
+}
+.on_ring_main_font_tit {
+ font-size: 24px;
+}
+.on_ring_main_font_txt {
+ font-size: 16px;
+}
+.on_packet_con {
+ width: initial;
+ padding: 0 10px;
+}
+.on_ring_main ul li {
+width:100%;
+float:none;
+margin-bottom: 40px;
+margin-right:0;
+}
+.public_dl {
+width: 100%;
+}
+.on_div div {
+width: 100%;
+}
+.on_ring_bg {
+display: none;
+}
+.on_ring {
+background: #fff;
+}
+.on_div,.public_dl{margin-bottom: 30px;}
+.public_bottom{padding-bottom:0;}
+.on_long,.on_ring,.on_otn{ padding:0 10px 30px 10px;}
+.on_fmt,.on_software,.on_packet{ padding:0 10px;}
+}
+@media(max-width:768px) {
+ .on_otn_main_dl dt {
+ width: 90%;
+ display:block;
+}
+.on_otn_main_dl dd {
+ width: 90%;
+}
+.on_ring_main_pic {
+ margin: 0 auto;
+}
+.on_ring_main_font {
+ padding-bottom: 50px;
+}
+
+}
+@media(max-width:480px) {
+	.public_dl{margin-bottom:15px;}
+.on_ring_main_pic {
+float:none;
+}
+.on_banner {
+ height: 220px;
+}
+.on_banner_bg {
+ height: 220px;
+}
+.on_banner_tit {
+ font-size: 24px;
+ padding-top: 30px;
+ line-height:30px;
+}
+.on_banner_txt {
+ font-size: 16px;
+ line-height: 22px;
+}
+.on_div_right{    padding-left: 0;}
+.on_tit { text-align:left;
+ font-size: 20px;
+ padding: 30px 0 15px;
+}
+.on_txt{ text-align:left;}
+.on_long_bg {
+ height: 380px;
+}
+.on_otn_main_pic img {
+ width: 100%;
+}
+.on_fmu_con dt {
+ width: 100%;
+}
+.on_little_tit {
+ font-size: 18px;
+}
+.on_software_little_tit span {
+ display: none;
+}
+.on_software_little_tit p {
+ width: 49%;
+ margin-right: 0;
+ text-align: center;
+ font-size: 14px;
+ margin-bottom: 3%;
+}
+.on_otn_main_dl dt {
+ width: 100%;
+ text-align:center;
+}
+.on_otn_main_dl dd {
+ width:100%;
+}
+.on_ring_main_font {
+ width: initial;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.on_otn_main_left, .on_otn_main_right {
+ width: 100%;
+ margin: 0;
+}
+}
+
+
+
+
+.on_banner_bg {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 380px;
+	z-index: -1;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/optical_network/optical_network_banner_gif.gif) no-repeat center;
+}
+
+.on_ring_bg,
+.on_ring_main {
+	min-height: 580px;
+	background: #f7f7f7;
+	padding-bottom: 20px;
+}
+
+.Long-Successful-ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.on_ring_main ul li {
+	margin-right: 0;
+	width: auto;
+}
+
+.on_ring_main .Long-Successful-ul>li {
+	width: -webkit-calc(100% / 4 - 9px);
+	width: -moz-calc(100% / 4 - 9px);
+	width: -ms-calc(100% / 4 - 9px);
+	width: calc(100% / 4 - 9px);
+	background: #ffffff;
+}
+
+.Long-Successful-ul>li a:hover {
+	text-decoration: none;
+}
+
+.Long-Successful-text {
+	min-height: 120px;
+	padding: 18px 20px;
+	box-sizing: border-box;
+}
+
+.Long-Successful-title {
+	font-size: 16px;
+	font-weight: 400;
+	color: #232323;
+}
+
+.Long-Successful-p {
+	font-size: 14px;
+	color: #616265;
+	margin-top: 12px;
+}
+
+.Long-Successful-bottom {
+	text-align: center;
+	font-size: 14px;
+	color: #0070BC;
+	margin-top: 40px;
+}
+
+.Long-Successful-bottom a {
+	color: #0070BC;
+}
+
+.Long-Successful-bottom .icon {
+	font-size: 14px;
+}
+
+.on_fmu_con {
+	border: none;
+	margin-bottom: 40px;
+}
+.on_fmu_bg,.on_fmu-main {
+	padding: 0;
+}
+.on_software_bg{
+   background: #f7f7f7;
+}
+.on_txt {
+	margin-bottom: 15px;
+}
+
+.on_tit {
+	font-size: 26px;
+	padding-bottom: 20px;
+}
+
+.on_little_tit {
+	font-size: 20px;
+}
+
+.on_packet_con_list_ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.on_packet_con_list_ul>li {
+	width: -webkit-calc(100% / 3 - 8px);
+	width: -moz-calc(100% / 3 - 8px);
+	width: -ms-calc(100% / 3 - 8px);
+	width: calc(100% / 3 - 8px);
+	background: #f7f7f7;
+	margin-top: 13px;
+}
+
+.on_packet_con_list_new img {
+	margin-right: 20px;
+}
+
+.on_packet_con_list_ul>li>a {
+	display: flex;
+	align-items: center;
+}
+
+.on_packet_con_list_ul>li>a:hover {
+	text-decoration: none;
+}
+
+.on_packet_con_list_ul>li img {
+	width: 180px;
+}
+
+.on_packet_con_list_new_a {
+	font-size: 14px;
+	color: #0070BC;
+	margin-top: 20px;
+}
+
+.on_packet_con_list_new_a .icon {
+	font-size: 14px;
+}
+
+@media(max-width: 960px) {
+	.on_ring{
+		padding: 0 0 30px;
+	}
+	.on_long, .on_ring_main, .on_otn{
+		padding: 20px 10px ; 
+		box-sizing: border-box;
+	}
+	.on_packet_con{
+		padding: 0;
+	}
+	.Long-Successful-bottom{
+		margin-top: 10px;
+	}
+}
+@media(max-width: 768px) {
+	.on_packet_con_list_ul {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	.on_packet_con_list_ul>li {
+		width: 100%;
+	}
+	
+}
+
+@media(max-width: 480px) {
+	.on_banner_bg {
+		height: 220px;
+		background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/optical_network/banner-m.jpg) no-repeat center;
+	}
+	.on_banner_tit {
+		padding-top: 55px;
+	}
+	.on_ring_main .Long-Successful-ul{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.on_ring_main .Long-Successful-ul>li{
+		width: 100%;
+	}
+}

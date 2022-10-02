@@ -1,0 +1,133 @@
+<?php
+//define("FS_INQUIRY_DEL_PRODUCT_ERROR_TIP",'Il n\'y a qu\'un seul produit qui ne peut pas être supprimé');
+//define("FS_INQUIRY_PRODUCT_ID_EXISTED_TIP",'Le produit existe ci-dessus.');
+//define("FS_INQUIRY_PRODUCT_NAME_REQUIRED_TIP",'L\'ID de produit en ligne ne peut pas être vide.');
+//define("FS_INQUIRY_PRODUCT_ID_NOT_FOUND_TIP",'L\'ID de produit (PRODUCT_ID) n\'est pas trouvé dans nos dossiers.');
+//define('SAMPLE_APPLICATION_01','Demander un échantillon');
+//define('SAMPLE_APPLICATION_02','Remplissez le formulaire ci-dessous pour demander un échantillon. Un Responsable de Compte vous contactera sous peu.');
+//define('SAMPLE_APPLICATION_03','Prénom');
+//define('SAMPLE_APPLICATION_04','Veuillez entrer votre prénom.');
+//define('SAMPLE_APPLICATION_05','Nom de famille');
+//define('SAMPLE_APPLICATION_06','Veuillez entrer votre nom de famille.');
+//define('SAMPLE_APPLICATION_07','E-mail');
+//define('SAMPLE_APPLICATION_08','Veuillez entrer votre adresse e-mail.');
+//define('SAMPLE_APPLICATION_09','Veuillez entrer une adresse e-mail valide. (ex : quelqu\'un@gmail.com)');
+//define('SAMPLE_APPLICATION_010','Entreprise');
+//define('SAMPLE_APPLICATION_011','Veuillez entrer votre entreprise.');
+//define('SAMPLE_APPLICATION_012','Pays');
+//define('SAMPLE_APPLICATION_013','Numéro de téléphone');
+//define('SAMPLE_APPLICATION_014','Veuillez entrer votre numéro de téléphone.');
+//define('SAMPLE_APPLICATION_015','Informations sur l\'Echantillon Désiré');
+//define('SAMPLE_APPLICATION_016','Article(s)');
+//define('SAMPLE_APPLICATION_017','Prix unitaire');
+//define('SAMPLE_APPLICATION_018','Quantité');
+//define('SAMPLE_APPLICATION_019','Ajouter d’autres produits');
+//define('SAMPLE_APPLICATION_020','Remarque');
+//define('SAMPLE_APPLICATION_021','En cliquant sur le bouton en bas, vous acceptez FS.COM');
+//define('SAMPLE_APPLICATION_022','Confidentialité et Cookies');
+//define('SAMPLE_APPLICATION_022_1',' and ');
+//define('SAMPLE_APPLICATION_023','Termes et Conditions');
+//define('SAMPLE_APPLICATION_024',' Pour demander un échantillon, contactez l\'équipe de FS. Nous pouvons vous aider à réaliser vos projet.');
+//define('SAMPLE_APPLICATION_025','Essayez avant d\'acheter');
+//define('SAMPLE_APPLICATION_026','Essayer nos produits avant l\'achat');
+//define('SAMPLE_APPLICATION_027','Essayer et vérifier nos produits. Constater l\'utilisation réelle, la qualité supérieure et l\'emballage efficace avant l\'achat.');
+//define('SAMPLE_APPLICATION_028','Clarifier les besoins de votre projet');
+//define('SAMPLE_APPLICATION_029','En expérimentant l\'utilisation pratique des produits, vous pouvez vous faire une idée de la façon dont ils fonctionnent et voir s\'ils répondent à vos exigences ou à vos besoins en matière de solution.');
+//define('SAMPLE_APPLICATION_030','Termes et Conditions pour demande d’un échantillon');
+//define('SAMPLE_APPLICATION_031','Après avoir soumis votre demande, FS vous donnera une réponse dans les prochaines 24 heures.');
+//define('SAMPLE_APPLICATION_032','L\'échantillon est uniquement offert pour l\'essai, ce qui n\'est pas gratuit. Après le test, vous devrez soit le retourner, soit effectuer le paiement pour le garder.');
+//define('SAMPLE_APPLICATION_033','Pour obtenir un échantillon, vous devez signer ou certifier un accord de demande d\'échantillon (en indiquant les détails et les prix des produits). Notez que pour certains produits, il se peut que vous deviez payer une caution.');
+//define('SAMPLE_APPLICATION_034','Pour les commandes d’échantillon, les frais d’expédition et de livraison, ainsi que les frais supplémentaires en transit (par exemple, tarif pour le dédouanement) sont à vos dépens.');
+//define('SAMPLE_APPLICATION_035',' La période d’essai est de 30 jours à compter de la réception de la marchandise. Après 30 jours, vous pouvez décider de payer et garder le produit si vous en êtes satisfait, sinon vous pouvez le retourner.');
+//define('SAMPLE_APPLICATION_036','Nous procéderons à une inspection complète à la réception de la marchandise retournée. Si l\'échantillon est endommagé, nous pouvons vous demander de nous rembourser jusqu\'à 80% de la valeur initiale du produit ou perdre la caution.');
+//define('SAMPLE_APPLICATION_037','Rejoignez la liste des partenaires satisfaits qui coopèrent avec FS afin d’accélérer leur développement');
+//define('SAMPLE_APPLICATION_038','Votre demande a été soumise avec succès.');
+//define('SAMPLE_APPLICATION_039','Nous vous répondrons dans les prochaines 24 heures.');
+//define('FS_SEARCH_YOUR_COUNTRY','Cherchez votre pays/région');
+//
+//define('SAMPLE_APPLICATION_040','Entrez le N° de produit (ex : 11552)');
+//define('SAMPLE_APPLICATION_041','Indiquez-nous le but de votre échantillon d\'application et vos besoins afin que nous puissions vous aider le plus efficacement possible.');
+//define('SAMPLE_APPLICATION_042','&');
+//define('SAMPLE_APPLICATION_043','Soumettre');
+//
+////email
+//define('SAMPLE_EMAIL_REQUEST','Votre demande d\'échantillon ');
+//define('SAMPLE_EMAIL_RECEIVED',' a été reçue.');
+//define('SAMPLE_EMAIL_DEAR','Cher/Chère');
+//define('SAMPLE_EMAIL_APPLICATION','Merci d\'avoir soumis l\'application d\'échantillon. Nous serons en contact dans les prochaines 24 heures avec une réponse.');
+//define('SAMPLE_EMAIL_DATAILS','Détails de la demande d\'échantillon');
+//define('SAMPLE_EMAIL_ITEM','Article');
+//define('SAMPLE_EMAIL_PRICE','Prix Unitaire');
+//define('SAMPLE_EMAIL_QTY','Quantité');
+//define('SAMPLE_EMAIL_NOTE','Remarque :');
+//define('SAMPLE_EMAIL_ATTENTIONS','Si vous avez besoin d\'une assistance immédiate, veuillez nous appeler au +1 (877) 205 5306 (États-Unis) ou au +49 (0) 89 414176412 (Allemagne). Pour obtenir rapidement une réponse, veuillez utiliser notre support en direct (live chat).');
+//define('SAMPLE_EMAIL_SIN','Cordialement,');
+//define('SAMPLE_EMAIL_SER','Service clientèle de FS.COM');
+//
+//define('SAMPLE_APPLICATION_041','Tell us your purpose for the sample application or share your descriptions, quantities to the items that you need to apply for a sample if no product ID online.');
+//define('SAMPLE_APPLICATION_EMAIL_TITLE','FS.COM - Sample Request & Case Number: ');
+//define('FS_SAMPLE_APPLICATION_SUBMIT','Submit...');
+
+
+//2019.11.19  liang.zhu
+define('SAMPLE_APPLICATION_01', 'Demande d\'Échantillon de Produit');
+define('SAMPLE_APPLICATION_02', 'Appelez-nous : <span id="country_telephone">###phone###</span>');
+define('SAMPLE_APPLICATION_03', 'Économiser le Budget');
+define('SAMPLE_APPLICATION_04', 'Produits de haute qualité à des prix concurrentiels.');
+define('SAMPLE_APPLICATION_05', 'Support Technique Gratuit');
+define('SAMPLE_APPLICATION_06', 'Fournir des solutions et des services gratuits et sur mesure pour vos entreprises.');
+define('SAMPLE_APPLICATION_07', '80% Expédition le Jour Même');
+define('SAMPLE_APPLICATION_08', 'Expédition immédiate pour les articles en stock.');
+define('SAMPLE_APPLICATION_09', 'Responsable de Compte Dédié');
+define('SAMPLE_APPLICATION_10', 'Fournir des services pré-vente et après-vente.');
+define('SAMPLE_APPLICATION_11', 'Demandez un Échantillon de Produit');
+define('SAMPLE_APPLICATION_12', 'Veuillez remplir le formulaire ci-dessous. Nous vous contacterons dès que possible.');
+define('SAMPLE_APPLICATION_13', 'Prénom');
+define('SAMPLE_APPLICATION_14', 'Veuillez entrer votre prénom.');
+define('SAMPLE_APPLICATION_15', 'Nom');
+define('SAMPLE_APPLICATION_16', 'Veuillez entrer votre nom.');
+define('SAMPLE_APPLICATION_17', 'E-mail');
+define('SAMPLE_APPLICATION_18', 'Veuillez entrer une adresse e-mail valide.');
+define('SAMPLE_APPLICATION_19', 'Pays/Région');
+define('SAMPLE_APPLICATION_20', 'Cherchez votre pays/région');
+define('SAMPLE_APPLICATION_21', 'Téléphone');
+define('SAMPLE_APPLICATION_22', 'Veuillez entrer votre numéro de téléphone.');
+define('SAMPLE_APPLICATION_23', 'Commentaires');
+define('SAMPLE_APPLICATION_24', 'Veuillez décrire comment vous avez l\'intention d\'utiliser cet article.');
+define('SAMPLE_APPLICATION_25', 'Veuillez écrire plus de commentaires sur votre demande.');
+define('SAMPLE_APPLICATION_26', 'Je reconnais avoir lu et compris <a href="javascript:;" target="_blank" onclick="fs_showAlert(event,\'#fs-new-cartAlert-warranty\')">l\'Accord de Demande d\'Échantillon</a>.');
+define('SAMPLE_APPLICATION_27', 'Veuillez vous assurer que vous acceptez l\'Accord de Demande d\'Échantillon.');
+define('SAMPLE_APPLICATION_28', 'Accord de Demande d\'Échantillon');
+define('SAMPLE_APPLICATION_29', 'L\'échantillon est proposé uniquement à titre d\'essai, ce qui n\'est pas gratuit. Après l\'essai, vous devrez soit le retourner, soit effectuer le paiement du produit et le conserver.');
+define('SAMPLE_APPLICATION_30', 'Pour obtenir un échantillon, vous devez signer ou certifier un accord de demande d\'échantillon (en indiquant les détails et les prix des produits). Notez que pour certains produits, il se peut que vous deviez payer une caution.');
+define('SAMPLE_APPLICATION_31', 'Pour les commandes d’échantillon, les frais d’expédition et de livraison, ainsi que les frais supplémentaires en transit (par exemple, tarif pour le dédouanement) sont à vos dépens.');
+define('SAMPLE_APPLICATION_32', "La période d'essai est de 30 jours à compter de la réception de la marchandise. Après la période de 30 jours, vous pouvez décider de payer et conserver le produit si vous en êtes satisfait ou de le retourner s'il ne vous convient pas. Les retards de paiement seront facturés si l'échantillon n'est pas retourné en temps opportun après la fin de la période d'essai.");
+define('SAMPLE_APPLICATION_33', "Nous effectuerons une inspection complète au retour de la marchandise. Si l'échantillon est endommagé, une compensation est nécessaire et le montant varie en fonction de la valeur du produit et des résultats des tests.");
+define('SAMPLE_APPLICATION_34', 'Votre demande a été envoyée.');
+define('SAMPLE_APPLICATION_35', 'FS vous contactera dans les 1-3 heures par téléphone ou e-mail pendant les jours ouvrables.');
+define('SAMPLE_APPLICATION_36', 'Le prénom doit comporter 32 caractères maximum.');
+define('SAMPLE_APPLICATION_37', 'Le prénom doit comporter 2 caractères minimum.');
+define('SAMPLE_APPLICATION_38', 'Le prénom de famille doit comporter 32 caractères maximum.');
+define('SAMPLE_APPLICATION_39', 'Le prénom de famille doit comporter 2 caractères minimum.');
+define('SAMPLE_APPLICATION_40', 'Votre numéro de téléphone doit contenir au moins 6 chiffres.');
+
+define('FS_SAMPLE_PRODUCT','Échantillon de Produit');
+define('FS_SAMPLE_ITEM','Article');
+define('FS_SAMPLE_QTY','Qté.');
+define('FS_SAMPLE_CONTACT','Addresse de Livraison');
+define('FS_SAMPLE_CITY','Ville');
+define('FS_SAMPLE_ENTER_STATE','Gouvernement/Province/Région');
+define('FS_SAMPLE_ZIP_CODE','Code Postal');
+define('SAMPLE_APPLICATION_NOT_FOUND','N° d\'Article (PRODUCT_ID) n\'a pas été trouvé dans nos records.');
+
+//新加坡
+define("FS_CHECKOUT_ERROR_SG_01","Votre Adresse 2 est Requise.");
+define("FS_CHECKOUT_ERROR_SG_02","Appartement, Chambre, Étage/N° d'Unité");
+define("FS_CHECKOUT_ERROR_SG_03","Numéro de Billet");
+define("FS_CHECKOUT_ERROR_SG_04","Pour assurer une livraison rapide, veuillez fournir le Numéro de Billet du colis envoyé à Equinix.");
+define("FS_CHECKOUT_ERROR_SG_05","* Pendant la période de gestion spéciale de COVID-19, il est recommandé de remplir l'adresse de votre maison pour garantir la réception en temps opportun.");
+define("FS_CHECKOUT_ERROR_SG_06","Veuillez remplir votre adresse de livraison complètement.");
+
+define('FS_NEW_SAMPLE_REQUEST','Demande d\'Échantillon');
+define('FS_NEW_SAMPLE_QTY','Qté');
+define('FS_NEW_ADD_TO_SAMPLE','Ajouter');

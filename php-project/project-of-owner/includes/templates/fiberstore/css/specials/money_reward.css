@@ -1,0 +1,94 @@
+.box,.content{width: 100%;}
+.moreward_banner{height: 680px;width: 100%;margin: 0 auto;text-align: center;}
+.moreward_banner_bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/money_reward/bonus-banner-pc.jpg);background-position: center;background-size: cover;position: absolute;left: 0;width: 100%;height: 680px;z-index: -1;}
+.moreward_banner_tit{font-size: 40px;color: #fff;line-height: 50px;padding: 88px 0 0;font-weight: 600;}
+.moreward_banner_txt{font-size: 26px;color: #fff;line-height: 30px;padding: 29px 0 0;}
+.moreward_awareing_box{background: #f7f7f7;padding: 0 0 46px;}
+.moreward_common_width{width: 1100px;margin: 0 auto;}
+.moreward_mian_tit{font-weight: 400;color: #232323;line-height: 36px;font-size: 20px;text-align: center;padding: 39px 0 0;}
+.moreward_mian_newtit{font-weight: 600;color: #232323;line-height: 36px;font-size: 20px;text-align: center;padding: 39px 0 0;}
+.moreward_awareing_txt{text-align: center;color: #232323;line-height: 24px;font-size: 14px;padding: 14px 0 0;}
+.moreward_awareing_txt01{text-align: center;color: #232323;line-height: 24px;font-size: 16px;font-weight: 600;padding: 30px 0 0;}
+.moreward_howto_box{padding: 0 0 60px;}
+.moreward_howto_tit{font-weight: 600;color: #232323;line-height: 24px;font-size: 26px;text-align: center;padding: 47px 0 0;}
+.moreward_howto_txt{font-size: 14px;color: #232323;line-height: 24px;text-align: center;padding: 22px 0 0;}
+.moreward_howto_txt01{font-size: 16px;color: #232323;line-height: 24px;text-align: center;padding: 38px 0 23px;}
+.moreward_howto_imgbox{text-align: center;padding: 43px 0 0;}
+.moreward_howto_imgm{display: none;}
+.moreward_howto_btnbox{text-align: center;}
+.moreward_howto_btn{display: inline-block;padding: 0 30px;height: 40px;background: #0070BC;color: #fff;font-size: 14px;line-height: 40px;transition: all .3s;border-radius: 2px;}
+.moreward_howto_btn:hover{text-decoration:none;color: #fff;background: #005a96;}
+.moreward_toget_box{position: relative;text-align: center;}
+.moreward_toget_box01{padding: 0 0 45px;}
+.moreward_toget_bg{background: #f7f7f7;min-height: 445px;position: absolute;top: 0;width: 100%;z-index: -1;}
+.moreward_toget_bgnew{background: #f7f7f7;min-height: 100%;position: absolute;top: 0;width: 100%;z-index: -1;}
+.moreward_toget_main{display: flex;}
+.moreward_toget_list{height: 445px;display: table;padding: 0 90px 0 0;}
+.moreward_toget_listFlex{display: table-cell;vertical-align: middle;}
+.moreward_toget_tit{font-size: 26px;line-height: 30px;font-weight: 600;text-align: left;}
+.moreward_toget_tit:nth-child(2){padding: 10px 0 0;}
+.moreward_toget_ul{padding: 22px 0 0;}
+.moreward_toget_li{display: flex;padding: 12px 0 0;}
+.moreward_toget_li p{font-size: 14px;color: #232323;line-height: 24px;margin: 0 0 0 12px;text-align: left;}
+.moreward_toget_num em{width: 20px;height: 20px;border-radius: 100%;background: #4C4948;display: inline-block;color: #fff;font-style: normal;text-align: center;line-height: 18px;}
+.moreward_toget_imgbox{padding:60px 0 0;}
+.moreward_notice_box{padding: 50px 0 53px;}
+.moreward_notice_tit{font-size: 16px;color: #232323;line-height: 24px;font-weight: 600;padding: 0 0 10px 0;}
+.moreward_notice_dd{font-size: 14px;color: #232323;line-height: 30px;}
+.moreward_appdownload_box{background: #f7f7f7;text-align: center;padding: 54px 0 50px;}
+.moreward_appdownload_img{text-align: center;}
+.moreward_appdownload_list{display: inline-block;padding: 30px 0 25px;}
+.moreward_appdownload_mian{display: flex;}
+.moreward_appdownload_li:first-child{margin: 0 30px 0 0;}
+.moreward_appdownload_txt{font-size: 14px;color: #232323;line-height: 24px;}
+.moreward_banner_txt01{font-size: 20px;color: #fff;line-height: 30px;}
+.moreward_banner_txt02{font-size: 26px;color: #fff;line-height: 34px;padding: 100px 0 0;}
+.moreward_mbr{display: none;}
+.moreward_banner_titchange{padding: 12px 0 17px;}
+@media (max-width: 1220px){
+    .moreward_common_width{width: 960px;}
+}
+@media (max-width: 960px){
+    .moreward_common_width{width: 100%;padding: 0 20px;box-sizing: border-box;}
+    .moreward_banner{height: 510px;}
+    .moreward_banner_bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/money_reward/bonus-banner-m.jpg);height: 510px;}
+    .moreward_mian_tit{line-height: 30px;padding: 34px 0 0;}
+    .moreward_mian_newtit{line-height: 30px;padding: 34px 0 0;}
+    .moreward_banner_tit{font-size: 26px;line-height: 36px;padding: 42px 0 0;}
+    .moreward_banner_txt{font-size: 16px;line-height: 30px;padding: 22px 0 0;}
+    .moreward_banner_txt02{font-size: 16px;line-height: 30px;padding: 41px 0 0;}
+    .moreward_banner_txt01{font-size: 16px;line-height: 30px;padding: 8px 0 0;}
+    .moreward_banner_titchange{padding: 12px 0 10px;}
+    .moreward_howto_box{padding: 0 0 40px;}
+    .moreward_howto_tit{font-size: 20px;line-height: 24px;padding: 34px 0 0;}
+    .moreward_howto_txt{padding: 15px 0 0;}
+    .moreward_howto_imgbox{padding: 33px 0 0;}
+    .moreward_howto_imgpc{display: none;}
+    .moreward_howto_txt01{padding: 30px 0 23px;}
+    .moreward_howto_imgm{display: block;margin: 0 auto;}
+    .moreward_toget_tit{font-size: 20px;text-align: center;}
+    .moreward_toget_list{padding: 0;height: auto;padding: 33px 0 26px;}
+    /*.moreward_toget_listFlex{pa}*/
+    .moreward_toget_bg{height: calc(100% - 90px)}
+    .moreward_toget_tit:nth-child(2){padding: 0;}
+    .moreward_toget_ul{padding: 4px 0 0;}
+    .moreward_toget_main{display: block;}
+    .moreward_toget_imgbox{padding: 0;}
+    .moreward_toget_li p{text-align: left;}
+    .moreward_notice_box{padding: 36px 0 33px;}
+    .moreward_appdownload_box{padding: 54px 20px 50px;}
+
+}
+@media (max-width: 480px){
+	.moreward_banner_tit{padding: 42px 15px 0;}
+    .moreward_banner_titchange{padding: 12px 0 10px;}
+    .moreward_mbr{display: block;}
+	.moreward_toget_imgbox img {width: 100%;}
+	.moreward_appdownload_box{padding: 40px 20px 35px;}
+    .moreward_appdownload_list{width: 100%;padding: 30px 5px 25px;box-sizing: border-box;}
+    .moreward_appdownload_mian{justify-content: space-between;width: 100%;}
+    .moreward_appdownload_li:first-child{margin: 0;}
+}
+@media (max-width: 414px){
+    .moreward_howto_imgm{width: 100%;}
+}

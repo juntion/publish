@@ -1,0 +1,58 @@
+stages:
+  - production
+  - release
+
+# release 预发布
+deploy_release:
+  stage: release
+  only:
+    - release
+  script:
+    - date
+    - whoami
+    - cd /erp_data/wwwroot/service
+    - git pull origin release
+    - $(which php7.4) artisan down --render="errors::503" --status=200 --secret=hot
+    - $(which php7.4) $(which composer) dump-autoload --optimize
+    - $(which php7.4) artisan config:clear
+    - $(which php7.4) artisan route:clear
+    - $(which php7.4) $(which composer) install --optimize-autoloader
+    - $(which php7.4) artisan config:cache
+    - $(which php7.4) artisan route:cache
+    - $(which php7.4) artisan queue:restart
+    - $(which php7.4) artisan up
+    - date
+  tags:
+    - erp
+    - server
+    - release
+    - reconstruction
+
+# 生产版本
+deploy_production:
+  stage: production
+  only:
+    - master
+  script:
+    - which php
+    - which composer
+    - date
+    - whoami
+    - cd /data/wwwroot/service
+    - git pull origin master
+    - $(which php) artisan down --render="errors::503" --status=200 --secret=hot
+    - $(which php) $(which composer) dump-autoload --optimize
+    - $(which php) artisan config:clear
+    - $(which php) artisan route:clear
+    - $(which php) $(which composer) install --optimize-autoloader
+    - $(which php) artisan config:cache
+    - $(which php) artisan route:cache
+    - $(which php) artisan queue:restart
+    - $(which php) artisan up
+    - date
+  tags:
+    - erp
+    - aws
+    - server
+    - production
+    - reconstruction

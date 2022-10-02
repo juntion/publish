@@ -1,0 +1,49 @@
+<?php
+
+/**
+
+ * estimated delivery time
+
+ */?>
+
+<div class="con_right about_main">
+  <div class="about_main_bt1">
+    <h1><?php echo FS_TIME_SHIPMENT;?></h1>
+  </div>
+  <div class="about_page_title" style="margin-top:0;"><?php echo FS_TIME_SHIPPING;?></div>
+  <p><table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td width="100" align="right"><b><?php echo FS_TIME_WAREHOUSE;?></b>: </td>
+    <td><?php echo FS_TIME_ANDOVER;?></td>
+  </tr>
+  <tr>
+    <td align="right"> </td>
+    <td><?php echo FS_TIME_EAST;?> </td>
+  </tr>
+  <tr>
+    <td align="right"> </td>
+    <td><?php echo FS_TIME_TUNG;?></td>
+  </tr>
+  <tr>
+    <td align="right"><b><?php echo FS_TIME_SHIPS;?>:</b></td>
+    <td><?php echo FS_TIME_WORLDWIDE;?></td>
+  </tr>
+</table>
+</p>
+ <p><?php echo FS_TIME_DELIVERY;?></p>
+ <p><strong>*</strong> <?php echo FS_TIME_ESTIMATED;?> </p>
+ <p><?php echo FS_TIME_THE;?></p>
+ <p><?php echo FS_TIME_BUSINESS;?></p>
+ <p><?php echo FS_TIME_IF;?> </p>
+ <p><?php echo FS_TIME_BEFORE;?></p>
+ <div class="about_page_title" ><?php echo FS_TIME_OUR;?></div>
+ <p><?php echo FS_TIME_WE;?> </p>
+ <p><?php echo FS_TIME_IMPORT;?> </p>
+ <p><?php echo FS_TIME_PRIMARY;?></p>
+ <p><?php echo FS_TIME_PLEASE;?></p>
+ <div class="about_page_title" ><?php echo FS_TIME_CUSTOMS;?></div>
+ <p><strong><?php echo FS_TIME_NOTE;?>:</strong></p>
+ <p><?php echo FS_TIME_DUTIES;?></p>
+  <div class="ccc"></div>
+</div>
+<br class="ccc">

@@ -1,0 +1,104 @@
+.box,.content{width: 100%;}
+.rmaCheklist-banner{height: 380px;text-align: center;}
+.rmaCheklist-banner-bg{position: absolute;left: 0;width: 100%;z-index: -1;height: 380px;background-size: cover;background-repeat: no-repeat;background-position-x: center;
+	background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/specials/RMA-Cheklist/rma-checklist_banner.jpg");}
+.rmaCheklist-banner-tit{font-size: 48px;font-weight: 400;line-height: 48px;margin-bottom: 20px;padding-top: 135px;color: #fff;}
+.rmaCheklist-banner-txt{font-size: 16px;line-height: 26px;font-weight: 400;color: #fff;}
+.rmaCheklist-mDr{display: none;}
+.rmaCheklist-requestBox{padding: 50px 0 46px;}
+.rmaCheklist-boxWidth{width: 1200px;margin: auto;}
+.rmaCheklist-requestIcon{text-align: center;}
+.rmaCheklist-requestTit{font-size: 26px;line-height: 34px;text-align: center;padding: 30px 0 25px;}
+.rmaCheklist-requestTxt{font-size: 14px;line-height: 24px;color: #616265;text-align: center;}
+.rmaCheklist-mainBox{background: #f7f7f7;padding: 50px 0;}
+.rmaCheklist-mainCont{display: table;}
+.rmaCheklist-mainLeft{display: table-cell;width: 300px;border-right: 20px solid #f7f7f7;background: #FFF;vertical-align: top;box-sizing: border-box;}
+.rmaCheklist-mainRight{display: table-cell;width: 900px;background: #FFF;padding: 30px;box-sizing: border-box;}
+.rmaCheklist-catList{padding: 33px 30px 33px;}
+.rmaCheklist-catList>li:first-child{padding-top: 0;}
+.rmaCheklist-catList>li{font-size: 14px;color: #232323;line-height: 24px;padding: 15px 0;cursor: pointer;border-bottom: 1px solid #e5e5e5;}
+.rmaCheklist-catList>li.choosez{border-color: #232323;}
+.rmaCheklist-mainTit{font-size: 26px;line-height: 34px;color: #232323;margin-bottom: 10px;}
+.rmaCheklist-mainTit01{font-size: 16px;line-height: 26px;color: #232323;margin-bottom: 15px;padding-top: 10px;position: relative;}
+.rmaCheklist-txtGroup{font-size: 14px;color: #616265;line-height: 24px;padding-top: 10px;}
+.rmaCheklist-numTxt{float: left;}
+.rmaCheklist-leftTxt-box{padding-left: 15px;}
+.rmaCheklist-leftTxt-main span{display: inline-block;width: 4px;height: 4px;background: #616265;float: left;border-radius: 50%;margin-top: 10px;}
+.rmaCheklist-leftTxt-txt{padding-left: 15px;}
+.rmaCheklist-leftTxt-box a{color: #0070bc;}
+.rmaCheklist-leftTxt-aloneTxt01{color: #8D8D8F;}
+.rmaCheklist-checkMain{padding: 0 0 10px;}
+.rmaCheklist-checkBox .rmaCheklist-mainTit01{padding-top: 15px;}
+.rmaCheklist-checkBox .rmaCheklist-mainTit01.changePadtop{padding-top: 10px;}
+.rmaCheklist-checkBox.choosez .rmaCheklist-checkMain{display: block;}
+.rmaCheklist-imgBox{padding: 10px 0 0 30px;}
+.rmaCheklist-imgBox01{padding-top:10px;}
+.rmaCheklist-bottom-box{position: relative;height: 260px;}
+.rmaCheklist-bottom-bg{background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/specials/RMA-Cheklist/bottom_img.jpg");position: absolute;left: 0;width: 100%;z-index: -1;height: 260px;
+background-size: cover;background-repeat: no-repeat;background-position-x: center;}
+.rmaCheklist-bottom-box .rmaCheklist-bottom-main{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.rmaCheklist-bottom-box .rmaCheklist-boxWidth{height: 100%;}
+.rmaCheklist-bottom-box .rmaCheklist-bottom-cont{display: table;width: 100%;height: 100%;}
+.rmaCheklist-bottom-box .rmaCheklist-bottom-tabCell{display: table-cell;vertical-align: middle;}
+.rmaCheklist-bottom-tit{font-size: 26px;color: #232323;line-height: 34px;}
+.rmaCheklist-bottom-txt{font-size: 14px;color: #616265;line-height: 24px;padding: 20px 0 25px;}
+.rmaCheklist-bottom-btn{height: 40px;line-height: 38px;text-align: center;border: 1px solid #4C4948;color: #232323;padding: 0 30px;font-size: 14px;background: rgba(0,0,0,0);cursor: pointer;
+	display: inline-block;vertical-align: middle;font-weight: 400;transition: all .3s;box-sizing: border-box;border-radius: 2px;text-decoration: none;}
+.rmaCheklist-bottom-btn:hover{background: #4C4948;color: #fff;text-decoration: none;}
+.catModel{display: none;}
+.catModel.choosez{display: block;}
+.rmaCheklist-providesTxt{display: none;font-size: 14px;color: #616265;line-height: 24px;}
+.rmaCheklist-catList-mBox{min-height: 54px;}
+.rmaCheklist-catList-m{background: #fff;padding: 0 20px;margin-bottom: 20px;box-sizing: border-box;}
+.rmaCheklist-catList-m.choosez{position: fixed;top: 0;left: 0;width: 100%;box-shadow: 0px 1px 4px 0px rgba(0,0,0,.1);}
+.rmaCheklist-catList-m dt{padding: 15px 0;position: relative;padding-right: 20px;cursor: pointer;}
+.rmaCheklist-catList-m dt .icon{font-size: 16px;position: absolute;right: 0;top: 15px;transition: all .3s;display: inline;}
+.rmaCheklist-catList-m dt.choosez .icon{transform: rotate(-180deg);}
+.rmaCheklist-catList-m dt,.rmaCheklist-catList-m dd{font-size: 14px;color: #232323;line-height: 24px;}
+.rmaCheklist-catList-m dd{display: none;}
+.rmaCheklist-catList-txt-m li{padding: 5px 0;cursor: pointer;color: #616265;}
+.rmaCheklist-catList-txt-m li:first-child{padding-top: 0;}
+.rmaCheklist-catList-txt-m li:last-child{padding-bottom: 15px;}
+.rmaCheklist-catList-mBox{display: none;}
+
+@media(max-width:1220px) {
+	.rmaCheklist-boxWidth{width: 960px;}
+	.rmaCheklist-mainRight{width: 640px;}
+}
+@media(max-width:960px) {
+    .rmaCheklist-boxWidth{width: 100%;}
+	.rmaCheklist-mainRight{width: 100%;}
+	.rmaCheklist-banner,.rmaCheklist-banner-bg{height: 432px;}
+	.rmaCheklist-banner-bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/RMA-Cheklist/m-rma-checklist_banner.jpg);}
+	.rmaCheklist-providesTxt{display: block;padding: 0 0 15px;}
+	.rmaCheklist-mainCont{display: block;}
+	.rmaCheklist-mainLeft{display: none;}
+	.rmaCheklist-mainBox{padding: 20px 15px;}
+	.rmaCheklist-requestPc-txt{display: none;}
+	.rmaCheklist-requestBox{padding: 50px 15px 46px;}
+	.rmaCheklist-bottom-bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/RMA-Cheklist/bottom_img_m.jpg);}
+	.rmaCheklist-imgBox img,.rmaCheklist-imgBox01 img{width: 100%;}
+	.rmaCheklist-catList-mBox{display: block;}
+	.rmaCheklist-bottom-box .rmaCheklist-boxWidth{padding: 0 15px;box-sizing: border-box;}
+}
+@media(max-width:480px) {
+	.rmaCheklist-banner, .rmaCheklist-banner-bg{height: 220px;}
+	.rmaCheklist-banner-tit{font-size: 20px;padding-top: 70px;line-height: 30px;margin-bottom: 8px;}
+	.rmaCheklist-banner-txt{font-size: 14px;line-height: 24px;}
+	.rmaCheklist-mDr{display: block;}
+	.rmaCheklist-requestTit{font-size: 20px;line-height: 30px;}
+	.rmaCheklist-requestBox{padding: 34px 15px 30px;}
+	.rmaCheklist-requestTit{padding: 15px 0 10px;}
+	.rmaCheklist-mainBox{padding: 30px 15px 30px;}
+	.rmaCheklist-mainRight{padding: 30px 20px;}
+	.rmaCheklist-mainTit{font-size: 20px;line-height: 30px;}
+	.rmaCheklist-mainTit{margin-bottom: 2px;}
+	.rmaCheklist-txtGroup{padding-top: 8px;}
+	.rmaCheklist-bottom-box{margin-bottom: -20px;}
+	.rmaCheklist-bottom-box,.rmaCheklist-bottom-bg{height: 460px;}
+	.rmaCheklist-bottom-box .rmaCheklist-bottom-tabCell{vertical-align: top;text-align: center;padding: 30px 0 0;}
+	.rmaCheklist-bottom-tit{font-size: 20px;line-height: 30px;}
+	.rmaCheklist-bottom-pcBr{display: none;}
+	.rmaCheklist-bottom-txt{padding: 15px 0;}
+
+}

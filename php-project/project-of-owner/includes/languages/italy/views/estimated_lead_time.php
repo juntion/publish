@@ -1,0 +1,34 @@
+<?php 
+define('FS_CANONICAL_HREF', reset_url('estimated-lead-time.html')); 
+define('FS_TIME_PAY_SHIPPING', 'Pagamento & Spedizione'); 
+define('FS_TIME_PAYMENT', 'Metodi di pagamento'); 
+define('FS_TIME_NET30_W9', 'Net 30 & W9'); 
+define('FS_TIME_GUIDE', 'Guida di spedizione'); 
+define('NAVBAR_TITLE', 'Consegna & Spedizione'); 
+define('FS_TIME_SHIPMENT', 'Consegna & Spedizione'); 
+define('FS_TIME_FIBERSTORE', 'Scopri altre informazioni sulle opzioni di spedizione e consegna.'); 
+define('FS_TIME_AMERICAN', 'Magazzino Stati Uniti:'); 
+define('FS_TIME_ANDOVER', '820 SW 34th Street Bldg W7 Suite H'); 
+define('FS_TIME_CHINA', 'Magazzino Cina:'); 
+define('FS_TIME_EAST', 'Room 301'); 
+define('FS_TIME_HONG_KONG', 'Magazzino Hong Kong:'); 
+define('FS_TIME_TUNG', '1220 Tung Chun Commercial Centre'); 
+define('FS_TIME_SHIPS', 'Spedizione a:'); 
+define('FS_TIME_WORLDWIDE', 'Internazionale'); 
+define('FS_TIME_SHIPPING', 'Spedizione e manipolazione'); 
+define('FS_TIME_DELIVERY', 'Il tempo di consegna viene stimato usando il nostro metodo proprietario basato sulla vicinanza dell\'acquirente alla posizione dell\'articolo'); 
+define('FS_TIME_ESTIMATED', '*Tempo di consegna previsto, comprende il tempo di manipolazione del venditore'); 
+define('FS_TIME_THE', 'Il tempo di manipolazione è il numero di giorni lavorativi necessari al venditore per la spedizione dell\'articolo dopo aver ricevuto il saldo del tuo pagamento. Un pagamento è considerato "saldato" dopo che il denaro dell\'acquirente è stato depositato sul conto del venditore. Se l\'acquierente paga con PayPal'); 
+define('FS_TIME_BUSINESS', 'I giorni lavorativi sono i normali giorni della settimana. Sabato'); 
+define('FS_TIME_IF', 'Se desideri ricevere l\'articolo velocemente'); 
+define('FS_TIME_BEFORE', 'Prima della consegna'); 
+define('FS_TIME_OUR', 'Opzioni di spedizione gratuita'); 
+define('FS_TIME_WE', 'Effettuiamo il drop ship a livello internazionale praticamente per tutti gli indirizzi serviti da FedEx<sup style="font-size:10px;">TW</sup>'); 
+define('FS_TIME_IMPORT', 'I dazi di importazione sono a carico del cliente.'); 
+define('FS_TIME_PRIMARY', 'Il nostro vettore di spedizione principale è FedEx International Priority'); 
+define('FS_TIME_PLEASE', 'Osserva anche che le tariffe di spedizione di molti articoli che vendiamo sono basate sul peso. In alcune scatole di cartone di grandi dimensioni'); 
+define('FS_TIME_CUSTOMS', 'Spedizione internazionale e dogana'); 
+define('FS_TIME_NOTE', 'Acquirenti internazionali - Nota:'); 
+define('FS_TIME_GEAMAN', 'Magazzino Germania:'); 
+define('FS_TIME_GEM', 'Edificio 7'); 
+?>

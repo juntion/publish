@@ -1,0 +1,1280 @@
+div,
+p,
+em,
+li,
+ul,
+h3,
+h4,
+span,
+strong,
+i,
+b {
+	font-style: normal;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.box,
+.content {
+	width: 100%;
+	background: initial;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.business_top_wap {
+	height: 420px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.purchase_order_bg {
+	background-image: url(https://img-en.fs.com/zh/includes/templates/fiberstore/images/specials/copper_cable/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 420px;
+	z-index: -1
+}
+
+.purchase_order_tit {
+	font-size: 40px;
+	line-height: 48px;
+	color: #fff;
+	padding-bottom: 32px;
+	font-weight: 600
+}
+
+.purchase_banner_tit {
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+}
+
+.banner_contaienr {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.copper_tit {
+	font-size: 14px;
+	color: #646466;
+	line-height: 22px;
+	text-align: center;
+	padding: 54px 0 56px 0;
+}
+
+.copper_dl_container {
+	background: #F7F7F7;
+	padding: 88px 0 60px 0;
+}
+
+.copper_dl_container .width {
+	display: flex;
+}
+
+.copper_dl {
+	background: #fff;
+	border: 1px solid #E5E5E5;
+	margin-right: 12px;
+	width: 100%;
+	padding-bottom: 48px;
+}
+
+.copper_dl:last-child {
+	margin-right: 0;
+}
+
+.copper_dl dt {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid #E5E5E5;
+	position: relative;
+	margin: 0 auto;
+	transform: translateY(-50%);
+	background: #fff;
+}
+
+.copper_dl dt img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.copper_dl dd {
+	padding: 0 30px;
+	box-sizing: border-box;
+	margin-top: -16px;
+}
+
+.copper_dl_tit {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	color: #19191A;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 6px;
+}
+
+.copper_dl_txt {
+	font-size: 14px;
+	line-height: 24px;
+	color: #646466;
+}
+
+.public_tit {
+	font-size: 26px;
+	font-weight: 600;
+	color: #19191A;
+	line-height: 36px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 52px;
+	padding-bottom: 24px;
+}
+
+.public_txt {
+	font-size: 14px;
+	color: #646466;
+	line-height: 24px;
+	text-align: center;
+}
+
+.structured_img {
+	position: relative;
+	margin-top: 36px;
+}
+
+.main_img_pc {
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+	height: initial;
+	position: relative;
+	z-index: 3;
+}
+
+.position {
+	width: 237px;
+	border: 1px dashed #999;
+	border-radius: 4px;
+	padding: 24px 12px;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 1;
+}
+
+.left_01 {
+	left: 50px;
+	top: 100px;
+}
+.position li {
+	margin-bottom: 10px;
+}
+.position li a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.position li a:hover {
+	text-decoration: underline !important;
+}
+
+.position li:last-child {
+	margin-bottom: 0;
+}
+
+.txt {
+	font-size: 14px;
+	color: #19191A;
+	font-weight: 600;
+	line-height: 22px;
+	padding-left: 12px;
+}
+
+.img_bg {
+	position: absolute;
+	left: 168px;
+	top: 0;
+	z-index: 2;
+	width: 168px;
+	height: 168px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.left_02 {
+	top: 24px;
+	right: 220px;
+	border: none;
+	z-index: 10;
+}
+
+.left_03 {
+	right: -40px;
+	top: 50px;
+}
+
+.left_04 {
+	right: -40px;
+	bottom: -108px;
+}
+
+.public_point {
+	width: 8px;
+	height: 8px;
+	background: #999;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.point_01 {
+	right: 499px;
+	top: 145px;
+	z-index: 6;
+}
+
+.point_line {
+	height: 56px;
+	border-left: 1px solid #999;
+	display: inline-block;
+	width: 1px;
+	position: absolute;
+	left: 50%;
+	margin-left: -.5px;
+	bottom: 6px;
+}
+
+.point_line_01 {
+	height: 1px;
+	width: 56px;
+	border-bottom: 1px solid #999;
+	display: inline-block;
+	position: absolute;
+	left: 4px;
+	top: -55px;
+}
+
+.point_02 {
+	right: 360px;
+	top: 236px;
+	z-index: 4;
+}
+
+.point_line_02 {
+	height: 77px;
+	border-left: 1px solid #999;
+	display: inline-block;
+	width: 1px;
+	position: absolute;
+	left: 50%;
+	margin-left: -.5px;
+	bottom: 6px;
+}
+
+.point_line_03 {
+	height: 1px;
+	width: 169px;
+	border-bottom: 1px solid #999;
+	display: inline-block;
+	position: absolute;
+	left: 3px;
+	top: -76px;
+}
+
+.point_03 {
+	right: 460px;
+	top: 342px;
+	z-index: 4;
+}
+
+.point_line_04 {
+	height: 1px;
+	width: 265px;
+	border-bottom: 1px solid #999;
+	display: inline-block;
+	position: absolute;
+	left: 6px;
+	top: 3px;
+}
+
+.structured {
+	padding-bottom: 145px;
+}
+
+.public_bg {
+	background: #F7F7F7;
+}
+
+.left_05 {
+	left: 10px;
+	top: 100px;
+}
+
+.left_06 {
+	right: -10px;
+	top: 100px;
+}
+
+.nav {
+	border-bottom: 1px solid #E5E5E5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0 14px 0;
+}
+
+.nav li {
+	font-size: 16px;
+	color: #19191A;
+	line-height: 26px;
+	margin: 0 30px;
+	cursor: pointer;
+}
+
+.nav li.active {
+	font-weight: 600;
+}
+
+.nav_table {
+	width: 100%;
+}
+
+.nav_table td {
+	font-size: 14px;
+	color: #19191A;
+	font-weight: 600;
+	line-height: 44px;
+	width: 20%;
+	text-align: center;
+	border-right: 3px solid #fff;
+	min-width: 240px;
+}
+
+.nav_table td:first-child {
+	text-align: left;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #646466;
+	font-weight: 400;
+}
+
+.nav_table td:last-child {
+	border: none;
+}
+
+.nav_table tr:nth-of-type(2n) td {
+	background: #F7F7F7;
+}
+
+.nav_table td a {
+	display: inline-block;
+	padding: 0 30px;
+	box-sizing: border-box;
+	background: #0060BF;
+	color: #fff;
+	font-size: 14px;
+	line-height: 38px;
+	transition: all .3s;
+	border-radius: 3px;
+	text-align: center;
+	margin: 24px 0 0 0;
+	font-weight: 400;
+}
+
+.nav_table td a:hover {
+	text-decoration: none;
+	background: #004d99;
+}
+
+.nav_table th {
+	text-align: center;
+	padding: 42px 0 28px 0;
+}
+
+.nav_table th img {
+	display: inline-block;
+}
+
+.nav_table th span {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	color: #19191A;
+	padding-top: 12px;
+}
+
+.nav_table tr:last-child td {
+	background: #fff;
+}
+
+.nav_content li {
+	display: none;
+	overflow-x: auto;
+	padding-bottom: 24px;
+}
+.explore{
+	padding-bottom: 26px;
+}
+
+.nav_content li.active {
+	display: block;
+}
+
+.img_list {
+	display: flex;
+	margin-top: 24px;
+}
+
+.img_list img {
+	max-width: 100%;
+	height: initial;
+}
+
+.left,
+.right {
+	width: 100%;
+}
+
+.left {
+	margin-right: 16px;
+	position: relative;
+}
+
+.img_container {
+	position: relative;
+}
+
+.img_container:last-child {
+	margin-top: 16px;
+}
+
+.applications {
+	padding-bottom: 60px;
+}
+
+.position_list {
+	position: absolute;
+	left: 30px;
+	bottom: 20px;
+}
+
+.position_top {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.position_bottom {
+	font-size: 14px;
+	color: #fff;
+}
+
+.position_bottom span {
+	display: inline-block;
+	position: relative;
+	line-height: 26px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.position_bottom span em {
+	display: block;
+	position: absolute;
+	background: #0060BF;
+	opacity: 0.4;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.position_bottom span i {
+	position: relative;
+	z-index: 2;
+}
+
+.wifisix_howto_list {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 26px 0 50px;
+}
+
+.wifisix_howto_list>li {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: -webkit-calc(100% / 3 - 8px);
+	width: -ms-calc(100% / 3 - 8px);
+	width: -moz-calc(100% / 3 - 8px);
+	width: calc(100% / 3 - 8px);
+	text-align: left;
+}
+
+.wifisix_howto_list>li img {
+	width: 100%;
+}
+
+.wifisix_howto_txtbox {
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+}
+
+.wifisix_howto_tit {
+	font-size: 16px;
+	color: #232323;
+	line-height: 26px;
+	min-height: 52px;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.wifisix_howto_tag a {
+	cursor: inherit;
+	display: inline-block;
+	height: 22px;
+	line-height: 23px;
+	margin-top: 5px;
+	overflow: hidden;
+	padding: 0 7px;
+	border-radius: 2px;
+	background: #efefef;
+	font-size: 13px;
+	color: #616265;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.wifisix_howto_more {
+	margin-top: 25px;
+	display: flex;
+}
+
+.wifisix_howto_more a {
+	font-size: 14px;
+	color: #0070bc;
+}
+
+.wifisix_howto_more a .icon {
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.FS_Newpation_en:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.FS_Newpation_en {
+	text-align: center;
+	margin: 30px 0 10px;
+	position: relative;
+}
+
+.FS_Newpation_box {
+	text-align: center;
+	display: inline-block;
+}
+
+.FS_Newpation_cont {
+	float: left;
+}
+
+.FS_Newpation_en li.FS_Newpation_item {
+	float: left;
+	font-size: 13px;
+	color: #333333;
+	box-sizing: border-box;
+	margin: 0 10px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.FS_Newpation_en li.FS_Newpation_item a {
+	color: #999;
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+.FS_Newpation_en li.FS_Newpation_item:hover a {
+	color: #333;
+}
+
+.FS_Newpation_en li.FS_Newpation_item.choosez a {
+	color: #333;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+.wifisix_solution_listbox {
+	padding: 30px 30px;
+	background: #fff;
+}
+
+.wifisix_solution_list li {
+	margin: 0 0 24px 0;
+}
+
+.wifisix_solution_qtxt {
+	font-size: 16px;
+	color: #232323;
+	line-height: 26px;
+	font-weight: 600;
+}
+
+.wifisix_solution_atxt {
+	background: #F7F7F7;
+	margin: 15px 0 0;
+}
+
+.wifisix_solution_atxt p {
+	font-size: 14px;
+	color: #232323;
+	line-height: 24px;
+	padding: 10px 20px;
+}
+
+.wifisix_solution_atxt a {
+	color: #0070bc;
+}
+
+.wifisix_solution_morebox {
+	text-align: center;
+}
+
+.wifisix_solution_moremain {
+	display: inline-block;
+}
+
+.wifisix_solution_more {
+	color: #0070bc;
+	cursor: pointer;
+	display: flex;
+	font-size: 14px;
+}
+
+.wifisix_solution_more .icon {
+	font-size: 14px;
+	margin: 1px 0 0 5px;
+	display: inline-block;
+}
+
+.wifisix_solution_morebox .FS_Newpation_en {
+	display: none;
+}
+
+.list_Newnext_page_new {
+	background: #fff;
+	float: right;
+	margin: 5px 0 0 10px;
+	cursor: pointer;
+	border: 1px solid #e5e5e5;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.list_Newpro_page_new {
+	background: #fff;
+	float: left;
+	margin: 5px 10px 0 0;
+	cursor: default;
+	border: 1px solid #e5e5e5;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.list_Newnext_page_new:hover,
+.list_Newpro_page_new:hover {
+	text-decoration: none;
+}
+
+.list_Newpro_page_new.choosez {
+	cursor: default;
+	opacity: .5;
+}
+
+.list_Newpro_page_new.choosez .icon {
+	color: #999;
+}
+
+.wifisix_any {
+	height: 265px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.wifisix_any .wifisix_any_bg {
+	height: 265px;
+	background: url(https://img-en.fs.com/zh/includes/templates/fiberstore/images/specials/wifi6/wifisix-support-bg.jpg) no-repeat;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	background-size: cover;
+	z-index: -1;
+	background-position: 50%;
+}
+
+.wifisix_any .wifisix_any_main {
+	padding-top: 50px;
+}
+
+.wifisix_any .wifisix_any_main h2 {
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 26px;
+	color: #fff;
+}
+
+.wifisix_any .wifisix_any_main p {
+	font-size: 16px;
+	color: #fff;
+	line-height: 26px;
+	margin-top: 15px;
+}
+
+.wifisix_any .wifisix_any_main a {
+	display: inline-block;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 30px;
+	line-height: 40px;
+	text-decoration: none;
+	margin-top: 30px;
+	transition: all 0.3s;
+}
+
+.wifisix_any .wifisix_any_main a:hover {
+	background: #fff;
+	color: #19191a;
+}
+
+.fqa {
+	padding-bottom: 70px;
+}
+
+.position_point {
+	font-size: 16px;
+	color: #19191A;
+	font-weight: 600;
+	line-height: 26px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 15px;
+}
+
+.position_point em {
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	line-height: 24px;
+	text-align: center;
+	background: #0060BF;
+	font-size: 14px;
+	border-radius: 50%;
+	display: inline-block;
+	font-weight: 400;
+	margin-right: 10px;
+}
+
+.position_point {
+	display: none;
+}
+.position_point .icon{
+	font-size: 14px;
+	float: right;
+	font-weight: 400;
+	color: #646466;
+	display: inline-block;
+	width: 14px;
+	height:14px;
+	line-height: 14px;
+	transition: all .3s;
+	vertical-align: middle;
+	margin-top: 6px;
+}
+
+.main_img_m,
+.img_m {
+	display: none;
+	max-width: 100%;
+	height: initial;
+}
+
+.swiper-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.swiper-wrapper {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-ms-transition-property: -ms-transform;
+	transition-property: transform;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.swiper-wrapper {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate(0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.swiper-slide {
+	-webkit-flex-shrink: 0;
+	-ms-flex: 0 0 auto;
+	flex-shrink: 0;
+	width: 100%;
+	position: relative;
+}
+
+.swiper-pagination {
+	position: absolute;
+	text-align: center;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 10;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+}
+
+.swiper-pagination-bullet {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 100%;
+	background: #000;
+	opacity: .2;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+	cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #828282;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+}
+
+.wifisix_howto_listm {
+	display: none;
+}
+
+.wifisix_howto_txtbox {
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+}
+
+.wifisix_howto_tit {
+	font-size: 16px;
+	color: #232323;
+	line-height: 26px;
+	min-height: 52px;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.wifisix_howto_tag a {
+	cursor: inherit;
+	display: inline-block;
+	height: 22px;
+	line-height: 23px;
+	margin-top: 5px;
+	overflow: hidden;
+	padding: 0 7px;
+	border-radius: 2px;
+	background: #efefef;
+	font-size: 13px;
+	color: #616265;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.wifisix_howto_more {
+	margin-top: 25px;
+	display: flex;
+}
+
+.wifisix_howto_more a {
+	font-size: 14px;
+	color: #0070bc;
+}
+
+.wifisix_howto_more a .icon {
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 3px;
+}
+.position_container.active .position_point .icon{
+	transform: rotate(180deg);
+}
+.nav_overfolw{
+	position: relative;
+}
+.content{padding-bottom: 0 !important;}
+@media (max-width: 1220px) {
+	.wifisix_howto_tag {
+		min-height: 64px;
+	}
+	.width,
+	.banner_contaienr {
+		width: 960px;
+	}
+	.main_img_pc {
+		width: 600px;
+	}
+	.position {
+		position: initial;
+		border: none;
+		width: 100%;
+		flex-flow: row wrap;
+		display: flex;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+	.public_point {
+		display: none;
+	}
+	.position li {
+		width: 49%;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		margin-right: 2%;
+		margin-bottom: 2%;
+		padding: 0 10px;
+	}
+	.position li a{
+		justify-content: flex-start;
+	}
+	.position li:last-child {
+		margin-bottom: 2%;
+	}
+	.position li:nth-of-type(2n) {
+		margin-right: 0;
+	}
+	.nav_table ,.nav{
+		min-width: 1200px;
+	}
+	.nav{
+		justify-content: initial;
+	}
+	.public_txt br {
+		display: none;
+	}
+	.position_point {
+		display: block;
+	}
+	.main_img_m,
+	.img_m {
+		display: inline-block;
+	}
+	.main_img_pc,
+	.img_pc {
+		display: none;
+	}
+	.wifisix_howto_tag {
+		min-height: 64px;
+	}
+	.img_list .img_pc{
+		display: inline-block;
+	}
+	.img_list .img_m{
+		display: none;
+	}
+	.left_02{
+		margin-bottom: 0;
+	}
+	.nav {
+		position: relative;
+	}
+	.nav_overfolw{
+		overflow-x: auto;
+	}
+}
+
+@media (max-width: 960px) {
+	.wifisix_howto_tit {
+		-webkit-line-clamp: inherit;
+	}
+	.width,
+	.banner_contaienr {
+		width: 100%;
+		padding-left: 16px;
+		padding-right: 16px;
+		box-sizing: border-box;
+	}
+	.copper_dl_container .width {
+		flex-flow: row wrap;
+	}
+	.copper_dl {
+		width: 49%;
+		margin: 0 2% 8% 0;
+	}
+	.copper_dl:last-child {
+		margin-bottom: 0;
+	}
+	.copper_dl:nth-child(2) {
+		margin-right: 0;
+	}
+	.wifisix_howto_tit {
+		-webkit-line-clamp: inherit;
+	}
+	.swiper-container {
+		display: block;
+	}
+	.swiper-slide img {
+		max-width: 320px;
+	}
+	.nav li{
+		position: relative;
+	}
+	.nav li span{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		text-align: center;
+		height: 3px;
+		line-height: 3px;
+		display: none;
+	}
+	.nav li span i{
+		display: inline-block;
+		height: 3px;
+		width: 40px;
+		background: #C00000;
+		line-height: 3px;
+	}
+	.nav{
+		padding: 0;
+	}
+	.nav li{
+		margin: 0 30px 0 0;
+		white-space:nowrap;
+		padding: 10px 0 14px 0;
+	}
+	.nav li.active span{
+		display: block;
+	}
+}
+
+@media (max-width: 680px) {
+	.wifisix_howto_list {
+		display: none;
+	}
+	.wifisix_solution_listbox {
+		padding: 23px 15px 34px;
+		margin-top: 20px;
+	}
+	.wifisix_solution_atxt p {
+		padding: 8px 20px;
+	}
+	.wifisix_any .wifisix_any_main h2 {
+		font-size: 20px;
+		line-height: 30px;
+		padding: 0 15px;
+	}
+	.wifisix_any {
+		height: 233px;
+	}
+	.wifisix_any .wifisix_any_bg {
+		height: 233px;
+		background: url(https://img-en.fs.com/zh/includes/templates/fiberstore/images/specials/wifi6/wifisix-support-bg-m.jpg) no-repeat;
+		background-size: cover;
+	}
+	.wifisix_any .wifisix_any_main {
+		padding-top: 38px;
+	}
+	.wifisix_any .wifisix_any_main p {
+		margin-top: 2px;
+	}
+	.wifisix_any .wifisix_any_main a {
+		margin-top: 23px;
+	}
+	.purchase_order_tit {
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.purchase_banner_tit {
+		display: none;
+	}
+	.business_top_wap,
+	.purchase_order_bg {
+		height: 220px;
+	}
+	.banner_contaienr {
+		padding-top: 70px;
+	}
+	.copper_tit {
+		padding: 24px 0 36px 0;
+	}
+	.copper_dl {
+		width: 100%;
+		margin: 0 0 12px 0 !important;
+		padding-top: 5px;
+		padding-bottom: 23px;
+	}
+	.copper_dl:last-child {
+		margin-bottom: 0 !important;
+	}
+	.copper_dl dt {
+		border: none;
+		transform: none;
+		width: 100%;
+	}
+	.copper_dl dd {
+		margin-top: 0;
+	}
+	.copper_dl_container {
+		padding: 30px 0;
+	}
+	.public_tit {
+		font-size: 20px;
+		line-height: 30px;
+		padding-top: 32px;
+		padding-bottom: 14px;
+	}
+	.public_txt {
+		text-align: left;
+	}
+	.position li{
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+	.position li:last-child {
+		margin-bottom: 0;
+	}
+	.position li img {
+		width: 40px;
+		height: 40px;
+	}
+	.main_img_pc {
+		padding-bottom: 18px;
+	}
+	.position {
+		margin-bottom: 30px;
+	}
+	.position.left_02,.position.left_03{
+		margin-bottom: 10px;
+	}
+	.structured {
+		padding-bottom: 10px;
+	}
+	.img_list {
+		display: block;
+	}
+	.left {
+		margin-bottom: 12px;
+	}
+	.img_container:last-child {
+		margin-top: 12px;
+	}
+	.applications,
+	.fqa {
+		padding-bottom: 40px;
+	}
+	.purchase_order_bg {
+		background: url(https://img-en.fs.com/zh/includes/templates/fiberstore/images/specials/copper_cable/banner_m.jpg);
+		background-size: cover;
+	}
+	.wifisix_howto_listm {
+		display: block;
+	}
+	.wifisix_howto_listm .swiper-slide img {
+		width: 100%;
+		max-width: inherit;
+	}
+	.wifisix_howto_listm.swiper-container {
+		padding: 28px 0 33px;
+	}
+	/*.wifisix_howto_listm .swiper-pagination-bullets {*/
+		/*bottom: -5px;*/
+	/*}*/
+	.featured{
+		padding-bottom: 35px;
+	}
+	.img_list .img_pc{
+		display: none;
+	}
+	.img_list .img_m{
+		display: inline-block;
+	}
+	.nav{
+		min-width: initial;
+	}
+}

@@ -1,0 +1,327 @@
+.alone-page-banner {
+    background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/img/newshipping_delivery/new_img_banner_mgbg.png");
+}
+
+.alone-page-banner.alone_banner_uk {
+    background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/img/newshipping_delivery/img-banner_uk.jpg");
+}
+
+.alone-page-banner.alone_banner_ru {
+    background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/img/newshipping_delivery/img-banner-ru.jpg");
+}
+
+.alone-page-banner.alone_banner_bg_au {
+    background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/img/newshipping_delivery/img_LS_au_07.jpg");
+}
+
+.delivery-time-importantFont {
+    font-size: 14px;
+    color: #19191a;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.delivery-time-importantFont:nth-child(3) {
+    margin-top: 16px;
+}
+
+.delivery-time-area{
+    margin-top: 16px;
+}
+.delivery-time-area-tit{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.delivery-time img {
+    margin: 16px 0 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.delivery-time-days {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 32px;
+}
+.delivery-time-days.vertical{
+    display: block;
+}
+.delivery-time-days.vertical .delivery-time-days-con{
+    margin-bottom: 12px;
+}
+.delivery-time-days.vertical:last-child .delivery-time-days-con{
+    margin-bottom: 0;
+}
+
+.delivery-time-days-con {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.delivery-time-days-con-cir {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.delivery-time-days-con-font {
+    font-size: 14px;
+    line-height: 22px;
+    color: #19191a;
+    margin-left: 8px;
+}
+
+.bg01 {
+    background-color: #4D9AD0;
+}
+
+.bg02 {
+    background-color: #74B1DA;
+}
+
+.bg03 {
+    background-color: #A6CEE7;
+}
+
+.bg04 {
+    background-color: #CCE2F1;
+}
+
+.delivery-time-note {
+    font-size: 16px;
+    font-weight: 600;
+    color: #19191a;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.delivery-time-note-txt {
+    font-size: 14px;
+    color: #646466;
+    line-height: 22px;
+}
+
+.alone-page-content-right-line {
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 34px 0;
+}
+
+.alone-page-content-right-line.lessMargin {
+    margin-top: 24px;
+}
+
+.free-shipping .alone-page-content-right-txt:last-child {
+    margin-top: 16px;
+}
+
+.local-service-pic {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.local-service-pic-con {
+    width: 415px;
+    height: 240px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.local-service-pic-con img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.local-service-pic-con-bg {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.68) 100%);
+    box-sizing: border-box;
+    padding: 0 85px 18px;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+    left: 0;
+}
+
+.local-service-pic-con-bg p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    text-align: center;
+}
+
+.single-purchase-tit {
+    font-size: 16px;
+    line-height: 26px;
+    color: #19191a;
+    font-weight: 600;
+    margin: 20px 0 10px;
+}
+
+.faqs-list {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.faqs-list-tit {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.faqs-list-tit a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.faqs-list-tit a:hover {
+    text-decoration: none;
+}
+
+.faqs-list-tit a .icon {
+    font-weight: 400;
+    margin-right: 10px;
+    transition: all .3s;
+}
+
+.faqs-list-tit a.active .icon {
+    transform: rotate(180deg);
+}
+
+.faqs-list-content {
+    margin-top: 10px;
+    padding-left: 26px;
+    display: none;
+}
+
+.faqs-list-content-txt {
+    font-size: 14px;
+    line-height: 22px;
+    color: #646466;
+}
+.faqs-list-content-txt a{
+    color: #0060bf;
+}
+.faqs-list-content-txt a:hover{
+    text-decoration: underline;
+}
+
+.delivery-time-table {
+    margin-bottom: 16px;
+}
+
+.delivery-time-table-tr {
+    display: flex;
+}
+
+.delivery-time-table-td {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12px 10px 12px 50px;
+    font-size: 14px;
+    color: #19191a;
+    line-height: 22px;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.delivery-time-table-tr:first-child .delivery-time-table-td {
+    background-color: #e3f0fa;
+    border-bottom: 0;
+    border-right-color: #fff;
+
+}
+
+.delivery-time-table-td:last-child {
+    border-right: 0;
+}
+
+.table_select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.table_select > p {
+    font-size: 14px;
+    color: #19191a;
+    line-height: 22px;
+    margin-right: 20px;
+}
+
+.table_select_box {
+    width: 260px;
+    height: 38px;
+    margin-left: 20px;
+}
+
+.ce_form_choose_block p {
+    text-indent: 14px;
+}
+
+.ce_form_choose_block .ce_form_countryList li a {
+    padding-left: 8px;
+}
+
+.ce_form_choose_block .ce_form_countryList {
+    height: 128px;
+}
+
+@media (max-width: 960px) {
+    .alone-page-banner {
+        background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/img/newshipping_delivery/new_img_banner_mgbg_m.png");
+    }
+
+    .local-service-pic-con-bg {
+        padding: 0 16px 16px;
+    }
+
+    .local-service-pic-con {
+        height: auto;
+    }
+
+    .table_select_sg p {
+        display: block;
+        width: 100%;
+    }
+
+    .table_select_sg .table_select_box {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .alone-page-banner.alone_banner_uk {
+        background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/img/newshipping_delivery/img-banner_uk_m.jpg");
+    }
+
+    .alone-page-banner.alone_banner_ru {
+        background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/img/newshipping_delivery/img-banner_ru_m.jpg");
+    }
+
+    .alone-page-banner.alone_banner_bg_au {
+        background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/img/newshipping_delivery/img_LS_au_07_m.jpg");
+    }
+    .table_select{
+        display: block;
+    }
+    .delivery-time-table-tr:first-child .delivery-time-table-td{
+        width: 100%;
+    }
+    .delivery-time-table .m_none{display: inherit;}
+}
+@media (max-width: 640px) {
+    .delivery-time-days{display: block;}
+    .delivery-time-days-con{margin-bottom: 8px;}
+    .delivery-time-days-con:last-child{margin-bottom: 0;}
+}

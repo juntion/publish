@@ -1,0 +1,15 @@
+[
+  {
+    "permission": "permission.view",
+    "uuid": "",
+    "guard_name": "",
+    "type": "",
+    "route": "/permission",
+    "name": "permission",
+    "locale": {
+      "en-US": "PermissionManage",
+      "zh-CN": "权限管理"
+    },
+    "comment": "权限管理入口"
+  }
+]

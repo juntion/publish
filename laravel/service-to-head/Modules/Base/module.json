@@ -1,0 +1,15 @@
+{
+    "name": "Base",
+    "alias": "base",
+    "description": "基础模块",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Base\\Providers\\BaseServiceProvider",
+        "Modules\\Base\\Providers\\DeferrableServiceProvider",
+        "Modules\\Base\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

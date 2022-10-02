@@ -1,0 +1,301 @@
+﻿.breadcrumb-container { display: none; }
+.content { padding-top:0; }
+em { font-style: normal; }
+.footer{margin-top:0 !important}
+/*样式开始*/
+.Cus_banner { height: 380px; }
+.Cus_banner_bg { position: absolute; left: 0; width: 100%; height: 380px; z-index: -1; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/sg/contact_us_bannr.jpg) no-repeat center; }
+.Cus_txt { padding: 44px 0; text-align: center; font-size: 16px; line-height: 30px; color: #616265; font-weight: 400; }
+.Cus_banner_tit { font-size: 48px; color: #fff; text-align: center; padding-top: 110px; margin-bottom: 30px; letter-spacing: 2px; line-height: 60px;  font-weight: 600;}
+.Cus_banner_txt { font-size: 24px; color: #fff; font-weight: 400; text-align: center; line-height: 34px; }
+.Cus_banner_txt span{vertical-align: top;}
+.Cus_banner_txt a { color:#fff; text-decoration: none; margin-left: 10px; }
+.Cus_business { overflow: hidden; }
+.Cus_business_tit { font-size: 24px; color: #232323; font-weight: 600; margin-top: 48px; line-height: 22px; margin-bottom: 20px; border-left: 2px solid #dedede; padding-left: 14px; }
+.Cus_business_tit em {font-size: 14px;font-weight: normal;margin-left: 20px;}
+.Cus_business_txt { font-size: 14px; color: #616265; text-align: center; line-height: 22px; padding-bottom: 40px; font-weight:400; }
+.Cus_Contact { overflow: hidden; padding-bottom: 40px; }
+.Cus_Contact_dl { width: 32%; float: left; background: #fff; margin:0 10px 20px 0;min-height: 184px; }
+/*.Cus_Contact_dl:nth-child(4),.Cus_Contact_dl:nth-child(5){margin-top: 20px;}*/
+.Cus_Contact_dl dt { float: left; width: 30%; padding: 55px 0 50px 0; }
+.Cus_Contact_dl dt img { display: block; max-width: 100%; margin:0 auto;}
+.Cus_Contact_dl dd { float: left; width: 70%; padding: 34px 0 0px 0; }
+.Cus_dl { margin-right: 0; margin-left:10px; }
+.Cus_Contact_dl dd h3 { font-size: 14px; line-height: 20px;  color: #232323; }
+.Cus_Contact_dl dd p { padding: 14px 0; }
+.Cus_Contact_dl dd p, .Cus_Contact_dl dd em { padding-right: 20px; font-size: 14px; line-height: 22px; font-weight:400; color: #616265; }
+.Cus_Contact_dl dd em { padding-right: 0; font-style: normal; }
+.Cus_Contact_dl dd em a { color: #616265; text-decoration: none; }
+.Cus_call_dl_wap { overflow: hidden; margin-bottom: 18px; padding-left: 120px; padding-right: 120px; }
+.Cus_call_us dl:nth-child(2) {
+ padding-top: 14px;
+}
+.Cus_call_dl_wap dt { padding-bottom: 10px; border-bottom: 1px solid #e5e5e5; cursor: pointer; }
+.Cus_call_dl { overflow: hidden; }
+.Cus_call_dl dt { float: left; border-bottom: none; width: 3%; }
+.Cus_call_dl dt img { padding-right: 12px; }
+.Cus_call_dl dd { width: 97%; }
+.Cus_call_dl dd em { float: right;border-radius: 50%;background: #0070BC;width: 25px;height: 25px;text-align: center;line-height: 25px;color: #fff;transition: all .3s; }
+.Cus_call_dl dd { float: left; }
+.Cus_call_ul { list-style: none; overflow: hidden; width: 100%; margin: 0 auto; }
+.Cus_call_ul li { width: 33.33%; float: left; text-align: left; padding-top: 10px; }
+.Cus_call_ul li a { text-decoration: none; color: #616265; font-size: 14px; line-height: 30px;display: block;padding-left: 36px; }
+.Cus_call_dl dd span { font-size: 14px; color: #0070BC; }
+.Cus_call_dl_wap:last-child { padding-bottom: 0; margin-bottom: 50px; }
+.Cus_call_dd { display: none; overflow: hidden; }
+.icon_btn { cursor: pointer; }
+.Cus_email_dl { width: 24%; float: left; overflow: hidden; background: #fff; margin-right: 1%; margin-bottom: 1%; height: 270px; }
+.Cus_email_dl dt {font-weight: 600; width: 80%; text-align: center; padding-top: 36px; padding-bottom: 20px; font-size: 18px; line-height: 18px; border-bottom: 1px solid #e5e5e5; margin: 0 auto; }
+.Cus_email_dl dd { text-align: center; width: 100%; }
+.Cus_email_div { width: 100%; padding-top: 40px; padding-bottom: 26px; }
+.Cus_email_div img { display: inline-block; max-width: 100%; margin-top: -4px; vertical-align: middle; padding-right: 10px; }
+.Cus_email_span { display: inline-block; font-size:16px; }
+.Cus_email_span a { text-decoration: none; color: #0070BC; }
+.Cus_email_dl p {padding-left: 50px; padding-right:50px;font-size: 14px;color: #616265;  }
+.Cus_email_us { overflow: hidden;padding-bottom: 35px; }
+.Cus_Contact_bg { position: absolute; left: 0; width: 100%; height:600px; z-index: -1; background: url(../images/Contact_Us_05.jpg) no-repeat #f9f9f9; }
+.Cus_email_us_bg { position: absolute; left: 0; width: 100%; height: 679px; z-index: -1; background: #f6fafd; }
+.footer{
+	margin-top: 10px;
+}
+.Cus_call_dl dd em.active{
+	transform: rotate(45deg);
+	background: #cccccc;
+}
+/*header*/
+.page_nav {
+	width: 100%;
+	line-height: 56px;
+	background: #fff;
+	position: fixed;
+	height: 56px;
+	top: 0;
+	display: none;
+	z-index: 22;
+	left: 0;/* transition: all 250ms;*/
+	box-shadow: 0px 1px 5px #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.page_nav_con {
+	width: 1440px;
+	margin: 0 auto;
+}
+.big_title {
+	float: left;
+}
+.big_title a {
+	font-size: 16px;
+	color: #232323;
+	font-weight: 600;
+	text-decoration: none;
+	padding-left: 20px;
+	display: block;
+	width: 200px;
+}
+.big_title a em {
+	background: url(/images/partner_bg.png) no-repeat 0 0;
+	width: 13px;
+	height: 8px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.big_title:hover a em {
+	background: url(/images/partner_bg.png) no-repeat 0 -29px;
+}
+.short_title {
+	float: right;
+}
+.short_title a {
+	padding: 0 30px;
+	text-decoration: none;
+	color: #232323;
+	font-size: 14px;
+	border-right: 1px solid #dedede;
+}
+.short_title a.title_selected {
+    color: #232323;
+    font-weight: 600;
+}
+.short_title a:last-child {
+	border-right: none;
+}
+.short_title a:hover {
+    color: #232323;
+}
+.big_title .big_title_con {
+	display: none;
+	line-height: 35px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
+	background: #1886cc;
+	-webkit-transition: height 0.5s;
+	position: absolute;
+	z-index: 222;
+}
+.big_title:hover .big_title_con {
+	display: block;
+}
+.big_title_con span a {
+	display: block;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 70px;
+	color: #fff;
+	border-bottom: 1px solid #459ed6;
+}
+.icon_btn01{display: none;}
+.Cus_call_dl_wap.active .icon_btn01{display: block;}
+.Cus_call_dl_wap.active .icon_btn{display: none;}
+
+
+/*header*/
+ @media(max-width:1440px) {
+ .box {
+ width: 1200px;
+}
+.page_nav_con {
+	width: 1200px;
+}
+ .Cus_call_ul li {
+ 	padding-left: 30px;
+ }
+}
+@media(max-width:1220px) {
+ .box {
+ width: 960px;
+}
+.page_nav_con {
+	width: 960px;
+}
+ .Cus_Contact_dl dt img {
+ padding-left: 40px;
+}
+ .Cus_Contact_dl dd p, .Cus_Contact_dl dd em {
+ padding: 0;
+}
+ .Cus_business_tit {
+ padding-left: 20px;
+}
+ .Cus_email_dl {
+ width: 32%;
+}
+ .Cus_email_us_bg {
+ height: 984px;
+}
+ .Cus_call_ul li {
+ width: 50%;
+ padding-left: 26px;
+}
+ .Cus_call_dl_wap {
+ padding: 0 60px;
+}
+.Cus_Contact_dl{width:48%}
+.Cus_dl{margin-left:0}
+.Cus_Contact_dl dd{padding-top:64px;}
+}
+@media(max-width:960px) {
+ .box {
+ width: 100%;
+}
+.page_nav {
+	display: none !important;
+}
+ .content {
+ width: auto;
+ padding: 0 10px;
+}
+ .Cus_email_dl {
+ width: 49%;
+}
+ .Cus_email_us_bg {
+ height: 1255px;
+}
+ .Cus_call_dl dt {
+ width: 6%;
+}
+ .Cus_call_dl dd {
+ width: 94%;
+}
+.Cus_Contact_bg{
+	background-image: none;
+}
+.Cus_call_ul li {
+	padding-left: 32px;
+}
+}
+@media(max-width:680px) {
+ .Cus_Contact_dl {
+ width: 100%;    margin: 20px 0 0 0 ;
+}
+.Cus_email_us{margin-top:40px;padding-bottom:20px;}
+.Cus_dl{ margin-top:20px;}
+.Cus_email_dl{margin-bottom:20px;}
+ .Cus_Contact_bg {
+height: 998px;
+}
+.Cus_call_dl_wap{ padding:0 20px;}
+ .Cus_call_dl dt {
+ width: 8%;
+}
+ .Cus_call_dl dd {
+ width: 92%;
+}
+ .Cus_call_ul {
+ width: 100%;
+}
+ .Cus_call_ul li {
+ width: 100%;
+}
+.Cus_business_tit em{
+	display:block;
+	margin-left:0;
+	line-height:24px;
+}
+.Cus_Contact_dl dd,.Cus_email_dl{padding-bottom:10px;}
+.Cus_business_tit{margin-top:20px;}
+}
+@media(max-width:480px) {
+ .Cus_banner {
+ height: 220px;
+ overflow: hidden;
+}
+ .Cus_banner_bg {
+ height: 220px;
+}
+ .Cus_banner_tit {
+ font-size: 24px;
+ padding-top: 50px;
+ line-height: 40px;
+ margin-bottom: 5px;
+ font-weight: 400;
+}
+.Cus_banner_txt {
+ font-size: 16px;
+ line-height: 22px;
+ font-weight:400;
+}
+.Cus_business_tit {
+ font-size: 24px;
+ line-height: 40px;
+ font-weight: 400;
+}
+.Cus_business_txt {  
+ font-size: 16px;
+ line-height: 22px;
+ font-weight:400;
+}
+ .Cus_email_dl {
+ width: 100%;
+ height: 220px;
+}
+ .Cus_call_dl dt {
+ width: 10%;
+}
+ .Cus_call_dl dd {
+ width: 90%;
+}
+ .Cus_call_dl_wap:last-child {
+ margin-bottom: 0;
+}
+.Cus_Contact_dl dd{padding-top:54px;}
+}

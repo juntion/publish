@@ -1,0 +1,239 @@
+.content { padding-top: 0; }
+.dc_banner { height: 380px; }
+.dc_banner_bg { position: absolute; width: 100%; height: 380px; left: 0; z-index: -1; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Cabling_System/banner-pic01-0.jpg) no-repeat center; }
+.dc_banner_tit { font-size: 40px; font-weight: 400; text-align: center; padding-top: 135px; line-height: 60px; color: #050505; }
+.dc_banner_txt { font-size: 24px; line-height: 34px; color: #050505; text-align: center; margin-top: 6px; }
+.dc_tit { font-size: 30px; line-height: 40px; color: #2b1a09; text-align: center; padding-top: 40px; font-weight: 400; }
+.dc_txt { line-height: 24px; color: #616265; text-align: center; font-size: 14px; font-weight:400; margin-top: 15px; }
+.dc_content { overflow: hidden; position: relative; padding-bottom: 68px; }
+.dc_middle { overflow: hidden; width: 36%; margin: 50px auto 0; }
+.dc_middle img { width: 520px; height: 475px; display: block; margin: 0 auto; }
+.dc_left { width: 32%; position: absolute; left: 0; top: 0; }
+.dc_left_dl, .dc_right_dl { overflow: hidden; padding-top: 10px; }
+.dc_left_dl:first-child, .dc_right_dl:first-child { padding-top: 50px; }
+.dc_left_dl dt { float: left; width: 24%; }
+.dc_left_dl dt img { margin: 0 auto; max-width: 100%; display: block;  transition: all .3s;
+transform: scale(1); }
+.dc_left_dl:hover img { transform: scale(1.1); }
+.dc_right_dl dt img { margin: 0 auto; max-width: 100%; display: block;  transition: all .3s;
+transform: scale(1); }
+.dc_right_dl:hover img { transform: scale(1.1); }
+.dc_left_dl dd { float: left; width: 76%; }
+.dc_left_dl dd h3 { padding-top: 20px; padding-left: 30px; font-size: 18px; padding-right: 30px; padding-bottom: 12px; font-weight: inherit; color: #232323; }
+.dc_left_dl dd p { padding-left: 30px; padding-right: 30px; font-weight:400; font-size: 14px; }
+.dc_right { width: 33%; position: absolute; right: 0; top: 0; }
+.dc_right_dl dt { float: right; width: 24%; }
+.dc_right_dl dd { float: right; width: 76%; }
+.dc_right_dl dd h3 { padding-top: 20px; padding-left: 40px; padding-right: 20px; padding-bottom: 20px; font-size: 18px; padding-bottom: 12px; font-weight: normal; color: #232323; }
+.dc_right_dl dd p { padding-left: 40px; padding-right: 20px; font-weight:400; font-size: 14px; }
+.dc_solution { height: 516px; }
+.dc_solution_bg { position: absolute; width: 100%; height: 516px; left: 0; z-index: -1; background-color: #f6f6f6; }
+.dc_solution ul { overflow: hidden; margin-top: 20px; }
+.dc_solution_list { float: left; width: 23.5%; margin-right: 2%; background-color: #fff; }
+.dc_solution_list:last-child { margin-right: 0; }
+.dc_solution_list img { width: 100%; }
+.dc_solution_list_main { padding: 16px 12px 25px 15px; }
+.dc_solution_list_tit { font-size: 18px; color: #232323; font-weight: 400; line-height: 24px; margin-bottom: 10px; }
+.dc_solution_list_txt { font-size: 14px; font-weight:400; color: #616265; line-height: 20px; height: 40px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; margin-bottom: 20px; }
+.dc_solution_list_main a { font-size: 14px; color: #0070BC; text-decoration: none; }
+.dc_solution_list_main a:hover { text-decoration: underline; }
+.dc_solution_list_main .icon { font-size: 12px; color: #0070BC; margin-left: 3px; }
+.dc_quality .dc_tit { text-align: left; margin-bottom: 18px; }
+.dc_quality ul { overflow: hidden; }
+.dc_quality_list { float: left; width: 49%; margin-right: 2%; }
+.dc_quality_list:last-child { margin-right: 0; }
+.dc_quality_list img { width:100%; margin-bottom: 20px; }
+.dc_quality_list_tit { font-size: 18px; color: #232323; font-weight: 400; line-height: 24px; margin-bottom: 10px; }
+.dc_quality_list_txt { font-size: 14px; line-height: 24px; color: #616265; font-weight:400; padding-right: 50px; margin-bottom: 25px; height: 48px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; margin-bottom: 20px; }
+.dc_quality_list a { font-size: 14px; color: #0070BC; text-decoration: none; }
+.dc_quality_list a:hover { text-decoration: underline; }
+.dc_quality_list .icon { font-size: 12px; color: #0070BC; margin-left: 3px; }
+.dc_quality_list_line { width: 100%; height: 5px; background:-webkit-linear-gradient(left, #406bad, #954b8c); ; }
+.dc_quality_list_main { overflow: hidden; padding: 25px 25px 35px 18px; border: 1px solid #e5e5e5; border-top: none; height: 186px; }
+.dc_blog_list { float: left; width: 49%; margin-right: 2%; margin-bottom: 15px; }
+.dc_blog_list:nth-of-type(2n) {
+ margin-right: 0;
+}
+.dc_blog_list_left { float: left; margin-right: 20px; }
+.dc_blog_list_left b { font-size: 36px; color: #232323; line-height: 36px; }
+.dc_blog_list_left p { font-size: 24px; color: #232323; font-weight: 600; }
+.dc_blog_list_right { float: left; width: 89%; }
+.dc_blog_list_right a { display: block; font-size: 22px; font-weight: 600; color: #232323; line-height: 30px; margin-bottom: 20px; }
+.dc_blog_list_right span { font-size: 16px; font-weight:400; color: #999; line-height: 24px; }
+.dc_blog_list_right p { font-size: 14px; color: #616265; font-weight:400; line-height: 24px; margin-top: 10px; }
+.dc_blog_href { margin-top: 15px; text-align: center; margin-bottom: 30px; }
+.dc_blog_href a { font-size: 16px; color: #0070BC; text-decoration: none; }
+.dc_blog_href a:hover { text-decoration: underline; }
+.dc_blog_href span { color: #0070BC; font-size: 13px; margin-left: 3px; }
+.dc_stand ul { overflow: hidden; margin-top: 40px; }
+.dc_stand_list { float: left; width: 32%; margin-right: 2%; }
+.dc_stand_list:last-child { margin-right: 0; }
+.dc_stand_list img { display: block; margin: 0 auto; }
+.dc_stand_list h2 { font-size: 16px; color: #616265; line-height: 24px; text-align: center; margin: 25px 0 15px; }
+.dc_stand_list p { font-weight:400; font-size: 14px; color: #616265; line-height: 24px; text-align: center; }
+ @media(max-width:1440px) {
+ .dc_txt br {
+ display: none;
+}
+ .dc_solution_list_tit {
+ white-space: pre;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+ .dc_blog_list_right {
+ width: 87%;
+}
+}
+@media(max-width:1220px) {
+ .dc_left, .dc_right {
+ position: static;
+ overflow: hidden;
+}
+ .dc_left, .dc_right {
+ width: 100%;
+}
+ .dc_left_dl, .dc_right_dl {
+ width: 50%;
+ float: left;
+}
+ .dc_left_dl dt, .dc_right_dl dt {
+ width: 100%;
+}
+ .dc_left_dl dd, .dc_right_dl dd {
+ width: 100%;
+}
+ .dc_left_dl:first-child, .dc_right_dl:first-child {
+ padding-top: 10px;
+}
+ .dc_left_dl dd h3 {
+ text-align: center;
+}
+ .dc_left_dl dd p, .dc_right_dl dd p {
+ height: 40px;
+}
+ .dc_blog_list_right {
+ width: 84%;
+}
+ .dc_quality_list_main {
+ padding: 15px 15px 35px 18px;
+ height: 215px;
+}
+ .dc_stand_list p br {
+ display: none;
+}
+}
+@media(max-width:960px) {
+ .content {
+ width: auto;
+ padding: 0 10px;
+}
+ .dc_solution {
+ height: auto;
+}
+ .dc_solution_bg {
+ display: none;
+}
+ .dc_solution_list {
+ width: 49%;
+ margin-right: 2%;
+}
+ .dc_solution_list:nth-of-type(2n) {
+ margin-right: 0;
+}
+ .dc_blog_list {
+ width: auto;
+ margin-right: 0;
+}
+ .dc_quality_list_main {
+ height: auto;
+}
+}
+@media(max-width:480px) {
+ .dc_banner_bg {
+ background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Cabling_System/m-banner.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+ .dc_middle {
+ margin: 0 auto;
+ width: auto;
+}
+ .dc_middle img {
+ width: 100%;
+ height: auto;
+}
+ .dc_banner, .dc_banner_bg {
+ height: 220px;
+}
+ .dc_banner_tit {
+ font-size: 24px;
+ padding-top: 35px;
+}
+ .dc_banner_txt {
+ font-size: 18px;
+}
+ .dc_tit {
+ font-size: 24px;line-height: 30px;
+}
+.dc_left_dl dd p, .dc_right_dl dd p{ height:inherit;}
+ .dc_txt {
+ text-align: left;
+}
+ .dc_left_dl, .dc_right_dl {
+ width: 100%;
+}
+ .dc_left_dl dt, .dc_right_dl dt {
+ width: 30%;
+}
+ .dc_left_dl dd, .dc_right_dl dd {
+ width: 70%;
+}
+ .dc_left_dl dd h3 {
+ text-align: left;
+}
+ .dc_right_dl dt {
+ float: left;
+}
+ .dc_content {
+ padding-bottom: 0;
+}
+ .dc_solution_list {
+ width: 100%;
+ margin-right: 0;
+}
+ .dc_quality_list {
+ width: 100%;
+ margin-right: 0;
+ margin-bottom: 20px;
+}
+ .dc_quality_list_txt {
+ padding-right: 0;
+}
+ .dc_quality_list_main {
+ padding: 10px 0 35px 15px;
+}
+ .dc_blog_list_right a {
+ font-size: 16px;
+}
+ .dc_blog_list_right span {
+ font-size: 14px;
+}
+ .dc_blog_list_left b {
+ font-size: 24px;
+}
+ .dc_blog_list_left p {
+ font-size: 14px;
+}
+ .dc_stand_list {
+ width: 100%;
+ margin-right: 0;
+ margin-bottom: 20px;
+}
+ .dc_blog_href {
+ margin-bottom: 0;
+}
+ .dc_right_dl dd h3, .dc_right_dl dd p {
+ padding-left:30px;
+ padding-right: 30px;
+}
+}

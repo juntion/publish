@@ -1,0 +1,23 @@
+[
+    {
+        "name": "mainCompany",
+        "comment": "主体公司",
+        "locale": {
+            "en": "mainCompany",
+            "zh-CN": "主体公司"
+        },
+        "route": "/toolManagement/mainCompany",
+        "route_name": "mainCompany",
+        "type": 0
+    },{
+    "name": "companyInfomation",
+    "comment": "公司信息",
+    "locale": {
+        "en": "companyInfomation",
+        "zh-CN": "公司信息"
+    },
+    "route": "/toolManagement/companyInfomation",
+    "route_name": "companyInfomation",
+    "type": 0
+}
+]

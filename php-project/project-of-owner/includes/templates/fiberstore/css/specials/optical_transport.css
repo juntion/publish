@@ -1,0 +1,312 @@
+.content{
+	padding-top: 0;
+}
+.ot_banner{
+	height: 380px;
+}
+.ot_banner_bg{
+	position: absolute;
+	width: 100%;
+	height: 380px;
+	left: 0;
+	z-index: -1;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/optical_transport/40G100G_optical_transport_banner.jpg) no-repeat center;
+}
+.ot_banner_tit{
+	font-size: 38px;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	line-height: 48px;
+	padding-top: 130px;
+}
+.ot_banner_txt{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+	line-height: 24px;
+}
+.ot_tit{
+	font-size: 30px;
+	text-align: center;
+	color: #232323;
+	font-weight: 400;
+	padding: 40px 0 20px;
+	line-height: 42px;
+}
+.ot_txt{
+	font-size: 14px;
+	color: #616265;
+	text-align: center;
+	line-height: 22px;
+	font-weight:400;
+	margin-bottom: 30px;
+}
+.ot_why ul{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.ot_why_list{
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
+.ot_why_list:last-child{
+	margin-right: 0;
+}
+.ot_why_list img{
+	display: block;
+	margin: 0 auto;
+}
+.ot_why_list_tit{
+	font-size: 18px;
+	line-height: 26px;
+	color: #232323;
+	font-weight: 400;
+	text-align: center;
+	margin: 25px 0 10px;
+}
+.ot_why_list_txt{
+	font-size: 14px;
+	color: #616265;
+	line-height: 24px;
+	font-weight:400;
+	text-align: center;
+}
+.ot_solution_bg{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	z-index: -1;
+	background-color: #f6f6f6;
+}
+.ot_solution_scroll{
+	overflow-x: auto;
+}
+.ot_solution img{
+	display: block;
+	margin: 0 auto;
+	width: 1036px;
+}
+.ot_solution_con{
+	width: 1200px;
+	margin: 40px auto 0;
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+.ot_solution_con_tit{
+	font-size: 18px;
+	text-align: center;
+	color: #232323;
+	line-height: 24px;
+	padding: 35px 0 25px;
+	font-weight: 400;
+}
+.ot_solution_con ul{
+	overflow: hidden;
+}
+.ot_solution_con_list{
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
+.ot_solution_con_list:last-child{
+	margin-right: 0;
+}
+.ot_solution_con_list span{
+	display: block;
+	margin: 0 auto 12px;
+	background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/optical_transport/40G100G_optical_transport_icon.png);
+	background-repeat: no-repeat;
+}
+.ot_solution_con_list_icon01{
+	width: 47px;
+	height: 41px;
+	background-position: -3px -3px;
+}
+.ot_solution_con_list_icon02{
+	width: 41px;
+	height: 41px;
+	background-position: -129px -3px;
+}
+.ot_solution_con_list_icon03{
+	width: 41px;
+	height: 41px;
+	background-position: -249px -3px;
+}
+.ot_solution_con_list_icon04{
+	width: 41px;
+	height: 41px;
+	background-position: -3px -78px;
+}
+.ot_solution_con_list_icon05{
+	width: 36px;
+	height: 41px;
+	background-position: -132px -78px;
+}
+.ot_solution_con_list_icon06{
+	width: 47px;
+	height: 41px;
+	background-position: -246px -80px;
+}
+.ot_solution_con_list p{
+	font-size: 14px;
+	font-weight:400;
+	color: #616265;
+	text-align: center;
+	line-height: 22px;
+}
+.ot_solution_con_tab{
+	width: 960px;
+	margin: 0 auto;
+}
+.ot_solution_con_tab td{
+	padding: 12px 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+.ot_solution_con_tab thead td{
+	background-color: #dfebf2;
+	color: #232323;
+	font-size: 16px;
+}
+.ot_solution_con_tab tbody td{
+	font-size: 14px;
+	font-weight:400;
+	color: #232323;
+	border-bottom: 1px solid #e5e5e5;
+	position:relative;
+}
+.ot_solution_con_tab tbody td:last-child{
+	border-right: none;
+}
+.ot_solution_con_tab tbody td a:hover{
+	color: #0070BC;
+}
+.ot_more{
+	margin-bottom: 50px;
+}
+.ot_more .ot_tit{
+	padding-top: 80px;
+}
+.ot_more ul{
+	overflow: hidden;
+	margin-top: 15px;
+}
+.ot_more_list{
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	text-align: center;
+}
+.ot_more_list:last-child{
+	margin-right: 0;
+}
+.ot_more_list img{
+	display: block;
+	width:100%;
+}
+.ot_more_list_tit{
+	font-size: 18px;
+	font-weight: 400;
+	color: #232323;
+	line-height: 24px;
+	text-align: center;
+	margin: 20px 0;
+}
+.ot_more_list_txt{
+	font-size: 14px;
+	color: #616265;
+	font-weight:400;
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.ot_more_list a{
+	font-size: 16px;
+	font-weight:400;
+	color: #0070BC;
+	text-decoration: none;
+}
+.ot_more_list a:hover{
+	text-decoration: underline;
+}
+.ot_more_list .icon{
+	font-size: 14px;
+	color: #0070BC;
+	margin-left: 5px;
+}
+.button_02{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -169px -418px #fff;padding-left: 35px;transition: transform .6s,background-color .3s;}
+.button_02:hover{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -170px -241px #c00000;color: #fff !important;}
+.ot_solution_con_tab tr td:nth-child(2) a{color:#0070BC}
+.ot_solution_con_tab tr td:nth-child(3){text-align:left;padding-left:50px}
+.ot_solution_con_tab tr td .img_add_cart{right:7px;}
+#fs_cart_overlay,#ProductsAttributes{display:none;}
+@media(max-width:1440px){
+	.ot_more_list_txt br{
+		display: none;
+	}
+	.ot_more_list_txt{
+		padding: 0 40px;
+	}
+}
+@media(max-width:1220px){
+	.ot_why_list_txt br{
+		display: none;
+	}
+	.ot_solution_con{
+		width: 960px;
+	}
+}
+@media(max-width:960px){
+	.content{
+		width: auto;
+		padding: 0 10px;
+	}
+	.ot_solution_con{
+		width: auto;
+	}
+	br{
+		display: none;
+	}
+}
+@media(max-width:740px){
+	.ot_why_list,.ot_more_list{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+}
+@media(max-width:480px){
+	.ot_banner,.ot_banner_bg{
+		height: 220px;
+	}
+	.ot_banner_tit{
+		font-size: 24px;
+		padding-top: 35px;
+		line-height: 32px;
+	}
+	.ot_banner_txt{
+		font-size: 18px;
+	}
+	.ot_tit{
+		font-size: 20px;
+		line-height: 24px;
+		padding: 30px 0 10px;
+	}
+	.ot_txt{
+		font-size: 14px;
+	}
+	.ot_solution_con_list{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.ot_solution_con_list br{
+		display: block;
+	}
+	.ot_more_list_txt{
+		padding: 0;
+	}
+}

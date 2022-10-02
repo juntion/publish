@@ -1,0 +1,247 @@
+.fiber_optic_banner_bg.box_banner{
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Fiber_Splitter/plc-splitter-banner.gif) no-repeat center;
+}
+.fiber_optic_section ul li a{
+	display: block;
+	text-decoration: none;
+}
+.fiber_transceiver_banner_bg.box_banner01{
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Fiber_Splitter/plc-splitter-a-01.jpg) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner02{
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Fiber_Splitter/plc-splitter-a-02.gif) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner03{
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Fiber_Splitter/plc-splitter-a-03.gif) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner04{
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Fiber_Splitter/plc-splitter-a-04.jpg) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner05{
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Fiber_Splitter/box-banner05.jpg) no-repeat center;
+}
+.switch_pro ul{
+	overflow: hidden;
+}
+.switch_pro ul li:nth-of-type(3n){
+	margin-right: 0;
+}
+.fiber_optic_con_bg.box_con_bg{
+	height: 3920px;
+}
+.fiber_optic_section01 span{
+	display: inline-block;
+}
+.tn_slide{
+	padding: 50px 24px;
+	position: relative;
+}
+.tn_slide_main{
+	width: 100%;
+	overflow: hidden;
+}
+.tn_slide_main_show{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: 122px;
+}
+.tn_slide_main ul{
+	width: 1740px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+}
+.tn_slide_prev{
+    width: 16px;
+    height: 28px;
+    position: absolute;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Fiber_Splitter/index_icon.png) -11px -320px no-repeat;
+    left: 0;
+    top: 50%;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.tn_slide_next{
+    width: 16px;
+    height: 28px;
+    position: absolute;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Fiber_Splitter/index_icon.png) -53px -320px no-repeat;
+    right: 0;
+    top: 50%;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.tn_slide_list{
+	width: 190px;
+	margin-right: 4px;
+	float: left;
+}
+.tn_slide_list a,.swiper-slide a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: all .3s;
+}
+.tn_slide_list a:hover{
+	opacity: .8;
+}
+.tn_slide_list a img,.swiper-slide a img{
+	display: inline-block;
+}
+.tn_slide_list a h2,.swiper-slide a h2{
+	font-size: 14px;
+	color: #232323;
+	font-weight: 400;
+}
+.swiper-container{
+	display: none;
+}
+.tn_slide .swiper-button-prev{
+	background: none;
+	text-align: left;
+    font-size: 20px;
+    line-height: 44px;
+    color: #828282;
+    left: -2px;
+}
+.tn_slide .swiper-button-next{
+    background: none;
+    text-align: right;
+    font-size: 20px;
+    line-height: 44px;
+    color: #828282;
+    right: -2px;
+}
+
+.fiber_transceiver_banner_pro{
+	z-index: 2;
+}
+.fiber_transceiver_banner_bg{
+	z-index: 1;
+}
+.box_banner01_bg{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	z-index: -1;
+}
+.box_banner01_bg_one{
+	background: #d9e4f6;
+}
+.box_banner01_bg_two{
+	background: #d6ddef;
+}
+.box_banner01_bg_three{
+	background: #d1dfef;
+}
+.box_banner01_bg_four{
+	background: #daebf7;
+}
+.tn_slide_prev,.tn_slide_next{
+	display: none;
+}
+
+
+
+
+
+
+@media(max-width:1440px){
+	.box{
+		width: 1200px;
+	}
+	.switch_pro_text{
+		padding: 0;
+	}
+	.tn_slide_main_show{
+		width: 1044px;
+		margin: 0 auto;
+	}
+
+	.tn_slide_prev,.tn_slide_next{
+		display: block;
+	}
+	.tn_slide_list{
+		width: 170px;
+	}
+	.fiber_optic_section01 span{
+		margin-bottom: 10px;
+	}
+	.fiber_optic_section ul li{
+		width: 48%;
+	}
+}
+@media(max-width:1220px){
+	.box{
+		width: 960px;
+	}
+	.fiber_optic_section ul li p br{
+		display: none;
+	}
+	.tn_slide_main_show{
+		width: 870px;
+	}
+	.fiber_optic_con_bg.box_con_bg{
+		height: 3900px;
+	}
+	.fiber_optic_section01{
+		padding: 0;
+	}
+}
+@media(max-width:960px){
+	.box{
+		width: 100%;
+	}
+	.content{
+		width: auto;
+		padding: 0;
+	}
+	.switch_pro ul li{
+		min-height: initial;
+	}
+	.fiber_optic_banner_con p br{
+		display: none;
+	}
+	.swiper-container{
+		display: block;
+	}
+	.tn_slide_main{
+		display: none;
+	}
+	.fiber_optic_section ul li{
+		width:100%;
+	}
+	.fiber_optic_con_bg .box_con_bg{
+		display: none;
+	}
+}
+@media(max-width:480px){
+	.tn_slide{
+		padding: 50px 10px;
+	}
+	.fiber_optic_banner{
+		height: 220px;
+	}
+	.fiber_optic_banner_bg{
+		height: 220px;
+	}
+	.fiber_optic_banner_con h1{
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom:10px;
+		font-weight: 400;
+	}
+	.fiber_optic_banner_con p{
+		font-size: 16px;
+		line-height: 22px;
+		font-weight:400;
+	}
+	.fiber_optic_banner_con{
+		padding-top:50px;
+	}
+	.fiber_optic_con_bg{
+		display: none;
+	}
+}

@@ -1,0 +1,38 @@
+<?php 
+define('FS_ACCOUNT', 'Account'); 
+define('FS_LIST', 'Elenco'); 
+define('FS_ACCOUNT_MY_ACCOUNT', 'Account personale'); 
+define('FS_ACCOUNT_NAME', 'Account di $NAME'); 
+define('FS_ACCOUNT_CREDIT', 'Gestione credito'); 
+define('FS_ACCOUNT_CREDIT_DATE', 'Data della domanda:'); 
+define('FS_ACCOUNT_CREDIT_TOTAL', 'Totale'); 
+define('FS_ACCOUNT_VIEW_DETAILS', 'Visualizza dettagli'); 
+define('FS_ACCOUNT_RECENT_ORDERS', 'Ordini recenti'); 
+define('FS_ACCOUNT_ORDER_HIS', 'Storico dell’ordine'); 
+define('FS_ACCOUNT_ORDER_HIS_TXT', 'Rintraccia ordini'); 
+define('FS_ACCOUNT_ORDER_VIEW', 'Visualizza tutti i miei ordini'); 
+define('FS_ACCOUNT_ORDER_REVIEW', 'Recensisci prodotti'); 
+define('FS_ACCOUNT_ORDER_REVIEW_TXT', 'Condividi la tua esperienza di shopping con noi.'); 
+define('FS_ACCOUNT_ORDER_REVIEW_WRITE', 'Scrivi una recensione'); 
+define('FS_ACCOUNT_MANAGE', 'Gestisci account'); 
+define('FS_ACCOUNT_MANAGE_SET', 'Impostazioni account'); 
+define('FS_ACCOUNT_MANAGE_ADDRESS', 'Rubrica'); 
+define('FS_ACCOUNT_MANAGE_CREDIT', 'Il mio credito'); 
+define('FS_ACCOUNT_SERVICE', 'Servizio clienti'); 
+define('FS_ACCOUNT_SERVICE_CASES', 'I miei casi'); 
+define('FS_ACCOUNT_WISH_LIST', 'Lista dei desideri'); 
+define('FS_ACCOUNT_BUSINESS', 'Business'); 
+define('FS_ACCOUNT_QUICK_ACCESS', 'Accesso rapido'); 
+define('FS_ACCOUNT_REQUEST', 'Richiedi un campione'); 
+define('FS_ACCOUNT_BUSINESS_ACCOUNT', 'Account aziendale'); 
+define('FS_ACCOUNT_BUSINESS_PURCHASE_ORDER', 'Ordine d\'acquisto'); 
+define('FS_ACCOUNT_BUSINESS_QUOTES', 'Preventivi'); 
+define('FS_ACCOUNT_BUSINESS_MY_QUOTES', 'I miei preventivi'); 
+define('FS_ACCOUNT_BUSINESS_GET_QUOTES', 'Ottieni un preventivo'); 
+define('FS_ACCOUNT_CONTACT', 'Contattaci'); 
+define('FS_ACCOUNT_ACCOUNT_MANAGER', 'Account Manager'); 
+define('FS_ACCOUNT_CALL_CENTER', 'Call Center'); 
+define('FS_ACCOUNT_LIVE_CHAT', 'Chat dal vivo'); 
+define('FS_ACCOUNT_FEATURES', 'Caratteristiche'); 
+define('FS_ACCOUNT_FEATURES_TIP', 'Un luogo dove puoi sperimentare la richiesta di un preventivo'); 
+?>

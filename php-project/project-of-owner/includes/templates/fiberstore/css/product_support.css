@@ -1,0 +1,151 @@
+.box,.content{width: 100%;box-sizing: border-box;overflow: hidden;}
+.content{padding-top: 0;}
+.sale_banner { height: 200px; }
+.sale_banner_bg { position: absolute; width: 100%; height: 200px; left: 0;  z-index: -1;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/Product-support/Product-support.jpg) no-repeat center;}
+.sale_banner_tit{font-size: 30px; color: #fff; text-align: center; padding-top: 75px;font-weight: 400;line-height: 40px;}
+.sale_banner_txt{padding-bottom: 26px;font-size: 14px;color: #fff;font-weight: 400;text-align: center;line-height: 24px;}
+.sale_con{width: 960px;margin: 0 auto;}
+.Product-support-container{background: #F7F7F7;padding: 0.1px;padding-bottom: 50px;}
+.Product-support{width: 960px;margin: 0 auto;background: #FFFFFF;margin-top: 45px;padding-bottom: 50px;}
+.Product-support-input-wap{width: 480px;margin: 0 auto;padding-top: 40px;}
+.Product-support-tit{font-size: 13px;color: #616265;line-height: 22px;padding-bottom: 8px;}
+.Product-support-dl:after{content:"";display:block;clear:both;}
+.Product-support-dl dt{float: left;width: 70px;height: 70px;}
+.Product-support-dl dt img{width: 70px;height: 70px;display: block;margin: 0 auto;}
+.Product-support-dl dd{width: 100%;padding-left: 82px;box-sizing: border-box;}
+.Product-support-dl dd p{max-height: 44px;margin-bottom: 4px;font-size: 13px;color: #232323;line-height: 22px;overflow: hidden;text-overflow: ellipsis;display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+.Product-support-dl dd span{color: #999999;font-size: 12px;line-height: 16px;}
+.Product-support-alone-input-tit{font-size: 13px;color: #616265;line-height: 22px;padding-bottom: 5px;}
+.Product-support-alone-input{width: 100%;height: 38px;transition: all .3s;outline: none;line-height: 36px;border-radius: 2px;border: 1px solid #E5E5E5;box-sizing: border-box;text-indent: 12px;}
+.Product-support-alone-input:focus{border-color: #8D8D8F;}
+.Product-support-alone-input-wap{margin-bottom: 14px;}
+.Product-support-alone-select-wap{position: relative;}
+.Product-support-alone-select-down{font-size: 12px;color: #999;position: absolute;right: 14px;top: 9px;width: 12px;height: 12px;cursor: pointer;}
+.Product-support-Area-code{width: 50px;height: 36px;background: #EEEEEE;color: #232323;font-size: 14px;line-height: 24px;text-align: center;line-height: 36px;display: block;position: absolute;top: 1px;left: 1px;font-weight: 400;border-right: 1px solid #E5E5E5;}
+.Product-support-alone-textarea{font-size:13px;transition: all .3s;height: 98px;border: 1px solid #E5E5E5;border-radius: 2px;width: 100%;padding: 10px 12px;box-sizing: border-box;text-indent: 0;}
+.Product-support-alone-textarea:focus{border-color: #8D8D8F;}
+.Product-support-alone-textarea::-webkit-input-placeholder {color: #999;font-size: 13px}
+.Product-support-alone-textarea:-moz-placeholder {color: #999;font-size: 13px}
+.Product-support-alone-textarea::-moz-placeholder {color: #999;font-size: 13px}
+.Product-support-alone-textarea:-ms-input-placeholder {color: #999;font-size: 13px}
+.Product-support-alone-input-wap .billingCountry{width: 100%;}
+.Product-support-alone-input-wap .country_01{width: 100%;}
+.Product-support-alone-input-wap .caret{margin-right: 8px;}
+.Product-support-alone-input-wap .country_01{height: 38px;line-height: 36px;}
+.margin-bottom{margin-bottom: 0;}
+.new-proInquire-AgreementMain{display:inline-block;}
+.new-proInquire-AgreementMain .icon{font-size:16px;color:#616265;float:left;line-height:22px;cursor: pointer}
+.new-proInquire-AgreementTxt{font-size:13px;color:#999;line-height:22px;padding-left:24px;}
+.new-proInquire-AgreementTxt a{color:#232323;}
+.Product-support-write_review{margin-bottom: 10px;}
+.new-soluSupt-form-sub{min-width:80px;height:40px;line-height: 38px;background:#c00000;border:1px solid #c00000;border-radius:2px;color:#fff;font-size:14px;cursor:pointer;transition:all .3s;margin-top: 8px;padding:0 30px;}
+.new-soluSupt-form-sub:hover{color:#fff;background-color:#9b0912;border:1px solid #9b0912;}
+.fs-comSub-loadBtn .loader_order{display:none;left:50%;margin-left:-9px;top:50%;margin-top:-9px;}
+.Product-support-dl{margin-bottom: 16px;}
+.Product-support-Prompt{color: #C00000;font-size: 13px;line-height: 22px;padding-top: 4px;margin-bottom: -6px;}
+.fs-new-selectCon{position:relative;}
+.fs-new-selfSelect{height:38px;border:1px solid #e5e5e5;border-radius:2px;width:100%;padding-left:10px;box-sizing:border-box;color:#616265;appearance:none;-moz-appearance:none;-webkit-appearance:none;cursor:pointer;position:relative;}
+.fs-new-selfSelect-txtBox{height:38px;line-height:36px;padding-right:25px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#232323;}
+.fs-new-selfSelect .icon{font-size:12px;display:inline-block;position:absolute;right:6px;top:10px;color:#8d8d8f;transition:all .3s;}
+.fs-new-selfSelect-optionBox{position:absolute;width:100%;background:#fff;border:1px solid #e5e5e5;box-sizing:border-box;border-top:0;display:none;z-index:10;max-height:151px;overflow:auto;}
+.fs-new-selfSelect-optionLi{cursor:pointer;padding:6px 30px 10px 10px;line-height:14px;position:relative;word-wrap:break-word;}
+.fs-new-selfSelect-optionLi:hover{text-decoration:underline;}
+.fs-new-selfSelect .icon{right:7px;}
+.fs-new-selfSelect-txtBox::selection {background: transparent}
+.Product-support-alone-input-wap .ce_form_choose_country p{height: 38px;line-height: 38px}
+.Product-support-alone-input-wap .ce_form_choose_country .showMore{margin-right: 6px}
+.success-txt{font-size: 18px;color: #232323;line-height: 34px;font-weight: 400;margin-bottom: 9px;}
+.new-soluSupt-success-tipIcBox .icon{font-size: 28px;font-weight: 600;color: #097;margin-right: 10px;display: inline-block;vertical-align: middle;margin-top: 6px;}
+.Product-support-alone-input-wap .ce_form_searchCountry{width: 100.5%}
+.countryList li.divider{height: 10px;margin: 0 0 10px 0;width: 100%;}
+.ce_form_choose_country .flag,.ce_form_choose_country em{top: 11px;}
+@media (max-width: 960px){
+    .sale_con,.Product-support,.Product-support{width: 100%;}
+    .Product-support-container{padding-left: 15px;padding-right: 15px;box-sizing: border-box;}
+    .Product-support-input-wap{width: 100%;padding-left: 20px;padding-right: 20px;box-sizing: border-box;}
+}
+@media (max-width: 480px){
+    .new-soluSupt-content.new-proInquire-content .new-soluSupt-form-sub{width:100%;}
+    .Product-support{margin-top: 15px;}
+    .Product-support-container{padding-bottom: 30px;}
+    .sale_banner_bg{background-position-x: 60.2%;}
+    .Product-support-input-wap{padding-top: 22px;}
+    .sale_banner_tit{padding-left: 10px;padding-right: 10px;box-sizing: border-box;}
+}
+
+
+
+
+
+/*上传样式开始*/
+.review_img_show_only:after{content:"";display:block;clear:both;}
+.review_img_show_only{margin-top:10px;}
+.write_review_fromonly:after{content:"";display:block;clear:both;}
+.Management_Review_10 .review_img_show_only{margin-bottom:0;}
+.write_sc{width:auto;height:18px;text-align:left;padding:0;border:none;background:0 0;margin-top:0;cursor:pointer;position:relative;display:inline-block;border-radius:3px;line-height:26px;overflow:hidden;color:#616265;text-decoration:none;text-indent:0;clear:both;}
+.wr_span{width:14px;height:18px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/solutions_support/3.png) no-repeat -61px -28px;margin-top:-14px;vertical-align:middle;display:inline-block;border-radius:100%;text-align:center;line-height:20px;color:#fff;}
+.write_review_increase_btn i{display:inline-block;padding:0;padding-right:6px;font-size:14px;margin-top:-12px;vertical-align:middle;color:#0070BC;line-height:16px;font-style:normal;}
+.write_review_increase_btn input{position:absolute;font-size:100px;right:0;top:0;opacity:0;cursor:pointer;}
+.Product-support-write_review .write_review_increase_btn:hover{border: none}
+.ss_main_right_main_upload_prompt{display:inline-block;vertical-align:middle;position:relative;margin-left:0px;cursor:pointer;/*margin-top: -10px;*/}
+.ss_main_right_main_upload_prompt span{display:block;width:16px;height:16px;margin-left:1px;color: #8D8D8F;}
+.ss_main_right_main_upload_prompt_content{position:absolute;left:25px;top:-16px;border:1px solid #c9c9c9;border-radius:3px;box-shadow:0 0 10px 0 rgba(51,51,51,.1);padding:3px 10px;display:none;background:#FFF;z-index:2;}
+.ss_main_right_main_upload_prompt_content_arrow{position:absolute;width:7px;height:10px;left:-7px;top:17px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/solutions_support/3.png) no-repeat -22px -20px;}
+.ss_main_right_main_upload_prompt_content p{font-size:13px;color:#999;white-space:pre;}
+.review_img_show_only001{width:100%;margin-left:0;margin-top:6px;float:left;display:none;}
+.ss_main_right_main_upload_prompt:hover .ss_main_right_main_upload_prompt_content{display:block;}
+.error_prompt{display:none;}
+.write_review_from{color:#232323;position:relative;}
+.write_review_fromonly{width:auto;float:left;height: 18px;}
+@media (max-width:480px){
+    .ss_main_right_main_upload_prompt_content{left:-50px;top:-62px;}
+    .ss_main_right_main_upload_prompt_content_arrow{left:53px;top:44px;transform:rotate(-90deg);}
+}
+div,span,p,i,input{box-sizing:border-box;font-style:normal;}
+.Management_Review_10 .ss_main_right_main_upload_prompt span.icon{background:none;color:#0070BC;vertical-align:middle;margin-top:-4px;}
+.write_sc .wr_span{background:none;color:#0070BC;}
+/*上传样式结束*/
+
+#review_img_show p {
+    display: inline-block;
+    font-size: 13px;
+    color: #555;
+    padding: 5px 30px 5px 10px;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    height: 30px;
+    margin-right: 10px;
+}
+#review_img_show p em {
+    font-style: normal;
+}
+#review_img_show p b {
+    font-weight: 400;
+    margin-right: 5px;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+#review_img_show p span {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    font-size: 14px;
+}
+.new-soluSupt-successTxt {
+    padding-left: 38px;
+    font-size: 18px;
+    color: #232323;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.new-soluSupt-successTxt01 {
+    color: #616265;
+    font-size:14px;
+}

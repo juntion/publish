@@ -1,0 +1,16 @@
+{
+  "permission": [
+    {
+      "uuid": "",
+      "name": "permission.view",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "AccessRightsManage",
+        "zh-CN": "访问权限管理"
+      },
+      "comment": "此权限可以访问权限管理，包含角色列表，权限列表，查看角色拥有的权限"
+    }
+  ]
+}

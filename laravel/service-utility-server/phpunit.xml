@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="true"
+         printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer">
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+
+        <testsuite name="end">
+            <file>./tests/EndTest.php</file>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./app</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <server name="APP_ENV" value="testing"/>
+        <server name="BCRYPT_ROUNDS" value="4"/>
+        <server name="CACHE_DRIVER" value="array"/>
+        <server name="MAIL_DRIVER" value="array"/>
+        <server name="QUEUE_CONNECTION" value="sync"/>
+        <server name="SESSION_DRIVER" value="array"/>
+        <server name="REMOTE_ADDR" value="127.0.0.1"/>
+        <server name="HTTP_USER_AGENT" value="Chrome/78"/>
+    </php>
+    <!--<logging>
+        <log type="junit" target="./storage/logs/phpunit/logfile.xml"/>
+        <log type="testdox-html" target="./storage/logs/phpunit/testdox.html"/>
+        <log type="testdox-text" target="./storage/logs/phpunit/testdox.txt"/>
+        <log type="coverage-html" target="./storage/logs/phpunit/coverage"/>
+    </logging>-->
+</phpunit>

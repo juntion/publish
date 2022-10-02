@@ -1,0 +1,65 @@
+*{box-sizing: border-box;}
+.proforma_invoice{width: 1200px;margin: 0 auto;padding: 66px 80px 80px 80px;background: #fff;}
+.invoice_top_title{overflow: hidden;border-bottom: 1px solid #000;padding-bottom: 18px;}
+.invoice_info_border{width: 1px;height: 36px;display: block;float: left;background: #8D8D8F;margin: 0 16px 0 15px;}
+.invoice_top_title_left_content{float: left;}
+.invoice_top_title_left_content p{font-size: 16px;font-weight: 600;color: #232323;line-height: 20px;}
+.invoice_top_title_left_content em{font-size: 12px;color: #232323;line-height: 22px;font-style: normal;}
+.tb_td_two a{border-radius: 2px;margin-left: 6px;transition: all .2s;height: 40px;display: inline-block;font-size: 14px;color: #232323;border: 1px solid #ccc;text-align: center;line-height: 38px;padding: 0 15px;}
+.tb_td_two a .icon{color: #8D8D8F;font-size: 16px;}
+.tb_td_two a:hover{border-color: #8D8D8F;text-decoration: none;}
+.invoice_top_title table{width: 100%;}
+.invoice_top_title table td{width: 50%;}
+.invoice_top_title table td img{float: left;}
+.tb_td_two{text-align: right;}
+.invoice_text_container table{width: 100%;}
+.invoice_text_container table td{font-size: 13px;color: #232323;line-height: 22px;padding-bottom: 20px;}
+.invoice_text_container{padding-top: 28px}
+.invoice_text_container table tr:last-child td{padding-bottom: 0;}
+.unified_table_content{width: 100%;text-align: left;}
+.unified_table_content th{text-align: center;font-size: 14px;font-weight: 400;height: 60px;color: #fff;background-color: #4C4948;-webkit-print-color-adjust: exact;}
+.unified_tit th{font-size: 16px;color: #232323;width: 100%;text-align: left;}
+.unified_tit{width: 100%;margin-bottom: 18px;margin-top: 34px;}
+.unified_table_content th:first-child,.unified_table_content td:first-child{padding-left: 20px;width: 27%;}
+.unified_table_content th:last-child,.unified_table_content td:last-child{padding-right: 60px;}
+.unified_table_content th:nth-child(2),.unified_table_content td:nth-child(2){width: 12%;}
+.unified_table_content th:nth-child(3),.unified_table_content td:nth-child(3){width: 12%;}
+.unified_table_content th:nth-child(4),.unified_table_content td:nth-child(4){width: 12%;}
+.unified_table_content td{font-size: 13px;color: #232323;border-bottom: 1px solid #4C4948;padding: 16px 0;}
+.unified_table{padding-bottom: 2px;}
+.unified_table:last-child{padding-bottom: 0;}
+
+@media (max-width: 1220px){
+    .proforma_invoice{width: 960px;padding-bottom: 380px;}
+
+}
+@media (max-width: 960px){
+    .box,.content{width: 100%;}
+    .proforma_invoice{padding: 30px 15px;}
+    /* .unified_table_overAuto table{width: 800px;}
+    .unified_table_overAuto{overflow-x: auto;} */
+}
+.tb_td_two_btnBox.tb_td_two_btnBoxm{padding: 50px 38px;background-color: #fff;margin-top: 50px;position: fixed;width: 100%;left: 0;bottom: 0;box-sizing: border-box;}
+.tb_td_two .tb_td_two_btnBox.tb_td_two_btnBoxm a{display: block;line-height: 100px;border:2px solid #4C4948;border-radius: 5px;font-size: 34px;color: #232323;transition: all .2s;text-align: center;margin-bottom: 40px;height: auto;}
+.tb_td_two .tb_td_two_btnBox.tb_td_two_btnBoxm a .icon{font-size: 40px;color: #232323;}
+.tb_td_two .tb_td_two_btnBox.tb_td_two_btnBoxm a:last-child{margin-bottom: 0;}
+@media (max-width: 480px){
+    .proforma_invoice{padding: 30px 15px 160px;}
+    .invoice_top_title table td{width: 100%;}
+    /*.tb_td_two_btnBox{position: fixed;bottom: 0;left: 0;width: 100%;background: #fff;box-shadow: 0px 1px 16px 0px rgba(0,0,0,.1);z-index: 100;padding: 20px 20px 0;}*/
+    /*.tb_td_two .tb_td_two_btnBox a{margin: 0 0 20px 0;width: 100%;}*/
+}
+.invoice_text_container table td{color: #19191A;}
+.unified_table_content{border: 1px solid #4B4B4D;}
+.unified_table_content td{border-right: 1px solid #4B4B4D;padding-left: 20px;box-sizing: border-box;}
+.unified_table_content td:last-child{border-right: 0;}
+.unified_table_content tr:last-child td{border-bottom: 0;}
+.secondary_title{font-size: 14px;color: #19191A;font-weight: 600;}
+.descriptive_text{font-size: 13px;line-height: 20px;color: #646466;font-weight: 400;display: block;padding-top: 4px;}
+
+
+
+
+
+
+

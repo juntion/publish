@@ -1,0 +1,308 @@
+.box,.content{width: 100%;}
+.wifisix_banner{height: 680px;width: 100%;margin: 0 auto;}
+.wifisix_banner_bg{background-image: url(https://img-en.fs.com/zh/includes/templates/fiberstore/images/specials/wifi6/wifisix-banner.jpg);background-position: center;background-size: cover;position: absolute;left: 0;width: 100%;height: 680px;z-index: -1;}
+.wifisix_banner_txtbox{width: 1200px;margin: 0 auto;padding: 110px 0 0 40px;box-sizing: border-box;}
+.wifisix_banner_tit{font-weight: 600;color: #FFFFFF;line-height: 30px;font-size: 40px;line-height: 48px;padding: 0 0 12px 0;}
+.wifisix_banner_txt{font-weight: 400;color: #FFFFFF;line-height: 36px;font-size: 26px;}
+.wifisix_banner_tit br,.wifisix_banner_txt br{display: none;}
+.wifisix_banner_apbox{display: flex;padding: 30px 0;}
+.wifisix_banner_ap{background: #0070bc;color: #fff;padding: 0 30px;font-size: 14px;border-radius: 20px;display: flex;align-items: center;height: 40px;transition: all .3s;}
+.wifisix_banner_ap .icon{margin: 0 0 0 10px;font-size: 18px;}
+.wifisix_banner_ap:first-child{margin-right: 30px;}
+.wifisix_banner_ap:hover{color: #fff;text-decoration: none;background: #005a96;}
+.wifisix_strength_tab{float: left;text-align: center;margin: 0 30px 0 0;}
+.wifisix_strength_num{display: inline-block;width: 60px;height: 60px;box-sizing: border-box;border: 2px solid #fff;border-radius: 5px;color: #fff;font-size: 22px;text-align: center;
+	line-height: 56px;font-weight: 400;}
+.wifisix_strength_txt{font-size: 14px;color: #fff;line-height: 24px;padding: 8px 0 0;}
+.wifisix_era_box{background: #f7f7f7;padding: 0 0 50px;}
+.wifisix_common_width{width: 1200px;margin: 0 auto;}
+.wifisix_common_tit{font-size: 26px;color: #232323;line-height: 34px;text-align: center;font-weight: 600;padding: 43px 0 0;}
+.wifisix_common_txt{font-size: 14px;color: #616265;line-height: 24px;text-align: center;padding: 18px 0 0;}
+.wifisix_era_btnbox{text-align: center;padding: 25px 0 0;}
+.wifisix_era_btn{display: inline-block;height: 40px;border: 1px solid #4C4948;border-radius: 20px;padding: 0 48px;line-height: 38px;font-size: 14px;color: #232323;transition: all .3s;}
+.wifisix_era_btn:hover{background: #4C4948;color: #fff;text-decoration: none;}
+.wifisix_era_imglist{display: flex;justify-content: center;padding: 33px 0 0;}
+.wifisix_era_imgbox{flex: 0 50%;text-align: center;position: relative;}
+.wifisix_era_bgmain{position: relative;width: 100%;height: 100%;}
+.wifisix_era_bgbox{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.wifisix_era_bgbox img{position: absolute;top: 0;left: 0;opacity: 0}
+.wave1 {-webkit-animation: wave0 2s linear infinite 0s;animation: wave0 1.5s linear infinite 0s;}
+.wave2 {-webkit-animation: wave0 2s linear infinite 2s;animation: wave0 1.5s linear infinite 2s;}
+.wave3 {-webkit-animation: wave0 2s linear infinite 4s;animation: wave0 1.5s linear infinite 4s;}
+.wave4 {-webkit-animation: wave1 2s linear infinite 0s;animation: wave1 1.5s linear infinite 0s;}
+.wave5 {-webkit-animation: wave1 2s linear infinite 2s;animation: wave1 1.5s linear infinite 2s;}
+.wave6 {-webkit-animation: wave1 2s linear infinite 4s;animation: wave1 1.5s linear infinite 4s;}
+.wifisix_era_imglist .wifisix_era_imgbox .wifisix_era_bgbox img{margin-left: 11px;margin-top: -5px;}
+@-webkit-keyframes wave0 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  25% {
+    opacity: 0.25;
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  75% {
+    opacity: 0.75;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes wave0 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  25% {
+    opacity: 0.25;
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  75% {
+    opacity: 0.75;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes wave1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  25% {
+    opacity: 0.25;
+    -webkit-transform: scale(0.15);
+    transform: scale(0.15);
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+  }
+  75% {
+    opacity: 0.75;
+    -webkit-transform: scale(0.35);
+    transform: scale(0.35);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+}
+.wifisix_exper_list{padding: 36px 0 0;}
+.wifisix_exper_dt{background: #28344B;height: 60px;}
+.wifisix_exper_dt.choosez .wifisix_exper_tabbox{position: fixed;top: 0;width: 100%;z-index: 10;}
+.wifisix_exper_tabbox{background: #28344B;height: 60px;}
+.wifisix_exper_tablist{width: 1188px;margin: 0 auto;display: flex;height: 100%;align-items: center;}
+.wifisix_exper_tab{width: calc(100% / 3);text-align: center;cursor: pointer;height: 100%;line-height: 60px;}
+.wifisix_exper_tabmain{display: inline-block;height: 100%;}
+.wifisix_exper_tabmainch{display: flex;align-items: center;height: 100%;}
+.wifisix_exper_tab span{display: inline-block;width: 40px;height: 40px;border: 2px solid #fff;border-radius: 100%;color: #fff;font-size: 14px;text-align: center;
+	line-height: 36px;box-sizing: border-box;margin: 0 20px 0 0;}
+.wifisix_exper_tab.choosez{background: #536280;}
+.wifisix_exper_tab:nth-child(2){border-right: 1px solid rgba(255,255,255,.2);border-left: 1px solid rgba(255,255,255,.2);}
+.wifisix_exper_tab p{font-size: 16px;color: #fff;line-height: 26px;font-weight: 600;}
+.wifisix_exper_ddbg01{background: #37435A;}
+.wifisix_exper_tit{font-size: 26px;color: #fff;line-height: 36px;text-align: center;font-weight: 600;padding: 71px 0 0;}
+.wifisix_exper_consurlist01{display: flex;padding: 30px 0 0;}
+.wifisix_exper_consurlist01>li{width: 50%;box-sizing: border-box;}
+.wifisix_exper_consurlist01>li:first-child{padding: 0 20px 0 0;}
+.wifisix_exper_consurlist01>li:last-child{padding: 0 0 0 20px;}
+.wifisix_exper_consurlist{display: flex;padding: 0 0 68px;}
+.wifisix_exper_consurlist>li{width: 50%;box-sizing: border-box;}
+.wifisix_exper_consurlist>li:first-child{padding: 0 20px 0 0;}
+.wifisix_exper_consurlist>li:last-child{padding: 0 0 0 20px;}
+.wifisix_exper_consurtxt{font-size: 14px;color: #fff;line-height: 24px;padding: 0 0 46px 15px;position: relative;}
+.wifisix_exper_consurtxt .wifisix_exper_circle{display: inline-block;width: 5px;height: 5px;background: #fff;border-radius: 100%;position: absolute;left: 0;top: 9px;}
+.wifisix_exper_consurlist .wifisix_exper_consurtxt{display: none;}
+.wifisix_exper_ddbg01 .wifisix_common_width{padding: 0 30px;box-sizing: border-box;}
+.wifisix_exper_consurimg{text-align: center;}
+.wifisix_exper_ddbg02 .wifisix_exper_tit{color: #232323;}
+.wifisix_exper_ddbg02 .wifisix_exper_consurtxt{color: #232323;}
+.wifisix_exper_ddbg02 .wifisix_exper_consurtxt .wifisix_exper_circle{background: #232323;}
+.wifisix_exper_ddbg02 .wifisix_exper_consurlist>li:first-child .wifisix_exper_consurimg{text-align: left;}
+.wifisix_exper_ddbg02 .wifisix_common_width{padding: 0 30px;box-sizing: border-box;}
+.wifisix_exper_ddbg03{background: #37435A;}
+.wifisix_exper_ddbg03 .wifisix_exper_consurtxt{padding: 0 0 80px 15px;}
+.wifisix_exper_bgm{display: none;}
+.wifisix_alonebox{background: #F7F7F7;}
+.wifisix_alonelist{display: flex;align-items: flex-end;}
+.wifisix_alonelist>li{width: 50%;text-align: center;padding: 45px 0 42px;}
+.wifisix_alonelist_m{display: none!important;}
+.wifisix_alonemain_txt{font-weight: 400;color: #232323;line-height: 24px;font-size: 14px;padding: 20px 0 0;}
+.wifisix_alone_imgbox{position: relative;display: inline-block;}
+.wifisix_alone_imgbox a{position: absolute;display: inline-block;width: 110px;height: 110px;background: none;border-radius: 100%;cursor: pointer;}
+.wifisix_alone_imglink01{top: 6px;right: 41px;}
+.wifisix_alone_imglink02{top: 163px;left: 117px;}
+.wifisix_alone_imglink03{top: 4px;right: 218px;}
+.wifisix_alone_imglink04{bottom: 159px;left: 174px;}
+.wifisix_alone_imglink05{bottom: 202px;right: 5px;}
+.wifisix_alone_imgbox a .wifisix_alone_imglink_main{margin: -5px 0 0 -5px;border-radius: 100%;}
+.wifisix_alone_imgbox a.wifisix_alone_imglink02 .wifisix_alone_imglink_main{margin: -5px 0 0 -4px;}
+.wifisix_alone_imglink_main{position: relative;}
+.wifisix_alone_imglink_txt{position: absolute;width: 100px;height: 100px;align-items: center;justify-content: center;top: 10px;left: 10px;color: #fff;display: flex;
+    background: rgba(40, 52, 75, .8);border-radius: 100%;opacity: 0;transition: all .3s;}
+.wifisix_alone_imgbox a:hover .wifisix_alone_imglink_txt{opacity: 1;}
+.wifisix_howto_list{width: 100%;display: flex;justify-content: space-between;align-items: center;padding: 26px 0 50px;}
+.wifisix_howto_list>li{position: relative;top: 0;left: 0;width: -webkit-calc(100% / 3 - 8px);width: -ms-calc(100% / 3 - 8px);width: -moz-calc(100% / 3 - 8px);
+	width: calc(100% / 3 - 8px);text-align: left;}
+.wifisix_howto_list>li img{width: 100%;}
+.wifisix_howto_listm{display: none;}
+.wifisix_howto_txtbox{border: 1px solid #e5e5e5;padding: 20px;}
+.wifisix_howto_tit{font-size: 16px;color: #232323;line-height: 26px;min-height: 52px;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;}
+.wifisix_howto_tag a{cursor: inherit;display: inline-block;height: 22px;line-height: 23px;margin-top: 5px;overflow: hidden;padding: 0 7px;border-radius: 2px;
+	background: #efefef;font-size: 13px;color: #616265;text-decoration: none;margin-right: 10px;}
+.wifisix_howto_more{margin-top: 25px;display: flex;}
+.wifisix_howto_more a{font-size: 14px;color: #0070bc;}
+.wifisix_howto_more a .icon{font-size: 12px;display: inline-block;margin-left: 3px;}
+.wifisix_solution_box{background: #f7f7f7;padding: 0 0 50px;}
+.wifisix_solution_listbox{padding: 30px 30px;background: #fff;margin: 23px 0 0;}
+.wifisix_solution_list li{margin: 0 0 24px 0;}
+.wifisix_solution_qtxt{font-size: 16px;color: #232323;line-height: 26px;font-weight: 600;}
+.wifisix_solution_atxt{background: #F7F7F7;margin: 15px 0 0;}
+.wifisix_solution_atxt p{font-size: 14px;color: #232323;line-height: 24px;padding: 10px 20px;}
+.wifisix_solution_atxt a{color: #0070bc;}
+.wifisix_solution_morebox{text-align: center;}
+.wifisix_solution_moremain{display: inline-block;}
+.wifisix_solution_more{color: #0070bc;cursor: pointer;display: flex;font-size: 14px;}
+.wifisix_solution_more .icon{font-size: 14px;margin: 1px 0 0 5px;display: inline-block;}
+.wifisix_solution_morebox.choosez .wifisix_solution_moremain{display: none;}
+.wifisix_solution_morebox .FS_Newpation_en{display: none;}
+.wifisix_solution_morebox.choosez .FS_Newpation_en{display: block;}
+.wifisix_any {height: 265px;overflow: hidden;position: relative;text-align: center;}
+.wifisix_any .wifisix_any_bg {height: 265px;background: url(https://img-en.fs.com/zh/includes/templates/fiberstore/images/specials/wifi6/wifisix-support-bg.jpg) no-repeat;
+	position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;background-position: 50%;}
+.wifisix_any .wifisix_any_main {padding-top: 50px;}
+.wifisix_any .wifisix_any_main h2 {font-size: 26px;font-weight: 600;line-height: 26px;color: #fff;}
+.wifisix_any .wifisix_any_main p {font-size: 16px;color: #fff;line-height: 26px;margin-top: 15px;}
+.wifisix_any .wifisix_any_main a {display: inline-block;height: 40px;border: 1px solid #fff;border-radius: 20px;text-align: center;font-size: 14px;color: #fff;padding: 0 30px;
+	line-height: 40px;text-decoration: none;margin-top: 30px;transition: all 0.3s;}
+.wifisix_any .wifisix_any_main a:hover {background: #fff;color: #19191a;}
+.list_Newnext_page_new{background: #fff;float: right;margin: 5px 0 0 10px;cursor: pointer;border: 1px solid #e5e5e5;border-radius: 50%;width: 30px;height: 30px;
+    text-align: center;line-height: 30px;}
+.list_Newpro_page_new{background: #fff;float: left;margin: 5px 10px 0 0;cursor: default;border: 1px solid #e5e5e5;border-radius: 50%;width: 30px;height: 30px;
+    text-align: center;line-height: 30px;}
+.list_Newnext_page_new:hover,.list_Newpro_page_new:hover{text-decoration: none;}
+.list_Newnext_page_new.choosez,.list_Newpro_page_new.choosez{cursor: default;opacity: .5}
+.list_Newpro_page_new.choosez .icon,.list_Newnext_page_new.choosez .icon{color: #999;}
+@media (max-width: 1220px){
+    .wifisix_banner_txtbox{width: 960px;}
+    .wifisix_common_width{width: 960px;}
+    .wifisix_era_imglist{display: block;}
+    .wifisix_era_imglist .wifisix_era_imgbox .wifisix_era_bgbox img{left: 50%;margin-left: -290px;}
+    .wifisix_era_bgbox img{left: 50%;margin-left: -290px;}
+    .wifisix_exper_tablist{width: 960px;}
+    .wifisix_exper_consurimg img{width: 100%;}
+    .wifisix_alonelist{display: block;}
+    .wifisix_alonelist>li{width: 100%;}
+    .wifisix_howto_tag{min-height: 64px;}
+}
+@media (max-width: 960px){
+	.wifisix_banner{height: 510px;}
+    .wifisix_banner_bg{background-image: url(https://img-en.fs.com/zh/includes/templates/fiberstore/images/specials/wifi6/wifisix-banner-m.jpg);height: 510px;background-position: 0px -390px;background-repeat: no-repeat;}
+    .wifisix_banner_txtbox{width: 100%;padding: 45px 0 0 31px;}
+    .wifisix_banner_tit{font-size: 26px;line-height: 34px;padding: 0 0 6px 0;}
+    .wifisix_banner_txt{font-size: 16px;line-height: 26px;}
+    .wifisix_banner_tit br,.wifisix_banner_txt br{display: block;}
+    .wifisix_banner_apbox{padding: 24px 0 27px;}
+    .wifisix_banner_ap{padding: 0 20px;}
+    .wifisix_banner_ap:first-child{margin-right: 10px;}
+    .wifisix_strength_tab{float: none;text-align: left;display: flex;align-items: flex-start;}
+    .wifisix_strength_num{display: inline-block;width: 3px;height: 3px;font-size: 0;background: #fff;border-radius: 50%;margin: 10px 0 0;}
+    .wifisix_strength_txt{padding: 0;margin: 0 0 10px 5px;}
+    .wifisix_common_width{width: 100%;padding: 0 20px;box-sizing: border-box;}
+    .wifisix_exper_tablist{width: 100%;}
+    .wifisix_alonelist_pc{display: none;}
+    .wifisix_alonelist_m{display: block!important;}
+    .wifisix_howto_tit{-webkit-line-clamp: inherit;}
+}
+@media (max-width: 680px){
+	.wifisix_banner_bg{background-position: center;}
+    .wifisix_common_tit{font-size: 20px;line-height: 26px;padding: 35px 0 0;}
+    .wifisix_common_txt{font-size: 14px;color: #232323;line-height: 26px;text-align: left;}
+    .wifisix_era_box{padding: 0 0 40px;}
+    .wifisix_era_imgbox>img{width: 100%;}
+    .wifisix_era_imgbox:last-child{margin: 30px 0 0;}
+    .wifisix_era_imglist .wifisix_era_imgbox .wifisix_era_bgbox img{margin-left: -52%;top: 41.3%;margin-top: -25%;}
+    .wifisix_era_bgbox img{width: 100%;margin-left: -52%;top: 41.3%;margin-top: -25%;}
+    .wifisix_era_btnbox{padding: 22px 0 0;}
+    .wifisix_exper_list{padding: 23px 0 0;}
+    .wifisix_exper_tabmainch{display: block;}
+    .wifisix_exper_dt{height: 93px;position: relative;}
+    .wifisix_exper_dt.choosez1 .wifisix_exper_bgm{display: none;}
+    .wifisix_exper_tablist{display: table;min-width: 402px;}
+    .wifisix_exper_dt.choosez .wifisix_exper_tabbox{top: 48px;}
+    .wifisix_exper_tabbox{height: auto;overflow: auto;width: auto;position: relative;}
+    .wifisix_exper_tabbox::-webkit-scrollbar {background: #fff !important;height: 0;width:100px!important;}
+    .wifisix_exper_tabbox::-webkit-scrollbarbutton {display: none !important;}
+    .wifisix_exper_tabbox::-webkit-scrollbar-thumb{background: #fff!important;}
+    .wifisix_exper_tabbox::-webkit-scrollbar-track {width: 0;background: #fff;}
+    .wifisix_exper_tab{display: table-cell;vertical-align: middle;width: auto;line-height: inherit;padding: 15px 15px 11px;}
+    .wifisix_exper_tab span{margin: 0 0 3px 0;}
+    .wifisix_exper_tab p{white-space: nowrap;font-size: 14px;line-height: 24px;}
+    .wifisix_exper_tit{font-size: 20px;line-height: 30px;padding: 41px 0 0;}
+    .wifisix_exper_consurlist01{display: none;}
+    .wifisix_exper_consurlist{display: block;padding: 25px 0 0;}
+    .wifisix_exper_consurlist>li{width: 100%;padding: 0;}
+    .wifisix_exper_consurlist>li:last-child{padding: 0;}
+    .wifisix_exper_consurlist .wifisix_exper_consurtxt{display: block;}
+    .wifisix_exper_consurtxt{padding: 0 0 23px 15px;}
+    .wifisix_exper_ddbg01 .wifisix_common_width{padding: 0 15px 10px;}
+    .wifisix_exper_consurlist>li:first-child{padding: 0;margin: 0 0 45px 0;}
+    .wifisix_exper_ddbg02 .wifisix_common_width{padding: 0 15px 40px;}
+    .wifisix_exper_ddbg03 .wifisix_exper_consurtxt{padding: 0 0 27px 15px;}
+    .wifisix_exper_ddbg03{padding: 0 0 50px;}
+    .wifisix_exper_bgm{display: block;position: absolute;right: 0;
+    	    background: -webkit-linear-gradient(right,rgba(30, 41, 62, 1),rgba(40, 52, 75, 0.1));top: 0;height: 93px;width: 26px;z-index: 10;}
+    .wifisix_exper_dt.choosez .wifisix_exper_bgm{position: fixed;top: 48px;}
+    .wifisix_alone_imgbox img{width: 100%;}
+    .wifisix_alone_imgbox a{width: 84px;height: 84px;}
+    .wifisix_alone_imglink01{right: 7.78%;top: 4px;}
+    .wifisix_alone_imglink02{left: 23.6%;top: 37.1%;}
+    .wifisix_alone_imglink03{left: 40.37%;top: 1px;}
+    .wifisix_alone_imglink04{left: 31%;bottom: 26.9%;}
+    .wifisix_alone_imglink05{bottom: 33.74%;right: 1px;}
+    .wifisix_howto_list{display: none;}
+    .wifisix_howto_listm{display: block;}
+    .wifisix_howto_listm .swiper-slide img{width: 100%;max-width: inherit;}
+    .wifisix_howto_listm.swiper-container{padding: 28px 0 33px;}
+    .wifisix_howto_listm .swiper-pagination-bullets{bottom: 0;}
+    .wifisix_howto_box{padding: 0 0 35px;}
+    .wifisix_solution_box{padding: 0;}
+    .wifisix_solution_box .wifisix_common_width{padding: 0;}
+    .wifisix_solution_box .wifisix_common_tit{padding: 35px 15px 0;}
+    .wifisix_solution_listbox{padding: 23px 15px 34px;margin-top: 20px;}
+    .wifisix_solution_atxt p{padding: 8px 20px;}
+    .wifisix_any .wifisix_any_main h2{font-size: 20px;line-height: 30px;padding: 0 15px;}
+    .wifisix_any{height: 233px;}
+    .wifisix_any .wifisix_any_bg{height: 233px;background: url(https://img-en.fs.com/zh/includes/templates/fiberstore/images/specials/wifi6/wifisix-support-bg-m.jpg) no-repeat;background-size: cover;}
+    .wifisix_any .wifisix_any_main{padding-top: 38px;}
+    .wifisix_any .wifisix_any_main p{margin-top: 2px;}
+    .wifisix_any .wifisix_any_main a{margin-top: 23px;}
+    .wifisix_alonelist>li:last-child{padding: 0 0 42px;}
+}

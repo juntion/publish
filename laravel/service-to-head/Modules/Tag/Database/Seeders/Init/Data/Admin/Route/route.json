@@ -1,0 +1,41 @@
+[
+    {
+        "permission": "tag.tags.view",
+        "uuid": "",
+        "guard_name": "",
+        "type": "",
+        "route": "/tag/tagMangger",
+        "name": "tag.TagMangger",
+        "locale": {
+            "en-US": "Tag manager",
+            "zh-CN": "标签管理"
+        },
+        "comment": "标签管理"
+    },
+    {
+        "permission": "tag.binding.view",
+        "uuid": "",
+        "guard_name": "",
+        "type": "",
+        "route": "/tag/tagBind",
+        "name": "tag.TagBind",
+        "locale": {
+            "en-US": "Tag binding manager",
+            "zh-CN": "标签绑定管理"
+        },
+        "comment": "标签绑定管理"
+    },
+    {
+        "permission": "tag.logs.view",
+        "uuid": "",
+        "guard_name": "",
+        "type": "",
+        "route": "/tag/operaRecord",
+        "name": "tag.OperaRecord",
+        "locale": {
+            "en-US": "Tag operation record",
+            "zh-CN": "标签操作记录"
+        },
+        "comment": "标签操作记录"
+    }
+]

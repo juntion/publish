@@ -1,0 +1,16 @@
+<?php
+/**************************content******************************/
+//ery		2016-9-7		add
+define('NAVBAR_TITLE','Norme ISO');
+define('FS_ISO_STANDARD','Norme ISO');
+define('FS_ISO_FIBERSTORE','FiberStore se concentre sur la qualité et la précision. D’après nous, rien n’est pas plus important que la qualité. La qualité et la norme sont les fondements de FiberStore. Tant les directeurs que les employés, sont dédiés à fournir aux clients, des produits et des services conformément aux plus hauts standards de qualité avec une valeur d’excellence. Dans le cadre de cet engagement, FiberStore est certifié par la norme ISO9001 : 2008 avec des procédures rigoureuses de contrôle interne, qui comprennent de nombreux tests et la vérification de chaque appareil. FiberStore a réussi de nombreuses vérifications de systèmes de la qualité, comme CE, RoHS et FCC. En plus, FiberStore a établi un système d\'assurance de la qualité standardisée répondant à la norme internationale, et mis en œuvre strictement la gestion et le contrôle dans la conception, le développement, la production, l\'installation et le service.');
+define('FS_ISO_A','ISO9001:2008');
+define('FS_ISO_CERTIFICATE','Le certificat indique qu\'un composant/sous-système peut être utilisé avec une application spécifique en fonction d\'une classe d’exigence (RC) ou d\'un niveau d\'intégrité (SIL). L’intégrateur de système et l’utilisateur final doivent toujours être conscients de la façon de l’utilisation des fonctions sécurisées des composants/sous-systèmes respectivement dans le système de sécurité actif. En raison de nombreuses possibilités différentes de la façon de configuration du système de sécurité, l\'utilisateur final doit obtenir l\'information pertinente du fabricant du composant/sous-système certifié.');
+define('FS_ISO_CE','CE');
+define('FS_ISO_MARKING','Le marquage CE est un marquage européen obligatoire pour certains groupes de produits pour indiquer  la conformité aux exigences de santé et de sécurité en Europe. Pour permettre l\'utilisation d\'un marquage CE sur un produit, la preuve que le produit répond aux exigences pertinentes doit être documentée.');
+define('FS_ISO_ROHS','RoHS');
+define('FS_ISO_WORKING','Travaillant en partenariat avec la politique BERR (Département des Affaires, de l’entreprise et de la réforme réglementaire), NWML est une autorité d\'exécution au Royaume-Uni pour la limitation de l\'utilisation de certaines substances dangereuses dans les équipements électriques et électroniques (Directive RoHS) . Les fabricants doivent comprendre les exigences de la Directive RoHS pour assurer que leurs produits - et les composants de ces derniers - sont conformes aux dispositions de la Directive.');
+define('FS_ISO_FCC','FCC');
+define('FS_ISO_FEDERAL','La Commission fédérale des communications (FCC en anglais) est un organisme indépendant du gouvernement des États-Unis créée par la Loi sur les communications de 1934. Elle est chargée de réglementer les communications inter-états et internationales par radio, télévision, sur fil, satellite et par câble. La compétence de la FCC couvre les 50 États, le District de Columbia, et les possessions des États-Unis.');
+
+?>

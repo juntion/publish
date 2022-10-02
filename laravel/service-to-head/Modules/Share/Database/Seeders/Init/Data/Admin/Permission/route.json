@@ -1,0 +1,16 @@
+{
+  "share": [
+    {
+      "uuid": "",
+      "name": "share.configuration.view",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "configuration",
+        "zh-CN": "资源配置页面"
+      },
+      "comment": "资源配置页面查看权限"
+    }
+  ]
+}

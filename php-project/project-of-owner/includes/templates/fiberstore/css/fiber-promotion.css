@@ -1,0 +1,795 @@
+.fp_box * {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+.box {
+  width: 100% !important;
+}
+.clear {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  display: block;
+}
+.trs {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.fp_row {
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  width: 1440px;
+}
+.fp_row:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  display: block;
+}
+.fp_carousel {
+  height: 460px;
+  position: relative;
+  overflow: hidden;
+}
+.fp_carousel .z_active {
+  opacity: 1 !important;
+  transition: all 0.6s linear;
+  -webkit-transition: all 0.6s linear;
+  -moz-transition: all 0.6s linear;
+  -ms-transition: all 0.6s linear;
+}
+.fp_carousel .fp_bn1:nth-child(1) {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.6s linear;
+  -webkit-transition: all 0.6s linear;
+  -moz-transition: all 0.6s linear;
+  -ms-transition: all 0.6s linear;
+  top: 0;
+  left: 0;
+  height: 460px;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/cx_02.jpg) no-repeat center;
+}
+.fp_carousel .fp_bn1:nth-child(1) h1 {
+  color: #fff600;
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+.fp_carousel .fp_bn1:nth-child(1) p {
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.fp_carousel .fp_bn1:nth-child(2) {
+  width: 100%;
+  opacity: 0;
+  transition: all 0.6s linear;
+  -webkit-transition: all 0.6s linear;
+  -moz-transition: all 0.6s linear;
+  -ms-transition: all 0.6s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 460px;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/e_02.jpg) no-repeat center;
+}
+.fp_carousel .fp_bn1:nth-child(2) h1 {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 36px;
+  padding-top: 160px;
+  padding-bottom: 20px;
+  padding-left: 18%;
+}
+.fp_carousel .fp_bn1:nth-child(2) p {
+  font-size: 20px;
+  padding-left: 18%;
+  color: #FFFFFF;
+}
+.fp_carousel .fp_bn1:nth-child(3) {
+  width: 100%;
+  opacity: 0;
+  transition: all 0.6s linear;
+  -webkit-transition: all 0.6s linear;
+  -moz-transition: all 0.6s linear;
+  -ms-transition: all 0.6s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 460px;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/e_03.jpg) no-repeat center;
+}
+.fp_carousel .fp_bn1:nth-child(3) h1 {
+  color: #0175c6;
+  font-weight: 400;
+  font-size: 36px;
+  padding-top: 160px;
+  padding-left: 55%;
+  padding-bottom: 20px;
+}
+.fp_carousel .fp_bn1:nth-child(3) p {
+  font-size: 20px;
+  padding-left: 55%;
+  color: #616265;
+}
+.fp_carousel_pagination {
+  position: absolute;
+  bottom: 20px;
+  z-index: 15;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+.fp_carousel_pagination:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  display: block;
+}
+.fp_carousel_pagination_1 {
+  float: left;
+  position: relative;
+  width: 50px;
+  cursor: pointer;
+  height: 2px;
+  /*opacity: 0.3;*/
+  /*background: #ccc;*/
+  margin: 5px;
+}
+.fp_carousel_pagination_1 span {
+  display: block;
+  background: #808080;
+  height: 100%;
+  width: 0;
+  position: absolute;
+}
+.fp_carousel_btn_prev {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 60px;
+  height: 78px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fp_carousel_btn_prev span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #232323;
+  opacity: 0.3;
+  border-radius: 5px;
+}
+.fp_carousel_btn_prev em {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 28px;
+  width: 16px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/index_icon.png) no-repeat -12px -227px;
+  z-index: 99;
+}
+.fp_carousel_btn_prev:hover span {
+  opacity: 0.5;
+}
+.fp_carousel_btn_next {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 60px;
+  height: 78px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fp_carousel_btn_next span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #232323;
+  opacity: 0.3;
+  border-radius: 5px;
+}
+.fp_carousel_btn_next em {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 28px;
+  width: 16px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/index_icon.png) no-repeat -52px -227px;
+  z-index: 99;
+}
+.fp_carousel_btn_next:hover span {
+  opacity: 0.5;
+}
+.fp_carousel:hover .fp_carousel_btn_next {
+  display: block;
+}
+.fp_carousel:hover .fp_carousel_btn_prev {
+  display: block;
+}
+.fp_bn2_header {
+  width: 100%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.fp_bn2_header:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  display: block;
+}
+.fp_bn2_header_1 {
+  display: inline-block;
+  width: 198px;
+  margin-bottom: 45px;
+  border: 1px solid #dedede;
+  border-bottom: 0;
+}
+.fp_bn2_header_2 {
+  padding: 60px 15px 0 15px;
+  display: inline-block;
+}
+.fp_bn2_header_2 h1 {
+  color: #232323;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.fp_bn2_header_2 p {
+  font-size: 18px;
+  color: #616265;
+}
+.fp_bn2_product {
+  padding-bottom: 20px;
+  margin: 0 auto;
+  width: 90%;
+}
+.fp_bn2_product:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  display: block;
+}
+.fp_bn2_product_left {
+  width: 50%;
+  float: left;
+}
+.fp_bn2_product_right {
+  width: 50%;
+  float: left;
+}
+.fp_bn2_product_right > h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #232323;
+  padding-bottom: 12px;
+}
+.fp_bn2_product_right > h1 a {
+  font-size: 24px;
+  color: #232323;
+  text-decoration: none;
+}
+.fp_bn2_product_right > p {
+  font-size: 16px;
+  color: #616265;
+  padding-bottom: 45px;
+}
+.fp_bn2_product_img_icon {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.fp_bn2_product_img {
+  text-align: center;
+  position: relative;
+  margin: 0px auto 0 auto;
+  height: 330px;
+  width: 100%;
+}
+.fp_bn2_product_img img {
+  max-width: 100%;
+  height: 100%;
+}
+.fp_bn2_product_img_row {
+  margin-top: 5px;
+  text-align: center;
+}
+.fp_bn2_product_img_row .fp_active {
+  border: 1px solid #c00000;
+}
+.fp_bn2_img_box {
+  display: inline-block;
+  margin: 0 2px;
+  width: 72px;
+  position: relative;
+  height: 72px;
+  border: 1px solid #ebeae9;
+  border-radius: 3px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.fp_bn2_img_box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+.fp_bn2_product_list {
+  margin: 0;
+  padding: 0;
+}
+.fp_bn2_product_list li {
+  list-style: none;
+  width: 100%;
+}
+.fp_bn2_product_list li:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  display: block;
+}
+.fp_bn2_product_list_1 {
+  float: left;
+  width: 75px;
+  font-size: 14px;
+  color: #616265;
+}
+.fp_bn2_product_list_2 {
+  float: left;
+  width: 75%;
+}
+.fp_bn2_product_list_2 .fp_active {
+  border: 2px solid #c00000 !important;
+  background: #f4f4f4;
+}
+.fp_bn2_product_list_2 .fp_active:hover{
+	border: 2px solid #ccc;
+}
+.fp_bn2_product_length {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  color: #616265;
+  width: 50px;
+  border-radius: 2px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 6px 5px;
+  border: 1px solid #DEDEDE;
+}
+.fp_bn2_product_length:hover{
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+}
+.fp_bn2_product_list li:nth-child(1) {
+  margin-bottom: 15px;
+}
+.fp_bn2_product_list li:nth-child(2) {
+  min-height: 70px;
+}
+.fp_bn2_product_list li:nth-child(3) {
+  margin-top: 35px;
+}
+.fp_bn2_product_list li:nth-child(4) {
+  margin: 15px 0;
+}
+.fp_bn2_product_list li:nth-child(1) .fp_bn2_product_list_1 {
+  height: 33px;
+  line-height: 33px;
+}
+.fp_bn2_product_list li:nth-child(2) .fp_bn2_product_list_1{
+	height: 33px;
+  line-height: 33px;
+}
+.fp_bn2_product_list li:nth-child(2) .fp_bn2_product_length {
+  width: 133px;
+}
+.fp_bn2_product_price {
+  font-size: 28px;
+  color: #c00000;
+  display: inline-block;
+  margin-right: 30px;
+}
+.fp_bn2_product_price_1 {
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #999999;
+}
+.fp_bn2_product_list li:nth-child(4) span {
+  color: #83bd39;
+  font-size: 14px;
+}
+.fp_bn2_product_list li:last-child .fp_bn2_product_list_1 {
+  height: 40px;
+  line-height: 40px;
+}
+.af_num_box {
+  float: left;
+}
+.af_num_box input {
+  text-align: center;
+  display: block;
+  float: left;
+  height: 40px;
+  width: 64px;
+  border: 1px solid #ccc;
+  border-right: 0;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  background: transparent;
+}
+.af_num_btn {
+  float: left;
+  width: 25px;
+  border: 1px solid #ccc;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.af_num_btn .ck_add {
+  height: 19px;
+  cursor: pointer;
+  display: block;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/bg2016.png) no-repeat -180px -332px;
+}
+.af_num_btn .ck_reduce {
+  height: 19px;
+  cursor: pointer;
+  display: block;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/bg2016.png) no-repeat -180px -211px;
+}
+.af_gwc_box {
+  float: left;
+  cursor: pointer;
+  margin: 0 0px 0 10px;
+  width: 127px;
+  position: relative;
+  overflow: hidden;
+}
+.af_gwc {
+  width: 100%;
+  height: 100%;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  padding-right: 15px;
+  font-size: 14px;
+  border-radius: 3px;
+  color: #c00000;
+  border: 1px solid #c00000;
+  text-align: center;
+  text-decoration: none;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/bg2016.png) no-repeat -166px -418px;
+}
+.af_gwc1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  background: #FFFFFF;
+  color: #616265;
+  top: 0;
+  border: 1px solid #dedede;
+  transform: rotateX(90deg) translateZ(20px);
+  -webkit-transform: rotateX(90deg) translateZ(20px);
+}
+.af_btn_animate_1 {
+  transition: transform 0.8s;
+  transform: rotateX(0deg) translateZ(20px);
+  -webkit-transform: rotateX(0deg) translateZ(20px);
+}
+.af_gwc:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/bg2016.png) no-repeat -166px -240px #c00000;
+}
+.fp_bn2_change {
+  background: #f6f6f6;
+}
+.fp_bn6 {
+  width: 100%;
+  margin-top: 60px;
+  padding-bottom: 65px;
+}
+.fp_bn6 h1 {
+  margin: 0 auto;
+  width: 75%;
+  border-top: 1px solid #DEDEDE;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  color: #232323;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+.fp_bn6_item {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 0 10px;
+}
+.fp_bn6_item .fp_bn6_item_1 {
+  border: 1px solid #ececec;
+  position: relative;
+}
+.fp_bn6_item .fp_bn6_item_1 h3 {
+  font-size: 18px;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  color: #616265;
+  font-weight: 400;
+}
+.fp_bn6_item .fp_bn6_item_1 p {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+  padding-bottom: 40px;
+}
+.fp_bn6_item .fp_bn6_item_1 .fp_bn6_item_1_icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.fp_bn7 {
+  height: 760px;
+  width: 100%;
+  position: relative;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/cx_002.jpg) no-repeat center;
+}
+.fp_bn7 h1 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #232323;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.fp_bn7 p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #616265;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.fp_bn7 .fp_bn7_video_btn {
+  width: 100px;
+  height: 54px;
+  border-radius: 5px;
+  position: relative;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.fp_bn7 .fp_bn7_video_btn span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #616265;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.fp_bn7 .fp_bn7_video_btn i {
+  display: block;
+  position: absolute;
+  top: 32%;
+  left: 42%;
+  z-index: 10;
+  border-left: 18px solid #FFFFFF;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.fp_bn7_video_btn:hover span {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+.fp_backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 998;
+  background: #232323;
+}
+.fp_hidden {
+  display: none;
+}
+.fp_frame {
+  position: fixed;
+  top: 50%;
+  z-index: 999;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 800px;
+  background: #FFFFFF;
+  border-radius: 1px;
+  padding: 10px;
+  box-shadow: 0 0 0 10px rgba(0,0,0,0.302);
+}
+.fp_frame h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #232323;
+  padding-bottom: 10px;
+  position: relative;
+}
+.fp_frame h1:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  display: block;
+}
+.fp_frame h1 a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #232323;
+  text-decoration: none;
+}
+.fp_frame h1 span {
+  display: block;
+  float: right;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: url(https://img-en.fs.com/includes/templates/fiberstore/images/fiber_promotion/menu_bg_01.gif) no-repeat -718px -211px;
+}
+.fp_videobox {
+  /*padding-top: 10px;*/
+}
+.fp_video_set {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+.fp_row_h1_0818{
+	margin-top: 50px;
+	font-size: 30px;
+	color: #232323;
+	font-weight: 400;
+	padding-top: 55px;
+	padding-bottom: 20px;
+	border-top: 1px solid #ececec;
+}
+.fp_row_p_0818{
+	font-size: 16px;
+	padding-bottom: 50px;
+	color: #616265;
+}
+@media screen and (max-width: 1460px) {
+  .fp_row {
+    width: 1200px;
+  }
+  .fp_bn2_product {
+    width: 97%;
+  }
+  .fp_bn6_item .fp_bn6_item_1 p {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .fp_row {
+    width: 998px;
+  }
+  .fp_bn2_product {
+    width: 100%;
+  }
+  .fp_bn2_header {
+    margin-bottom: 50px;
+  }
+  .fp_bn6_item {
+    width: 33.3333%;
+    margin-bottom: 60px;
+  }
+  .fp_bn6 {
+    padding-bottom: 20px;
+  }
+  .fp_bn6 h1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 998px) {
+  .fp_bn2_product_list_1 {
+    width: 15%;
+  }
+  .fp_row {
+    width: 100%;
+  }
+  .fp_bn6_item {
+    width: 50%;
+  }
+  .fp_bn6_item .fp_bn6_item_1 p {
+    min-height: 84px;
+  }
+  .fp_bn2_product_right {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .fp_bn2_product_left {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .fp_bn2_header {
+    margin-bottom: 30px;
+  }
+  .fp_bn2_product_img_icon {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fp_bn6_item {
+    width: 100%;
+  }
+  .fp_bn2_header_1 {
+    width: 100px;
+  }
+  .fp_bn2_header_2 {
+    padding: 40px 5px 0 5px;
+  }
+  .fp_bn2_product_img_icon {
+    left: 0;
+  }
+}

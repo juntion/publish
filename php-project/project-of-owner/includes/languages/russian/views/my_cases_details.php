@@ -1,0 +1,21 @@
+<?php
+define('FS_MY_CASES_DETAILS_01','Статус Вопроса');
+define('FS_MY_CASES_DETAILS_02','Номер Вопроса: ');
+define('FS_MY_CASES_DETAILS_03','Вопрос решён?');
+define('FS_MY_CASES_DETAILS_04','Удалить Вопрос ');
+define('FS_MY_CASES_DETAILS_05','Все обновлений о вопросе');
+define('FS_MY_CASES_DETAILS_06','Редактировать');
+define('FS_MY_CASES_DETAILS_07','Скачать');
+define('FS_MY_CASES_DETAILS_08','От ');
+define('FS_MY_CASES_DETAILS_09','Введите текст своего вопроса (макс. 1000 символов).');
+define('FS_MY_CASES_DETAILS_10','Поля типа сервиса и содержания вопроса обязательны');
+define('FS_MY_CASES_DETAILS_11','Текст не должен превышать 3000 символов.');
+define('FS_MY_CASES_DETAILS_12','Добавить картину');
+define('FS_MY_CASES_DETAILS_13','Поддерживаются форматы PDF, JPG, PNG.');
+define('FS_MY_CASES_DETAILS_14','У Вас дополнительный вопрос?');
+define('FS_MY_CASES_DETAILS_15','Подтверждение');
+define('FS_MY_CASES_DETAILS_16','Решён ли вопрос?');
+define('FS_MY_CASES_DETAILS_17','Да');
+define('FS_MY_CASES_DETAILS_18','Отменить');
+define('FS_MY_CASES_DETAILS_19','Удалить информацию ?');
+define('FS_MY_CASES_DETAILS_20','Решён ли вопрос ?');

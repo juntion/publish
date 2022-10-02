@@ -1,0 +1,24 @@
+<?php
+define('FS_MY_CASES_DETAILS_01','Case Status');
+define('FS_MY_CASES_DETAILS_02','Case No. : ');
+define('FS_MY_CASES_DETAILS_03','Solved?');
+define('FS_MY_CASES_DETAILS_04','Remove Case ');
+define('FS_MY_CASES_DETAILS_05','All updates for this case');
+define('FS_MY_CASES_DETAILS_06','Edit');
+define('FS_MY_CASES_DETAILS_07','Download');
+define('FS_MY_CASES_DETAILS_08','By ');
+define('FS_MY_CASES_DETAILS_09','Please enter your questions, 1000 characters maximum allowed.');
+define('FS_MY_CASES_DETAILS_10','Your content is required');
+define('FS_MY_CASES_DETAILS_11','Please don\'t exceed 3,000 characters.');
+define('FS_MY_CASES_DETAILS_12','Add photo');
+define('FS_MY_CASES_DETAILS_13','Allow files of type PDF, JPG, PNG.');
+define('FS_MY_CASES_DETAILS_14','Have more question?');
+define('FS_MY_CASES_DETAILS_15','Confirm');
+define('FS_MY_CASES_DETAILS_16','Solved this question?');
+define('FS_MY_CASES_DETAILS_17','Solved');
+define('FS_MY_CASES_DETAILS_18','Cancel');
+define('FS_MY_CASES_DETAILS_19','Delete this Information ?');
+define('FS_MY_CASES_DETAILS_20','Solved this question ?');
+define('FS_MY_CASES_DETAILS_21','records per page');
+define('FS_MY_CASES_DETAILS_22','Previous');
+define('FS_MY_CASES_DETAILS_23','Next');

@@ -1,0 +1,1831 @@
+{
+  "categories": [
+    {
+      "name": "产品图",
+      "sort": 0,
+      "type": "picture",
+      "child": [
+        {
+          "name": "模块",
+          "sort": 0,
+          "type": "picture",
+          "child": [
+            {
+              "name": "100G/400G 光模块",
+              "sort": 0,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "100G QSFP28",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G CFP/CFP2/CFP4",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G 转换光模块",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "400G QSFP-DD",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "Customized 100G",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "25G/40G/50G 光模块",
+              "sort": 1,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "25G SFP28",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "25G BiDi SFP28",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "25G WDM SFP28",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "40G QSFP+",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "40G 转换光模块",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "50G QSFP28",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "Customized 40G/25G",
+                  "sort": 6,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "10G/16G/32G 光模块",
+              "sort": 2,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "10G SFP+",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "10G BiDi SFP+",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "10G CWDM SFP+",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "10G DWDM SFP+",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "10G XFP/X2/XENPAK",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "10G 转换光模块",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "8G/10G/16G/32G FC",
+                  "sort": 6,
+                  "type": "picture"
+                },
+                {
+                  "name": "Customized 32G/16G/10G",
+                  "sort": 7,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "SFP 光模块",
+              "sort": 3,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "100BASE SFP",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "1G SFP",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "1G BiDi SFP",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "1G CWDM SFP",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "1G DWDM SFP",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "1G SONET/SDH SFP",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "2G/4G SFP",
+                  "sort": 6,
+                  "type": "picture"
+                },
+                {
+                  "name": "Customized 1G/2G/4G SFP",
+                  "sort": 7,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "工业级光模块",
+              "sort": 4,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "10G Industrial SFP+",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "10G Industrial BiDi SFP+",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "10G Industrial WDM SFP+",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "25G Industrial SFP28",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "25G Industrial BiDi SFP28",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G Industrial QSFP28",
+                  "sort": 5,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "Others",
+              "sort": 5,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "固件升级工具包",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "数字视频收发器",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "PON光模块",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "回环模块",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "收发机配件",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "高速线缆",
+          "sort": 1,
+          "type": "picture",
+          "child": [
+            {
+              "name": "高速线缆 DAC",
+              "sort": 0,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "10G SFP+ DAC",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "25G SFP28 DAC",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "40G QSFP+ DAC",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "56G QSFP+ DAC",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G QSFP28 DAC",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "200G QSFP56 DAC",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "400G QSFP-DD DAC",
+                  "sort": 6,
+                  "type": "picture"
+                },
+                {
+                  "name": "Customized DAC",
+                  "sort": 7,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "有源光缆 AOC",
+              "sort": 1,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "10G SFP+ AOC",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "25G SFP28 AOC",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "40G QSFP+ AOC",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "56G QSFP+ AOC",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G QSFP28 AOC",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "Customized AOC",
+                  "sort": 5,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "DAC/AOC 分支线缆",
+              "sort": 2,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "40G DAC分支线缆",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G DAC分支线缆",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "200G DAC分支线缆",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "400G DAC分支线缆",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "40G AOC分支线缆",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G AOC分支线缆",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "Customized DAC/AOC分支线缆",
+                  "sort": 6,
+                  "type": "picture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "光纤布线系统",
+          "sort": 2,
+          "type": "picture",
+          "child": [
+            {
+              "name": "MTP®/MPO光纤跳线",
+              "sort": 0,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "MTP®/MPO主干跳线",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "MTP®/MPO-LC分支跳线",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "MTP® PRO主干跳线",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "MTP®/MPO转换电缆",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "定制MTP®/MPO光缆",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "Fiber Patch Cables",
+              "sort": 1,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "OS2 9/125单模双工跳线",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "OM4 40 100Gb 50/125多模跳线",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "OM3 10Gb 50/125多模跳线",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "OM1/OM2多模跳线",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "OS2 9/125单模双工跳线",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "OM5 40G 100G 50/125多模跳线",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "定制光纤跳线",
+                  "sort": 6,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "数据中心光纤跳线",
+              "sort": 2,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "超低插损LC光纤跳线",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "Grade B LC光纤跳线",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "CS™ 光纤跳线",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "一管双芯LC光纤跳线",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "定制HD LC光纤跳线",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "室内/室外光纤跳线",
+              "sort": 3,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "铠装光纤跳线",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "军用级光纤跳线",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "FTTA拉远跳线",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "定制铠装光纤跳线",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "定制室内多芯光纤跳线",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "光纤尾纤",
+              "sort": 4,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "900um 紧包光纤尾纤",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "6~12芯 彩标光纤尾纤",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "定制尾纤",
+                  "sort": 2,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "光纤跳线配件",
+              "sort": 5,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "光纤适配器",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤衰减器",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "LC/SC光纤回环器",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤连接器",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "熔接热缩管",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "PLC光纤分路器",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "微型光学器件",
+                  "sort": 6,
+                  "type": "picture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "光纤配线架&配线箱",
+          "sort": 3,
+          "type": "picture",
+          "child": [
+            {
+              "name": "FHD 机架式配线系列",
+              "sort": 0,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "光纤适配器面板",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤配线盒",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "机架式配线箱",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "机箱配件",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "机架&机柜",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "FHD 简易式配线系列",
+              "sort": 1,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "光纤适配器面板",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤配线盒",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "简易式配线架",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "机箱配件",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "机架&机柜",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "FHD 壁挂式配线系列",
+              "sort": 2,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "FHD壁挂式",
+                  "sort": 0,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "FHU 机架式配线系列",
+              "sort": 3,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "1U 19寸适配器面板",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "FHU MTP®-LC分接配线架",
+                  "sort": 1,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "FHZ 机架式配线系列",
+              "sort": 4,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "FHZ Premium Ultra机架",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "FHZ MTP®-LC盒式磁带",
+                  "sort": 1,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "线缆管理",
+              "sort": 5,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "水平理线架",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "垂直理线架",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "线缆扎带",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "线缆标签纸",
+                  "sort": 3,
+                  "type": "picture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "交换机",
+          "sort": 4,
+          "type": "picture",
+          "child": [
+            {
+              "name": "Q系列（锐捷）",
+              "sort": 0,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "PoE+ 交换机",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "1G/10G 交换机",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "25G 交换机",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "40G 交换机",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G 交换机",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "交换机配件",
+                  "sort": 5,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "C系列",
+              "sort": 1,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "无线局域网控制器",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "AP产品",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "会议摄像机",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "网卡",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "交换机配件",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "数据中心交换机",
+              "sort": 2,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "10G 交换机",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "25G 交换机",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "40G 交换机",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G 交换机",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "400G 交换机",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "交换机配件",
+                  "sort": 5,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "光纤网卡&路由器&防火墙",
+              "sort": 3,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "网络适配器",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "USB适配器",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "KVM",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "Tap分流器",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "延长器",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "企业路由器",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "新一代防火墙",
+                  "sort": 6,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "以太网媒体转换器",
+              "sort": 4,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "非托管媒体转换器",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "托管媒体转换器",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "工业媒体转换器",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "PoE媒体转换器",
+                  "sort": 3,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "PDU、UPS、电源系统",
+              "sort": 5,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "PDU电源板",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "UPS电源",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "IEC60320电源线",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "NEMA电源线",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "定制电源线",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "转换器和扩展器、KVM、TAP",
+              "sort": 6,
+              "type": "picture",
+              "child": []
+            }
+          ]
+        },
+        {
+          "name": "光传输",
+          "sort": 5,
+          "type": "picture",
+          "child": [
+            {
+              "name": "波分复用器设备",
+              "sort": 0,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "DWDM密集波分复用器",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "DWDM密集波光分插复用器",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "CWDM粗波分复用器",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "迷你型CWDM波分复用器",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "CWDM粗波光分插复用器",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "FMU 机箱&配件",
+                  "sort": 5,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "FMT 10G光传输系统",
+              "sort": 1,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "10G/25G转发器(OEO)",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤放大器",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "色散补偿器",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "光线路保护",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "DWDM 红/蓝波滤波器",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "光监控",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "FMT 管理&配件",
+                  "sort": 6,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "无源光器件",
+              "sort": 2,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "光纤衰减器",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤适配器",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤连接器&配件",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "PLC分路器",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "微型光学器件",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "终端配线设备",
+                  "sort": 5,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "M6500系列OTN设备",
+              "sort": 3,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "100G 转发器",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "100G 复用器",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "机箱&配件",
+                  "sort": 2,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "M6200系列WDM设备",
+              "sort": 4,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "10G转发器（OEO）",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "Mux Demux Cards",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤放大器",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "色散补偿器",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "光线路保护",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "DWDM 红/蓝波滤波器",
+                  "sort": 5,
+                  "type": "picture"
+                },
+                {
+                  "name": "管理&配件",
+                  "sort": 6,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "M6800系列OTN设备",
+              "sort": 5,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "1.6T转发器",
+                  "sort": 0,
+                  "type": "picture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cat5e/Cat6/Cat7/Cat8网线",
+          "sort": 6,
+          "type": "picture",
+          "child": [
+            {
+              "name": "网络跳线",
+              "sort": 0,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "Cat5e网络跳线",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat5e网络跳线",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat6a网络跳线",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat7网络跳线",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat8网络跳线",
+                  "sort": 4,
+                  "type": "picture"
+                },
+                {
+                  "name": "28AWG细径网络跳线",
+                  "sort": 5,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "预端接主干线缆",
+              "sort": 1,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "Cat5e主干线缆",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat6主干线缆",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat6a主干线缆",
+                  "sort": 2,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "散装网线",
+              "sort": 2,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "Cat5e散装网线",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat6散装网线",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat6a散装网线",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat7散装网线",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "网线配件&工具",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "插座面板&配线架",
+              "sort": 3,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "Cat5e网络配线架",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "Cat6网络配线架",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "梯形插槽配线架",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "网络插座面板",
+                  "sort": 3,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "线缆管理",
+              "sort": 4,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "水平理线架",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "垂直理线架",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "线缆扎带",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "线缆标签纸",
+                  "sort": 3,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "网络工具测试仪",
+              "sort": 5,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "网线压接工具",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "插入/打线工具",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "剥线钳",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "网络线缆测试仪",
+                  "sort": 3,
+                  "type": "picture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "光纤通信测试仪器&工具",
+          "sort": 7,
+          "type": "picture",
+          "child": [
+            {
+              "name": "光纤清洁工具",
+              "sort": 0,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "基础光纤测试设备",
+              "sort": 1,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "光功率计",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "激光双波长稳定光源",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "红光笔/光纤故障测试笔",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "光万用表",
+                  "sort": 3,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤显微镜",
+                  "sort": 4,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "高级光纤测试设备",
+              "sort": 2,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "OTDR光时域反射仪",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "OTDR测试延长线盒",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤识别仪&光话机",
+                  "sort": 2,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "光纤研磨&熔接设备",
+              "sort": 3,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "光纤研磨设备",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤熔接设备",
+                  "sort": 1,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "光纤工具",
+              "sort": 4,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "光纤工具套装箱",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "光纤剥线钳",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "光缆切割剪",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "光缆剥皮器",
+                  "sort": 3,
+                  "type": "picture"
+                }
+              ]
+            },
+            {
+              "name": "网络工具&测试仪",
+              "sort": 5,
+              "type": "picture",
+              "child": [
+                {
+                  "name": "网线压接工具",
+                  "sort": 0,
+                  "type": "picture"
+                },
+                {
+                  "name": "插入/打线工具",
+                  "sort": 1,
+                  "type": "picture"
+                },
+                {
+                  "name": "剥线钳",
+                  "sort": 2,
+                  "type": "picture"
+                },
+                {
+                  "name": "网络线缆测试仪",
+                  "sort": 3,
+                  "type": "picture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "产品组合图",
+          "sort": 8,
+          "type": "picture",
+          "child": [
+            {
+              "name": "测试仪器检测图",
+              "sort": 0,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "交换机检测图",
+              "sort": 1,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "页面/视频用图",
+              "sort": 2,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "机柜/机架场景图",
+              "sort": 3,
+              "type": "picture",
+              "child": []
+            }
+          ]
+        },
+        {
+          "name": "产品树",
+          "sort": 9,
+          "type": "picture",
+          "child": [
+            {
+              "name": "企业网/铜缆",
+              "sort": 0,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "光综合布线",
+              "sort": 1,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "光模块/高速线缆",
+              "sort": 2,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "光传输",
+              "sort": 3,
+              "type": "picture",
+              "child": []
+            }
+          ]
+        },
+        {
+          "name": "拓扑图",
+          "sort": 10,
+          "type": "picture",
+          "child": []
+        }
+      ]
+    },
+    {
+      "name": "活动",
+      "sort": 1,
+      "type": "picture",
+      "child": [
+        {
+          "name": "年会",
+          "sort": 0,
+          "type": "picture",
+          "child": []
+        },
+        {
+          "name": "下午茶",
+          "sort": 1,
+          "type": "picture",
+          "child": []
+        },
+        {
+          "name": "演讲比赛",
+          "sort": 2,
+          "type": "picture",
+          "child": []
+        },
+        {
+          "name": "生日会",
+          "sort": 3,
+          "type": "picture",
+          "child": []
+        },
+        {
+          "name": "其他",
+          "sort": 4,
+          "type": "picture",
+          "child": []
+        }
+      ]
+    },
+    {
+      "name": "环境",
+      "sort": 2,
+      "type": "picture",
+      "child": [
+        {
+          "name": "武汉",
+          "sort": 0,
+          "type": "picture",
+          "child": [
+            {
+              "name": "实验室/展厅",
+              "sort": 0,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "A7-14楼",
+              "sort": 1,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "A7其他楼层",
+              "sort": 2,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "日海仓储",
+              "sort": 3,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "联想仓储",
+              "sort": 4,
+              "type": "picture",
+              "child": []
+            }
+          ]
+        },
+        {
+          "name": "深圳",
+          "sort": 1,
+          "type": "picture",
+          "child": [
+            {
+              "name": "南山办公区",
+              "sort": 0,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "华南仓储",
+              "sort": 1,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "光明仓储",
+              "sort": 2,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "龙华仓储",
+              "sort": 3,
+              "type": "picture",
+              "child": []
+            }
+          ]
+        },
+        {
+          "name": "海外",
+          "sort": 2,
+          "type": "picture",
+          "child": [
+            {
+              "name": "美国",
+              "sort": 0,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "德国",
+              "sort": 1,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "英国",
+              "sort": 2,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "新加坡",
+              "sort": 3,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "俄罗斯",
+              "sort": 4,
+              "type": "picture",
+              "child": []
+            },
+            {
+              "name": "澳大利亚",
+              "sort": 5,
+              "type": "picture",
+              "child": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "图库",
+      "sort": 3,
+      "type": "picture",
+      "child": [
+        {
+          "name": "挂画",
+          "sort": 0,
+          "type": "picture",
+          "child": []
+        },
+        {
+          "name": "精美素材",
+          "sort": 1,
+          "type": "picture",
+          "child": []
+        }
+      ]
+    },
+    {
+      "name": "插画",
+      "sort": 4,
+      "type": "picture",
+      "child": [
+        {
+          "name": "职业",
+          "sort": 0,
+          "type": "picture",
+          "child": []
+        },
+        {
+          "name": "行为",
+          "sort": 1,
+          "type": "picture",
+          "child": []
+        },
+        {
+          "name": "场景",
+          "sort": 2,
+          "type": "picture",
+          "child": []
+        },
+        {
+          "name": "人物（2.5D）",
+          "sort": 3,
+          "type": "picture",
+          "child": []
+        }
+      ]
+    },
+    {
+      "name": "产品视频",
+      "sort": 0,
+      "type": "video",
+      "child": [
+        {
+          "name": "方案视频",
+          "sort": 0,
+          "type": "video"
+        },
+        {
+          "name": "检测视频",
+          "sort": 1,
+          "type": "video"
+        },
+        {
+          "name": "介绍视频",
+          "sort": 2,
+          "type": "video"
+        },
+        {
+          "name": "产品宣传片",
+          "sort": 3,
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "name": "活动视频",
+      "sort": 0,
+      "type": "video",
+      "child": [
+        {
+          "name": "生日会",
+          "sort": 0,
+          "type": "video"
+        },
+        {
+          "name": "年会",
+          "sort": 1,
+          "type": "video"
+        },
+        {
+          "name": "下午茶",
+          "sort": 2,
+          "type": "video"
+        },
+        {
+          "name": "培训",
+          "sort": 3,
+          "type": "video"
+        },
+        {
+          "name": "其他",
+          "sort": 4,
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "name": "宣传类",
+      "sort": 0,
+      "type": "video",
+      "child": [
+        {
+          "name": "企业宣传片",
+          "sort": 0,
+          "type": "video"
+        },
+        {
+          "name": "年会宣传片",
+          "sort": 1,
+          "type": "video"
+        },
+        {
+          "name": "产品业务介绍片",
+          "sort": 2,
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}

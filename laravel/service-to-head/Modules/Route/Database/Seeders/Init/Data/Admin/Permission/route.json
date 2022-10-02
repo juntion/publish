@@ -1,0 +1,16 @@
+{
+  "route": [
+    {
+      "uuid": "",
+      "name": "route.view",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "AccessRouteManage",
+        "zh-CN": "访问入口管理"
+      },
+      "comment": "访问入口管理的权限，包括入口列表，所有侧边栏，侧边栏的结构"
+    }
+  ]
+}

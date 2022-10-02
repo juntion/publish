@@ -1,0 +1,70 @@
+<?php
+define('FS_FIBER_CA_01','Besoins en Constante Évolution des Services de Câblage Optique');
+define('FS_FIBER_CA_02','Un système de câblage bien planifié est conçu pour l\'interconnexion et la connexion croisée <br>pour vos centres de données à haute densité et les réseaux d\'entreprise.');
+define('FS_FIBER_CA_03','Jarretières Optiques Standard');
+define('FS_FIBER_CA_04','Jarretières Optiques BIF de Grade-B');
+define('FS_FIBER_CA_05','Jarretières Optiques Uniboot Push-pull');
+define('FS_FIBER_CA_06','Câbles Uniboot à Polarité Réversible');
+define('FS_FIBER_CA_07','Pigtails à Fibre Optique');
+define('FS_FIBER_CA_08','Câbles Multifibres Intérieurs/Extérieurs');
+define('FS_FIBER_CA_09','Jarretière Optique Standard');
+define('FS_FIBER_CA_10','OS2/OM5/OM4/OM3/OM2/OM1');
+define('FS_FIBER_CA_11','Bonnes répétabilité et échange');
+define('FS_FIBER_CA_12','Interconnexion et connexion croisée');
+define('FS_FIBER_CA_13','Câblage de Fibre du Centre de Données');
+define('FS_FIBER_CA_14','Grade B/Réversible/Uniboot/Câble BIF');
+define('FS_FIBER_CA_15','Très faible perte d\'insertion');
+define('FS_FIBER_CA_16','Câblage dans le centre de données à haute densité');
+define('FS_FIBER_CA_17','Pigtail à Fibre Optique');
+define('FS_FIBER_CA_18','Standard/Code Couleur/Armée Acier/Imperméable');
+define('FS_FIBER_CA_19','Férules en zircone de haute qualité');
+define('FS_FIBER_CA_20','Épissure idéale');
+define('FS_FIBER_CA_21','Câble Multifibre Intérieur/Extérieur');
+define('FS_FIBER_CA_22','Connecteur LC/SC/ST/FC & Gaine PE');
+define('FS_FIBER_CA_23','Pulling eye et tube libre');
+define('FS_FIBER_CA_24','Conduit souterrain & applications intérieures');
+define('FS_FIBER_CA_25','Câble Multifibre Intérieur/Extérieur');
+define('FS_FIBER_CA_26','PVC/0,3 dB/Céramique de Zircone');
+define('FS_FIBER_CA_27','Installation et gestion simples');
+define('FS_FIBER_CA_28','Pour la distribution de base/horizontale');
+define('FS_FIBER_CA_29','Jarretière Optique Armée Acier');
+define('FS_FIBER_CA_30','PVC/0,3 dB/Céramique de Zircone');
+define('FS_FIBER_CA_31','Armure en acier inoxydable');
+define('FS_FIBER_CA_32','Installation dans les zones intérieures dangereuses');
+define('FS_FIBER_CA_33','Quel Type de Jarretière Optique est le Meilleur pour Vous ?');
+define('FS_FIBER_CA_34','Choisir les jarretières optiques les plus appropriées pour votre système de câblage selon les conseils');
+define('FS_FIBER_CA_35','Jarretières Optiques Standard');
+define('FS_FIBER_CA_36','Standard fiber patch cable for interconnect and cross-connect.');
+define('FS_FIBER_CA_37','La jarretière optique standard est pour l\'interconnexion et la connexion croisée.');
+define('FS_FIBER_CA_38','Le pigtail à fibre optique est pour l\'épissure mécanique et de fusion.');
+define('FS_FIBER_CA_39','Le câble multifibre intérieur/extérieur est pour le conduit sec et plafond intérieur.');
+define('FS_FIBER_CA_40','Jarretière Optique Supérieure au Centre de Données');
+define('FS_FIBER_CA_41','La jarretière optique BIF de grade-B assure une bonne performance d\'accouplement aléatoire de perte d\'insertion.');
+define('FS_FIBER_CA_42','Le câble uniboot standard économise plus d\'espace et simplifie la gestion de câbles.');
+define('FS_FIBER_CA_43','Le câble uniboot push pull est plus facile à installer et à désinstaller.');
+define('FS_FIBER_CA_44','Le câble uniboot push pull est plus facile à installer et à désinstaller.');
+define('FS_FIBER_CA_45','Assurance de Qualité');
+define('FS_FIBER_CA_46','Le connecteur de Grade B de haute qualité et le connecteur à polarité réversible de la fibre insensible aux courbures de Senko ainsi que Corning assurent une faible perte d\'insertion et une haute perte de retour. <br>En outre, FS.COM a réussi aux vérifications du système de qualité, comme ISO9001 et RoHS, et nous avons établi un système d’assurance de qualité normalisé au niveau international.');
+define('FS_FIBER_CA_47','Changer la Polarité');
+define('FS_FIBER_CA_48','Connecteur de Senko');
+define('FS_FIBER_CA_49','Fibre insensible aux courbures');
+define('FS_FIBER_CA_50','Fibre de Corning');
+define('FS_FIBER_CA_51','ISO90001|RoHS');
+define('FS_FIBER_CA_52','Certificat de Qualité');
+define('FS_FIBER_CA_53','Programme de Test');
+define('FS_FIBER_CA_54','Chaque câble fourni par FS.COM doit passer la programmation et une série complète de test pour assurer la performance. Dans notre centre de test, <br>nous nous concentrons sur tous les détails, des employés professionnels aux installations de test avancées pour assurer les câbles de qualité supérieure.');
+define('FS_FIBER_CA_55','Inspection d\'Extrémité');
+define('FS_FIBER_CA_56','Test de Perte d\'Insertion');
+define('FS_FIBER_CA_57','Test de Perte de Retour');
+define('FS_FIBER_CA_58','Service Avantageux');
+define('FS_FIBER_CA_59','Livraison Rapide');
+define('FS_FIBER_CA_60','Les trois entrepôts aux État-unis, en Allemagne et en Chine assurent l\'expédition le jour même.');
+define('FS_FIBER_CA_61','Service d\'OEM');
+define('FS_FIBER_CA_62','FS.COM offre une gamme complète d\'assemblages de fibres optiques personnalisées.');
+define('FS_FIBER_CA_63','Support Technique');
+define('FS_FIBER_CA_64','L\'équipe d\'ingénieurs de FS.COM conçoit des solutions professionnelles et résout des problèmes techniques pour les clients.');
+
+
+
+
+?>

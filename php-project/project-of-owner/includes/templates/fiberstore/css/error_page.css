@@ -1,0 +1,336 @@
+﻿
+/*结束*/
+.error_problem{
+	height: 38px;
+	border:1px solid #e5e5e5;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.name_hints{
+    color: #d82d33;
+    display: none;
+    margin-bottom: 13px;
+    margin-left: 5px;
+}
+.error_problem_txt{
+	float: left;
+	line-height: 38px;
+	font-size: 13px;
+	color: #616265;
+	padding-left: 20px;
+	margin-right: 25px;
+}
+.error_problem_href{
+	float: left;
+	font-size: 13px;
+	line-height: 38px;
+	color: #999;
+	text-decoration: none;
+	padding: 0 25px;
+}
+.error_problem_href:hover{
+	color: #c00000;
+	text-decoration: underline;
+}
+.error_wrong{
+	height: 38px;
+	border:1px solid #ffd2d2;
+	margin-top: 12px;
+	background-color: #fff4f4;
+	overflow: hidden;
+	margin-bottom: 26px;
+}
+.error_wrong_txt{
+	font-size: 13px;
+	padding-left: 20px;
+	color: #616265;
+	line-height: 38px;
+}
+.error_wrong_txt em{
+	font-style: normal;
+	color: #c00000;
+}
+.error_wrong_txt a{
+	text-decoration: none;
+	color: #c00000;
+}
+.error_recommend_tit{
+	font-size: 14px;
+	text-align: left;
+	color: #999;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.error_recommend_tit span{
+	color: #c00000;
+}
+.error_recommend_tit em{
+	font-style: normal;
+}
+.error_recommend_tit a{
+	float: right;
+	text-decoration: none;
+	color: #999;
+}
+.error_recommend_goods{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.error_recommend_goods_list{
+	width: 228px;
+	height: 352px;
+	border: 1px solid #e5e5e5;
+	float: left;
+	list-style: none;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	padding-bottom:15px;
+}
+.error_recommend_goods_list:nth-child(5){
+	margin-right: 0;
+}
+.error_recommend_goods_list:nth-child(10){
+	margin-right: 0;
+}
+.error_recommend_goods_list a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	text-align: center;
+}
+.error_recommend_goods_list a img{
+	display: inline-block;
+}
+.error_recommend_goods_list_name{
+	color: #0070BC;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 14px;
+	margin-top: 20px;
+}
+.error_recommend_goods_list_id_star{
+	overflow: hidden;
+	padding-left: 14px;
+	margin-top: 10px;
+}
+.error_recommend_goods_list_id{
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+	color: #555;
+	font-style: normal;
+}
+.error_recommend_goods_list_star{
+	float: left;
+    width: 90px;
+    height: 20px;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/star.png) no-repeat;
+    background-position: 0 -250px;
+}
+.error_recommend_goods_list_price{
+	margin-top: 15px;
+	color: #c00000;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 14px;
+}
+.error_recommend_goods_list_stock{
+	font-size: 12px;
+	padding-left: 14px;
+	color: #999;
+	text-align: left;
+	margin-top: 10px;
+}
+.error_recommend_goods_list_stock i{
+	font-style:normal;
+}
+.page_need{
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	margin-top: 40px;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.page_need_offer{
+	width: 392px;
+	float: left;
+	border: 1px solid #e5e5e5;
+	box-shadow: 5px 3px 13px  #E9E9E9;
+}
+.page_need_offer_tit{
+	height:48px;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #0070BC;
+	padding-left: 14px;
+	margin-bottom: 20px;
+}
+.page_need_offer_tit p{
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+	line-height: 48px;
+}
+.page_need_offer_tit em{
+	color: white;
+	font-size: 12px;
+	margin: 0 4px 0 7px;
+	font-style: normal;
+	line-height: 48px;
+}
+.page_need_offer_tit span{
+	font-size: 13px;
+	color: white;
+	line-height: 48px;
+}
+.page_need_offer_content{
+	padding-left: 14px;
+}
+.page_need_offer_content input{
+	transition: border .2s linear 0s, box-shadow .2s linear 0s;
+	width: 360px;
+	height: 38px;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #999;
+	text-indent: 8px;
+	margin-bottom: 15px;
+}
+.page_need_offer_content input:focus{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(0, 0, 0, 0.2);
+	border-color: rgba(0, 0, 0, 0.2);
+	outline: 0 none;
+}
+.page_need_offer_content_describe{
+	width: 360px;
+	height: 46px;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #999;
+	text-indent: 8px;
+	transition: border .2s linear 0s, box-shadow .2s linear 0s;
+	padding-top: 8px;
+	resize: none;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.page_need_offer_content_describe:focus{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(0, 0, 0, 0.2);
+	border-color: rgba(0, 0, 0, 0.2);
+	outline: 0 none;
+}
+.page_need_offer_content_get{
+	display: block;
+	width: 360px;
+	height: 38px;
+	border: 1px solid #c00000;
+	color: #c00000;
+	text-decoration: none;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 38px;
+	margin-top: 15px;
+	cursor:pointer;
+}
+.page_need_offer_content_get:hover{
+	background-color: #c00000;
+	color: #fff;
+	text-decoration: none;
+}
+.page_need_consultation{
+	float: left;
+	margin-left: 35px;
+}
+.page_need_consultation li{
+	list-style: none;
+	width: 252px;
+	text-align: center;
+	float: left;
+}
+.page_need_consultation_icon{
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/page_need_icon.jpg) no-repeat;
+	margin-bottom: 24px;
+}
+.page_need_consultation_line{
+	background-position: -7px -6px;
+}
+.page_need_consultation_qq{
+	background-position: -7px -121px;
+}
+.page_need_consultation_phone{
+	background-position: -7px -239px;
+}
+.page_need_consultation_tit{
+	font-size: 18px;
+	color: #616265;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.page_need_consultation_txt{
+	font-size: 14px;
+	color: #616265;
+	margin-bottom: 10px;
+}
+
+.page_need_consultation_href{
+
+	display: inline-block;
+	width: 140px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	border: 1px solid #147ec0;
+	border-radius: 3px;
+	color: #147ec0;
+	text-decoration: none;
+	margin-top: 16px;
+}
+.page_need_consultation_href:hover{
+	
+	background-color: #147ec0;
+	color: #fff;
+}
+
+.page_need_consultation_tel{
+	display: inline-block;
+	font-size: 24px;
+	color: #c00000;
+	margin-top: 26px;
+}
+.page_need_consultation_tel{
+	display: inline-block;
+	font-size: 24px;
+	color: #c00000;
+	margin-top: 26px;
+}
+.name_hint{
+	color:#d82d33;
+	display:none;
+	margin-bottom: 13px;
+    margin-left: 5px;
+}
+.details_hint{
+	color:#d82d33;
+	display:none;
+	margin-bottom: 13px;
+    margin-left: 5px;
+}
+.phone_hint{
+	color:#d82d33;
+	display:none;
+	margin-bottom: 13px;
+    margin-left: 5px;
+}
+.phone_hint_files{
+	color:#d82d33;
+	display:none;
+	margin-bottom: 13px;
+    margin-left: 5px;
+}

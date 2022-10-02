@@ -1,0 +1,416 @@
+body{margin:0 auto; padding:0; font-size:13px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-style:normal; font-weight:400;list-style: none;}
+.box {width: 1440px; padding: 0; margin: 0 auto;}
+.content {padding: 0;}
+img{display: block;}
+h1, h2, h3, p, ul, li, dl, dt, dd, input, select, form, div { margin: 0; padding: 0;list-style: none;}
+
+/*样式开始*/
+.Aus_banner{
+	height: 380px;
+}
+.Aus_banner_bg{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 380px;
+	z-index: -1;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/About_us_banner.jpg) no-repeat center;
+}
+.Aus_txt{
+	padding: 44px 0;
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	color: #616265;
+	font-weight: 400;
+}
+.Aus_banner_tit{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	line-height: 60px;
+}
+.Aus_banner_txt{
+	font-size: 24px;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	line-height: 34px;
+}
+.Aus_business{
+	overflow: hidden;
+}
+.Aus_business_tit{
+	font-size: 30px;
+	color: #232323;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 48px;
+	line-height: 32px;
+	padding-bottom: 20px;
+}
+.Aus_business_txt{
+	font-size: 14px;
+	color: #616265;
+	text-align: center;
+	line-height: 22px;
+	padding-bottom: 40px;
+	font-weight:400;
+}
+.Aus_SMB{
+	overflow: hidden;
+}
+.Aus_SMB dl{
+	width: 33%;
+	float: left;
+}
+.Aus_SMB dl dt{
+	padding-bottom: 44px;
+}
+.Aus_SMB dl dt img{
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.Aus_SMB dl dd{
+	text-align: center;
+}
+.Aus_SMB dl dd h3{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	color: #232323;
+	padding-bottom: 20px;
+}
+.Aus_SMB dl dd p{
+	font-weight:400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #888888;
+	padding-bottom: 52px;
+}
+.Aus_em{
+	border: 2px solid #dedede;
+	margin: 0 auto;
+	display: block;
+	width: 6%;
+	margin-bottom: 20px;
+}
+.swiper-pagination-bullet{
+	background: none;
+	width: auto;
+	height: auto;
+}
+.swiper-pagination{
+	position: static;
+	margin-bottom: 40px;
+}
+.swiper-container_wap{
+	background:url(https://img-en.fs.com/includes/templates/fiberstore/images/About_us_bac1.jpg) no-repeat center;
+	height: 450px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.Aus_logo{
+	margin: 100px 100px;
+	background: #fff;
+	opacity: .8;
+}
+.Aus_logo dl dt img{
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding-top: 38px;
+	padding-bottom: 25px;
+}
+.Aus_logo dl dd h3{
+	font-size: 18px;
+	line-height: 30px;
+	color: #232323;
+	font-weight:400;
+	text-align: center;
+	padding-bottom: 22px;
+	padding: 0 100px;
+}
+.Aus_logo dl dd p{
+	font-size: 16px;
+	line-height: 22px;
+	color: #616265;
+	font-weight:400;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.swiper-button-next,.swiper-button-prev{
+	display: none;
+}
+.our_advantages_text h2{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #232323;
+	text-align: center;
+	padding-bottom: 16px;
+}
+.Aus__bottom{
+	text-align: center;
+	margin-bottom: 66px;
+}
+.Aus__bottom_a{
+	padding: 12px 60px;
+	color: #fff;
+	background: #0070BC;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+}
+.Aus_business_bg{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 173px;
+	z-index: -1;
+	background: #f6f8fa;
+}
+.Aus_sider_wap{
+	padding-bottom: 50px;
+}
+.Aus_sider_wap_bg{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 730px;
+	z-index: -1;
+	background: #f6f8fa;
+}
+.swiper-button-next,.swiper-button-prev{
+	background-image:none;
+	width: 44px;
+	height: 76px;
+	background: #c7c7c9;
+	opacity: .8;
+	margin-top: -38px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	color: #fff;
+	line-height: 70px;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	right: 0;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	left: 0;
+}
+.swiper-pagination-bullet{
+	opacity: 1;
+}
+.swiper-pagination-bullet img:first-child{
+	display: none;
+}
+.swiper-pagination-bullet img:last-child{
+	display: block;
+}
+/*.swiper-pagination-bullet.active img:first-child{
+	display: block;
+}
+.swiper-pagination-bullet.active img:last-child{
+	display: none;
+}*/
+.swiper-pagination-bullet{
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/About_us_color_hiden.png) no-repeat center;
+}
+.swiper-pagination-bullet:nth-child(1){
+	width: 160px;
+	height:60px ;
+	background-position:20px  10px;
+}
+.swiper-pagination-bullet:nth-child(2){
+	width: 140px;
+	height:60px ;
+	background-position:-114px  10px;
+}
+.swiper-pagination-bullet:nth-child(3){
+	width: 212px;
+	height:60px ;
+	background-position:-226px  10px;
+}
+.swiper-pagination-bullet:nth-child(4){
+	width: 184px;
+	height:60px ;
+	background-position:-408px  10px;
+}
+.swiper-pagination-bullet:nth-child(5){
+	width: 194px;
+	height:60px ;
+	background-position:-560px  10px;
+}
+.swiper-pagination-bullet:nth-child(6){
+	width: 156px;
+	height:60px ;
+	background-position:-117px  -53px;
+}
+.swiper-pagination-bullet:nth-child(7){
+	width: 110px;
+	height:60px ;
+	background-position:-256px  -53px;
+}
+.swiper-pagination-bullet:nth-child(8){
+	width: 114px;
+	height:60px ;
+	background-position:-360px  -53px;
+}
+.swiper-pagination-bullet:nth-child(9){
+	width: 146px;
+	height:60px ;
+	background-position:-460px  -53px;
+}
+
+.swiper-pagination-bullet-active{
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/About_us_color_block.png) no-repeat center;
+}
+.our_advantages { padding-top:70px; overflow:hidden;}
+.our_advantages h1 { font-size:30px; font-weight:normal; text-align:center; margin-bottom:50px;}
+.our_advantages p{font-size: 14px;font-weight:400;color: #616265;line-height: 22px;text-align: center;margin-bottom: 0px;}
+.our_advantages ul li { float:left; width: 25%; text-align:center;}
+.our_advantages ul li img { display:block; margin:0 auto;}
+.our_advantages_text { padding:20px 40px;}
+.our_advantages ul li h1 { font-size:18px; font-weight:normal; color:#232323; margin-bottom:10px;}
+.our_advantages ul li p { font-size:14px; color:#616265; font-weight:400;}
+
+
+
+
+
+
+@media(max-width:1440px){
+	.box{
+		width: 1200px;
+	}
+	.Aus_business br,.Aus_logo dl dd h3 br{
+		display: none;
+	}
+	.Aus_logo dl dd h3{
+		padding: 0 20px;
+	}
+	.Aus_sider_wap_bg{
+		height: 800px;
+	}
+	
+}	
+@media(max-width:1220px){
+	.box{
+		width: 960px;
+	}
+	.Aus_logo{
+		margin: 80px 100px;
+	}
+}	
+@media(max-width:960px){
+	.box{
+		width: 100%;
+	}
+	.content{
+		width: auto;
+		padding: 0 10px;
+	}
+	.swiper-button-next,.swiper-button-prev{
+		display: block;
+	}
+	.Aus_SMB dl,.our_advantages ul li{
+		width: 50%;
+	}
+	.Aus_logo{
+		margin: 80px 20px;
+	}
+}	
+@media(max-width:800px){
+	.Aus_sider_wap_bg{
+		height: 866px;
+	}
+}	
+@media(max-width:620px){
+	.Aus_business_bg{
+		height: 200px;
+	}
+	.Aus_sider_wap_bg{
+		height: 926px;
+	}
+	.Aus_logo{
+		margin: 60px 10px;
+	}
+}
+@media(max-width:480px){
+	.Aus_banner{
+		height: 220px;
+		overflow: hidden;
+	}
+	.Aus_banner_bg{
+		height: 220px;
+	}
+	.Aus_banner_tit{
+		font-size: 24px;
+		padding-top: 50px;
+		line-height: 40px;
+		margin-bottom: 5px;
+		font-weight: 400;
+	}
+	.Aus_banner_txt{
+		font-size: 16px;
+		line-height: 22px;
+		font-weight:400;
+	}
+	.Aus_business_tit{
+		font-size: 24px;
+		line-height: 40px;
+		font-weight: 400;
+	}
+	.Aus_business_txt{
+		font-size: 16px;
+		line-height: 22px;
+		font-weight:400;
+	}
+	.Aus_business_bg,.Aus_sider_wap_bg{
+		display: none;
+	}
+	.Aus_SMB dl,.our_advantages ul li{
+		width: 100%;
+	}
+	.Aus_business_tit{
+		padding-top: 0;
+	}
+	.our_advantages{
+		padding-top: 10px;
+	}
+	.Aus_logo{
+		margin:20px auto;
+		height: 90%;
+		width: 90%;
+	}
+	.swiper-button-next,.swiper-button-prev{
+		background-image:none;
+		width: 44px;
+		height: 76px;
+		background: none;
+		opacity: .8;
+		margin-top: -38px;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 20px;
+		color: #dedede;
+		line-height: 70px;
+	}
+	.Aus_logo dl dt img{
+		padding-top: 18px;
+	}
+	.Aus_logo dl dd h3{
+		padding: 0 10px;
+	}
+}	

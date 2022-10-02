@@ -1,0 +1,110 @@
+.content { padding-top:0;}
+/*样式开始*/
+.tn_banner { height: 380px; }
+.tn_banner_bg { position: absolute; width: 100%; left: 0; z-index: -1; height: 380px; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/transport_network/transport_network_banner.jpg) no-repeat center; }
+.tn_banner_tit { font-size: 38px; line-height: 40px; font-weight: 400; padding-top: 80px; color: #fff; text-align: center; }
+.tn_banner_txt { font-size: 20px; line-height: 32px; font-weight:400; text-align: center; color: #fff; margin-top: 20px; }
+.tn_slide { padding: 50px 24px; border-bottom: 1px solid #dedede; position: relative; margin-bottom: 50px; }
+.tn_slide_main { width: 100%; overflow: hidden; }
+.tn_slide_main_show { width: 100%; position: relative; overflow: hidden; height: 122px; }
+.tn_slide_main ul { width: 1740px; overflow: hidden; position: absolute; left: 0; }
+.tn_slide_prev { width: 16px; height: 28px; position: absolute; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/index_icon.png) -11px -320px no-repeat; left: 0; top: 50%; margin-top: -14px; cursor: pointer; }
+.tn_slide_next { width: 16px; height: 28px; position: absolute; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/index_icon.png) -53px -320px no-repeat; right: 0; top: 50%; margin-top: -14px; cursor: pointer; }
+.tn_slide_list { width: 170px; margin-right: 4px; float: left; }
+.tn_slide_list a, .swiper-slide a { display: block; text-align: center; text-decoration: none; transition: all .3s; }
+.tn_slide_list a:hover { opacity: .8; }
+.tn_slide_list a img, .swiper-slide a img { display: inline-block; }
+.tn_slide_list a h2, .swiper-slide a h2 { font-size: 14px; color: #232323; font-weight: 400; }
+.swiper-container { display: none; }
+.tn_slide .swiper-button-prev { background: none; text-align: left; font-size: 20px; line-height: 44px; color: #828282; left: 0; }
+.tn_slide .swiper-button-next { background: none; text-align: right; font-size: 20px; line-height: 44px; color: #828282; right: -2px; }
+.tn_tit { font-size: 30px; color: #232323; font-weight: 400; text-align: center; margin-bottom: 50px; line-height:30px;}
+.tn_perfect ul { overflow: hidden; }
+.tn_perfect_list { float: left; margin-right: 50px; }
+.tn_perfect_list:first-child, .tn_perfect_list:last-child { width: 28%; padding-top: 40px; }
+.tn_perfect_list:last-child { margin-right: 0; }
+.tn_perfect_list img { margin: 0 auto; }
+.tn_perfect_list_tit { font-size: 20px; color: #232323; text-align: center; font-weight: 400; margin-bottom: 12px; }
+.tn_perfect_list_txt { font-size: 14px; color: #232323; font-weight:400; line-height: 22px; }
+.tn_cdmdo { margin-top: 50px; height: 400px; }
+.tn_cdmdo_bg { position: absolute; width: 100%; left: 0; height: 400px; z-index: -1; background-color: #f6f6f6; }
+.tn_introduce { overflow: hidden; }
+.tn_cdmdo .tn_introduce .tn_introduce_pic { float: right; padding-top: 40px; }
+.tn_cdmdo .tn_introduce .tn_introduce_font { float: left; width: 33%; }
+.tn_introduce_font h2 { font-size: 28px; color: #232323; font-weight:400; padding-top: 90px; margin-bottom: 20px; }
+.tn_introduce_font p { font-size: 16px; color: #616265; font-weight:400; line-height: 22px; }
+.tn_introduce_font a { display: inline-block; width: 128px; height: 36px; border: 1px solid #0070BC; color: #0070BC; text-align: center; line-height: 36px; font-size: 14px; text-decoration: none; transition: all .3s; border-radius: 3px; margin-top: 20px; }
+.tn_introduce_font a:hover { color: #fff; background-color: #0070BC; }
+.tn_product { margin-top: 40px; padding-bottom: 35px; border-bottom: 1px solid #dedede; }
+.tn_product_tit { font-size: 22px; color: #232323; font-weight: 400; margin-bottom: 15px; }
+.tn_product_tit a { color: #616265; font-weight:400; font-size: 16px; float: right; text-decoration: none; }
+.tn_product_tit a .icon { font-size: 12px; margin-left: 5px; }
+.tn_product ul { overflow: hidden; }
+.tn_product_list { float: left; width: 25%; }
+.tn_product_list a { display: block; text-decoration: none; text-align: center; transition: all .3s; }
+.tn_product_list a:hover { opacity: .8; }
+.tn_product_list a img { display: inline-block; }
+.tn_product_list h2 { font-size: 14px; color: #232323; font-weight: 400; margin-bottom: 10px; }
+.tn_product_list p { font-size: 14px; color: #999; font-weight:400; margin-bottom: 10px; line-height: 22px; height: 44px; padding: 0 30px; }
+.tn_product_list span { font-size: 14px; font-weight:400; color: #232323; }
+.tn_aio { height: 400px; }
+.tn_aio .tn_introduce .tn_introduce_pic { float: left; padding-top: 57px; }
+.tn_aio .tn_introduce .tn_introduce_font { float: right; width: 38%; }
+.tn_aio .tn_introduce .tn_introduce_font h2 { padding-top: 110px; }
+.tn_why { margin-top: 50px; }
+.tn_why ul { overflow: hidden; }
+.tn_why_list { width: 25%; float: left; }
+.tn_why_list_main { padding: 0 70px; text-align: center; }
+.tn_why_list_main img { display: inline-block; margin-bottom: 40px; }
+.tn_why_list_main p { font-size: 14px; color: #616265; font-weight:400; line-height: 22px; }
+@media(max-width:1440px) {
+.box { width: 1200px; }
+.tn_slide_main_show { width: 1044px; margin: 0 auto; }
+.tn_perfect_list:first-child, .tn_perfect_list:last-child { width: 24%; }
+.tn_perfect_list img { width: 100%; }
+.tn_introduce_pic { width: 67%; }
+.tn_introduce_pic img { width: 100%; }
+.tn_introduce_font h2 { padding-top: 60px; line-height:28px;}
+.tn_aio .tn_introduce .tn_introduce_pic { width: 56%; padding-top: 118px; }
+}
+@media(max-width:1200px) {
+.box { width: 960px; }
+.tn_slide_main_show { width: 870px; }
+.tn_perfect_list:first-child, .tn_perfect_list:last-child, .tn_perfect_list:nth-child(2) { width: 50%; margin-right: 0; float: none; margin: 0 auto 20px; }
+.tn_product_list p { padding: 0 10px; }
+.tn_product_list h2 { height: 38px; padding: 0 30px; }
+.tn_why_list_main { padding: 0 20px; }
+.tn_tit { font-size:24px;}
+.tn_perfect_list:first-child, .tn_perfect_list:last-child { padding-top:0;}
+}
+@media(max-width:960px) {
+.box { width: 100%; }
+.content { padding: 0 10px;width: initial;}
+.swiper-container { display: block; }
+.tn_slide_main { display: none; }
+.tn_introduce_pic { width: 100%; }
+.tn_cdmdo_bg { display: none; }
+.tn_cdmdo { height: auto; margin-top:0;}
+.tn_cdmdo .tn_introduce .tn_introduce_font { width: 100%; }
+.tn_product_list { width: 50%; }
+.tn_aio { height: auto; }
+.tn_aio .tn_introduce .tn_introduce_pic { width: 100%; padding-top: 38px; }
+.tn_aio .tn_introduce .tn_introduce_font { width: 100%; }
+.tn_aio .tn_introduce .tn_introduce_font h2 { padding-top: 40px; }
+.tn_why_list { width: 50%; margin-bottom: 1%; }
+}
+@media(max-width:480px) {
+.tn_banner { height: 220px; }
+.tn_banner_bg { height: 220px; }
+.tn_banner_tit { font-size: 24px; padding-top: 50px; line-height:30px}
+.tn_banner_txt { font-size: 16px; margin-top: 10px; line-height:20px;}
+.tn_banner_txt br { display: none; }
+.tn_slide { padding: 50px 10px; }
+.tn_tit { font-size: 20px; margin-bottom: 15px; }
+.tn_perfect_list:first-child, .tn_perfect_list:last-child, .tn_perfect_list:nth-child(2) { width: 100%; }
+.tn_product_list, .tn_why_list { width: 100%; }
+.tn_why_list img { margin-bottom: 20px; }
+.content { width: auto; }
+.tn_introduce_font h2 { font-size: 20px; }
+.tn_product_tit a { float:none; display:block;margin-top:10px;}
+}

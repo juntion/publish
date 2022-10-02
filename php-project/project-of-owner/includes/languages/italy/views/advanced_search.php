@@ -1,0 +1,38 @@
+<?php 
+define('NAVBAR_TITLE_1', 'Ricerca avanzata');
+define('NAVBAR_TITLE_2', 'Risultati di ricerca'); 
+define('HEADING_TITLE_1', 'Ricerca avanzata'); 
+define('HEADING_TITLE_2', 'Prodotti che soddisfano i criteri di ricerca'); 
+define('HEADING_SEARCH_CRITERIA', 'Scegli i termini di ricerca'); 
+define('TEXT_SEARCH_IN_DESCRIPTION', 'Cerca in Descrizione prodotto'); 
+define('ENTRY_CATEGORIES', 'Limita alla Categoria:'); 
+define('ENTRY_INCLUDE_SUBCATEGORIES', 'includi sottocategorie'); 
+define('ENTRY_MANUFACTURERS', 'Limita al Produttore'); 
+define('ENTRY_PRICE_RANGE', 'Cerca per intervallo di prezzo'); 
+define('ENTRY_PRICE_FROM', 'Prezzo da:'); 
+define('ENTRY_PRICE_TO', 'Prezzo a:'); 
+define('ENTRY_DATE_RANGE', 'Cerca per Data di aggiunta'); 
+define('ENTRY_DATE_FROM', 'Data da:'); 
+define('ENTRY_DATE_TO', 'Data a:'); 
+define('TEXT_SEARCH_HELP_LINK', 'Cerca nella Guida [?]'); 
+define('TEXT_ALL_CATEGORIES', 'Tutte le categorie'); 
+define('TEXT_ALL_MANUFACTURERS', 'Tutti i produttori'); 
+define('TABLE_HEADING_IMAGE', ''); 
+define('TABLE_HEADING_MODEL', 'Modello'); 
+define('TABLE_HEADING_PRODUCTS', 'Nome prodotto'); 
+define('TABLE_HEADING_MANUFACTURER', 'Produttore'); 
+define('TABLE_HEADING_QUANTITY', 'Quantità'); 
+define('TABLE_HEADING_PRICE', 'Prezzo'); 
+define('TABLE_HEADING_WEIGHT', 'Peso'); 
+define('TABLE_HEADING_BUY_NOW', 'Acquista ora'); 
+define('TEXT_NO_PRODUCTS', 'Nessun prodotto corrisponde ai criteri di ricerca.'); 
+define('KEYWORD_FORMAT_STRING', 'parole chiave'); 
+define('ERROR_AT_LEAST_ONE_INPUT', 'Deve essere compilato almeno uno dei campi nel modulo di ricerca.'); 
+define('ERROR_INVALID_FROM_DATE', 'Da data non valido.'); 
+define('ERROR_INVALID_TO_DATE', 'A data non valido.'); 
+define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'A data deve essere maggiore o uguale a Da data.'); 
+define('ERROR_PRICE_FROM_MUST_BE_NUM', 'Prezzo da deve essere un numero.'); 
+define('ERROR_PRICE_TO_MUST_BE_NUM', 'Prezzo a deve essere un numero.'); 
+define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'Prezzo a deve essere maggiore o uguale a Prezzo da.'); 
+define('ERROR_INVALID_KEYWORDS', 'Parole chiave non valide.'); 
+?>

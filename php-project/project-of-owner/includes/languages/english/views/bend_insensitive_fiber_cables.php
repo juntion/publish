@@ -1,0 +1,14 @@
+<?php
+define("FS_BEND_01","Product Quick View");
+define("FS_BEND_02","Bend Insensitive Fiber Patch Cables</b>Deliver the Best Macrobending Performance – Enable Superior Bandwidth for Data Centers");
+define("FS_BEND_03","CLICK MORE");
+define("FS_BEND_04","FS.COM Single-Mode Bend Insensitive Fiber Patch Cable Solutions");
+define("FS_BEND_05","FS.COM single-mode bend insensitive fiber patch cables with 9-micron cores are the economical solution for applications where low signal loss, high speed and high data rates are required. They are made with durable ceramic ferrules and PVC or LSZH jackets which minimize physical damage to the core and coating. Each fiber patch cable is 100% optically tested for insertion loss and back reflection. They are available in both simplex and duplex styles, in combinations of LC, SC and ST fiber optic cable connectors to fit any installation need. Choose single-mode bend insensitive fiber patch cables with UPC connectors, APC connectors or a combination of both. Color options make the installation process faster and easier.");
+define("FS_BEND_06","OS2 BIF Cables");
+define("FS_BEND_07","FS.COM OM2 Bend Insensitive Fiber Patch Cable Solutions");
+define("FS_BEND_08","FS.COM OM2 bend insensitive fiber patch cables are designed to fit in tight spaces and in applications where a non-standard angle of connection is required. These fiber optic patch cables feature PVC or OFNR (Riser rated) jackets along with LC, SC or ST style connectors. These cables utilize specialized flexible boots that can be bent in a variety of angles.  Bend them into the angle that best fits your application! Our OM2 bend insensitive fiber patch cables are functionally tested to guarantee top performance upon delivery. By utilizing FS.COM's OM2 bend insensitive cables, critical network uptime is assured. Custom lengths, connector combinations and polishes are available.");
+define("FS_BEND_09","FS.COM OM3/OM4 Bend Insensitive Fiber Patch Cable Solutions");
+define("FS_BEND_10","FS.COM OM3/OM4 bend insensitive fiber patch cable allows for a 7.5mm bending radius, which is ideal for SAN network cabinets that require 20 or more bends in the cabinet or high density installations with cables crammed into an extremely small footprint. It provides 10 gigabit data transfer speeds in high bandwidth applications which is 5 times faster than standard 50um fiber cable. Works with both VCSEL laser and LED sources. Our OM3/OM4 bend insensitive fiber patch cables are 100% optically tested for maximum performance. We have all lengths and connectors (LC, SC and ST) available. Both APC and UPC polish connectors are available and both PVC and LSZH cable jackets can be provided.");
+define("FS_BEND_11","OM3 BIF Cables");
+define("FS_BEND_12","OM4 BIF Cables");
+?>

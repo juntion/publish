@@ -1,0 +1,124 @@
+{
+    "公司管理": [
+        {
+            "name": "company.list",
+            "comment": "获取所有公司列表",
+            "locale": {
+                "en": "Get a list of all companies",
+                "zh-CN": "获取所有公司列表"
+            }
+        },{
+            "name": "company.add",
+            "comment": "新增公司",
+            "locale": {
+                "en": "add new company",
+                "zh-CN": "新增公司"
+            }
+        },{
+            "name": "company.update",
+            "comment": "更新公司",
+            "locale": {
+                "en": "update company info",
+                "zh-CN": "更新公司"
+            }
+        },{
+            "name": "company.tree",
+            "comment": "获取公司树状结构",
+            "locale": {
+                "en": "get company tree data",
+                "zh-CN": "获取公司树状结构"
+            }
+        },{
+            "name": "company.changeStatus",
+            "comment": "更新公司状态",
+            "locale": {
+                "en": "update company status",
+                "zh-CN": "更新公司状态"
+            }
+        },{
+            "name": "company.status",
+            "comment": "获取状态变更日志",
+            "locale": {
+                "en": "Get company‘s logs",
+                "zh-CN": "获取状态变更日志"
+            }
+        },{
+            "name": "company.registry.update",
+            "comment": "更新公司注册信息",
+            "locale": {
+                "en": "update company registry info",
+                "zh-CN": "更新公司注册信息"
+            }
+        },{
+            "name": "company.office.update",
+            "comment": "更新公司办公室信息",
+            "locale": {
+                "en": "update company office info",
+                "zh-CN": "更新公司办公室信息"
+            }
+        },{
+            "name": "company.office.status.update",
+            "comment": "更新办公室状态",
+            "locale": {
+                "en": "update office’s status",
+                "zh-CN": "更新办公室状态"
+            }
+        },{
+            "name": "company.office.statusLogs",
+            "comment": "获取办公室状态日志",
+            "locale": {
+                "en": "Get office’s status logs",
+                "zh-CN": "获取办公室状态日志"
+            }
+        },{
+            "name": "company.warehouse.update",
+            "comment": "更新公司仓库信息",
+            "locale": {
+                "en": "update company warehouse info",
+                "zh-CN": "更新公司仓库信息"
+            }
+        },{
+            "name": "company.warehouse.status.update",
+            "comment": "更新仓库状态",
+            "locale": {
+                "en": "update warehouse’s status",
+                "zh-CN": "更新仓库状态"
+            }
+        },{
+            "name": "company.warehouse.statusLogs",
+            "comment": "获取仓库状态日志",
+            "locale": {
+                "en": "Get warehouse’s status logs",
+                "zh-CN": "获取仓库状态日志"
+            }
+        },{
+            "name": "company.bank.update",
+            "comment": "更新公司支付信息",
+            "locale": {
+                "en": "update company bank info",
+                "zh-CN": "更新公司支付信息"
+            }
+        },{
+            "name": "company.bank.status.update",
+            "comment": "更新支付状态",
+            "locale": {
+                "en": "update bank’s status",
+                "zh-CN": "更新支付状态"
+            }
+        },{
+            "name": "company.bank.statusLogs",
+            "comment": "获取支付状态日志",
+            "locale": {
+                "en": "Get bank’s status logs",
+                "zh-CN": "获取支付状态日志"
+            }
+        },{
+            "name": "company.getInfo",
+            "comment": "获取公司具体信息",
+            "locale": {
+                "en": "Get company’s info",
+                "zh-CN": "获取公司具体信息"
+            }
+        }
+    ]
+}

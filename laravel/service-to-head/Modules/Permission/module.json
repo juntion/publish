@@ -1,0 +1,15 @@
+{
+    "name": "Permission",
+    "alias": "permission",
+    "description": "权限管理",
+    "keywords": [],
+    "order": 2,
+    "providers": [
+        "Modules\\Permission\\Providers\\PermissionServiceProvider",
+        "Modules\\Permission\\Providers\\DeferrableServiceProvider",
+        "Modules\\Permission\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

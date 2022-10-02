@@ -1,0 +1,56 @@
+<?php 
+//2017.5.25	  ADD		ERY
+define("FS_G_FS","Solution Complète de Centre de Données 40G de FS.COM");
+define("FS_G_MIGRATING","Mise à Jour vers 40G Simple Comme Bonjour");
+define("FS_G_WHY","Pourquoi Avez-Vous Besoin de Solutions 40G ?");
+define("FS_G_NOWADAYS","De nos jours, le réseau commun 1G et 10G ne peut plus répondre à la croissance constante quels que soient la vitesse, la bande passante ou le trafic réseau. La mise à jour vers un niveau supérieur est inévitable. Avez-vous optimisé votre réseau vers 40G ? La solution 40G de FS.COM, dotée de haute densité, de vitesse rapide et de grande flexibilité,augmente les données pour satisfaire toutes vos demandes de distance.");
+define("FS_G_RURAL"," Comme conduire sur la route rurale");
+define("FS_G_ORDINARY"," Comme conduire sur la route ordinaire");
+define("FS_G_LIKE"," Comme conduire sur l'autoroute");
+define("FS_G_MODERN","Centre de Données Moderne 40G");
+define("FS_G_MODERN1","Le centre de données moderne 40G est une architecture de haute performance et de haute densité. Le support de la connectivité 40G n'est pas aussi difficile que vous l'imaginez. Ce que vous devez préparer pour l'infrastructure de câblage du centre de données 40G comprend principalement des commutateurs, des modules émetteur-récepteur optiques 40G QSFP+, des DAC ou des AOC QSFP+, des câbles MTP/MPO, des cassettes MTP-LC, des panneaux de brassage breakout, etc.");
+define("FS_G_CORE","Commutateur Principal/Spine");
+define("FS_G_QSFP","40G QSFP+");
+define("FS_G_AOC","AOC 40G QSFP+");
+define("FS_G_TOR","Commutateur ToR/Leaf");
+define("FS_G_SFP","4x10G SFP+");
+define("FS_G_SFP1","DAC & AOC 10G SFP+");
+define("FS_G_SERVER","Serveur");
+define("FS_G_SFP2","10G SFP+");
+define("FS_G_SFP3","DAC & AOC 10G SFP+");
+define("FS_G_FS_G","Solutions 40G de FS.COM");
+define("FS_G_FS_COM","FS.COM fournit une série complète de solutions de câblage 40G pour le réseau à grande vitesse, y compris les modules émetteur-récepteur optiques et les DAC, les câbles patch MTP de haute densité, les cassettes MTP et ainsi de suite. Tous les produits sont 100% certifiés et testés afin d'assurer une performance excellente. De plus, nous avons un grand stock dans notre entrepôt.");
+define("FS_G_DATA","Commutateur de Centre de Données 40G");
+define("FS_G_PROMOTE","FS.COM lance les commutateurs Ethernet des séries S5850 et S8050 qui soutiennent tous nos modules émetteur-récepteur génériques. Ces commutateurs de haute performance peuvent satisfaire les exigences de Couche 2/3, d'Enterprise, de centre de données et de réseau métro.");
+define("FS_G_TRANS","Module Émetteur-Récepteur Optique QSFP+ 40G");
+define("FS_G_OFFERS","FS.COM offre une large gamme de modules QSP+ 40G à transmission de courte et de longue distance, les modules sont compatibles avec les plus grandes marques telles que Cisco, Juniper, HP, Brocade, etc. Et une compatibilité à 100% peut être assurée en même temps.");
+define("FS_G_CABLES","Câbles QSFP+ 40G");
+define("FS_G_IS","Le câble QSFP+ 40G est une solution rentable pour la liaison 40G dans les racks et entre les rack adjacents. Les DAC et les AOC compatibles avec les principaux fournisseurs tels que Cisco, Juniper, Brocade, HP et ainsi de suite sont disponibles chez FS.COM.");
+define("FS_G_MTP","Câble MTP/MPO");
+define("FS_G_PROVIDE","FS.COM fournit des câble trunk MTP/MPO monomode et multimode, des câbles harness MTP/MPO-LC et des câbles de conversion allant de 8 à 72 fibres. Ces câbles sont idéaux pour l'économie d'espace et la gestion des câbles dans le centre de données 40G.");
+define("FS_G_PREPARE","Préparation pour le Déploiement Avec la Solution 40G de FS.COM");
+define("FS_G_OFFER","FS.COM vous offre une large gamme de solutions 40G qui répondent à vos exigences des applications de centre de données de haute densité. Pour la connexion directe 40G, vous pouvez choisir les modules émetteur-récepteur optiques QSFP+ 40G, les DAC 40G QSFP+ vers QSFP+ ou les AOC 40G QSFP+ vers QSFP+. Pour la mise à jour 10G/40G, vous pouvez sélectionner la solution de câblage breakout MTP-LC en utilisant les câbles harness MTP-LC, les panneaux de brassage breakout MTP-LC, les DAC 40G QSFP+ vers 4x SFP+ ou les AOC 40G QSFP+ vers 4x SFP+.");
+define("FS_G_DIRECT","Connexion Directe 40G");
+define("FS_G_DIRECT1","Connexion directe pour les modules QSFP+ 40G avec les câbles trunk MTP");
+define("FS_G_DIRECT2","Connexion directe pour les DAC 40G QSFP+ vers QSFP+");
+define("FS_G_DIRECT3","Connexion directe pour les AOC 40G QSFP+ vers QSFP+");
+define("FS_G_MIGRATION","Mise à Jour 10G/40G");
+define("FS_G_MIGRATION1","Mise à Jour 10G/40G avec les AOC 40G QSFP+ vers 4x SFP+");
+define("FS_G_MIGRATION2","Mise à Jour 10G/40G avec les DAC 40G QSFP+ vers 4x SFP+");
+define("FS_G_MIGRATION3","Mise à Jour 10G/40G avec les câbles harness MTP-LC");
+define("FS_G_MIGRATION4","Mise à Jour 10G/40G avec les panneaux breakout 40G");
+define("FS_G_RELATED","Solutions Associées");
+define("FS_G_HOW","Comment améliorer l'efficacité de la gestion des centres de données 40G ? FS.COM propose la solution de câblage FHD et la solution Base-8. La solution de câblage FHD est bénéfique pour augmenter la densité et simplifier la gestion des câbles. La solution Base-8 vous permet d'économiser des coûts et de l'espace pour la mise à jour 10G/40G.");
+define("FS_G_FHD","Solution des Séries FHD");
+define("FS_G_USER","Boîtiers de gestion des câbles faciles à utiliser pour les applications de câblage Rack & Mur");
+define("FS_G_BASE","Solution de Connectivité Base-8 de FS.COM");
+define("FS_G_TAKE","Choisissez la Connectivité Base-8 pour le Réseau Évolutif");
+define("FS_G_OUR","Nos Avantages");
+define("FS_G_STRICT","Test de Qualité Strict");
+define("FS_G_GUA","Garantie de la haute efficacité de centre de données.");
+define("FS_G_WARE","Système de Stockage");
+define("FS_G_ENSURE","Assurer l'arrivée rapide de votre commande.");
+define("FS_G_OEM","OEM & Personnalisation");
+define("FS_G_STAISFY","Satisfaire toutes les exigences personnalisées.");
+
+?>

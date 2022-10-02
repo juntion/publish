@@ -1,0 +1,22 @@
+{
+  "stages": [
+    {
+      "name": "composer install",
+      "commands": [
+        "composer install"
+      ]
+    },
+    {
+      "name": "composer dump-autoload",
+      "commands": [
+        "composer dump-autoload -o"
+      ]
+    },
+    {
+      "name": "完成",
+      "commands": [
+        "echo 0"
+      ]
+    }
+  ]
+}

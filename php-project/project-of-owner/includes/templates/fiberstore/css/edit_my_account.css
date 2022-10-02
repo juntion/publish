@@ -1,0 +1,35 @@
+.new_nametou{border: 2px solid #0070BC;height: 102px;width: 102px;border-radius:50% ;}
+.new17_head{margin-top: 1px;width: 100px;height: 100px;border-radius: 50%;padding: 0;}
+.portrait_pic_p a{color: #0070BC;}
+.new17_head{overflow: hidden;text-align: center;padding-top: 30px;box-sizing: border-box;}
+.new17_head img{max-height: 100px;max-width: 100px;min-height: 100px;min-width: 100px;border-radius: 50%;}
+.portrait_pic_p{bottom: 22px;}
+.new17_head .icon{font-size: 36px;color: #0070BC;}
+.new_public h2{font-weight: 400;}
+.public_email_display h2{font-size: 13px !important;color: #616265 !important;font-weight: 400 !important;}
+.public_email_display{display: none;}
+.new_display{display: none;height: inherit;transition: inherit;}
+.new_margin_bottom,.new_email{margin-bottom: 25px;}
+.new_display{padding-bottom: 10px;overflow: inherit;}
+.public_position_re{position: relative;display: inline-block;}
+.public_position_re em{color: #0070BC;position: absolute;font-style: normal;font-size: 13px;right: 10px;top: 8px; font-weight:400; cursor: pointer;display: none;}
+.public_input{margin-bottom: 10px;}
+.pu_input{margin-bottom: 0 !important; background-color: white !important;-webkit-box-shadow: 0 0 0 1000px white inset; }
+.public_password_Prompt{width: 185px;min-height: 90px;background: #fff;    position: absolute;right: 0px;border: 1px solid #dedede;border-radius: 3px;top: -30px;display: none;}
+.public_password_Prompt h2{font-size: 14px;color: #999;font-weight: 400;padding: 10px 10px 5px 10px;box-sizing: border-box;}
+.public_password_Prompt p{font-size: 13px;color: #999;padding-left: 10px;padding-right: 10px;}
+.public_password_Prompt span{position: absolute;width: 18px;height: 9px;background: url(https://img-en.fs.com/images/index_icon.png) -52px -6px no-repeat;top: 40px;left: -12px;transform: rotate(-90deg);display: inline-block;}
+.public_position_Prompt{position: relative;}
+.swal2-show{width: 300px !important;}
+.swal2-icon.swal2-success .swal2-success-ring{border: 4px solid #393 !important;}
+.swal2-icon.swal2-success [class^=swal2-success-line]{background-color: #393 !important;}
+.swal2-modal .swal2-close{font-size: 24px !important;}
+.swal2-modal .swal2-content{font-size: 14px !important;color: #232323 !important;font-weight: 400 !important;}
+.public_bc{padding-left: 0 !important;}
+.new_nametou .new17_head.active{padding-top: 0;}
+.portrait_pic_p.active{bottom: 10px;}
+.other_banner_left ul li{height:50px;}
+.other_banner_left ul li a{box-sizing: border-box;}
+@media (max-width: 960px){
+    .box .new17_address_infor .layout_con{width:auto;}
+}

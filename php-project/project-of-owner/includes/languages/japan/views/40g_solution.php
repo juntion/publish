@@ -1,0 +1,56 @@
+<?php
+//by helun 2018 5 16
+define("FS_G_FS","FS.COM包括的な40Gデータセンターソリューション");
+define("FS_G_MIGRATING","40 Gへの移行も簡単");
+define("FS_G_WHY","なぜ40Gソリューションが必要になりますか？");
+define("FS_G_NOWADAYS","現在では、速度、帯域幅、ネットワークトラフィックに関係なく、一般的な1G及び10Gネットワークでは増加する成長に対応できなくなりました。より高いレベルへの移行は避けられません。ネットワークを40Gに最適化しましたか？高密度、高速、そして優れた柔軟性を特長とするFS.COM 40Gソリューションは、データをあらゆる距離に拡大します。");
+define("FS_G_RURAL","田舎道を走るような");
+define("FS_G_ORDINARY","普通の道を走るような");
+define("FS_G_LIKE","高速道路を走るような");
+define("FS_G_MODERN","現代の40Gデータセンター");
+define("FS_G_MODERN1","最新の40Gデータセンターは、高性能かつ高密度のアーキテクチャです。40G接続をサポートすることはお想定するほど困難ではありません。40Gデータセンターのケーブルインフラストラクチャを準備するために必要なものは、主にスイッチ、40G QSFP+トランシーバモジュール、QSFP+DACまたはAOC、MTP/MPOケーブル、MTP-LCカセット、ブレークアウトパッチパネルなどです。");
+define("FS_G_CORE","コア/スパインスイッチ");
+define("FS_G_QSFP","40G QSFP+");
+define("FS_G_AOC","40G QSFP+ AOC");
+define("FS_G_TOR","ToR/ーフスイッチ");
+define("FS_G_SFP","4x10G SFP+");
+define("FS_G_SFP1","10G SFP+ DACs & AOCs");
+define("FS_G_SERVER","サーバー");
+define("FS_G_SFP2","10G SFP+");
+define("FS_G_SFP3","10G SFP+ DACs & AOCs");
+define("FS_G_FS_G","FS.COM 40Gソリューション");
+define("FS_G_FS_COM","FS.COMは、トランシーバやDAC、高密度MTPパッチケーブル、MTPカセットなどを含む、高速ネットワーク用の40Gケーブルソリューションをすべて提供しています。すべての製品は100％認証され、当社の倉庫で優れた性能とすぐに使える在庫を確保するためにテストされています。");
+define("FS_G_DATA","40Gデータセンタースイッチ");
+define("FS_G_PROMOTE","FS.COMは、当社のすべての汎用トランシーバをサポートするS5850シリーズ及びS8050シリーズイーサネットスイッチを販売促進しています。これらの高性能スイッチは、レイヤ2/3、エンタープライズ、データセンター及びメトロネットワークの要件を満たすことができます。");
+define("FS_G_TRANS"," 40G QSFP+モジュール");
+define("FS_G_OFFERS","FS.COMは、Cisco、Juniper,、HP、Brocadeなどの最も有名なブランドと互換性があり、100％の互換性が保証され、短距離及び長距離伝送用の40G QSFP+モジュールを幅広く提供しています。");
+define("FS_G_CABLES","40G QSFP+ケーブル");
+define("FS_G_IS","40G QSFP+ケーブルは、ラック内及び隣接ラック間の40Gリンク用の費用対効果の高いソリューションです。FAC.COMでは、Cisco、Juniper、Brocade、HPなどの大手ベンダーと互換性のあるAOC及びAOCを利用できます。");
+define("FS_G_MTP","MTP/MPOケーブル");
+define("FS_G_PROVIDE","FS.COMは、シングルモード及びマルチモードのMTP/MPOトランクケーブル、MTP/MPO-LCハーネスケーブル及び変換ケーブルを提供しており、範囲は8～72ファイバです。このケーブルは、40Gデータセンターの省スペースとケーブル管理に適しています。");
+define("FS_G_PREPARE","FS.COM 40Gソリューションを使用した展開の準備");
+define("FS_G_OFFER","FS.COMは、高密度データセンターアプリケーションに対するご要求を満たす幅広い40Gソリューションを提供しております。 40G直接接続の場合は、40G QSFP+モジュール、40G QSFP+/QSFP+ DAC、または40G QSFP+/QSFP+ AOCを選択できます。 10G/40G移行の場合は、MTP-LCハーネスケーブル、MTP-LCブレークアウトパッチパネル、40G QSFP+/4xSFP+ DAC、または40G QSFP+/4xSFP+ AOCを使用して、MTP-LCブレークアウトケーブルソリューションを選択できます。 ");
+define("FS_G_DIRECT","40G直接接続");
+define("FS_G_DIRECT1","MTPトランクケーブルで40G QSFP+モジュールへの直接接続");
+define("FS_G_DIRECT2","40G QSFP+/QSFP+ DACへの直接接続");
+define("FS_G_DIRECT3","40G QSFP+/QSFP+ AOCへの直接接続");
+define("FS_G_MIGRATION","10G/40Gへの移行");
+define("FS_G_MIGRATION1","40G QSFP+/4xSFP+ AOCへの10G/40Gの移行");
+define("FS_G_MIGRATION2","40G QSFP+/4xSFP+ DACへの10G/40Gの移行");
+define("FS_G_MIGRATION3","MTP-LCハーネスケーブルによる10G/40Gの移行");
+define("FS_G_MIGRATION4","40Gブレイクアウトパネルによる10G/40G移行");
+define("FS_G_RELATED","関連ソリューション");
+define("FS_G_HOW","40Gデータセンターの管理効率を向上させる方法 FS.COMは、FHDパッチソリューションとBase 8ソリューションを提案しています。 FHDパッチソリューションは、高密度化とケーブル管理の簡素化に役立ちます。Base 8ソリューションは、10G/40Gの移行にかかるコストとスペースを節約致します。");
+define("FS_G_FHD","FHDシリーズソリューション");
+define("FS_G_USER","ラック＆ウォールケーブル用途向けの使いやすいケーブル管理エンクロージャ");
+define("FS_G_BASE","FS.COM ベース8接続ソリューション");
+define("FS_G_TAKE","将来を見据えたネットワークにベース8接続を取り入れる");
+define("FS_G_OUR","当社のメリット");
+define("FS_G_STRICT","厳格な品質テスト ");
+define("FS_G_GUA","データセンターの高効率を保証致します。");
+define("FS_G_WARE","倉庫システム");
+define("FS_G_ENSURE","ご注文が早速に届くように確保致します。");
+define("FS_G_OEM","OEM＆カスタムサービス");
+define("FS_G_STAISFY"," 個別の要件をすべて満足できます。");
+
+?>

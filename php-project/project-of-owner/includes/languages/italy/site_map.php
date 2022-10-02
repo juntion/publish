@@ -1,0 +1,46 @@
+<?php 
+define('NAVBAR_TITLE', 'Mappa sito');
+define('HEADING_TITLE', 'Mappa sito'); 
+define('TEXT_INFORMATION', ''); 
+define('PAGE_ACCOUNT', 'Account personale'); 
+define('PAGE_ACCOUNT_EDIT', 'Informazioni account'); 
+define('PAGE_ADDRESS_BOOK', 'Rubrica'); 
+define('PAGE_ACCOUNT_HISTORY', 'Storico degli ordini'); 
+define('PAGE_ACCOUNT_NOTIFICATIONS', 'Iscrizioni ai notiziari'); 
+define('PAGE_SHOPPING_CART', 'Cestino della spesa'); 
+define('PAGE_CHECKOUT_SHIPPING', 'Pagamento'); 
+define('PAGE_ADVANCED_SEARCH', 'Ricerca avanzata'); 
+define('PAGE_PRODUCTS_NEW', 'Nuovi prodotti'); 
+define('PAGE_SPECIALS', 'Specialità'); 
+define('PAGE_REVIEWS', 'Recensioni'); 
+define('FIBERSTORE_SITEMAP_CMDM', 'CMDM/DWDM/CDDM'); 
+define('FIBERSTORE_SITEMAP_SPLITTER', 'Splitter fibra'); 
+define('FIBERSTORE_SITEMAP_CABLING', 'Cablaggio in fibra'); 
+define('FIBERSTORE_SITEMAP_ACTIVE_COMPONENTS', 'Componenti attivi'); 
+define('FIBERSTORE_SITEMAP_TRANSCEIVERS', 'Ricetrasmettitori in fibra ottica'); 
+define('FIBERSTORE_SITEMAP_QSFP', 'Cavi QSFP'); 
+define('FIBERSTORE_SITEMAP_CONVERTOR', 'Convertitore multimediale in fibra'); 
+define('FIBERSTORE_SITEMAP_CONTACT_US', 'Contattaci'); 
+define('FIBERSTORE_SITEMAP_ABOUT_US', 'Chi siamo'); 
+define('FIBERSTORE_SITEMAP_WHY_US', 'Perché noi'); 
+define('FIBERSTORE_SITEMAP_PRIVACY', 'Informativa sulla privacy'); 
+define('FIBERSTORE_SITEMAP_OEM', 'Cliente/OEM'); 
+define('FIBERSTORE_SITEMAP_PAYMENT', 'Metodi di pagamento'); 
+define('FIBERSTORE_SITEMAP_SHIPPING', 'Guida di spedizione'); 
+define('FIBERSTORE_SITEMAP_LEAD_TIME', 'Tempo di consegna previsto'); 
+define('FIBERSTORE_SITEMAP_ORDERS', 'I miei ordini'); 
+define('FIBERSTORE_SITEMAP_WISHLIST', 'La mia lista dei desideri'); 
+define('FIBERSTORE_SITEMAP_QUICK', 'Assistenza veloce'); 
+define('FIBERSTORE_SITEMAP_HOW_TO_BUY', 'Come acquistare'); 
+define('FIBERSTORE_SITEMAP_FORGOT', 'Password dimenticata?'); 
+define('FIBERSTORE_SITEMAP_LIVE_CHAT', 'Chat dal vivo'); 
+define('FIBERSTORE_SITEMAP_FAQ', 'Domande frequenti (FAQ)');
+
+define('FS_SITE_MAP_TITLE','FS × US Conec');
+define('FS_SITE_MAP_PRODUCT_CATEGORIES','Categorie di Prodotto');
+define('FS_SITE_MAP_QUALITY','Qualità');
+define('FS_SITE_MAP_OUR_PARTNER','Nostro Partner');
+define('FS_SITE_MAP_SERVICE_SUPPORT','Servizio & Assistenza');
+define('FS_SITE_MAP_ACCOUNT','Accedi/Crea un Account');
+define('FS_SITE_MAP_QUICK_HELP', 'Assitenza Rapida');
+?>

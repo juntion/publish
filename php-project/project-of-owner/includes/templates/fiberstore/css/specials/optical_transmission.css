@@ -1,0 +1,212 @@
+body{margin:0 auto;padding:0;font-size:13px;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-style:normal;font-weight:400;list-style:none}
+.box{width:1440px;padding:0;margin:0 auto}
+.content{padding:0}
+img{display:block}
+dd,div,dl,dt,form,h1,h2,h3,input,li,p,select,ul{margin:0;padding:0;list-style:none}
+
+.box{width: 100% !important;}
+.public{width: 1440px;margin: 0 auto;}
+.public:after{content:"";display:block;clear:both;} 
+.Enm_banner{height:380px}
+.Enm_banner_bg{position:absolute;left:0;width:100%;height:380px;z-index:-1;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/optical_transmission/WDM_Solution_banner.jpg) no-repeat center}
+.Enm_banner_tit{font-size:38px;color:#fff;text-align:center;padding-top:142px;margin-bottom:24px;font-weight:400;line-height:40px;position: relative;z-index: 2}
+.Enm_banner_txt{font-size:18px;color:#fff;font-weight:400;text-align:center;line-height:24px;position: relative;z-index: 2;}
+.Enm_business{overflow:hidden}
+.Enm_business_tit{font-size:30px;color:#616265;font-weight:400;text-align:center;padding-top:58px;line-height:32px;padding-bottom:24px}
+.Enm_business_txt{font-size:14px;color:#616265;text-align:center;line-height:24px;font-weight:400;padding: 0 100px;}
+.optical_tit{font-size: 30px;line-height: 30px;color: #232323;font-weight: 400;text-align: center;padding-top: 45px;margin-bottom: 25px;}
+.Enm_business_tit_TWO{padding-bottom:35px}
+.public_wap{margin: 0 120px;}
+.public_bottom{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between; padding-bottom: 50px;flex-wrap: wrap;-webkit-wrap: wrap;}
+.public_bottom div img{max-width: 100%;height: inherit;margin: 0 auto;display: block;}
+.public_container{background: #f6f6f6;}
+.public_bottom_div{width: 464px;height: 268px;background: #FFFFFF; border: 1px solid #e0e0e0; box-sizing: border-box;}
+.public_dl dd h2{font-size: 18px;color: #232323;font-weight: 400;text-align: center; margin:25px 0 15px 0;}
+.public_dl dd p{font-size: 15px;color: #888888;text-align: center; padding: 0 64px;line-height: 30px;}
+.public_dl dt img{margin-top: -40px;}
+.container_margin_bottom{margin-bottom: 35px;}
+.new_tit{color: #232323;line-height: 29px;font-size: 29px;text-align: center;font-weight: 400;padding: 45px 0 35px 0;}
+.only_tit{font-size: 24px;}
+.two_tit{font-size: 20px;padding-top: 30px;}
+.overflow img{display: block;margin: 0 auto;max-width: 100%;height: inherit;}
+.public_table{width: 960px;margin: 0 auto; padding-bottom: 50px;}
+.public_table tr:first-child td{background: #DFEBF2; color: #232323;font-size: 18px;}
+.public_table td{text-align: center;font-size: 14px;color: #232323; border-bottom: 1px solid #DEDEDE;padding: 12px 0;}
+.public_table tr td:last-child{border-right: none; text-align: left;}
+.public_table tr:first-child td{border:none}
+.font_only{font-weight:400;font-size: 18px;line-height: 30px;color: #616265; padding: 0 120px;padding-bottom: 40px;}
+.public_table_only{padding-bottom: 40px;}
+.font_only span{float: right;}
+.font_only span a{text-decoration: none; color: #0070BC; font-size: 18px;font-weight:400;}
+.font_only span a:hover{text-decoration: underline;}
+.font_only .icon{color: #0070BC; padding-left: 5px;}
+.optical_tit_bottom{margin-bottom: 45px;}
+.public_bottom_container{width: 689px;height:inherit;}
+.public_bottom_container_dl dt{margin-bottom: 35px;}
+.public_bottom_container_dl dd p{font-size: 16px;color: #616265;text-align: center;font-weight:400; padding: 0 20px;line-height: 24px;}
+.public_span{display: block;text-align: center;margin: 34px 0 20px 0;}
+.public_span a{font-size: 16px;color: #0070BC;text-decoration: none;padding-right: 5px;}
+.public_span .icon{color: #0070BC;}
+.public_span a:hover{text-decoration: underline;}
+.public_bottom:after{content:"";display:block;clear:both;} 
+.public_table td a{text-decoration: none; color: #0070BC;}
+.public_table td a:hover{text-decoration: underline;}
+
+.patch_contact{width: 1400px !important; margin: 0 auto !important;}
+
+.add_to_cart_iconfont{position: inherit;left: auto;margin-right: 5px;float: left;}
+@media(max-width:1440px){
+.box,.public,.popup_con,.patch_contact{width:1200px !important; box-sizing: border-box;}
+.public_wap{margin: 0;}
+.public_bottom_div{width: 32%;}
+.public_bottom_container{width: 48%;}
+}
+@media(max-width:1220px){
+.box,.public,.popup_con,.patch_contact{width:960px !important;}
+.dom_txt{padding:40px 0}
+.public_bottom div{width: 48%;}
+.one_public .public_bottom div{margin-bottom: 40px;}
+.one_public .public_bottom div:last-child{margin-bottom: 0;}
+.font_only{padding-left: 0;padding-right: 0;}
+.Enm_business_tit_TWO{padding-left: 0;padding-right: 0;}
+.overflow{overflow-x: auto;}
+.overflow img{width: 1200px;max-width: inherit;}
+}
+@media(max-width:960px){
+.box,.public,.popup_con,.patch_contact{width:100% !important;}
+.content{width:auto;padding:0 10px}
+.public_bottom div{width: 100%;margin-bottom: 30px;}
+.public_bottom div:last-child{margin-bottom: 0;}
+.table_container{overflow-x: auto;}
+.public_table{width: 1200px;}
+.public_bottom_container{height: inherit;}
+.public_table {padding-bottom: 0;}
+.font_only{margin-top: 20px;}
+.public_dl dd p{padding: 0 10px;}
+.Enm_business_txt{padding-left: 0;padding-right: 0;} 	
+}
+@media(max-width:480px){
+.Enm_banner{height:220px;overflow:hidden}
+.optical_tit{font-size: 24px;margin-bottom: 20px;}
+.Enm_banner_bg{height:220px}
+.Enm_business_tit{font-size:24px;line-height:40px;font-weight:400}
+.Enm_banner_tit{font-size:24px;line-height:30px;font-weight:400;padding-top:30px;padding-bottom: 10px; margin-bottom: 0;}
+.dom_txt{font-size: 24px;}
+.public_dl dd p{padding: 0;}
+.font_only span{float: inherit;display: block;}
+.font_only{padding-bottom: 20px;}
+.public_span{margin: 24px 0 0px 0;}
+}
+
+/*optical-transmission-47.html--页面样式.2017.12.11.carr*/
+.Enm_business_txt{padding:0 80px}
+.public_bottom_div{width:auto;height:auto;overflow:hidden;}
+.Enm_banner_bg001{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/optical_transmission/Case-Study-WDM-Solution-banner02.jpg) no-repeat center}
+.Enm_banner_back001{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/optical_transmission/Case-Study-WDM-Solution-banner01.jpg) center;z-index: 1}
+.Enm_banner_back002{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/optical_transmission/Case-Study-WDM-Solution-banner02.jpg) center;z-index: 1}
+.Enm_banner_back003{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/optical_transmission/Case-Study-WDM-Solution-banner03.jpg) center;z-index: 1}
+.public_table tr:first-child td{color:#d9e8f7}
+.public_table tr:first-child td{background:#d9e8f7}
+.public_table td a{color:#232323}
+.public_table_only{padding-bottom:20px}
+.public_table{padding-bottom:50px}
+.public_container_none{background:#fff}
+.public_table tr:first-child td{color:#232323}
+.bacnner_a001{text-align:center;margin-top:25px}
+.bacnner_a001 a{color:#fff;font-size:18px;font-weight:400;margin-right:5px}
+.bacnner_a001 .icon{color:#fff;font-size:12px}
+.optical_dl_center dl{width:50%;float:left;min-height:215px;width:708px;border:1px solid #e5e5e5;border-top:5px solid #e5e5e5;margin-bottom:20px;box-sizing:border-box;padding:50px 30px 0 30px}
+.optical_dl_center{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap;padding-bottom:30px}
+.optical_dl_center dl dt{width:10%;float:left}
+.optical_dl_center dl dd{width:90%;float:left;box-sizing: border-box;padding-left: 10px;}
+.optical_dl_center dd h2{font-size:22px;line-height:30px;color:#232323;font-weight:600;padding-bottom:20px}
+.optical_dl_center dd p{font-size:14px;line-height:24px;color:#616265;}
+.optical_dl_center dt span{display:inline-block;width:34px;height:40px;background:#e5e5e5;margin-top:8px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/optical_transmission/icon.png) no-repeat;background-position:0 -8px}
+.optical_dl_center dl:nth-child(2) dt span{background-position:-131px -8px}
+.optical_dl_center dl:nth-child(3) dt span{background-position:-238px -5px;width:42px;height:44px}
+.optical_dl_center dl:nth-child(4) dt span{background-position:-363px -5px;width:44px;height:43px}
+.optical_tit_bottom{margin-bottom:35px}
+.public_bottom_001{padding:40px 0;position:relative;display:block}
+.circle{position:absolute;display:block;top:362px;left:457px;width:12px;height:12px;border-radius:50%}
+.circle .circle_a{display:block;position:absolute;top:0;left:0;width:10px;height:10px;border:1px solid #0070BC;border-radius:50%;animation:circle_a 3s infinite}
+.circle .circle_b{display:block;position:absolute;top:0;left:0;width:10px;height:10px;border:1px solid #0070BC;border-radius:50%;animation:circle_a 3s 1.5s infinite}
+.circle span:nth-of-type(3){display:block;position:absolute;top:0;left:0;width:12px;height:12px;border-radius:50%;background:#0070BC}
+.circle .circle_div{position:absolute;left:-364px;top:-45px;border-radius:4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:10px;line-height:24px;font-size:14px;color:#fff;text-align:center;font-style:normal;box-shadow:2px 2px 6px #dde3eb}
+.circle:nth-of-type(2){left:640px;top:345px}
+.circle:nth-of-type(3){left:680px;top:118px}
+.select{display:block;opacity:1}
+@keyframes circle_a{0%{-webkit-transform:scale(1);transform:scale(1);opacity:0;filter:alpha(opacity=0)\9}
+10%{opacity:1;filter:alpha(opacity=100)\9}
+100%{-webkit-transform:scale(3.75);transform:scale(3.5);opacity:0;filter:alpha(opacity=0)\9}
+}
+.circle_div{width:320px;border:5px solid #fff;position:relative;background:#fff;opacity:.9}
+.triangle_border_right{width:0;height:0;border-width:30px 0 30px 30px;border-style:solid;border-color:transparent transparent transparent #fff;margin:40px auto;position:absolute}
+.triangle_border_right span{display:block;width:0;height:0;border-width:28px 0 28px 28px;border-style:solid;border-color:transparent transparent transparent #fc0;position:absolute;top:0;left:0}
+.se_one .triangle_border_right{width:0;height:0;border-width:16px 0 4px 30px;border-style:solid;right:-30px;top:-8px}
+.se_two .circle_div{left:66px}
+.se_three .circle_div{left:60px}
+.triangle_center{color:#616265;font-size:14px;font-weight:400;line-height:22px;text-align:left}
+.se_two .triangle_border_right{border-color:transparent #fff transparent transparent;border-width:16px 30px 4px 0;left:-30px;top:-14px}
+.se_three .triangle_border_right{border-color:transparent #fff transparent transparent;border-width:16px 30px 4px 0;left:-30px;top:-14px}
+.public_bottom_001 img{margin:0 auto;display:block;max-width:100%;height:inherit}
+.Enm_banner_txt003{padding-top:110px}
+.public_span .icon{font-size:12px}
+.public_bottom_container_dl dt{position:relative;overflow:hidden;cursor:pointer}
+.public_bottom_container_dl_bg{position:absolute;width:100% !important;height:100%;top:0;left:0;background:#000;opacity:.5;transition:all .1s}
+.public_bottom_container_dl_cent{position:absolute;top:0;width:100% !important;height:100%;transform:translateY(58%);transition:all .8s}
+.public_bottom_container_dl_cent h2{font-size:16px;color:#fff;line-height:30px;font-weight:400;text-align:center;display:block;padding-top:90px;padding-bottom:10px}
+.public_bottom_container_dl_cent i{display:block;text-align:center;color:#fff;font-size:14px;padding-bottom:30px}
+.public_bottom_container_dl_cent p{display:block;text-align:center;color:#fff;font-size:14px}
+.public_bottom_container_dl dt:hover .public_bottom_container_dl_cent{transform:translateY(0)}
+.public_bottom_div{position:relative}
+.public_bottom_cent{padding:0 20px;box-sizing:border-box;width: 100% !important;}
+.public_bottom_cent h2{padding-top:85px;text-align:left;font-size:18px;padding-bottom:15px}
+.public_bottom_cent span{width:85px;height:1px;background:#fff;display:inline-block;margin-bottom:30px}
+.public_bottom_cent p{font-size:16px;line-height:22px;text-align:left;padding-right:50px}
+.public_bottom_div .public_bottom_container_dl_bg{opacity: 0;}
+.public_bottom_container_dl .public_bottom_container_dl_cent{transform: translateY(100%);}
+.public_bottom_container_dl .public_bottom_container_dl_bg{opacity: 0;}
+.public_bottom_container_dl:hover .public_bottom_container_dl_bg{opacity: .5;}
+.public_bottom .public_bottom_div:hover .public_bottom_container_dl_bg{opacity: .5;}
+.public_bottom .public_bottom_div:hover .public_bottom_cent{transform: translateY(0);}
+
+
+.public_table td a.button_02{background: #c00000;padding:0 20px;transition: transform .6s,background-color .3s;color:#fff;position: relative;background-image: none;height: 42px;line-height: 42px;}
+
+
+.public_table td a.button_02:hover{color: #fff !important;text-decoration:none;background-color: #9b0912;border-color: #9b0912;}
+.ot_table tr td:last-child{padding-left:0}
+.ot_table tr td:nth-child(2) a{color:#0070BC}
+.ot_table tr td:nth-child(3){text-align:left;padding-left:50px}
+@media (max-width:1440px){.public_bottom_div{width:33%;height:auto;border:none;background:0 0}
+.optical_dl_center dl{width:48%}
+}
+@media (max-width:1220px){.public_table_padding{padding-bottom:0}
+.Enm_business_txt{padding:0 10px}
+.se_one{left:450px}
+.circle:nth-of-type(3){left:662px;top:118px}
+.circle:nth-of-type(2){left:620px;top:345px}
+.public_bottom_001{overflow-x:auto}
+.public_bottom_001 img{width:1160px;max-width:inherit}
+.public_bottom_container_dl_cent{transform: translateY(58%);}
+}
+@media (max-width:960px){.one_public .public_bottom div{margin-bottom:20px}
+.optical_dl_center dl{width:100%; padding-top:20px;}
+.optical_dl_center dd h2{font-size:18px;line-height: 24px;padding-bottom:10px;}
+.public_bottom_container_dl_cent{transform: translateY(62%);}
+.public_bottom{padding-left:15%;padding-right:15%;}
+.public_bottom div img{width:100%;}
+}
+@media (max-width:480px){.public_bottom_cent{transform:translateY(78%)}
+.optical_dl_center dl dt{width:20%}
+.optical_dl_center dl dd{width:80%;padding:0 0 20px 0;}
+.Enm_banner_txt003{padding-top:30px}
+.optical_dl_center dl{padding-left:10px;padding-right:10px}
+.public_bottom_container_dl_cent h2{padding-top:10px;padding-bottom:10px}
+.public_bottom_container_dl_cent i{padding-bottom:10px}
+.public_bottom_container_dl_cent i br{display:none}
+.public_bottom_cent h2{padding-top:15px}
+.public_bottom_cent span{margin-bottom:15px;}
+.public_bottom{padding-left:0;padding-right:0;}
+.public_bottom_cent p{padding-right:0;font-size:14px;}
+}

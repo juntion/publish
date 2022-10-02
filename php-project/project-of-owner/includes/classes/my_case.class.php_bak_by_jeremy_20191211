@@ -1,0 +1,288 @@
+<?php
+// 用户case
+class my_case
+{
+    public $customers_id;
+
+
+    public function __construct($customers_id=''){
+        $this->customers_id = $customers_id?$customers_id:$_SESSION['customer_id'];
+    }
+
+    public function getServiceType($type)
+    {
+        switch ($type) {
+            case 1 :
+                $str = FS_SERVICE_TYPE_CHOOSE1;
+                break;
+            case 2 :
+                $str = FS_SERVICE_TYPE_CHOOSE2;
+                break;
+            case 3 :
+                $str = FS_SERVICE_TYPE_CHOOSE3;
+                break;
+            case 4 :
+                $str = FS_SERVICE_TYPE_CHOOSE4;
+                break;
+            case 5 :
+                $str = FS_OTHERS;
+                break;
+            default:
+                $str = FS_ALL_SERVICE_TYPE;
+                break;
+        }
+        return $str;
+    }
+
+    /**
+     * '0.未处理,1.预处理，2.已处理，3.已解决',
+     * @param $type
+     * @return string
+     */
+    public function getStatus($type,$is_que)
+    {
+        if($is_que == 1){
+            return FS_REPLIED;
+        }else{
+            switch ($type) {
+                case 0 :
+                    return FS_SUBMITTED;
+                case 1 :
+                    return FS_SUBMITTED;
+                case 2 :
+                    return FS_SUBMITTED;
+                case 3 :
+                    return FS_SOLVED1;
+                case 4:
+                    return FS_SUBMITTED;
+                default:
+                    return '';
+            }
+        }
+    }
+
+    /**
+     * '0.未处理,1.预处理，2.已处理，3.已解决',
+     * @param $type
+     * @return string
+     */
+    public function getClassificationStr($type)
+    {
+        $arr = array();
+        switch ($type) {
+            case 1 :
+                $arr = array(
+                    'name_classification' => FS_OPTICAL_TRANSPORT_NETWORK,
+                    'img_url' => '<span class="ss_main_left_list_face face01"></span>',
+                    'name_engineer' => FS_STEVEN_ENGINEER,
+                    'customer' => FS_STEVEN_ENGINEER_EXPERIENCE,
+                );
+                break;
+            case 2 :
+                $arr = array(
+                    'name_classification' => FS_ENTERPRISE_NETWORK,
+                    'img_url' => '<span class="ss_main_left_list_face face02"></span>',
+                    'name_engineer' => FS_FREDDY_ENGINEER,
+                    'customer' => FS_FREDDY_ENGINEER_EXPERIENCE,
+                );
+                break;
+            case 3 :
+                $arr = array(
+                    'name_classification' => FS_DATA_CENTER_CABLING,
+                    'img_url' => '<span class="ss_main_left_list_face face03"></span>',
+                    'name_engineer' => FS_ARCHER_ENGINEER,
+                    'customer' => FS_ARCHER_ENGINEER_EXPERIENCE,
+                );
+                break;
+            case 4:
+                $arr = array(
+                    'name_classification' => FS_OPTIC_OEM_SOLUTION,
+                    'img_url' => '<span class="ss_main_left_list_face face04"></span>',
+                    'name_engineer' => FS_KAREN_ENGINEER,
+                    'customer' => FS_KAREN_ENGINEER_EXPERIENCE,
+                );
+                break;
+            case 5 :
+                $arr = array(
+                    'name_classification' => FS_CLOUD_NETWORK,
+                    'img_url' => '<span class="ss_main_left_list_face face05"></span>',
+                    'name_engineer' => FS_CLOUD_ENGINEER,
+                    'customer' => FS_CLOUD_ENGINEER_EXPERIENCE,
+                );
+                break;
+            case 6 :
+                $arr = array(
+                    'name_classification' => FS_FTTX,
+                    'img_url' => '<span class="ss_main_left_list_face face06"></span>',
+                    'name_engineer' => FS_HILTON_ENGINEER,
+                    'customer' => FS_HILTON_ENGINEER_EXPERIENCE,
+                );
+                break;
+            default:
+                break;
+        }
+        return $arr;
+    }
+
+    /*
+     * 获取列表
+     * @param $get_list: true 获取列表；false 获取个数
+     * @param $page: 当前页码
+     * @param $number: 每页多少条
+     */
+    public function get_customer_case_list($get_list=true,$out_where='',$page='all',$number=''){
+        global $db;
+        $where = '';
+        //临时添加 前后台不完善 故第一阶段 从 美国时间2019-11-28 00:00:00 之后的都不展示
+        $time = '2019-11-28 00:00:00';
+        $where .= ' and cu.add_time <"' .$time.'"';
+        if($out_where['search']){
+            $where .= " and ca.case_number = '".$out_where['search']."'";
+        }
+        if($out_where['type']){
+            $where .= " and cu.service_type = '".$out_where['type']."'";
+        }
+        if($get_list){
+            $field = ' ca.case_number,ca.status,ca.is_que,cu.service_type,cu.add_time ';
+        }else{
+            $field = ' count(*) as count ';
+        }
+        
+        $limit = '';
+        if($get_list){
+            if(!$page && $number){
+                $limit = 'limit '.$number;
+            }elseif ($page && $number){
+                $begin_page = ($page-1)*$number ;
+                $limit = 'limit '.$begin_page.','.$number;
+            }
+        }
+
+        $sql = 'select '.$field.'
+        from case_number ca 
+        INNER JOIN customers_broker cu ON ca.case_number=cu.case_number 
+        where ca.is_del = 0 and cu.customers_id ='. $this->customers_id .$where.' 
+        order by ca.`status` asc,cu.is_click asc,ca.created_at desc '.$limit;
+        $question = $db->getAll($sql);
+        if($get_list){
+            if($question){
+                foreach ($question as $key => $val){
+                    $question[$key]['service_type_str'] = $this->getServiceType($val['service_type']);
+                    $question[$key]['status_str'] = $this->getStatus($val['status'],$val['is_que']);
+                    $question[$key]['add_time_str'] = getTime('default',strtotime($val['add_time']),$_SESSION['countries_iso_code']); //提问一定来自前台
+                    $question[$key]['detail_url_str'] = zen_href_link('my_cases_details','&case='.$val['case_number'],'SSL');;
+                }
+            }
+        }else{
+            $question = $question[0]['count']?$question[0]['count']:0;
+        }
+
+        return $question;
+    }
+
+    /*
+     * 获取用户的总case总个数
+     * @return int: 总个数
+     */
+    public function get_customers_all_case_num(){
+        global $db;
+        $sql = 'select count(*) as count
+        from case_number ca 
+        INNER JOIN customers_broker cu ON ca.case_number=cu.case_number 
+        where ca.is_del = 0 and cu.customers_id ='. $this->customers_id;
+        $count = $db->getAll($sql);
+        return $count?$count[0]['count']:0;
+    }
+
+    public function check_customer_case_number_is_exist($case_number){
+        global $db;
+        $is_exist = $db->getAll('select count(*) as count from case_number WHERE case_number="'.$case_number.'" and customer_id='.$this->customers_id);
+        return $is_exist?$is_exist[0]['count']:0;
+    }
+
+    public function get_case_one($case_number){
+        global $db;
+        $sql = "select ca.*,cu.file,cu.origin_file_name,cu.broker_id,cu.service_type,cu.customers_id,cu.labels,cu.classification,cu.add_time,cu.products_id,cu.product_support_service_type
+          from case_number ca 
+          INNER JOIN customers_broker cu ON ca.case_number=cu.case_number 
+          where ca.case_number ='". $case_number ."' limit 1";
+        $customers_broker = $db->getAll($sql);
+        $customers_broker = $customers_broker[0];
+        $name_classification =  $this->getClassificationStr($customers_broker['classification']);
+        $customers_broker['name_classification'] = $name_classification['name_classification'];
+        $customers_broker['img_url'] = $name_classification['img_url'];
+        $customers_broker['name_engineer'] = $name_classification['name_engineer'];
+        $customers_broker['service_type_str'] = $this->getServiceType($customers_broker['service_type']);
+        $customers_broker['status_str'] = $this->getStatus($customers_broker['status'],$customers_broker['is_que']);
+        $customers_broker['created_at_str'] = getTime('default',strtotime($customers_broker['add_time']),$_SESSION['countries_iso_code']); //提问一定来自于前台
+        if($customers_broker['labels']){
+            $customers_broker['labels_arr'] = explode(",",$customers_broker['labels']);
+            $customers_broker['labels_count'] = count($customers_broker['labels_arr']);
+        }
+        return $customers_broker;
+    }
+
+
+    /*
+     * 获取一个case的answer列表
+     * @param $get_list: true 获取列表；false 获取个数
+     * @param $page: 当前页码
+     * @param $number: 每页多少条
+     */
+    public function get_case_answer_list($get_list=true,$customers_broker_id,$page='all',$number=''){
+        global $db;
+        $limit = '';
+        if($get_list){
+            if(!$page && $number){
+                $limit = 'limit '.$number;
+            }elseif ($page && $number){
+                $begin_page = ($page-1)*$number ;
+                $limit = 'limit '.$begin_page.','.$number;
+            }
+        }
+        if($get_list){
+            $field = ' ca.customer_question_id,ca.solution_content,ca.admin_name,ca.solution_time,ca.is_append,ca.file,ca.file_name,ca.draft,ca.answer_type,cu.case_number ';
+        }else{
+            $field = ' count(*) as count ';
+        }
+
+        $sql =  "select ".$field."
+        from customers_broker_solution ca 
+        INNER JOIN customers_broker cu ON ca.broker_id = cu.broker_id 
+        where ca.broker_id ='". $customers_broker_id ."' and ca.draft =0 
+        order by ca.customer_question_id asc ".$limit;
+        $question = $db->getAll($sql);
+        if($get_list){
+            if($question){
+                foreach ($question as $key => $val){
+                    $question[$key]['service_type_str'] = $this->getServiceType($val['service_type']);
+                    $question[$key]['status_str'] = $this->getStatus($val['status'],$val['is_que']);
+                    $question[$key]['detail_url_str'] = zen_href_link('my_cases_details','&case='.$val['case_number'],'SSL');
+                    if($val['is_append'] == 0){
+                        $question[$key]['solution_time_str'] = getTime('default',get_common_cn_time($val['solution_time']),$_SESSION['countries_iso_code']); //后台回复
+                    }else{
+                        $question[$key]['solution_time_str'] = getTime('default',strtotime($val['solution_time']),$_SESSION['countries_iso_code']); //前台继续回答
+                    }
+                }
+            }
+        }else{
+            $question = $question[0]['count']?$question[0]['count']:0;
+        }
+
+        return $question;
+    }
+
+    /*
+     * case的图片处理
+     * @para string $image
+     * @return string
+     */
+    public function handle_case_image($image){
+        if(strpos($image,'../images/')===0 || strpos($image,'images/')===0){ //旧图,以images开头
+            $image = HTTPS_IMAGE_SERVER.$image;
+        }else{ //2018.12.14 新版个人中心上线
+            $image = zen_get_img_change_src(HTTPS_IMAGE_SERVER.DIR_WS_IMAGES.$image);
+        }
+        return $image;
+    }
+}

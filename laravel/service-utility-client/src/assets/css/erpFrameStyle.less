@@ -1,0 +1,365 @@
+/* 引入样式公共变量*/
+@import "publicVariable.less";
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+button,
+input,
+select,
+textarea,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: @font-size12;
+}
+a,
+a:active,
+a:hover {
+  color: @default-color;
+}
+.ant-tree li .ant-tree-node-content-wrapper:hover {
+  background-color: @btn-bg;
+  border-radius: @btn-border-radius;
+}
+.ant-btn-primary,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  border-color: @default-color;
+  background-color: @default-color;
+  border-radius: @btn-border-radius;
+}
+.ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td,
+.ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td,
+.ant-table-thead > tr:hover:not(.ant-table-expanded-row) > td,
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+  background-color: #f8f8f8;
+}
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  background-color: #ebf3ff;
+  color: #378eef;
+}
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover,
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #ebf3ff;
+  color: #378eef;
+}
+.action{
+  vertical-align: 0;
+}
+.ant-menu-vertical .ant-menu-item:after,
+.ant-menu-vertical-left .ant-menu-item:after,
+.ant-menu-vertical-right .ant-menu-item:after,
+.ant-menu-inline .ant-menu-item:after {
+  border-right-color: #378eef;
+}
+.ant-btn .anticon-search {
+  font-size: @btn-search-icon;
+}
+div.ant-tabs-tab{
+  font-size: @font-size14;
+}
+.ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-nav .ant-tabs-tab:hover{
+  color: @default-color;
+  font-size: @font-size14;
+}
+.ant-tabs-ink-bar {
+  background-color: @default-color;
+}
+.menu .ant-menu-submenu span {
+  font-size: @font-size14;
+}
+.ant-btn-circle span {
+  font-size: @font-size14;
+}
+.page-header .page-header-index-wide .ant-breadcrumb-link span,
+.page-header .page-header-index-wide .ant-breadcrumb-link a {
+  font-size: @font-size14;
+}
+.ant-breadcrumb a:hover {
+  color: @default-color;
+}
+.ant-layout-header .ant-btn:hover,
+.ant-layout-header .ant-btn:focus {
+  color: @default-color;
+  border-color: @default-color;
+}
+.ant-select-selection:hover {
+  border-color: @default-color;
+}
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active {
+  border-color: @default-color;
+}
+.ant-layout-header .user-wrapper span {
+  font-size: @font-size14;
+    color:#fff;
+}
+.ant-popover-inner .ant-btn-primary:hover,
+.ant-popover-inner .ant-btn-primary:focus {
+  color: @font-color;
+}
+.ant-popover-inner .ant-btn-default:hover,
+.ant-popover-inner .ant-btn-default:focus {
+  color: @default-color;
+  border-color: @default-color;
+}
+.ant-modal-content .ant-btn-default:hover,
+.ant-modal-content .ant-btn-default:hover {
+  color: @default-color;
+  border-color: @default-color;
+}
+.ant-input{
+  font-size: 12px;
+}
+.ant-input:hover,
+.ant-input:focus {
+  border-color: @default-color;
+}
+.ant-switch-checked {
+  background-color: @default-color;
+}
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  background-color: @btn-bg;
+}
+.ant-pagination-item-active,
+.ant-pagination-item-active:focus,
+.ant-pagination-item-active:hover,
+.ant-pagination-item:focus,
+.ant-pagination-item:hover {
+  border-color: @paging-borderColor;
+}
+.ant-pagination-prev:focus .ant-pagination-item-link,
+.ant-pagination-next:focus .ant-pagination-item-link,
+.ant-pagination-prev:hover .ant-pagination-item-link,
+.ant-pagination-next:hover .ant-pagination-item-link {
+  border-color: @paging-borderColor;
+  color: @paging-fontColor;
+  background-color: @paging-bgColor;
+}
+.ant-table,
+.ant-table-thead > tr > th {
+  color: @paging-fontColor;
+}
+.ant-select-dropdown-menu-item,.ant-select-selection-selected-value{
+  font-size: 12px;
+  img{
+    vertical-align: text-top;
+  }
+}
+.ant-cascader-picker .anticon-down{
+  margin-top: -3px;
+}
+.ant-cascader-picker-arrow.ant-cascader-picker-arrow-expand {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.ant-select-dropdown-menu-item-selected,
+.ant-select-dropdown-menu-item-selected:hover {
+  font-weight: @font-weight;
+}
+.ant-pagination .ant-select-dropdown-menu-item-selected,
+.ant-pagination .ant-select-dropdown-menu-item-selected:hover {
+  color: @default-color;
+}
+.ant-select-dropdown-menu-item:hover {
+  background-color: @hover-btn-bg;
+}
+.menu .ant-menu-inline-collapsed .ant-menu-submenu span .anticon-user {
+  // color: @default-color;
+}
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: @default-color;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: @default-color;
+  border-color: @default-color;
+}
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+  border-color: @default-color;
+}
+.ant-checkbox-indeterminate .ant-checkbox-inner:after {
+  background-color: @default-color;
+}
+.ant-select-tree
+  li
+  .ant-select-tree-node-content-wrapper.ant-select-tree-node-selected {
+  background-color: @btn-bg;
+}
+.ant-select-tree li .ant-select-tree-node-content-wrapper:hover{
+  background-color: @hover-btn-bg;
+}
+.ant-select-dropdown-menu-item-active {
+  background-color: @btn-bg;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  padding: 12px 0px;
+}
+.ant-table-tbody > tr > td {
+  border-color: @font-color;
+}
+.colon /deep/label::after{
+  content: '';
+ 
+}
+.ant-select-selection--multiple,
+.ant-select-selection--single,
+.ant-input,
+.ant-btn {
+  min-height: @btn-height;
+}
+.ant-select-selection--multiple .ant-select-selection__choice {
+  margin-top: 3px;
+}
+.anticon-close-circle {
+  // margin-top: @btn-content-marginTop2;
+}
+.ant-form-inline .ant-form-item {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.ant-table-thead > tr > th.ant-table-selection-column,
+.ant-table-tbody > tr > td.ant-table-selection-column {
+  min-width: 60px;
+  width: 60px;
+  // text-align: right;
+  padding-right: 10px;
+}
+.ant-table-tbody > tr > td {
+    padding-right: 20px;
+}
+.menu .ant-menu-submenu:hover .ant-menu-submenu-arrow::before,.menu .ant-menu-submenu:hover .ant-menu-submenu-arrow::after{
+  background-image: linear-gradient(to right, rgba(71,120,199,1), rgba(71,120,199,1));
+}
+#app /deep/ .ant-spin-nested-loading  .ant-spin.ant-spin-spinning .ant-spin-dot>i{
+  background: @default-color;
+}
+.ant-btn-primary .anticon-search svg,.anticon-down svg{
+  display: none;
+}
+.ant-btn-primary .anticon-search{
+  background: @erp-Icon -82px -219px;;
+  width: @erp-iconSize;
+	height: @erp-iconSize;
+}
+.anticon-down{
+  background: @erp-Icon -313px -191px;
+  width: 10px;
+  height: 8px;
+  vertical-align: middle;
+}
+.ant-select-arrow-icon.anticon-down{
+  background: url(../images/ERP_New_icon.png) -313px -191px;
+  width: 10px;
+  height: 8px;
+  margin-top: 3px;
+}
+.ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled){
+  border-color: @default-color;
+}
+.ant-input-search .ant-input-search-icon{
+  font-size: @font-size18;
+}
+// .ant-select-arrow .anticon-down{
+//   background: @erp-Icon -10px -430px;
+//   width: 8px;
+//   height: @erp-iconSize;
+//   margin-top: 5px;
+// }
+// .ant-select-arrow .anticon-down svg{
+//   display: none;
+// }
+.ant-table-body {
+  margin-top: @table-marginTop;
+}
+.ant-modal-close-icon{
+  font-size:@font-size22;
+}
+.ant-table-thead > tr:first-child > th:first-child,.ant-table-thead > tr:first-child > th:last-child {
+  border-radius:0;
+}

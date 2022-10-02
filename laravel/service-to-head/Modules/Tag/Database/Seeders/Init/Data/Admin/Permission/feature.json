@@ -1,0 +1,28 @@
+{
+    "tag": [
+        {
+            "uuid": "",
+            "name": "tag.tags.action",
+            "guard_name": "",
+            "type": "",
+            "group": "",
+            "locale": {
+                "en-US": "Tag management",
+                "zh-CN": "标签管理"
+            },
+            "comment": "标签管理的操作权限，包含标签添加、更新、上传"
+        },
+        {
+            "uuid": "",
+            "name": "tag.binding.action",
+            "guard_name": "",
+            "type": "",
+            "group": "",
+            "locale": {
+                "en-US": "Tag binding management",
+                "zh-CN": "标签绑定管理"
+            },
+            "comment": "标签绑定的操作权限，包含添加标签绑定、更新绑定、上传绑定数据"
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+
+.alone-page-banner{
+	background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Contact_Us/contact_us_bannr.jpg);
+	background-size: cover;
+}
+.fs-contact-us-txt{
+	font-size: 14px;
+	color: #646466;
+	line-height: 22px;
+	margin-top: -10px;
+}
+.fs-contact-us-swiper-tab{
+	border-bottom: 1px solid #E5E5E5;
+	margin-top: 24px;
+	position: relative;
+}
+.fs-nav-tit{
+	font-size: 14px;
+	color: #19191A;
+	line-height: 22px;
+	display: block;
+}
+
+.fs-contact-us-swiper-tab .swiper-slide{
+	width: auto;
+	margin-right: 46px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	position: relative;
+	padding-bottom: 14px;
+	cursor: pointer;
+}
+.fs-contact-us-swiper-tab .swiper-slide:last-child{
+	margin-right: 0;
+}
+.fs-contact-us-swiper-tab .swiper-slide.active .fs-nav-tit{
+	font-weight: 600;
+}
+.fs-contact-us-swiper-tab .swiper-wrapper {
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+}
+.fs-contact-us-swiper-tab .swiper-container{
+	overflow: initial;
+}
+.fs-contact-us-content-li{
+	display: none;
+	padding: 20px 0 40px 0;
+}
+.fs-contact-us-content-li.active{
+	display: flex;
+}
+.fs-contact-us-content-li-left{
+	width: 525px;
+}
+.fs-contact-us-content-li-right{
+	flex: 1;
+	padding-left: 40px;
+    box-sizing: border-box;
+}
+.fs-contact-us-imgbox{
+	padding: 0 0 18px 0;
+}
+.fs-contact-us-maptit{
+	font-size: 16px;
+    color: #19191A;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 14px;
+    margin: 0 0 14px 0;
+}
+.fs-contact-us-maptit:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    height: 3px;
+    background: #C00000;
+}
+.fs-contact-us-maptxt{
+	font-size: 14px;
+    color: #646466;
+    line-height: 22px;
+}
+.fs-contact-us-mapcontact a:hover{
+	text-decoration: none;
+}
+.fs-contact-us-mapcontact a:hover span{
+	text-decoration: underline;
+}
+.fs-contact-us-mapcontact span{
+	font-size: 14px;
+	color: #646466;
+	line-height: 22px;
+	position: relative;
+    box-sizing: border-box;
+}
+.fs-contact-us-mapcontact div:first-child span{
+	display: block;
+	padding-left: 12px;
+}
+.fs-contact-us-mapcontact span .icon{
+	font-size: 16px;
+	color: #4B4B4D;
+	margin-right: 8px;
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+.fs-contact-us-mapcontact a .icon{
+	font-size: 17px;
+	color: #4B4B4D;
+	margin-right: 8px;
+}
+.fs-contact-us-mapcontact span em{
+	font-style: normal;
+	padding-left: 8px;
+}
+.fs-contact-us-mapcontact div{
+	margin-bottom: 10px;
+}
+.fs-contact-us-mapcontact div:last-child{
+	margin-bottom: 0;
+}
+.fs-contact-us-content-ul{
+	border-bottom: 1px solid #E5E5E5;
+}
+.fs-contact-us-need-dl-container{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: -4px;
+	margin-bottom: -20px;
+}
+.fs-contact-us-need-dl{
+	height: 160px;
+	border: 1px solid #E5E5E5;
+	width: calc((100% - 20px)/2);
+	margin: 0 20px 20px 0;
+	box-sizing: border-box;
+	padding: 18px 20px;
+	display: flex;
+}
+.fs-contact-us-need-dl:nth-of-type(2n){
+	margin-right: 0;
+}
+.fs-contact-us-need-dl a:hover{
+	text-decoration: none;
+}
+.fs-contact-us-need-dl a:hover .fs-contact-us-need-more span{
+	text-decoration: underline;
+}
+.fs-contact-us-need-dl dt img{
+	width: 36px;
+}
+.fs-contact-us-need-tit{
+	font-size: 16px;
+	color: #19191A;
+	line-height: 26px;
+	font-weight: 600;
+	padding-bottom: 4px;
+	margin: 0;
+}
+.fs-contact-us-need-txt{
+	font-size: 14px;
+	color: #646466;
+	line-height: 22px;
+}
+.fs-contact-us-need-more{
+	font-size: 14px;
+	color: #0060BF;
+	line-height: 22px;
+	position: absolute;
+	bottom: 0;
+	left: 18px;
+}
+.fs-contact-us-need-more .icon{
+	font-size: 12px;
+	color: #0060BF;
+}
+.fs-contact-us-need-dl dd{
+	padding-left: 18px;
+	box-sizing: border-box;
+	position: relative;
+}
+.fs-contact-us-need{
+	padding-top: 32px;
+}
+.fs-contact-us-mapinfo{
+	padding: 34px 0 0;
+}
+.fs-contact-us-mapinfo:first-child{
+	padding: 0;
+}
+.maptxt-two{
+	margin-top: 5px;
+}
+.fs-contact-us-maplink{
+	color: #0060BF;
+    display: inline-block;
+    margin: 18px 0 0;
+}
+.fs-contact-us-maplink:hover{
+	text-decoration: none;
+	color: #0060BF;
+}
+.fs-contact-us-maplink:hover span{
+	text-decoration: underline;
+}
+.fs-contact-us-maplink .icon{
+	font-size: 12px;
+	color: #0060BF;
+}
+.fs-contact-us-mapcontact{
+	margin-top: 20px;
+}
+
+@media (max-width: 1220px){
+	.box, .content{width: 100%;}	
+	.alone-page-content-main{width: 960px;}
+	.alone-page-content-right{width: 690px;}
+	.fs-contact-us-swiper-tab .swiper-slide{margin-right: 20px;}
+	.fs-contact-us-content-li-left{width: 400px;}
+}
+@media (max-width: 960px){
+	.alone-page-content-right,.alone-page-content-main{width: 100%;}
+	.fs-contact-us-content-li-left{width: 50%;}
+	.fs-contact-us-swiper-tab .swiper-container{overflow: hidden;}
+	.fs-contact-us-need-dl{width: 100%;margin-right: 0;height: initial;}
+	.fs-contact-us-need-more{position: initial;margin-top: 12px;display: inline-block;}
+	.fs-contact-us-content-li.active{display: block;}
+	.fs-contact-us-content-li-left,.fs-contact-us-content-li-right{width: 100%;padding-left: 0;}
+	.fs-contact-us-swiper-tab .swiper-slide{margin-right: 0;padding-left: 10px;padding-right: 10px;box-sizing: border-box;}
+	.fs-contact-us-swiper-tab .swiper-slide.active .fs-contact-us-carrier{display: block;opacity: 1;width: 40px;}
+	.fs-contact-us-carrier{height: 3px;background: #C00000;border-radius: 2px;display: block;width: 0;opacity: 0;position: absolute;bottom: -1px;left: 50%;transform: translateX(-50%);}
+}
+@media (max-width: 640px){
+	.fs-contact-us-content-li-right{padding-top: 20px;}
+}

@@ -1,0 +1,296 @@
+﻿.bend_content {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+.bend_banner {
+	height: 700px;
+	width: 100%;
+	margin-top: -10px;
+	background: #fff none repeat scroll 0% 0%;
+	overflow: hidden;
+}
+.bend_banner_con {
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bend_banner.jpg) no-repeat center 0;
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	left: 0px;
+}
+.bend_tite {
+	width: 100%;
+	position: absolute;
+	top: 920px;
+	left: 0px;
+	text-align: center;
+	font-size: 14px;
+	color: #555;
+	line-height: 24px;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 30px;
+}
+.bend_tite b {
+	display: block;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	color: #232323;
+}
+.bend_main {
+	margin: 170px 0 40px 0;
+}
+.select_pic {
+	overflow: hidden;
+}
+.prod_thee {
+	width: 400px;
+	height: auto;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+}
+.prt_img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	text-transform: uppercase;
+}
+.prt_img a {
+	color: #fff;
+}
+.thee_hov {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	z-index: 61;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+.thee_naniu {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	z-index: 62;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-ms-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;
+	text-align: center;
+	text-shadow: #000 0 0px 30px;
+}
+i {
+	font-style: italic;
+}
+.thee_naniu i {
+	padding: 5px 20px;
+	border: 2px solid #fff;
+	color: #fff;
+	font-style: normal;
+	box-shadow: rgba(0,0,0,0.1) 0 0px 30px;
+	font-size: 18px;
+	font-weight:400;
+	border-radius: 4px;
+}
+a:hover {
+	text-decoration: none;
+}
+.prt_img:hover .thee_hov {
+	opacity: 1;
+}
+.prt_img:hover .thee_naniu {
+	opacity: 1;
+}
+.bend_cable {
+	margin: 40px 0;
+}
+.bend_cable_tite {
+	height: 60px;
+	overflow: hidden;
+}
+.bend_cable_tite01 {
+	height: 60px;
+	overflow: hidden;
+}
+.bend_cable_tite02 {
+	height: 60px;
+	overflow: hidden;
+}
+.bend_cable_tite span {
+	line-height: 48px;
+	border-radius: 5px 5px 0 0;
+	font-size: 18px;
+	background: #f8c729;
+	color: #fff;
+	padding-left: 20px;
+	display: block;
+}
+.bend_cable_tite01 span {
+	line-height: 48px;
+	border-radius: 5px 5px 0 0;
+	font-size: 18px;
+	background: #ef5814;
+	color: #fff;
+	padding-left: 20px;
+	display: block;
+}
+.bend_cable_tite02 span {
+	line-height: 48px;
+	border-radius: 5px 5px 0 0;
+	font-size: 18px;
+	background: #3fb6ba;
+	color: #fff;
+	padding-left: 20px;
+	display: block;
+}
+.bend_cable table {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: Justify;
+	text-justify: inter-ideograph;
+}
+.bend_cable_con {
+	margin: 40px 0;
+}
+.bend_cable_con span {
+	display: block;
+	font-size: 16px;
+	color: #0b5daf;
+	line-height: 24px;
+}
+.cable_menu {
+	overflow: hidden;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.cable_menu_con table {
+	border-top: 1px solid #e5e5e5;
+}
+.cable_menu_con table:first-child {
+	border-top: none;
+}
+.cable_menu_con01 table {
+	border-top: 1px solid #e5e5e5;
+}
+.cable_menu_con01 table:first-child {
+	border-top: none;
+}
+.cable_menu_con td img {
+	margin-right: 5px;
+}
+.cable_menu_con01 td img {
+	margin-right: 5px;
+}
+.tab-content_tite {
+	font-size: 18px;
+	line-height: 38px;
+	color: #c00000;
+}
+.tab-content_tite01 {
+	font-size: 14px;
+	line-height: 40px;
+}
+ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.select_m ul li {
+	width: 60px;
+	margin-right: 10px;
+	border: 1px solid #dedede;
+	float: left;
+	margin-bottom: 10px;
+}
+.select_m ul li a {
+	width: 56px;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: #232323;
+	border: 2px solid #fff;
+}
+.select_m ul li a:hover {
+	color: #d73030;
+	background: #f4f4f4;
+	border: 2px solid #e5e5e5;
+}
+.select_cable_tab {
+	position: absolute;
+}
+.select_cable_tab h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	border: 1px solid #e5e5e5;
+	width: 88px;
+	line-height: 40px;
+	padding-left: 35px;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/connector.png) 15px 15px no-repeat #f9f9f9;
+}
+.select_cable_tab ul {
+	margin: 0;
+	padding: 0;
+}
+.select_cable_tab ul li {
+	width: 123px;
+	border: 1px solid #e5e5e5;
+	line-height: 34px;
+	text-align: center;
+	border-top: none;
+	font-size: 14px;
+	background: #f9f9f9;
+}
+.select_cable_tab ul li.tip_over {
+	background: #fff;
+	border-right: 1px solid #fff;
+}
+.select_cable_tab ul li.left_bar_over {
+	background: #fff;
+	border-right: 1px solid #fff;
+}
+.cable_menu_con {
+	background: #fff;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+	min-height: 315px;
+	margin-left: 124px;
+}
+.cable_menu_con01 {
+	background: #fff;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+	min-height: 210px;
+	margin-left:124px;
+}
+@media(max-width:1220px) {
+.bend_content {
+	width: 960px;
+}
+.tutorial_banner {
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bend_banner.jpg) no-repeat -280 0;
+}
+}

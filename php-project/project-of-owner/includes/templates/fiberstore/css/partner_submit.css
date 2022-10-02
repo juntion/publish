@@ -1,0 +1,45 @@
+.login_partner_con {
+    width:inherit;
+    min-height: 360px;
+    vertical-align: top;
+    background: #fff;
+    border-radius: 3px;
+    padding: 40px;
+    display: block;
+    overflow:hidden;
+}
+.partner_title { display:block; color:#232323; font-weight:600;text-transform:uppercase; font-size:15px;}
+.partner_regist_form {
+    /*overflow: hidden;*/
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+}
+.partner_regist_form li label {display: block;line-height: 20px;padding-bottom: 8px;}
+.partner_regist_form li .big_input, .partner_regist_form li .login_country {
+    width: 100%;
+}
+.partner_regist_form li label em,.regist_li_padding em {color: #c00000;
+    font-style: normal;
+}
+.partner_regist_form li {width: 45%;
+    float: left;
+    margin-right:6%;}
+.partner_regist_form li:nth-child(even) {
+    margin-right: 0;
+}   
+.partner_regist_text { margin-top:30px; font-size:13px; color:#232323;}
+.partner_regist_text a { text-decoration:underline;}
+.partner_regist_link { color:#2971ba; text-decoration:none !important;}
+.partner_regist_link:hover { color:#2971ba;}
+.partner_regist_text a span {
+    font-size: 10px;
+    padding-left: 5px;}
+.dropdown-menu li {
+    width: 100%;
+}
+@media (max-width:580px){
+    .partner_regist_form li {
+        width: 99%;
+        margin-right: 0;
+    }
+}

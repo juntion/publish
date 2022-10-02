@@ -1,0 +1,944 @@
+.box{width: 100%;margin: 0;padding: 0;}
+
+.business_top_wap{height:380px;width:100%;margin:0 auto;text-align:center}
+.business_banner_bg{background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/business_banner.jpg);background-position:center;background-size:cover;position:absolute;left:0;width:100%;height:380px;z-index:-1}
+.business_banner_tit{font-size:40px;line-height:48px;color:#fff;font-weight:400;padding-top:105px;padding-bottom:16px}
+.business_banner_txt{font-size:16px;color:#fff;line-height:26px;padding-bottom:28px;display: none;}
+.Quality_banner_container .business_banner_tit{padding-top:135px}
+.about_us_container .business_banner_tit{padding-top:164px}
+.business_banner_a{font-size:14px;color:#fff;line-height:24px;border:1px solid #fff;padding:9px 20px;border-radius:2px;transition: all .3s;}
+.business_banner_a:hover{color:#232323;text-decoration:none;background:#fff;}
+.bus_works_tit{font-size:26px;font-weight:600;color:#232323;line-height:34px;padding: 52px 0 22px 0;text-align:center}
+.bus_wap{width:100%;padding-bottom: 60px;}
+.bg_alone{background:#f7f7f7}
+.bus_alone{width:1200px;margin:0 auto}
+.bus_works_span_wap{width:100px;height:100px;display:inline-block;border-radius:50%;background:#fff;text-align:center;line-height:100px;position:relative}
+.bus_li_tit{font-size:16px;line-height:26px;font-weight:600;color:#232323;padding-top:8px;padding-bottom:12px}
+.bus_li_txt{font-size:13px;line-height:22px;color:#616265;padding:0 20px}
+.bus_works_ul:after{content:"";display:block;clear:both}
+.bus_works_ul li{float:left;width:25%;text-align:center}
+.bus_works_span_wap img{width:48px;height:48px;margin:26px auto;display:block}
+.bus_works_ul{margin-top:32px;padding-bottom:72px}
+.bus_point{position:absolute;height:6px;line-height:6px;top:50%;margin-top:-3px;right:-140%}
+.bus_point em{width:6px;height:6px;display:inline-block;border-radius:50%;background:#e5e5e5;line-height:6px}
+.bus_works_txt{font-size:14px;color:#616265;line-height:24px;padding:0 250px;padding-top:22px;text-align:center}
+.bus_img_wap img{display:block;max-width:100%;height:inherit;margin:0 auto}
+.bus_price_ul .bus_works_span_wap{background:#f7f7f7}
+.bus_price_ul{margin-top:0;padding-bottom:48px}
+.bus_gain_ul{margin-top:36px;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap}
+.bus_gain_ul li img{width:48px;height:48px;margin-bottom:32px}
+.bus_gain_ul li{width:32%;background:#fff;height:280px;text-align:center;padding-top:60px;padding:60px 60px 0 60px;box-sizing:border-box}
+.bus_gain_bg{height:560px;background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/business17.jpg);background-position:center;background-size:cover}
+.bus_see_wap{text-align:center;margin-top:24px}
+.bus_see_a{height:38px;line-height:38px;border:1px solid #4c4948;border-radius:2px;display:inline-block;padding:0 25px;transition:all .2s}
+.bus_see_a:hover{background:#4c4948;color:#fff;text-decoration:none}
+.bus_flex_ul{margin-top:48px;padding-bottom:60px;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap}
+.bus_r_txt{font-size:14px;color:#616265;text-align:center;line-height:24px;padding-bottom:22px;min-height: 72px}
+.bus_div_alone img{width:42px;height:42px;padding-bottom:10px}
+.bus_div_alone{width:480px;height:300px;background:#fff;float:left;text-align:center;padding:42px 40px 0 40px;box-sizing:border-box}
+.bus_right{float:right}
+.bus_div_wap:after{content:"";display:block;clear:both}
+.bus_div_wap{width:980px;margin:0 auto;padding:60px 0}
+.bus_gain_li_txt{font-size:13px;color:#616265;line-height:22px}
+
+
+
+
+/*è´¨æ£€*/
+.Quality_banner_bg{background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/banner_quality.jpg)}
+.quality_top_txt{font-size:14px;color:#616265;line-height:24px}
+.quality_top{height:220px;border-radius:6px;box-shadow:0 0 26px 0 rgba(0,0,0,.1);margin-top:50px;padding:60px 190px;box-sizing:border-box;position:relative}
+.qua_img{position:absolute;left:11%}
+.qua_img1{position:absolute;right:13.4%}
+.qua_img1 img{display:inline-block;transform:rotate(180deg);margin-top:-16px}
+.quality_ul{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap}
+.quality_ul li{width:386px;height:290px;border:1px solid #e5e5e5;text-align:center;padding:40px 70px 0 70px;box-sizing:border-box}
+.quality_ul li img{width:48px;height:48px;padding-bottom:14px}
+.quality_ul{margin-top:30px}
+.bus_iso_tit{font-size:16px;color:#232323;line-height:26px;font-weight:600;padding-bottom:8px}
+.bus_iso_txt{font-size:13px;color:#616265;line-height:22px}
+.bus_iso{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap}
+.bus_iso{margin-top:22px;margin-bottom:50px}
+.bus_iso li{width:590px;position:relative;padding-left:120px;box-sizing:border-box;padding-top:25px;padding-right:30px;transition:all .3s;cursor:pointer;padding-bottom: 25px;}
+.bus_iso li:hover{box-shadow:0 0 20px 0 rgba(0,0,0,.1)}
+.quality_img{position:absolute;left:22px;top:32px}
+.quality_img_click{position:absolute;bottom:20px;right:30px;display:none}
+.bus_iso li:hover .quality_img_click{display:block}
+.Quality_Control .bus_works_txt{padding:0;padding-top:20px}
+.Quality_Control_ul{margin-top:26px;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap}
+.Quality_Control_ul li{width:380px;height:328px;background:#fff}
+.Quality_Control_ul li img{max-width:100%;height:initial;display:block;margin:0 auto}
+.Quality_Control_txt{font-size:14px;color:#232323;line-height:24px;padding:14px 20px 0 20px;box-sizing:border-box}
+.Quality_Control{padding-bottom:40px;margin-bottom: 0;}
+
+
+
+
+/*about_us*/
+.about_us_bg{background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-en.jpg)}
+.aount_one .quality_top_txt{text-align:center;padding-top:16px;padding-bottom:58px}
+.about_us_content:after{content:"";display:block;clear:both}
+.about_div_alone{width:50%;float:left;height:360px;position:relative}
+.about_div_alone img{display:block;margin:0 auto;max-width:100%;height:inherit}
+.about_us_right_tit{font-size:20px;color:#232323;font-weight:600;line-height:30px;padding-top:60px;padding-bottom: 16px;}
+.about_right{float:right}
+.about_left{background:#fff;padding:0 40px;box-sizing:border-box}
+.about_div_alone img.aonut_absolute{position:absolute;top:0;width:21px;height:36px;top:50%;transform:rotate(180deg);margin-top:-18px}
+.about_div_alone img.aonut_absolute_two{right:0;transform:rotate(0)}
+.about_us_em{background:#4c4948;height:2px;width:40px;display:inline-block}
+.about_us_wap .bus_gain_li_txt{padding-top:14px}
+.aount_three .bus_works_txt{padding: 0;margin-top: -6px;}
+.aount_three{background: -webkit-linear-gradient(#fff,#f5f6f9);background: -o-linear-gradient(#fff,#f5f6f9);background: -moz-linear-gradient(#fff,#f5f6f9);background: linear-gradient(#fff,#f5f6f9);}
+.about_us_a{color:#0070bc}
+.about_us_a:hover{color:#0070bc}
+.about_us_wap{margin-top:0;margin-bottom:0}
+.about_us_three .bus_works_txt{padding:0;padding-top:18px}
+.about_us_three .quality_ul li{background:#f7f7f7;border:none;padding:76px 50px 0 50px}
+.about_us_three{padding-bottom:50px}
+.about_four{background:-webkit-linear-gradient(#e9e9e9,#fff);background:-o-linear-gradient(#e9e9e9,#fff);background:-moz-linear-gradient(#e9e9e9,#fff);background:linear-gradient(#e9e9e9,#fff)}
+.about_four .bus_works_txt{padding-left:0;padding-right:0}
+.about_us_four_ul{border-bottom:1px solid #e5e5e5}
+.about_us_four_ul:last-child{border-bottom:none}
+.about_us_four_ul li{text-align:center;float:left;width:30%;border-right:1px solid #e5e5e5;box-sizing:border-box;padding-top:6px;padding-bottom:28px}
+.about_us_four_ul li:first-child,.about_us_four_ul li:last-child{width:20%}
+.about_us_four_ul li:last-child{border-right:none}
+.about_us_four_ul li span{color:#0070bc;font-size:26px;line-height:34px;padding-bottom:8px;display:inline-block}
+.about_us_four_ul li p{color:#616265;font-size:16px;line-height:26px}
+.about_us_four_ul:after{content:"";display:block;clear:both}
+.about_us_four_ul_wap{margin-top:46px}
+.about_four .bus_alone{width:1100px}
+.about_us_four_ul_two li{padding-top:32px;padding-bottom:0}
+.about_img_bg{max-width:100%;height:inherit;display:block;margin:0 auto}
+.about_img_bg_m{display:none}
+.about_five .bus_works_tit{padding-top:0;padding-bottom:36px}
+.about_a_wap{text-align:center;margin-top:6px;margin-bottom:12px}
+.about_a_wap .icon{font-size:12px;color:#0070bc}
+.about_a_wap .about_us_a{font-size:14px;line-height:24px}
+.about_a_wap .about_us_a:hover{text-decoration: none;}
+.about_a_wap .about_us_a:hover span{text-decoration: underline;}
+.about_a_wap .about_us_a:hover .icon{text-decoration: none;}
+.about_flex{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap}
+.about_dl{width:392px;background:#fff}
+.about_dl dt img{display:block;margin:0 auto;max-width:100%;height:inherit}
+.about_dl dd{padding:12px 30px;box-sizing:border-box}
+.about_dl dd p{font-size:14px;color:#232323;line-height:24px;padding-bottom:6px}
+.about_dl dd p.about_a_wap{margin-bottom:0;padding-bottom:0}
+.about_dl dd .about_a_wap{text-align:left}
+.about_dl dt{position:relative;cursor:pointer}
+.about_dl_bg{position:absolute;width:100%;height:100%;left:0;top:0;z-index:-1;background:#000;transition:all .3s;opacity:0}
+.about_dl_content{cursor: default;position:absolute;width:100%;height:100%;left:0;top:0;z-index:-1;color:#fff;font-size:13px;line-height:22px;padding:42px 40px;box-sizing:border-box;transition:all .3s;opacity:0}
+.about_dl:hover .about_dl_bg{opacity:.4;z-index:1}
+.about_dl:hover .about_dl_content{opacity:1;z-index:2}
+.about_dl_right{text-align:right}
+.about_six .bus_works_txt{padding-top:10px}
+.about_six{padding-bottom:50px}
+.about_seven .bus_works_txt{padding-left:0;padding-right:0}
+.about_ul_con{margin-top:32px;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap}
+.about_ul_con li{width:386px;text-align:center;background:#f7f7f7;padding:40px 50px 30px 50px;box-sizing:border-box;border-bottom:3px solid #f7f7f7;transition:all .3s}
+.about_ul_con li:hover{border-color:#0070bc}
+.about_ul_con li img{width:43px;height:43px}
+.about_ul_con_tit{font-size:16px;color:#232323;font-weight:600;line-height:26px;padding-top:22px;padding-bottom:10px}
+.about_ul_con_txt{font-size:13px;color:#616265;line-height:22px;padding-bottom:10px;min-height: 66px;}
+.about_seven{padding-bottom:60px}
+.alone_point{position:absolute;width:28px;height:28px;border-radius:50%;background:-webkit-linear-gradient(#99d0ff,#55a8e0);background:-o-linear-gradient(#99d0ff,#55a8e0);background:-moz-linear-gradient(#99d0ff,#55a8e0);background:linear-gradient(#99d0ff,#55a8e0);cursor:pointer;transition:all .3s;display:block;box-shadow:0 3px 7px 0 rgba(0, 109, 185, 0.4)}
+.alone_point:hover{background:-webkit-linear-gradient(#3594e4,#0070bc);background:-o-linear-gradient(#3594e4,#0070bc);background:-moz-linear-gradient(#3594e4,#0070bc);background:linear-gradient(#3594e4,#0070bc)}
+.about_i{width:8px;height:8px;border-radius:50%;display:inline-block;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#fff}
+.about_img_container{position:relative}
+.about_di_one{left:28.5%;top:47%}
+.about_di_two{left:47.5%;top:38.8%}
+.about_di_three{right:34%;top:22%}
+.about_di_four{right:30.3%;bottom:25%}
+.about_di_five{right:23.9%;bottom:9%}
+.about_M{display:none}
+.ab_dl{background:#fff;border-radius:2px;box-shadow:0 0 26px 0 rgba(0,0,0,.1);margin:0 5px}
+.ab_dl dt{box-sizing:border-box}
+.ab_dl dd{font-size:16px;color:#232323;line-height:26px;text-align:center;padding:10px 0}
+.ab_img_wap{position:absolute;display:inline;display:none}
+.alone_point:hover .ab_img_wap{display:inline-flex}
+.ab_img_wap_top{transform:translate(-50%,-100%);left:50%;margin-top:-13px}
+.about_North{color:#0070bc;font-size:16px;line-height:26px;text-align:center;display:block;position:absolute;left:50%;transform:translateX(-50%);top:36px;white-space: nowrap;}
+.alone_point.active .ab_img_wap{display:flex}
+.alone_point.active{background: -webkit-linear-gradient(#3594e4,#0070bc);background: -o-linear-gradient(#3594e4,#0070bc);background: -moz-linear-gradient(#3594e4,#0070bc);background: linear-gradient(#3594e4,#0070bc);}
+.Trusted_Partners_list .swiper-slide img{display:block;margin:0 auto;max-width:100%;height:inherit}
+.Trusted_Partners_list .swiper-pagination-bullet{background:#e5e5e5;height:2px;width:44px;border-radius:0;opacity:1}
+.Trusted_Partners_list .swiper-pagination-bullet-active{background:#999}
+.Trusted_Partners_list .swiper-container{padding-bottom:128px}
+.Trusted_Partners_list .swiper-pagination{bottom:50px}
+.Trusted_Partners_list .swiper-button-next,.Trusted_Partners_list .swiper-button-prev{background:0 0}
+.Trusted_Partners_list .swiper-button-next,.Trusted_Partners_list .swiper-button-prev{margin-top:-76px;font-size:32px;color:#fff;line-height:62px!important;width:60px;height:60px;border-radius:50%;transition:all .3s;box-sizing:border-box;background-color:rgba(0,0,0,.2);text-align:center;background-image:none;text-indent:4px;opacity:0!important}
+.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{opacity:.35;cursor:auto;pointer-events:none}
+.Trusted_Partners_list:hover .swiper-button-next,.Trusted_Partners_list:hover .swiper-button-prev{opacity:1!important}
+.Trusted_Partners_list:hover .swiper-button-next,.Trusted_Partners_list:hover .swiper-button-prev{opacity:1!important}
+.Trusted_Partners_list:hover .swiper-button-next.swiper-button-disabled,.Trusted_Partners_list:hover .swiper-button-prev.swiper-button-disabled{opacity:.35!important}
+.Trusted_Partners_list .swiper-button-next:hover{background-color:rgba(0,0,0,.4);border:none}
+.Trusted_Partners_list .swiper-button-prev:hover{background-color:rgba(0,0,0,.4);border:none}
+.swiper-container{border-bottom:none}
+.swiper-wrapper{margin-bottom:-30px}
+.Trusted_Partners_list .swiper-button-prev{text-indent: -4px !important;}
+
+
+
+.footer{margin-top:0}
+.dash_dl_txt{font-size:14px;color:#616265;line-height:28px;}
+.attribute li{color:#999;}
+.new_tit001{font-size:14px;color:#232323;line-height:22px;font-weight:400;padding-top:12px;padding-bottom:14px;}
+.new_dl_wap01:after{content:"";display:block;clear:both;}
+.new_dl_ui:after{content:"";display:block;clear:both;}
+.new_dl_ui dt{width:20%;float:left;}
+.new_dl_ui dd{width:80%;float:left;}
+.new_dl_ui dt img{display:block;margin:0 auto;width:80px;height:80px;}
+.new_dl_ui dd p{font-size:13px;color:#616265;line-height:24px;padding-top:16px;}
+.new_dl_wap01:after{content:"";display:block;clear:both;}
+.new_dl_a_wap a{color:#0070BC;}
+.new_dl_a_wap .icon{color:#0070BC;font-size:12px;}
+.new_dl_ui{margin-bottom:20px;}
+.over_top_div .new_dl_ui:last-child{margin-bottom:0;}
+.new_dl_wap01{padding-bottom:20px;padding-top:10px;}
+.new_dl_wap01:first-child{border-top:none;}
+.footer{margin-top: 0 !important;}
+
+
+.about_us_bg_de{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-de.jpg);}
+.about_us_bg_en{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-en.jpg);}
+.about_us_bg_au{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-au.jpg);}
+.about_us_bg_ru{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-ru.jpg);}
+.about_us_bg_sg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-sg.jpg);}
+.about_us_bg_uk{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-uk.jpg);}
+.about_us_bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus.jpg);}
+
+
+
+/**è‡ªé€‚åº”*/
+@media (max-width: 1440px){
+	.bus_alone{padding: 0 10px;box-sizing: border-box;}
+	.se_fix em{
+		margin-top: -85px;
+	}
+}
+@media (max-width: 1220px){
+	.content{width: 100%;}
+	.bus_alone,.about_four .bus_alone{width: 960px;margin: 0 auto;}
+	.bus_div_wap{width: 960px;}
+	.bus_div_alone{width: 49%;}
+	.quality_top{padding: 60px 80px;}
+	.quality_ul li{width: 49%;margin-bottom: 2%;}
+	.quality_ul li:last-child{margin-bottom: 0;}
+	.bus_iso li{width: 100%;}
+	.Quality_Control_ul li{width: 32%;}
+	.qua_img{left: 2%;}
+	.qua_img1{right: 4%;}
+	.about_dl,.about_ul_con li{width: 49%;margin-bottom: 2%;}
+	.about_dl:last-child{margin-bottom: 0;}
+	.about_seven{padding-bottom: 40px;}
+	.about_us_wap .bus_gain_li_txt{text-align: left;}
+}
+@media (max-width: 960px){
+	.bus_alone{padding: 0 15px;}
+	.bus_alone,.bus_div_wap,.about_four .bus_alone{width: 100%;}
+	.bus_works_txt{padding-left: 10px;padding-right: 10px;}
+	.bus_gain_ul li{padding: 50px 10px 0 10px;width: 32%;}
+	.bus_div_alone{padding: 42px 20px 0 20px;}
+	.bus_works_ul li{width: 50%;margin-bottom: 50px;}
+	.bus_price_ul{padding-bottom: 0;}
+	.bus_point{display: none;}
+	br{display: none;}
+	.bus_works_ul{padding-bottom: 0;}
+	.bus_gain_bg{height: inherit;}
+	.quality_ul li{width: 100%;margin-bottom: 20px;}
+	.quality_top{height: initial;padding: 40px;background: #FFFFFF;margin-top: 0;}
+	.qua_img img,.qua_img1 img{display: inline-block;width: 21px;height: 15px;}
+	.qua_img{left:15px;top: 34px;}
+	.qua_img1{right: 10px;}
+	.qua_one{background: #F7F7F7;padding: 30px 0;}
+	.about_us_wap{display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;flex-wrap: wrap;-webkit-wrap: wrap;}
+	.about_us_content{float: left;width: 49%;}
+	.about_div_alone{width: 100%;height: inherit;}
+	.about_us_right_tit{padding-top: 18px;font-size: 16px;font-weight: 400;}
+	.about_left{background: none;padding-left:0;padding-right: 0;text-align: center;}
+	.about_us_em{display: none;}
+	.about_us_four_ul li,.about_us_four_ul li:first-child, .about_us_four_ul li:last-child{width: 50%;border-bottom: 1px solid #E5E5E5;}
+	.about_us_four_ul{border-bottom: none;}
+	.about_us_four_ul li:nth-of-type(2n){border-right: none;}  
+	.about_us_four_ul_two li:last-child,.about_us_four_ul_two li:nth-child(3){border-bottom: none;padding-bottom: 0px;}
+	.about_us_four_ul li{padding-top: 22px;box-sizing: border-box;}
+	.about_us_four_ul_two li{padding-bottom: 28px;}
+	.about_us_four_ul li:first-child,.about_us_four_ul li:nth-child(2){padding-top: 6px;}
+	.about_four .bus_alone{width: 100%;padding: 0;}
+	.about_four .bus_works_txt{padding-left: 15px;padding-right: 15px;}
+	.about_PC{display: none;}
+	.about_M{display: block;overflow-x: auto;padding: 0 25px;box-sizing: border-box;}
+	.about_M .ab_dl{/*width: 243px;*/margin:0;margin-right: 10px;float: left;margin-bottom: 12px;}
+	.about_img_bg_m{display: block;}
+	.about_img_bg_pc{display: none;}
+	.about_four{margin-bottom: 40px;}
+	.about_five{margin-top: 20px;}
+	.about_div_alone img.aonut_absolute{display: none;}
+	.about_us_wap .bus_gain_li_txt{padding-left: 10px;padding-right: 10px;}
+	
+	.business_banner_bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/business_banner_m.jpg);}
+	.Quality_banner_bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/banner_quality_m.jpg);}
+	.about_us_bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-en-m.jpg);}
+	.bus_gain_bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/business17_m.jpg);padding-bottom: 50px;}
+
+	.about_us_bg_de{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-de-m.jpg);}
+	.about_us_bg_en{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-en-m.jpg);}
+	.about_us_bg_au{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-au-m.jpg);}
+	.about_us_bg_ru{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-ru-m.jpg);}
+	.about_us_bg_sg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-sg-m.jpg);}
+	.about_us_bg_uk{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-uk-m.jpg);}
+	.about_us_bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/aboutus-m.jpg);}
+}
+@media (max-width: 750px){
+	.quality_img_click{display: inline-block;margin-top: 16px;}
+	.bus_iso li{text-align: center;height: initial;padding-left: 0;padding-bottom: 27px;padding-right: 0;border-bottom: 1px solid #E5E5E5;margin-bottom: 5px;}
+	.bus_iso li:hover{box-shadow: none;}
+	.quality_img,.quality_img_click{position: inherit;left: 0;top: 0;}
+	.bus_iso li:hover .quality_img_click{position: inherit;display: inline-block;}
+	.quality_img{margin-bottom: 14px;}
+	.bus_iso li:last-child{border-bottom: none;margin-bottom: 0;padding-bottom: 0;}
+	.bus_iso{margin-bottom: 40px;}
+	.Quality_Control_ul li{width: 49%;margin-bottom: 2%;}
+	.Quality_Control_ul li:last-child{margin-bottom: 0;}
+}
+@media (max-width: 600px){
+	.bus_gain_ul li{width: 100%;margin-bottom: 20px;}
+	.bus_gain_ul li:last-child{margin-bottom: 0px;}
+	.bus_div_alone{width: 100%;margin-bottom: 20px;}
+	.bus_div_alone:last-child{margin-bottom: 0;}
+	.about_us_content{width: 100%;margin-bottom: 38px;}
+	.about_us_content:last-child{margin-bottom: 0;}
+	.about_us_three{border-top: 1px solid #E5E5E5;margin-top: 38px;}
+}
+@media (max-width: 480px){
+	.bus_works_tit{font-size: 20px;line-height: 30px;}
+	.bus_works_ul li{width: 100%;margin-bottom: 0;border-bottom: 1px solid #E5E5E5;padding-bottom: 26px;margin-bottom: 30px;}
+	.bus_works_ul li:last-child{margin-bottom: 10px;border-bottom: none;}
+	.bus_gain_ul li{padding: 56px 70px 0 70px;}
+	.bus_flex_ul li{width: 50%;text-align: left;margin-bottom: 25px;}
+	.bus_flex_ul{padding-bottom: 35px;padding-left: 10px;box-sizing: border-box;padding-right: 10px;}
+	.bus_div_wap{padding: 40px 0;}
+	.bus_works_txt{padding-top: 5px;}
+	.bus_works_tit{padding-top: 32px;}
+	.bus_gain_ul{margin-top: 18px;}
+	.business_top_wap,.business_banner_bg{height: 220px;}
+	.business_banner_tit{font-size: 26px;line-height: 34px;padding-top: 46px;padding-bottom: 6px;}
+	.business_banner_txt{font-size: 16px;line-height: 24px;padding-bottom: 20px;}
+	.Quality_Control_ul li{width: 100%;margin-bottom: 20px;}
+	.Quality_banner_container .business_banner_tit{padding-top: 56px;padding-bottom: 22px;}
+	.Quality_banner_container .business_banner_txt{padding:0 70px;box-sizing: border-box;}
+	.about_dl, .about_ul_con li{width: 100%;margin-bottom: 20px}
+	.Trusted_Partners_list .swiper-button-next, .Trusted_Partners_list .swiper-button-prev{display: none;}
+	.about_five .bus_works_tit{padding-bottom: 8px;}
+	.Trusted_Partners_list .swiper-container{padding-bottom: 88px;}
+	.about_us_container .business_banner_tit {padding-top: 65px;}
+	.aount_one .quality_top_txt{padding-bottom: 26px;}
+	.m_2017footer{margin-top:2px}
+	.new_dl_ui dd{padding-left:20px;box-sizing:border-box;}
+	.m_2017footer{margin-top: 2px !important;}
+	.about_ul_con_txt{min-height:inherit}
+	.about_us_four_ul_two li{min-height: 145px;}
+	.about_us_four_ul li:first-child, .about_us_four_ul li:nth-child(2){padding-top: 22px;}
+}
+
+.right{left: inherit;transform: translate(30%,-50%);top: 50%;}
+.bottom{transform: translate(-50%,70%);top: 0;}
+.left{left: 0;transform: translate(-120%,-50%);top: 50%;}
+
+.about-us-bgNone-dem{background: #fff;}
+.about-us-bgNone-dem.aount_one .quality_top_txt{padding-bottom: 0;}
+.about_us_right_tit.about-us-changeTit01{padding-top: 35px;}
+.bus_works_txt .bus_works_txtAlink{color: #0070bc;text-decoration: none;}
+.bus_works_txt .bus_works_txtAlink:hover{color: #0070bc;text-decoration: underline;}
+@media (max-width: 960px){
+    .about_us_right_tit.about-us-changeTit01{padding-top: 18px;}
+}
+
+
+/* 2020/1/6 about-us change */
+.aboutUS-whatCare-tit{
+	font-size: 26px;font-weight: 600;color: #232323;line-height: 34px;padding-top: 22px;text-align: center;
+}
+.aboutUS-whatCare-list{
+	display: table;padding:25px 0 50px;width: calc(100% + 12px);
+}
+.aboutUS-whatCare-list li{
+	display: table-cell;width: 33.33%;vertical-align: top;box-sizing: border-box;border-right: 12px solid #fff;position: relative;background: #fff;
+}
+.aboutUS-whatCare-list li .whatCare-bg{
+	position: absolute;width: 100%;height: 100%;top: 0;background: #f7f7f7;z-index: 1;right:12px;left: 0;
+}
+.aboutUS-whatCare-list li .whatCare-main{
+	position: relative;z-index: 10;
+}
+.aboutUS-whatCare-list li .aboutUS-whatCare-txtBox{
+	background: #f7f7f7;padding: 15px 20px;
+}
+.aboutUS-whatCare-txtBox>div{
+	font-size: 14px;color: #232323;line-height: 24px;font-weight:600;
+}
+.aboutUS-whatCare-txtBox>p{
+	font-size: 14px;color: #616265;line-height: 24px;padding: 5px 0 10px;
+}
+.aboutUS-whatCare-txtBox>p.whatCare-link{
+	font-size: 14px;color: #0070BC;line-height: 22px;padding: 0;
+}
+.aboutUS-whatCare-txtBox>p.whatCare-link a{
+	color: #0070BC;
+}
+.aboutUS-whatCare-txtBox>p.whatCare-link .icon{
+	font-size: 13px;margin-left: 5px;font-weight: 600;
+}
+.aboutUS-chooseUS-box{
+	padding-top: 30px;
+}
+.aboutUS-caseStudy-box{
+	background: #f7f7f7;
+}
+.aboutUS-caseStudy-tit{
+	font-size: 14px;color: #616265;line-height: 24px;padding: 7px 0 12px;text-align: center;
+}
+.aboutUS-caseStudy-moreBox{
+	text-align: center;font-size: 14px;
+}
+.aboutUS-caseStudy-moreBox a{
+	color: #0070bc;
+}
+.aboutUS-caseStudy-moreBox .icon{
+	font-size: 13px;font-weight: 600;margin-left: 5px;color: #0070bc;
+}
+.aboutUS-caseStudy-list{
+	
+}
+.aboutUS-caseStudy-list dt{
+	text-align: center;border-bottom: 1px solid #E5E5E5;margin: 30px 0;
+}
+.aboutUS-caseStudy-list dd{
+	padding-bottom: 50px;
+}
+.aboutUS-caseStudy-list dt>div{
+	display: inline-block;
+}
+.aboutUS-caseStudy-tab{
+	display: flex;
+}
+.aboutUS-caseStudy-tab span{
+	margin: 0 40px;font-size: 16px;color: #616265;line-height: 22px;padding-bottom: 10px;position: relative;cursor: pointer;
+}
+.aboutUS-caseStudy-tab span i{
+	position: absolute;bottom: 0;left: 0;width: 100%;height: 1px;display: none;
+}
+.aboutUS-caseStudy-tab span.choosez{
+	color: #232323;font-weight: 600;
+}
+.aboutUS-caseStudy-tab span.choosez i{
+	background: #232323;display: block;
+}
+.aboutUS-caseStudy-table{
+	background: #fff;display: none;
+}
+.aboutUS-caseStudy-table.choosez{
+	display: table;
+}
+.aboutUS-caseStudy-table>div{
+	display: table-cell;box-sizing: border-box;width: 50%;
+}
+.aboutUS-caseStudy-table>div.aboutUS-caseStudy-taLeft{
+	vertical-align: top;
+}
+.aboutUS-caseStudy-table>div.aboutUS-caseStudy-taRight{
+	vertical-align: middle;padding: 10px 40px;
+}
+.aboutUS-caseStudy-taRight .aboutUS-caseStudy-taTit{
+	font-size: 16px;color: #232323;line-height: 24px;color: #232323;
+}
+.aboutUS-caseStudy-taRight .aboutUS-caseStudy-taTxt{
+	font-size: 14px;color: #616265;line-height: 24px;color: #616265;padding: 18px 0 10px; 
+}
+.aboutUS-caseStudy-taRight .aboutUS-caseStudy-taAuther{
+	font-size: 14px;color: #616265;line-height: 24px;color: #616265;text-align: right;
+}
+.aboutUS-caseStudy-taRight .aboutUS-caseStudy-taMore{
+	font-size: 14px;color: #0070bc;line-height: 24px;padding: 10px 0 0;
+}
+.aboutUS-caseStudy-taMore a{
+	color: #0070bc;
+}
+.aboutUS-caseStudy-taMore .icon{
+	font-size: 13px;color: #0070bc;font-weight: 600;margin-left: 5px;
+}
+.aboutUS-newCommon-btmTxt{
+	font-size: 14px;color: #616265;line-height: 22px;text-align: center;padding: 10px 0 30px;
+}
+.aboutUS-newCommon-btmBtn-box{
+	text-align: center;padding: 0 0 50px;
+}
+.aboutUS-newCommon-btmBtn-box a{
+	display: block;height: 38px;background-color: #ffffff;border-radius: 2px;border: solid 1px #4c4948;transition: all .3s;box-sizing: border-box;text-align: center;line-height: 36px;color: #232323;display: inline-block;padding: 0 23px;
+}
+.aboutUS-newCommon-btmBtn-box a:hover{
+	text-decoration: none;background-color: #4c4948;color: #fff;
+}
+/**/
+.aboutUS-newWrap{
+	margin-top: 35px;
+}
+.aboutUS-newWrap .about_left{
+	display: table;
+}
+.aboutUS-newWrap .about_left>div{
+	display: table-cell;vertical-align: middle;
+}
+/* .about_us_right_tit{
+	padding-bottom: 0;padding-top: 0;
+} */
+.about_us_wap .bus_gain_li_txt{
+	padding-top: 9px;
+}
+.quality_top_txt{
+	text-align: center;
+}
+.about_five .bus_works_tit{
+	padding-bottom: 15px;
+}
+.about_four.aboutUS-about-four{
+	background: -webkit-linear-gradient(#f7f7f7,#fff);
+	background: -o-linear-gradient(#f7f7f7,#fff);
+	background: -moz-linear-gradient(#f7f7f7,#fff);
+	background: linear-gradient(#f7f7f7,#fff);
+}
+@media (max-width: 960px){
+	.aboutUS-caseStudy-tab span{
+		margin: 0 10px;
+	}
+	.aboutUS-caseStudy-table>div.aboutUS-caseStudy-taRight{
+		padding: 10px;
+	}
+	.aboutUS-caseStudy-taRight .aboutUS-caseStudy-taTxt{
+		padding: 10px 0;
+	}
+	.content{
+		padding: 0;
+	}
+	.about_us_right_tit{
+		padding: 18px 0 3px;
+	}
+	.aboutUS-whatCare-tit{
+		font-size: 20px;
+	}
+	.Trusted_Partners_list .swiper-pagination-bullet{
+		width: 8px;height: 8px;border-radius: 100%;
+	}
+}
+@media (max-width: 480px){
+	.aboutUS-whatCare-list{
+		display: block;width: 100%;
+	}
+	.aboutUS-whatCare-list li{
+		display: block;width: 100%;margin: 0 0 15px 0;border:0;
+	}
+	.aboutUS-caseStudy-table.choosez{
+		display: block;
+	}
+	.aboutUS-caseStudy-table>div.aboutUS-caseStudy-taRight{
+		padding: 15px;
+	}
+	.aboutUS-caseStudy-table>div{
+		display: block;width: 100%;
+	}
+	.aboutUS-newCommon-btm{
+		padding: 0 15px;
+	}
+}
+/**/
+.ab_find_con{overflow-x: inherit;padding-top: 40px;}	
+.ab_find_map {position: relative;padding-bottom: 0;}
+.ab_find_map img {display: block;margin: 0 auto;max-width: 100%;}
+.ab_find_con{overflow-x: inherit;}	
+.circle{position:absolute;display:block;top:206px;left:328px;width:22px;height:22px;box-shadow: inset #00a4ff 0 0 5px;border-radius: 50%;}
+.circle .circle_a{display:block;position:absolute;top:0;left:0;width:10px;height:10px;border:1px solid #0070BC;border-radius:50%;animation:circle_a 3s infinite}
+.circle .circle_b{display:block;position:absolute;top:0;left:0;width:10px;height:10px;border:1px solid #0070BC;border-radius:50%;animation:circle_a 3s 1.5s infinite}
+.se_one p{font-size:14px;color:#232323;font-weight:400}
+.se_one p{position:absolute;width:150px;top:-40px;left:-56px}
+.circle em{position:absolute;left:-84px;top:-175px;border-radius:4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;line-height:24px;font-size:14px;color:#616265;text-align:center;display:none;font-style:normal;background: #FFFFFF;width: 224px;z-index: 10;border: none;box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.1);padding: 4px;box-sizing: border-box;}
+.circle span:nth-of-type(3){display: block;position: absolute;top: 0;left: 0;width: 12px;height: 12px;border-radius: 50%;background: #0070BC;}
+.se_one em{top:40px;left:-84px;}
+.se_two{left: 541px;top: 144px;}
+.se_three{left: 627px;top: 146px;}
+.se_four{right: 276px;top: 232px;left: inherit;}
+.se_five{right: 302px;top: 321px;left: inherit;}
+.se_fix{right: 210px;top: 396px;left: inherit;}
+.se_seven{right: 305px;top: 52px;left: inherit;}
+.se_one p{top: 30px;}
+.se_one em{top: 50px;left: -104px;}
+.se_one p i{width:24px;height:20px;display:inline-block;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat;vertical-align:middle;margin-right:10px}
+.se_two p i{width:24px;height:20px;display:inline-block;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat -105px 0;vertical-align:middle;margin-right:10px}
+.se_three p i{width:26px;height:20px;display:inline-block;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat;vertical-align:middle;margin-right:10px;background-position:-34px 0}
+.se_four p i{width:26px;height:20px;display:inline-block;vertical-align:middle;margin-right:10px;background-position:-34px 0;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat;background-position:-70px 0}
+.se_five p i{width:24px;height:20px;display:inline-block;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat -141px 0;vertical-align:middle;margin-right:10px}
+.se_fix p i{width:24px;height:20px;display:inline-block;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat -177px 0;vertical-align:middle;margin-right:10px}
+.se_seven p i{width:24px;height:20px;display:inline-block;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat -211px 0;vertical-align:middle;margin-right:10px}
+.se_two p{position:absolute;width:170px;top:-30px;left:-66px}
+.se_three p{position:absolute;width:140px;top:1px;left:31px}
+.se_four p{position:absolute;width:86px;top: -32px;left:-28px;}
+.se_five p{position:absolute;width:120px;top: 30px;left: -44px;}
+.se_fix p{position:absolute;width:140px;top:28px;left:-50px}
+.se_seven p{position: absolute;width:140px;top:28px;left:-32px}
+.se_one em:nth-of-type(2){left: 138px;}
+.circle:hover em{display: block;}
+.se_two em{left: -294px;top: -109px;}
+.se_three em{left: -58px;top: 30px;z-index: 10;}
+.se_four em{left: 65px;top: -66px;}
+.se_five em{left: -285px;top: -60px;z-index: 2;}
+.se_fix em{left: -280px;top: -20px;z-index: 2;}
+.se_seven em{left: 60px;top: -60px;}
+.circle em strong{display: block;width: 100%;background: #FFFFFF;padding: 12px 0 6px 0;}
+.cir_txt{font-size: 12px;color: #616265;display: none;}
+.cu_call_country_list span.gj_none{background-image:none}
+.circle .circle_b,.circle .circle_a{top: 50%;left: 50%;width: 10px;height: 10px;margin: -5px 0 0 -5px;z-index: 100;}
+.circle span:nth-of-type(3){margin: -5px 0 0 -5px;width: 10px;height: 10px;top: 50%;left: 50%;}
+
+.circle span{display: block;position: absolute;top: 0;left: 0;width: 12px; height: 12px;border-radius: 50%;background: #0070BC;}
+.bus_what_we_do{position: relative;}
+.div_what_right{padding: 0 40px;box-sizing: border-box;display: flex;align-items: center;justify-content: center;position: absolute;right: 15px;bottom: 0;width: 640px;height: 363px;background: #fff;box-shadow: 0px 2px 13px 0px rgba(23, 55, 128, 0.15);}
+.div_what_txt{font-size: 14px;color: #616265;line-height: 24px;padding-bottom: 20px;}
+.div_what_txt:last-child{padding-bottom: 0;}
+.div_what_txt_bg{height: 335px;width: 15px;background: #0070BC;position: absolute;right: -15px;}
+.dci_bottom_banner{height:265px;text-align:center;}
+.dci_bottom_banner_bg{position:absolute;width:100%;height:265px;left:0;z-index:-1;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/about-us-bottom.jpg) no-repeat;background-position:center;}
+.dci_bottom_banner_a{text-decoration:none;color:#fff;display:inline-block;padding:0 30px;box-sizing:border-box;border:1px solid #fff;border-radius:20px;height:40px;line-height:38px;font-size:14px;color:#fff;transition:all .2s;}
+.dci_bottom_banner_a:hover{text-decoration:none;color:#232323;background:#fff;}
+.rj_bottom_tit{font-size:26px;color:#fff;line-height:34px;padding-top:74px;font-weight: 600;}
+.rj_bottom_txt{font-size:16px;color:#fff;line-height:26px;padding: 12px 0 20px 0;}
+.se_one{left: 300px;}
+.circle p b{font-weight: 400;display: inline-block;padding: 0 2px;background: #F4F6F9;}
+
+
+@keyframes circle_a {0% {-webkit-transform:scale(1);transform:scale(1);opacity:.2;filter:alpha(opacity=0) \9;}50% {opacity:.08;filter:alpha(opacity=50) \9;}100% {-webkit-transform:scale(8);transform:scale(8);opacity:0;filter:alpha(opacity=0) \9;}}	
+
+
+
+
+
+
+ 
+@media (max-width: 1420px){
+	.ab_find_con{width: 1200px;overflow-x:auto;}
+	.ab_find_map{width: 1200px;}
+} 
+@media (max-width: 1220px){
+	.ab_find_con{width: 960px;}
+} 
+@media (max-width: 960px){  
+	.ab_find_con{width: 100%;}
+	.content{box-sizing: border-box;}
+	.cu_call_country_list{width: 50%;}
+	.div_what_left,.div_what_right{position: initial;width: 100%;height: initial;box-shadow: none;}
+	.div_what_left img{width: 100%;}
+	.div_what_txt_bg{display: none;}
+	.div_what_right{padding:22px 0 0 0}
+	.bus_wap{padding-bottom: 30px;}
+	.about_us_content{margin-bottom: 2%;}
+	.about_us_wap .bus_gain_li_txt{padding-bottom: 20px;}
+}
+@media (max-width: 500px){  
+	.cu_call_country_list{width: 100%;}
+}
+
+/* quality_control 2020/3/30 */
+.quaControl-banner{height: 200px;width: 100%;margin: 0 auto;text-align: center;display: table;}
+.quaControl-banner-bg{background-position: center;background-size: cover;position: absolute;left: 0;width: 100%;height: 200px;z-index: -1;
+	background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/quality-control-img/quality_banner_bg.jpg);}
+.quaControl-banner-tit{display: table-cell;vertical-align: middle;font-size: 40px;color: #fff;line-height: 48px;font-weight: 400;margin-top: -2px;}
+.quaControl-content{width: 1200px;margin: 0 auto;}
+.quaControl-main{padding-bottom: 30px;overflow: hidden;padding-top: 50px;position: relative;}
+.quaControl-left{width: 21%;float: left;padding-right: 40px;box-sizing: border-box;}
+.quaControlLeft-scroll{position: fixed;max-height: 474px;width: 252px;top: 0;}
+.quaControlLeft-scroll ul{padding-top: 20px;}
+.quaControlLeft-end {position: relative;max-height: 474px;}
+.quaControlLeft-end ul{padding-top: 20px;}
+.quaControl-left>ul>li{font-size: 14px;line-height: 24px;letter-spacing: 0;color: #232323;border-bottom: 1px solid #e5e5e5;}
+.quaControl-left>ul>li.select-page{border-bottom: 1px solid #232323;}
+.quaControl-left>ul>li>a{display: inline-block;width: 100%;padding: 15px 0;color: #616265;text-decoration: none;}
+.quaControl-left>ul>li>a:hover,.quaControl-left>ul>li.select-page>a{color: #232323;}
+.quaControl-txt{font-size: 14px;color: #616265;line-height: 24px;}
+.quaControl-txt01{font-size: 14px;color: #616265;line-height: 24px;padding: 15px 0 0;}
+.quaControl-left>ul>li:first-child>a{padding-top: 5px;}
+.quaControl-child-tit{font-size: 26px;color: #232323;line-height: 34px;padding: 39px 0 0;}
+.quaControl-child-smallTit{font-size: 20px;color: #232323;line-height: 30px;padding: 20px 0 7px;}
+.quaControl-right{width: 79%;float: right;}
+.quaControl-listBox{margin-bottom: 10px;}
+.quaControl-list{display: flex;align-items: center;flex-wrap: wrap;justify-content: space-between;flex-direction: row;width: 920px;}
+.quaControl-list>li{margin-top: 15px;border: solid 1px #e5e5e5;}
+.quaControl-list>li>a{cursor: default;}
+.quaControl-list>li>a>p{font-size: 14px;color: #232323;padding: 11px 0;text-align: center;}
+.quaControl-list>li>a:hover{text-decoration: none;}
+.quaControl-list01{margin-top: 21px;}
+.quaControl-list01>li{position: relative;padding: 25px 20px;width: 100%;box-sizing: border-box;border-bottom: 1px solid #e5e5e5;transition: all .3s;}
+.quaControl-list01>li:last-child{border-bottom: 0;}
+.quaControl-list01-imgBox{float: left;}
+.quaControl-list01-txtBox{padding:  0 95px 0 110px;}
+.quaControl-list01-txtBox>div{font-size: 20px;color: #232323;line-height: 24px;}
+.quaControl-list01-txtBox>p{font-size: 14px;color: #616265;line-height: 24px;padding: 10px 0 0;}
+.quaControl-list01-txtBox>a{font-size: 20px;color: #4C4948;position: absolute;right: 30px;display: inline-block;width: 20px;height: 20px;cursor: pointer;
+	top: 50%;margin-top: -10px;}
+.quaControl-list01-txtBox .icon{font-size: 20px;}
+.quaControl-list01-txtBox>a:hover {text-decoration: none;}
+.quaControl-list01-txtBox>a:hover .icon{color: #0070bc;}
+@media (max-width: 1220px){
+	.quaControl-left{display: none;}
+	.quaControl-content{width: 960px;}
+	.quaControl-right{width: 100%;float: none;}
+}
+@media (max-width: 960px){
+	.quaControl-content{width: 100%;padding: 0 15px;box-sizing: border-box;}
+	.quaControl-list{width: 100%;box-sizing: border-box;}
+	.quaControl-list>li>a{display: block;width: 100%;}
+	.quaControl-list>li>a img{max-width: 100%;height: inherit;display: block;width: 100%;}
+	.quaControl-list>li{width: 48%;}
+	.quaControl-list01>li{padding: 25px 20px 25px 0;}
+	.quaControl-list01-txtBox>a{right: 0;}
+	.quaControl-list01-txtBox{padding: 0 30px 0 100px;}
+	.quaControl-banner-bg{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/quality-control-img/quality_banner_bg-m.jpg)}
+	.quaControl-banner,.quaControl-banner-bg{height: 540px;}
+}
+@media (max-width: 480px){
+    .quaControl-banner,.quaControl-banner-bg{height: 220px;}
+    .quaControl-banner-tit{font-size: 26px;}
+    .quaControl-main{padding-top: 33px;}
+    .quaControl-child-tit{font-size: 20px;padding: 30px 0 0;}
+    .quaControl-child-smallTit{font-size: 16px;padding: 12px 0 5px;}
+    .quaControl-list>li{width: 100%;}
+    .quaControl-list01{margin-top: 0;}
+    .quaControl-list01>li{padding: 25px 0;}
+    .quaControl-list01-txtBox>a{position: inherit;top: auto;margin-top: auto;}
+    .quaControl-list01-txtBox{padding: 0 0 0 93px;}
+    .quaControl-list01-txtBox>p{padding: 10px 0 20px;}
+    .quaControl-main{padding-bottom: 12px;}
+}
+
+/* 2020/04/27 */
+.quaControl-newCurrent-titBox{font-size: 16px;line-height: 24px;color: #232323;position: relative;padding: 14px 20px 14px 0;cursor: pointer;}
+.quaControl-newCurrent-titBox i.icon{color: #4c4948;font-size: 17px;position: absolute;right: 0;top: 14px;}
+.quaControl-newCurrent-listBox .quaControl-list01-txtBox>p{padding: 0;}
+.quaControl-newCurrent-listBox .quaControl-list01-txtBox>p:nth-child(2){color: #8d8d8f;font-size: 13px;line-height:22px;}
+.quaControl-newCurrent-contBox .quaControl-list01>li{padding: 0;}
+.quaControl-newCurrent-contBox .quaControl-list01-txtBox{position: relative;}
+.quaControl-newCurrent-contBox .quaControl-list01-txtBox>a{right: 0;top: 30px;margin-top: inherit;}
+.quaControl-newCurrent-contBox .quaControl-list01{margin-top: 15px;}
+.quaControl-newCurrent-listBox{padding: 0 0 30px 0;display: none;border-top: 2px solid #fff;}
+.quaControl-newCurrent-listBox .quaControl-list01-txtBox{padding: 0 95px 0 100px;}
+.quaControl-newCurrent-contBox .quaControl-list01>li:last-child{border-bottom: 1px solid #e5e5e5;}
+@media (max-width: 480px){
+	.quaControl-newCurrent-listBox{padding: 0 0 48px 0;}
+	.quaControl-newCurrent-listBox .quaControl-list01-txtBox{padding: 0 0 0 90px;}
+	.quaControl-newCurrent-contBox .quaControl-list01-txtBox>a{top: 22px;}
+	.dci_container{background:#fff;}
+	.customize_solution{background:initial;border-top:12px solid #F7F7F7;}
+	.rj_container .customize_solution{border-top:none;}
+	.rj_bottom_tit{font-size:16px;padding-bottom:22px;line-height:26px;padding-left:24px;padding-right:24px;box-sizing:border-box;padding-top:54px;}
+	.rj_container .dci_bottom_banner,.rj_bottom_bg{height:246px;}
+	.rj_bottom_bg{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/rj/try-it-now-bg-m.jpg) no-repeat;background-position:center;background-size:cover;}
+
+	.about_us_content{margin-bottom: 20px;}
+	.bus_works_tit{padding: 32px 0 12px 0;}
+	.about_us_container .business_banner_tit{padding-top: 94px;}
+}
+
+.about_us_bg_en{background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/Single_page/about-us-banner.jpg);}
+.bus_works_tit{color: #19191a;padding: 52px 0 32px 0;}
+.div_what_txt{color: #646466;}
+.about_us_right_tit{color: #19191a;}
+.bus_gain_li_txt{color: #646466;}
+.about_us_em{display: block;background: #C00000;height: 3px;width: 32px;}
+.about_us_wap .bus_gain_li_txt{padding-top: 13px;}
+.bus_location_txt{font-size: 14px;line-height: 24px;color: #646466;text-align: center;}
+.bus_location_wrap{background: #F7F7F7;padding: 0 0 60px;}
+.bus_location_wrap .bus_works_tit{padding: 52px 0 19px;}
+.bus_location_list{width: 1200px;margin: 0 auto;}
+.bus_location_tablist{width: 100%;padding: 0 84px;box-sizing: border-box;border-bottom: 1px solid #E5E5E5;margin: 33px 0 20px;}
+.bus_location_tabmain{display: flex;justify-content: space-between;}
+.bus_location_mapMain{display: flex;background: #fff;align-items: stretch;min-height: 360px;}
+.bus_location_tab{font-size: 16px;color: #19191A;line-height: 14px;padding: 0 0 22px;position: relative;cursor: pointer;}
+.bus_location_tab:after{background: #F7F7F7;}
+.bus_location_tab.choosez{font-weight: 600;}
+.bus_location_tab.choosez:after{position: absolute;width: 100%;height: 2px;content: "";background: #C00000;bottom: 0;left: 0;}
+.bus_location_mapLi{display: none;}
+.bus_location_mapLi.choosez{display: block;}
+.bus_location_mapItem{width: 836px;}
+.bus_location_mapinfo{flex: 1;padding: 40px 35px 40px 40px;}
+.bus_location_mapinfo_li:last-child{padding: 34px 0 0;}
+.bus_location_mapinfo_li:first-child{padding: 0;}
+.bus_location_maptit{font-size: 16px;color: #19191A;line-height: 26px;font-weight: 600;position: relative;padding: 0 0 16px;margin: 0 0 14px 0;}
+.bus_location_maptit:after{content: "";position: absolute;bottom: 0;left: 0;width: 32px;height: 2px;background: #C00000;}
+.bus_location_maptxt{font-size: 14px;color: #646466;line-height: 22px;}
+.bus_location_maptxt01{font-size: 14px;color: #646466;line-height: 22px;margin: 5px 0 0;}
+.bus_location_maptxt01 a{color: #646466;}
+.bus_location_maptxt01 a:hover{text-decoration: none;}
+.bus_location_mapcontact{color: #646466;font-size: 14px;line-height: 22px;padding: 20px 0 0;}
+.bus_location_mapcontact>div{display: flex;align-items: center;margin: 12px 0 0;}
+.bus_location_mapcontact>div:first-child{margin: 0;}
+.bus_location_mapcontact a{color: #646466;}
+.bus_location_mapcontact .icon{font-size: 20px;margin: 0 5px 0 0;}
+.bus_location_imgbox{padding: 0 0 13px 0;}
+.bus_location_maplink{color: #0060bf;display: flex;margin: 18px 0 0;}
+.bus_location_maplink:hover{color: #0060bf;text-decoration: none;}
+.bus_location_maplink:hover span{text-decoration: underline;}
+.bus_location_maplink .icon{font-size: 12px;align-items: center;margin: 0 0 0 5px;}
+.bus_withus_wrap{padding: 0 0 48px;}
+.bus_withus_list{display: flex;width: 1200px;margin: 0 auto;justify-content: space-between;align-items: stretch;}
+.bus_withus_list>li{width: calc((100% - 28px) / 3);text-align: center;border: 1px solid #E5E5E5;padding: 40px 40px 52px;box-sizing: border-box;position: relative;}
+.bus_withus_liMain{cursor: default;}
+.bus_withus_liMain:hover{text-decoration: none;}
+.bus_withus_tit{font-size: 16px;color: #19191A;line-height: 24px;font-weight: 600;margin: 14px 0 11px;}
+.bus_withus_txt{font-size: 14px;color: #646466;line-height: 22px;padding: 0 0 20px 0;}
+.bus_withus_link{bottom: 34px;position: absolute;left: 0;width: 100%;display: flex;justify-content: center;}
+.bus_withus_link>p{display: flex;color: #0060bf;font-size: 14px;cursor: pointer;}
+.bus_withus_link>p:hover span{text-decoration: underline;}
+.bus_withus_link>p .icon{font-size: 12px;margin: 0 0 0 5px;}
+.rj_bottom_tit{padding-top: 51px;}
+.bus_opartner_wap{padding-bottom: 0;}
+.Trusted_Partners_list .swiper-pagination-bullet{width: 8px;height: 8px;border-radius: 50%;}
+.Trusted_Partners_list .swiper-pagination-bullet-active{width: 20px;background: #89898c;border-radius: 4px;}
+.bus_whyfs_wap{background: #f7f7f7;}
+@media (max-width: 1220px){
+.bus_location_list{
+	width: 960px;
+}
+.bus_location_tablist{
+	padding: 0 20px;
+}
+.bus_location_mapItem{
+	width: 600px;
+}
+.bus_withus_list{
+	width: 960px;
+}
+.bus_whyfs_wap .about_div_alone img{
+	max-width: initial;
+}
+.bus_whyfs_wap .about_right{
+	overflow: hidden;
+}
+}
+@media (max-width: 960px){
+.bus_location_wrap{
+	padding: 0 16px 60px;
+	box-sizing: border-box;
+}
+.bus_location_list{
+	width: 100%;
+}
+.bus_location_mapItem{
+	width: 60%;
+}
+.bus_withus_wrap{
+	padding: 0 16px 48px;
+}
+.bus_withus_list{
+	width: 100%;
+}
+.about_us_right_tit{
+	font-weight: 600;
+	text-align: left;
+}
+.about_us_wap .bus_gain_li_txt{
+	padding: 4px 0 20px;
+}
+.bus_whyfs_wap .about_div_alone img{
+	max-width: 100%;
+}
+.rj_bottom_txt{
+	padding: 0 16px 20px;
+}
+}
+@media (max-width: 480px){
+.bus_location_tablist{
+	margin: 19px 0 20px;
+	padding: 0;
+	position: relative;
+}
+.bus_location_tablist:after{
+	position: absolute;
+	content: "";
+	box-shadow: 0px -1px 24px 20px rgb(255,255,255);
+	height: 100%;
+	right: 0;
+	bottom: 0;
+
+}
+.bus_location_tabbox{
+	overflow: hidden;
+}
+.bus_location_tab:first-child{
+	margin-left: 0;
+}
+.bus_location_tab:last-child{
+	margin-right: 0;
+}
+.bus_location_tab{
+	padding: 0 0 15px;
+	margin: 0 16px;
+	white-space: nowrap;
+	font-size: 14px;
+}
+.bus_location_tabmain{
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.bus_location_tabmain::-webkit-scrollbar {background: #fff !important;height: 0;width:100px!important;}
+.bus_location_tabmain::-webkit-scrollbarbutton {display: none !important;}
+.bus_location_tabmain::-webkit-scrollbar-thumb{background: #fff!important;border-radius:10px;}
+.bus_location_tabmain::-webkit-scrollbar-track {width: 500px;background: #fff;}
+.bus_location_mapMain{
+	display: block;
+}
+.bus_location_mapItem{
+	width: 100%;
+	min-height: 340px;
+}
+.bus_location_mapItem>iframe{
+	width: 100%;
+	height: 340px;
+}
+.bus_location_mapinfo{
+	padding: 30px 16px;
+}
+.bus_withus_list{
+	display: block;
+}
+.bus_withus_list>li{
+	width: 100%;
+}
+.bus_withus_list>li{
+	margin: 12px 0 0;
+}
+.bus_withus_list>li:first-child{
+	margin: 0;
+}
+.dci_bottom_banner{
+	display: flex;
+	align-items: center;
+}
+.dci_container{
+	background: inherit;
+}
+.rj_bottom_tit{
+	padding: 0 0 10px;
+}
+.rj_bottom_txt{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 0 16px 20px;
+}
+/*不用上传的代码*/
+.bus_works_tit {
+	padding: 32px 0 12px 0;
+}
+.bus_location_wrap .bus_works_tit{
+	padding: 32px 0 12px 0;
+}
+.about_us_em{
+	display: none;
+}
+}

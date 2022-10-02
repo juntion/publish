@@ -1,0 +1,267 @@
+.content{
+	padding: 0;
+}
+.dm_banner{
+	height: 380px;
+}
+.dm_banner_bg{
+	position: absolute;
+	width: 100%;
+	height: 380px;
+	left: 0;
+	z-index: -1;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/delivery_methods/Shipping_Policy_banner.jpg) no-repeat;
+}
+.dm_banner_tit{
+	font-size: 38px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	padding-top: 110px;
+}
+.dm_statement{
+	padding: 30px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.dm_statement p{
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #232323;
+	line-height: 26px;
+}
+.dm_statement p a{
+	color: #0070BC;
+	text-decoration: none;
+}
+.dm_statement p a:hover{
+	text-decoration:underline
+}
+.dm_statement p:first-child{
+	margin-bottom: 20px;
+}
+.dm_con{
+	width: 1200px;
+	margin: 0 auto;
+}
+.dm_tit{
+	font-size: 28px;
+	color: #232323;
+	font-weight:400;
+	padding: 50px 0 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.dm_pic{
+	margin-bottom: 30px;
+	overflow-x: auto;
+}
+.dm_map_font{
+	font-size: 16px;
+	color: #232323;
+	line-height: 26px;
+}
+.dm_map_font:last-child{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.dm_dt{
+	padding-bottom: 50px;
+}
+.dm_dt:after{
+	content:"";display:block;clear:both;visibility:hidden;line-height:0;height:0;font-size:0;
+}
+.dm_dt_bg{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	z-index: -1;
+	background-color: #f6f6f6;
+}
+.dm_dt_left,.dm_dt_right{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+.dm_dt_left{
+	border-right: 1px solid #dedede;
+	padding-right: 50px;
+}
+.dm_dt_right{
+	padding-left: 50px;
+}
+.dm_dt_tit{
+	font-size: 16px;
+	color: #4275c2;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.dm_dt_tit span{
+	font-weight: 400;
+}
+.dm_dt_dot{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.dm_dt_dot span{
+	float: left;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #999;
+	margin-right: 8px;
+	margin-top: 7px;
+}
+.dm_dt_dot em{
+	font-style: normal;
+	font-size: 14px;
+	color: #232323;
+	float: left;
+	width: 97%;
+}
+.marginTop30{
+	margin-top: 30px;
+}
+.marginBottom20{
+	margin-bottom: 20px;
+}
+.dm_dt_txt.marginBottom0{
+	margin-bottom: 0;
+}
+.dm_dt_txt{
+	font-size: 14px;
+	color: #232323;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.dm_dt img{
+	max-width: 100%;
+	height: auto;
+}
+.dm_call{
+	padding-bottom: 50px;
+}
+.dm_call_txt{
+	font-size: 16px;
+	color: #232323;
+	line-height: 26px;
+}
+.dm_call_txt a{
+	color: #0070BC;
+	text-decoration: none;
+}
+.dm_call_txt a:hover{
+	text-decoration:underline
+}
+.dm_return{
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+.dm_return_bg{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	z-index: -1;
+	background-color: #f6f6f6;
+}
+.marginBottom10{
+	margin-bottom: 10px;
+}
+.dm_return_two{
+	margin-top: 20px;
+}
+.dm_return_two ul{
+	overflow: hidden;
+}
+.dm_return_two li{
+	float: left;
+	width: 49%;
+	margin-right: 2%;
+	background-color: #fff;
+	height: 248px;
+	position: relative;
+	box-sizing: border-box;
+	padding: 30px 0 0 25px;
+}
+.dm_return_two li:last-child{
+	margin-right: 0;
+}
+.dm_return_two_li_h2{
+	font-size: 14px;
+	color: #232323;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.dm_return_two li span{
+	font-size: 14px;
+	color: #999;
+	display: block;
+	margin-bottom: 5px;
+}
+.dm_return_two li p{
+	font-size: 14px;
+	color: #616265;
+}
+.dm_return_two li p.marginBottom20{
+	margin-bottom: 20px;
+}
+.dm_return_two li img{
+	position: absolute;
+	right: 50px;
+	bottom: 30px;
+}
+@media(max-width:1220px){
+	.dm_con,.dm_statement p{
+		width: auto;
+	}
+	.dm_dt_dot em{
+		width: 95%;
+	}
+}
+@media(max-width:960px){
+	.content{
+		width: auto;
+		padding: 0 10px;
+	}
+}
+@media(max-width:768px){
+	.dm_banner{
+		height: 220px;
+	}
+	.dm_banner_bg{
+		background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/delivery_methods/wap_Shipping_Policy_banner.jpg);
+		background-size: cover;
+		height: 220px;
+	}
+	.dm_banner_tit{
+		font-size: 24px;
+		line-height: 40px;
+		padding-top: 50px;
+	}
+	.dm_tit{
+		font-size: 20px;
+		padding: 30px 0 20px;
+	}
+	.dm_dt_left,.dm_dt_right{
+		float: none;
+		width: 100%;
+		border: none;
+		padding: 0;
+	}
+	.dm_dt_right{
+		margin-top: 30px;
+		padding-top: 20px;
+		border-top: 1px solid #dedede;
+	}
+	.dm_return_two li{
+		width: 100%;
+		margin-right: 0;
+	}
+	.dm_return_two li:first-child{
+		margin-bottom: 20px;
+	}
+	.dm_call_txt,.dm_map_font,.dm_statement p{
+		font-size: 14px;
+	}
+}

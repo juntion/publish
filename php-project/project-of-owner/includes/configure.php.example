@@ -1,0 +1,210 @@
+<?php
+
+
+/***************       The 2 files should be kept separate and not used to overwrite each other.      ***********/
+
+// Define the webserver and path parameters
+  // HTTP_SERVER is your Main webserver: eg-http://www.your_domain.com
+  // HTTPS_SERVER is your Secure webserver: eg-https://www.your_domain.com1.2.1.4.2
+  //define('HTTP_SERVER', 'http://'.$_SERVER['SERVER_NAME']);
+  define('HTTP_SERVER', 'http://www.fs.com');
+  define('HTTPS_SERVER', 'https://www.fs.com');
+  define('HTTP_IMAGE_SERVER', 'http://img-en.fs.com/');
+  define('HTTPS_IMAGE_SERVER', 'https://img-en.fs.com/');
+  define('HTTPS_PRODUCTS_SERVER', 'https://img-en.fs.com/');
+  define('STATIC_RESOURCE_UP',true);//是否开启静态资源
+  define('SERVER_HEADER','fslb1');//响应头值
+
+  //define('ENABLE_SSL', 'false');
+  define('ENABLE_SSL', true);
+  //美国信用卡开关
+  define('PAYEEZY_STATUS', true);
+  define('FS_RECAPTCHA_SWITCH', 1);
+// NOTE: be sure to leave the trailing '/' at the end of these lines if you make changes!
+// * DIR_WS_* = Webserver directories (virtual/URL)
+  // these paths are relative to top of your webspace ... (ie: under the public_html or httpdocs folder)
+  define('DIR_WS_CATALOG', '/');
+  define('DIR_WS_HTTPS_CATALOG', '/');
+
+  define('DIR_WS_IMAGES', 'images/');
+  define('DIR_WS_INCLUDES', 'includes/');
+  define('DIR_WS_FUNCTIONS', DIR_WS_INCLUDES . 'functions/');
+  define('DIR_WS_CLASSES', DIR_WS_INCLUDES . 'classes/');
+  define('DIR_WS_MODULES', DIR_WS_INCLUDES . 'modules/');
+  define('DIR_WS_LANGUAGES', DIR_WS_INCLUDES . 'languages/');
+  define('DIR_WS_DOWNLOAD_PUBLIC', DIR_WS_CATALOG . 'pub/');
+  define('DIR_WS_TEMPLATES', DIR_WS_INCLUDES . 'templates/');
+  define('DIR_WS_FS_IMAGES', DIR_WS_TEMPLATES . 'fiberstore/images/');
+
+
+  define('DIR_WS_PHPBB', '/');
+
+// * DIR_FS_* = Filesystem directories (local/physical)
+  //the following path is a COMPLETE path to your Zen Cart files. eg: /var/www/vhost/accountname/public_html/store/
+  define('DIR_FS_CATALOG', '/alidata/www/fiberstore.com/');//此处末尾需要添加正斜杠
+
+  define('DIR_FS_DOWNLOAD', DIR_FS_CATALOG . 'download/');
+  define('DIR_FS_DOWNLOAD_PUBLIC', DIR_FS_CATALOG . 'pub/');
+  define('DIR_WS_UPLOADS', DIR_WS_IMAGES . 'uploads/');
+  define('DIR_FS_UPLOADS', DIR_FS_CATALOG . DIR_WS_UPLOADS);
+  define('DIR_FS_PIC_UPLOADS', DIR_FS_CATALOG . DIR_WS_UPLOADS.'picture/');
+  define('DIR_FS_EMAIL_TEMPLATES', DIR_FS_CATALOG . 'email/');
+
+// define our database connection
+  define('DB_TYPE', 'mysql');
+  define('DB_CHARSET', 'utf8');
+  define('DB_PREFIX', '');
+  define('DB_SERVER', '');
+  define('DB_SERVER_USERNAME', '');
+  define('DB_SERVER_PASSWORD', '');
+  define('DB_DATABASE', 'fiberstore_spain');
+//定义读库链接
+define('DB_SERVER_READ', '');
+define('DB_SERVER_USERNAME_READ', '');
+define('DB_SERVER_PASSWORD_READ', '');
+define('DB_DATABASE_READ', 'fiberstore_spain');
+define('DB_READ_SERVER_ENABLE', true);//控制读写分离程序开启与关闭
+//  define('DB_DATABASE', 'fiberstore_online');
+  define('USE_PCONNECT', 'false');
+  //session 存储方式 1.mysql 2.redis 3.file
+  define('STORE_SESSIONS', 'redis');
+//定义链接国内数据的常量
+  define('C_DB_SERVER', '');
+  define('C_DB_SERVER_USERNAME', '');
+  define('C_DB_SERVER_PASSWORD', '');
+  define('C_DB_DATABASE', 'fiberstore_spain');
+  define('C_USE_PCONNECT', 'false');
+  // for STORE_SESSIONS, use 'db' for best support, or '' for file-based storage
+
+  // The next 2 "defines" are for SQL cache support.
+  // For SQL_CACHE_METHOD, you can select from:  none, database, or file
+  // If you choose "file", then you need to set the DIR_FS_SQL_CACHE to a directory where your apache
+  // or webserver user has write privileges (chmod 666 or 777). We recommend using the "cache" folder inside the Zen Cart folder
+  // ie: /path/to/your/webspace/public_html/zen/cache   -- leave no trailing slash
+  define('SQL_CACHE_METHOD', '');
+  define('DIR_FS_SQL_CACHE', '/alidata/www/fiberstore.com/cache');
+  define('DIR_FS_SQL_DEBUG', '/alidata/www/fiberstore.com/debug');
+  define('SESSION_WRITE_DIRECTORY','/alidata/www/fiberstore.com/cache');
+
+//站点 时区设置
+date_default_timezone_set('America/Los_Angeles');
+define('AJAX_NUM','6');
+define('TABLE_DOC_CATEGORIES','doc_categories');
+define('TABLE_DOC_CATEGORIES_DESCRIPTION','doc_categories_description');
+define('TABLE_DOC_ARTICLE','doc_article');
+define('TABLE_DOC_ARTICLE_DESCRIPTION','doc_article_description');
+define('TABLE_DOC_ARTICLE_CATEGORY','doc_article_category');
+
+define('IS_PROMOTE',false);
+
+//过滤表单提交过来的数据
+define("VAR_AUTO_STRING",false);
+define("DEFAULT_FILTER","strip_tags,htmlspecialchars");
+define("URL_PATHINFO_DEPR","/");
+//资源服务器ftp
+');
+define');
+define(');
+//后台资源ftp
+define('CONTROL_FTP_IP','cn.fs.com');
+define('CONTROL_FTP_USERNAME'');
+define('CONTROL_FTP_PASSWORD','');
+
+
+//亚马逊dynamodb秘钥
+define('AMAZON_KEY','');
+define('AMAZON_SECRET','');
+//统计数据采集加密KEY
+define('ENCRYPT_KEY','');
+//前端加密私钥
+define('RSA_PRIVATE_KEY','-----BEGIN RSA PRIVATE KEY-----
+MIICXQIBAAKBgQCkxjp9pQJQChbG/1CXGFeM54dOtQ0Olk7jx7MhQi2+cYLY0hsQ
+jl3h+0ChRfizeTs58JLsLQkH7AiB4CqE3oH+pnYDX1fr6h+d2ZexIYtdppn/QerT
+8axZdmUTebsCUcZRJKl7rg8dE7KdQf//cDi73gMle/SxM4vzYeVsX9rmxwIDAQAB
+AoGBAJtdFZWW2sFhYeysm+5700FWpaw+5lrUuvnnOC2p2rvxB7EtGrvXoQoM//mQ
+olmHe6K8BayPIi7IDZV4Kl8x9lsEVAn6vyOwdqSBY0GlPYYeY0AFIZqMaBfEJgXQ
+ZkReYPxuE23noGbO+jaSo5dkELBy1ld7+oT+V3a//RZFCatxAkEA1AAFwHsML7sI
+aH4vqQFwTcHFbeGkOSWdH/1ZRGP0NkFd5Eyx2aE58KLcsROaRRJT54N/mvOB7Oaq
+pxZ6j3VrUwJBAMb5AnCETrLeQxD4na5mCV6KGW4VTSBXlwbIEGsQQoLeQ/taMfE0
+L0BBd7czwkZzYqucMuPfFd5nFoE1JXUn3D0CQCYX2vC7K3VoJhqgke/MUmGmb9NO
+uDOMjq8w1tlzHG6jUDu1jD+OuNqEaSNoYlAG+wyelE9DchUfXYqof11HvAECQQC7
+otm9F9hLb7SZTYsNiuXtBJikqmvYQyGGYKazAFtopIhBgbY1O7wPgW2PE71yyJ9V
+LHEFWTx7RoX/hQn06IkVAkAD7DUVD05BIgbBPtxdZaAl4xQQUiZ8RbrSzQ6WVtbx
+ePn34s2BIt7g+CAsDbNzHsMGf3EsO8My391F++ASmnSW
+-----END RSA PRIVATE KEY-----');
+define('RSA_MODULUS','A4C63A7DA502500A16C6FF509718578CE7874EB50D0E964EE3C7B321422DBE7182D8D21B108E5DE1FB40A145F8B3793B39F092EC2D0907EC0881E02A84DE81FEA676035F57EBEA1F9DD997B1218B5DA699FF41EAD3F1AC5976651379BB0251C65124A97BAE0F1D13B29D41FFFF7038BBDE03257BF4B1338BF361E56C5FDAE6C7');
+define('HTTP_SERVER_ADMIN', 'https://cn.fs.com/YX_sJsBEkT12004');//后台链接地址
+//仓库切换开关,是否关闭美西仓
+define('US_WAREHOUSE_UP',true);
+//redis链接配置
+//define('REDIS_HOST',"127.0.0.1");   //redis连接地址
+define('REDIS_HOST',"");   //redis连接地址
+define('REDIS_SELECT_DB',0);        //redis默认使用库
+define('REDIS_PORT',6379);          //redis默认使用端口
+define('REDIS_PASSWORD',"");        //redis默认使用密码
+define('REDIS_PREFIX',"");          //redis存储时的前缀
+//9. predis开关
+define('FS_USE_PREDIS', true);  //true use predis  , false use  phpredis ,undefined  use phpredis
+
+//mysql cache
+define("MYSQL_QUERY_CACHE","SQL_CACHE");
+//自动取消订单密钥
+define('USE_CANCEL_ORDER_SECRET', false);
+define('CANCEL_ORDER_SECRET_KET', "aa");
+define('CANCEL_ORDER_ACCESS_IP', "127.0.0.1");
+define('USE_AUTOMATIC_CANCEL_ORDER', true);
+
+define('FS_TEST_SERVICE', false);
+//资源服务器上传地址
+define('RESOURCES_GO_SERVER','http://13.251.207.44:10004/upload');
+//是否使用cli上传
+define('CLI_UPLOAD_ENABLE', true);
+//下单邮件是否使用队列
+define('ORDER_PENDING_EMAIL_QUEUE_SEND', true);
+//community站点数据连接
+//select 权限
+define('COMMUNITY_DB_SERVER', '');
+define('COMMUNITY_DB_SERVER_USERNAME', '');
+define('COMMUNITY_DB_SERVER_PASSWORD', '');
+define('COMMUNITY_DB_DATABASE', 'fs_blog');
+
+//发送邮件的账号
+
+define('FERSU_EMAIL_USERNAME','service@feisu.com');
+
+define('FERSU_EMAIL_PASSWORD','');
+
+//美国消费税开关
+define('AUTOAVATAX',true);
+// 美国消费税代码接口是否为测试环境 production:开发 test:生产
+define('AVATAX_TEST','production');
+// fairy 2020.6.12 add
+    $common_mysql_config = [
+        'read' => [
+            [
+                'host' => DB_SERVER_READ,
+                'username' => DB_SERVER_USERNAME_READ,
+                'password' => DB_SERVER_PASSWORD_READ,
+                'database' => DB_DATABASE_READ,
+                'zf_pconnect' => USE_PCONNECT_READ,
+                'zp_real' => false,
+            ]
+
+        ],
+        'write' => [
+            [
+                'host' => DB_SERVER,
+                'username' => DB_SERVER_USERNAME,
+                'password' => DB_SERVER_PASSWORD,
+                'database' => DB_DATABASE,
+                'zf_pconnect' => USE_PCONNECT,
+                'zp_real' => false,
+            ]
+        ],
+    ];
+// EOF
+
+define('PAYMENT_PAYEEZY_API_KEY', '');
+define('PAYMENT_PAYEEZY_API_SECRET', '');
+define('PAYMENT_GLOBALCOLLECT_API_KEY', '');
+define('PAYMENT_GLOBALCOLLECT_API_SECRET', "");

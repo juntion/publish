@@ -1,0 +1,99 @@
+.hot-event_one .switch-tab_one .current_one{
+	    border: 1px solid #999;
+
+}
+.hot-event_one .switch-tab_one a{    
+    margin: 0 2px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-position: -161px 0;
+    font: 0/0 arial;
+    color: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    vertical-align: top;
+    background: #f9f9f9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.hot-event_one .switch-tab_one {
+    position: absolute;
+    z-index: 3;
+    margin-top: -13px;
+    left: 20%;
+}
+
+.hot-event_two .switch-tab_two .current_two{
+	    border: 1px solid #999;
+
+}
+.hot-event_two .switch-tab_two a{    
+    margin: 0 2px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-position: -161px 0;
+    font: 0/0 arial;
+    color: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    vertical-align: top;
+    background: #f9f9f9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.hot-event_two .switch-tab_two {
+    position: absolute;
+    z-index: 3;
+    margin-top: -13px;
+    left: 48%;
+}
+.hot-event_three .switch-tab_three .current_three{
+	    border: 1px solid #999;
+
+}
+.hot-event_three .switch-tab_three a{    
+    margin: 0 2px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-position: -161px 0;
+    font: 0/0 arial;
+    color: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    vertical-align: top;
+    background: #f9f9f9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.hot-event_three .switch-tab_three {
+    position: absolute;
+    z-index: 3;
+    margin-top: -13px;
+    left: 75%;
+}
+
+
+
+
+.ui-corner_pop_large {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    max-height: 600px;
+    margin-top: -250px;
+    margin-left: -250px;
+    padding: 15px;
+    z-index: 9999999;
+    box-shadow: 0 0 16px #000;
+}
+.ui-corner-all {
+    background: #FFF;
+    border-radius: 6px;
+}

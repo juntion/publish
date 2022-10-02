@@ -1,0 +1,34 @@
+<?php 
+define('NAVBAR_TITLE', 'Spedizione & consegna'); 
+define('EU_SHIPPING_1', 'Pagamento & Spedizione'); 
+define('EU_SHIPPING_2', 'Metodi di pagamento'); 
+define('EU_SHIPPING_3', 'Net 30 & W9'); 
+define('EU_SHIPPING_4', 'Spedizione & consegna'); 
+define('EU_SHIPPING_5', 'Stoccaggio e spedizione globali - Ricevi i tuoi prodotti più velocemente.'); 
+define('EU_SHIPPING_7', 'Politica sulle spedizioni'); 
+define('EU_SHIPPING_8', 'Clienti dell\'Unione Europea e del Regno Unito'); 
+define('EU_SHIPPING_9', 'Consegna gratuita con UPS Standard per gli ordini consegnati nel Regno Unito'); 
+define('EU_SHIPPING_10', 'Consegna gratuita con DHL Express Worldwide per gli ordini consegnati a Malta e Cipro.'); 
+define('EU_SHIPPING_11', 'Nota: La nostra politica di consegna gratuita può escludere alcuni articoli pesanti o voluminosi.'); 
+define('EU_SHIPPING_12', 'Se i clienti necessitano dell\'ordine immediatamente'); 
+define('EU_SHIPPING_13', 'Consegna via UPS Standard'); 
+define('EU_SHIPPING_14', 'Consegna via UPS EXPRESS SAVER'); 
+define('EU_SHIPPING_15', 'Consegna via DHL EXPRESS'); 
+define('EU_SHIPPING_17', 'Ubicazione del magazzino'); 
+define('EU_SHIPPING_18', 'Edificio 7'); 
+define('EU_SHIPPING_19', 'Am Gfild 7'); 
+define('EU_SHIPPING_20', 'Monaco'); 
+define('EU_SHIPPING_21', 'Ust. ID.: DE313377831'); 
+define('EU_SHIPPING_22', 'Tel.: +49 (0 89 414176412'); 
+define('EU_SHIPPING_23', 'Nota: Se sei ubicato nelle vicinanze del nostro magazzino'); 
+define('EU_SHIPPING_24', 'Consegna dell\'ordine'); 
+define('EU_SHIPPING_25', 'Quando effettui un ordine sul sito Web di FS.COM'); 
+define('EU_SHIPPING_26', '1 Quando gli articoli che acquisti sono tutti in giacenza'); 
+define('EU_SHIPPING_27', '2 Solo quando tutti i prodotti sono in giacenza presso il nostro magazzino europeo'); 
+define('EU_SHIPPING_28', 'Presta attenzione allo stato "Disponibilità" sotto "Prezzo" sul nostro sito Web'); 
+define('EU_SHIPPING_29', 'Ad esempio'); 
+define('EU_SHIPPING_30', 'Garantiamo che faremo del nostro meglio per preparare i prodotti non in giacenza nel più breve tempo possibile'); 
+define('EU_SHIPPING_31', 'Per qualsiasi altro problema'); 
+define('EU_SHIPPING_32', 'chat dal vivo'); 
+define('EU_SHIPPING_33', 'con noi.'); 
+?>

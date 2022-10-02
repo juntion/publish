@@ -1,0 +1,64 @@
+{
+  "finance": [
+    {
+      "uuid": "",
+      "name": "finance.receipt.receipts.view",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "ReceiptView",
+        "zh-CN": "到款列表查看权限"
+      },
+      "comment": "到款列表查看权限，包括访问到款列表，到款的附件下载"
+    },
+    {
+      "uuid": "",
+      "name": "finance.receipt.receipts.detail",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "ReceiptDetail",
+        "zh-CN": "到款详情查看权限"
+      },
+      "comment": "获取到款详情权限"
+    },
+    {
+      "uuid": "",
+      "name": "finance.voucher.vouchers.view",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "VouchersListView",
+        "zh-CN": "凭证列表查看权限"
+      },
+      "comment": "凭证列表查看权限"
+    },
+    {
+      "uuid": "",
+      "name": "finance.invoice.invoices.view",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "InvoiceView",
+        "zh-CN": "发票列表查看权限"
+      },
+      "comment": "发票列表查看权限,包括访问发票列表，下载发票的清账表"
+    },
+    {
+      "uuid": "",
+      "name": "finance.invoice.invoices.detail",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "InvoiceDetail",
+        "zh-CN": "发票详情查看权限"
+      },
+      "comment": "发票详情权限"
+    }
+  ]
+}

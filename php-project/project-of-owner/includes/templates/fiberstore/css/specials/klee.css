@@ -1,0 +1,619 @@
+.content {padding: 0;}
+img{
+	display: block;
+}
+/*样式开始*/
+.klee_banner{
+	height: 380px;
+}
+.klee_banner_bg{
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 380px;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/klee/klee_banner_bac.jpg) no-repeat center;
+}
+.klee_banner_tit{
+	font-size: 38px;
+	text-align: center;
+	padding-top: 100px;
+	color: #fff;
+	font-weight: 400;
+	line-height: 60px;
+}
+.klee_tit{
+	padding: 50px 0 20px;
+	font-size: 30px;
+	color: #232323;
+	line-height: 32px;
+	text-align: center;
+	font-weight: 400;
+}
+.klee_txt{
+	font-size: 14px;
+	font-weight:400;
+	color: #616265;
+	line-height: 22px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.klee_ring{
+	margin-bottom: 100px;
+	position: relative;
+}
+.klee_ring img{
+	margin: 0 auto;
+}
+.klee_ring_who{
+	position: absolute;
+	width: 960px;
+	padding: 40px 120px 30px;
+	left: 50%;
+	margin-left: -600px;
+	z-index: 1;
+	border: 1px solid #e5e5e5;
+	box-shadow: 3px 3px 10px #e5e5e5;
+	background-color: #fff;
+	bottom: -200px;
+}
+.klee_ring_who_dl dt{
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: middle;
+}
+.klee_ring_who_dl dd{
+	display: inline-block;
+	font-size: 14px;
+	font-weight:400;
+	color: #616265;
+	line-height: 22px;
+	width: 81%;
+	vertical-align: middle;
+}
+.klee_ring_who_tit{
+	font-size: 26px;
+	color: #232323;
+	text-align: center;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.klee_challenges{
+	height: 605px;
+}
+.klee_challenges_bg{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	z-index: -1;
+	height: 605px;
+	background-color: #f6f6f6;
+}
+.klee_challenges .klee_tit{
+	padding-top: 150px;
+}
+.klee_challenges_main table{
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+.klee_challenges_main td{
+	text-align: center;
+	height: 40px;
+}
+.klee_challenges_main thead tr{
+	border-top: 1px solid #0070BC;
+	font-size: 18px;
+	color: #232323;
+	background-color: #dfebf2;
+}
+.klee_challenges_main tbody tr{
+	border-bottom: 1px solid #dedede;
+	font-size: 14px;
+	font-weight:400;
+	color: #616265;
+}
+.klee_project ul{
+	margin:80px auto 50px;
+	
+}
+.klee_project ul:after{
+	content:"";
+	display:block;
+	clear:both;
+	visibility:hidden 
+}
+.klee_project_list{
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	background-color: #f6f6f6;
+	box-sizing: border-box;
+	padding: 0 50px;
+	height: 240px;
+	border: 1px solid #dedede;
+	position: relative;
+	padding-top: 80px;
+}
+.klee_project_list:last-child{
+	margin-right: 0;
+}
+.klee_project_list span{
+	position: absolute;
+	left: 50%;
+	margin-left: -45px;
+	top: -45px;
+	width: 90px;
+	height: 90px;
+}
+.klee_project_list_txt{
+	font-size: 16px;
+	font-weight:400;
+	color: #888;
+	line-height: 30px;
+	text-align: center;
+}
+.klee_team{
+	height: 820px;
+}
+.klee_team_bg{
+	position: absolute;
+	width: 100%;
+	height: 820px;
+	left: 0;
+	z-index: -1;
+	background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/klee/klee_bg.jpg) no-repeat center;
+}
+.klee_team_pic{
+	padding: 25px 0;
+}
+.klee_team_pic img{
+	margin: 0 auto;
+}
+.klee_product_table table{
+	margin: 0 auto;
+    border-collapse: collapse;
+}
+.klee_product_table td{
+	height: 50px;
+}
+.klee_product_table td a{
+	text-decoration: none;
+	color: #232323;
+}
+.klee_product_table td a:hover{
+	text-decoration: underline;
+	color: #232323;
+}
+.klee_product_table thead tr td:first-child{
+	text-indent: 130px;
+}
+.klee_product_table tbody tr td:first-child{
+	text-indent: 130px;
+}
+.klee_product_table thead tr td:last-child{
+	text-align: left;
+}
+.klee_product_table thead tr{
+	font-size: 18px;
+	color: #232323;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #e5e5e5;
+}
+.klee_product_table tbody tr{
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 14px;
+	font-weight:400;
+	color: #232323;
+}
+.klee_product_txt{
+	margin: 45px auto 50px;
+	font-size: 18px;
+	font-weight:400;
+	color: #616265;
+	line-height: 30px;
+	width: 960px;
+	overflow: hidden;
+}
+.klee_product_txt a{
+	color: #0070BC;
+	text-decoration: none;
+	float: right;
+}
+.patch_contact{margin-top: 0px !important;padding: 0 40px 40px 0 !important;}
+.klee_product_txt a .icon{
+	font-size: 14px;
+	margin-left: 5px;
+}
+.klee_product_txt a:hover{
+	color: #0070BC;
+	text-decoration: underline;
+}
+.klee_feedback{
+	height: 435px;
+}
+.klee_feedback_bg{
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 435px;
+	background-color: #f6f6f6;
+}
+.klee_feedback_message{
+	width: 960px;
+	margin: 10px auto 0;
+	overflow: hidden;
+	text-align: center;
+}
+.klee_feedback_message img{
+	display: block;
+	margin: 25px auto 0;
+}
+.klee_feedback_message i{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: #616265;
+	font-weight:400;
+	line-height: 30px;
+}
+.klee_feedback_message_name{
+	font-size: 14px;
+	font-weight:400;
+	color: #232323;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+.klee_feedback_message_name span{
+	display: inline-block;
+	width: 20px;
+	height: 1px;
+	background-color: #999;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.klee_feedback_message em{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	font-weight:400;
+	color: #999;
+	font-style: normal;
+	margin-top: 10px;
+}
+.klee_feedback_message a{
+	display: inline-block;
+	font-size: 18px;
+	color: #0070BC;
+	text-decoration: none;
+	margin-top: 35px;
+}
+.klee_feedback_message .icon{
+	font-size: 14px;
+	margin-left: 5px;
+}
+.klee_feedback_message a:hover{
+	color: #0070BC;
+	text-decoration: underline;
+}
+.klee_study{
+	display: none;
+}
+.klee_study ul{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.klee_study_list{
+	width: 33%;
+	border-right: 1px solid #e5e5e5;
+	float: left;
+	text-align: center;
+	padding-bottom: 35px;
+}
+.klee_study_list:last-child{
+	border-right: none;
+}
+.klee_study_list img{
+	margin: 0 auto;
+}
+.klee_study_list_tit{
+	font-size: 18px;
+	color: #232323;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.klee_study_list_txt{
+	font-size: 14px;
+	color: #616265;
+	font-weight:400;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.klee_study_list a{
+	font-size: 16px;
+	font-weight:400;
+	color: #0070BC;
+	text-decoration: none;
+}
+.klee_study_list a:hover{
+	color: #0070BC;
+	text-decoration: underline;
+}
+.klee_study_list a .icon{
+	font-size: 12px;
+	margin-left: 3px;
+}
+.klee_team .klee_tit{
+	padding-bottom: 40px;
+}
+
+.Case_challenges{
+	height: 343px;
+}
+.Case_challenges_bg{
+	height: 343px;
+}
+.Case_project_list{
+	padding-left: 33px;
+	padding-right: 33px;
+}
+.Case_team{
+	height: 465px;
+	
+}
+.Case_team_bg{
+	height: 465px;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/case_study/case-study-07.jpg) no-repeat center;
+}
+.Case_ring img{
+	height: inherit;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.Case_img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	height: inherit;
+}
+.Case_banner_txt{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	line-height: 30px;
+}
+.Case_banner_bg{
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 380px;
+	background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/case_study/case-study-01.jpg) no-repeat center;
+}
+
+
+
+@media(max-width:1440px){
+	.klee_feedback{
+		height: auto;
+	}
+	.klee_feedback_list{
+		width: 49%;
+		float: left;
+		margin-bottom: 30px;
+		margin-right: 1%;
+	}
+	.klee_feedback_list img{
+		width: 100%;
+	}
+	
+	.klee_study_list img{
+		width: 100%;
+	}
+}
+@media(max-width:1220px){
+	.klee_ring_who{
+		width: 720px;
+		margin-left: -480px;
+	}
+	.klee_ring_who_dl dd{
+		width: 75%;
+	}
+	.klee_project ul{
+		width:auto
+	}
+	.klee_team_pic img{
+		width: 100%;
+	}
+	.klee_study_list_txt br{
+		display: none;
+	}
+	.klee_study_list_txt{
+		padding: 0 15px;
+	}
+	.klee_study_list_tit{
+		height: 48px;
+	}
+	.klee_study_list_txt{
+		height: 72px;
+	}
+	.klee_txt br{
+		display: none;
+	}
+	.klee_project_list{
+		padding: 60px 10px 0;
+	}
+	
+	.Case_team{
+		height: 400px;
+	}
+	.Case_team_bg{
+		height: 400px;
+	}
+	
+	
+}
+@media(max-width:960px){
+	.content{
+		padding: 0 10px;
+		width: auto;
+	}
+	.klee_ring_who{
+		position: static;
+		width: auto;
+		margin-left: 0;
+		padding: 30px 80px;
+		margin-top: 30px;
+	}
+	.klee_ring{
+		margin-bottom: 50px;
+	}
+	.klee_challenges .klee_tit{
+		padding-top: 50px;
+	}
+	.klee_challenges_main,.klee_product_table{
+		overflow-y: auto;
+	}
+	.klee_project_list{
+		width: 30%;
+		margin-right: 5%;
+	}
+	.klee_product_txt{
+		width: auto;
+	}
+	.klee_feedback_message{
+		width: auto;
+	}
+	.patch_contact {
+		padding: 0px 10px 0 10px !important;
+	}
+}
+@media(max-width:880px){
+	.klee_banner{
+		height: 220px;
+	}
+	.klee_banner_bg{
+		height: 220px;
+	}
+	.klee_banner_tit{
+		font-size: 24px;
+		line-height: 40px;
+		padding-top: 50px;
+	}
+	.klee_banner_tit br{
+		display: none;
+	}
+	.klee_tit{
+		font-size: 20px;
+		padding: 30px 0 15px;
+	}
+	.klee_ring_who_tit{
+		font-size: 20px;
+	}
+	.klee_ring_who{
+		padding: 20px 10px;
+	}
+	.klee_ring_who_dl dd{
+		width: 100%;
+	}
+	.klee_project ul{
+		margin-top: 80px;
+	}
+	.klee_project_list{
+		width: 100%;
+		margin-right: 0 !important;
+		margin-bottom: 80px;
+		height: initial;
+    	padding-bottom: 20px;
+	}
+	.klee_project_list:last-child{
+		margin-bottom: 0;
+	}
+	.klee_project_list span{
+		margin-bottom: 20px;
+	}
+	.klee_project_list_txt{
+		font-size: 14px;
+	}
+	.klee_team_bg{
+		display: none
+	}
+	.klee_team{
+		height: auto;
+		background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/klee/klee_bg.jpg) no-repeat center;
+	}
+	.klee_team_pic{
+		padding: 20px 10px;
+	}
+	.klee_product_txt a{
+		position: static;
+		display: block;
+	}
+	.klee_feedback_list{
+		width: 100%;
+		margin-right: 0 !important;
+	}
+	.klee_feedback_bg{
+		display: none;
+	}
+	.klee_feedback{
+		background-color: #f6f6f6;
+		padding: 0 10px 20px;
+	}
+	.klee_feedback ul{
+		margin-bottom: 20px;
+	}
+	.klee_feedback_message_dl dd{
+		width: 100%;
+	}
+	.klee_study_list{
+		width: 100%;
+		border: none !important;
+	}
+	.klee_study_list_tit{
+		height: auto;
+	}
+	.klee_study_list_txt{
+		height: auto;
+		margin-bottom: 10px;
+	}
+	.klee_ring img{
+		width: auto;
+		max-width: 100%;
+	}
+	.klee_ring_who_dl dt{
+		margin-right: 0;
+	}
+	.klee_ring_who_dl{
+		text-align: center;
+	}
+	.klee_ring_who_dl dd{
+		text-align: left;
+	}
+	.klee_feedback_message i br{
+		display: none;
+	}
+	
+	.Case_team{
+		height: 400px;
+	}
+	.Case_team_bg{
+		display: block;
+		height: 400px;
+	}
+	
+}
+@media(max-width:600px){
+	.Case_team{
+		height: 276px;
+	}
+	.Case_team_bg{
+		display: block;
+		height: 276px;
+	}
+}

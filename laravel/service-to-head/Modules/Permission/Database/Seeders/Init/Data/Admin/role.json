@@ -1,0 +1,15 @@
+{
+  "超管组": [
+    {
+      "uuid": "",
+      "name": "super",
+      "guard_name": "",
+      "is_system": "1",
+      "locale": {
+        "en-US": "SuperAdmin",
+        "zh-CN": "超管"
+      },
+      "comment": "超管角色,拥有所有权限"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<?php 
+define("BANNER_TOP","Modulares optisches Verkabelungssystem für die Lösung des Datenzentrums");
+define("BANNER_BOTTOM","Verteilen Sie alle verstreuten Kabel neu, verwenden Sie die Backbone-Glasfaser zu einem zentralen <br>Verbindungspunkt, um besser orginiert zu werden.");
+define('FHD_DENSITY1','FHD LWL-Gehäuse');
+define('FHD_DENSITY2','FHD modulares Patchpanel');
+define('FHD_DENSITY3','FHD MTP-Kassette');
+define('FHD_DENSITY4','FHD Adapterpanel');
+define('FHD_DENSITY_NEW','10G/40G/100G Network TAPs');
+define('FHD_DENSITY5','FHX LWL-Gehäuse');
+define('FHD_DENSITY6','FHX MTP-Kassette');
+define('FHD_DENSITY7','FHX Adapterpanel');
+define('FHD_DENSITY8','FHU 40G Breakoutpanel');
+define('FHD_DENSITY9','FHU Adapterpanel');
+define('FHD_DENSITY10','FHD High Density modulares System');
+define('FHD_DENSITY11','Rack-Mount, Wandhalterung, modulares Gehäuse');
+define('FHD_DENSITY12','Base8, Base12, Base24 Kassette');
+define('FHD_DENSITY13','LC Duplex, SC Duplex, MTP/MPO panel');
+define('FHD_DENSITY14','FHX Ultra High Density Modulares System');
+define('FHD_DENSITY15','Rack-Mount, bis zu 144 Fasern');
+define('FHD_DENSITY16','Base8, Base12, MTP conversion-Kassette');
+define('FHD_DENSITY17','LC quad, SC Duplex, MTP/MPO Panel');
+define('FHD_DENSITY18','FHU Breakout Patching Lösung');
+define('FHD_DENSITY19','40G-10G, 100G-10G Breakout Panel');
+define('FHD_DENSITY20','96F, 144F Angled MTP-LC Panel');
+define('FHD_DENSITY21','1U LC, SC, Leeres Panel');
+define('FHD_DENSITY22','Wie wählt man die beste Lösung für strukturierte Netzwerkarchitektur?');
+define('FHD_DENSITY23','Die professionellen Ingenieure von FS.COM demonstrieren perfekt die Verwendung flexibler modularer Systeme, wie man Faserabschlüsse, Verbindungen und Patching in allen <br>Anwendungen besser verwalten kann. Die Lösung reduziert Ausfallzeiten und Installationsraum auf einfache Weise und ermöglicht zukünftiges Wachstum.');
+define('FHD_DENSITY24','Patching-Lösung der FHD Serie');
+define('FHD_DENSITY25','Verfügbar 1U/2U/4U Housing  im Patchpanel der FHD Serie');
+define('FHD_DENSITY26','Jedes 1U Rack mit 4 units Modules, das bis zu 288 Fasern unterstützt');
+define('FHD_DENSITY27','Umfassende Lösungen mit Typ A & AF modules');
+define('FHD_DENSITY28','Patching-Lösung der FHX Serie');
+define('FHD_DENSITY29','Verbesserte Befestigungswinkel ermöglichen eine Tiefeneinstellung');
+define('FHD_DENSITY30','Maximale Freiheit bei der Implementierung einer beliebigen Netzwerkarchitektur');
+define('FHD_DENSITY31','Ermöglicht die Installation von 12/18 Kassetten und Adapterplatten in 1 U');
+define('FHD_DENSITY32','Patching-Lösung der FHU Serie');
+define('FHD_DENSITY33','Eine modulare 1U-Komponente, Flexibilität und einfache Installation');
+define('FHD_DENSITY34','Unterstützt 40G/100G Breakout Anwendung');
+define('FHD_DENSITY35','Vorkonfiguriert und werkseitig konfiguriert, Zuverlässigkeit');
+define('FHD_DENSITY36','Qualitätskontrolle');
+define('FHD_DENSITY37','Mit dem Ziel eines innovativen Designs, einer individuellen Forschung und Entwicklung, ist FS.COM stets bemüht, jedem Kunden die besten Produkte und Lösungen anzubieten und <br>ein international standardisiertes Qualitätssicherungssystem zu etablieren.');
+define('FHD_DENSITY38','Innovatives Design| Praktischer neuer Typ');
+define('FHD_DENSITY39','Autorisierte Patente');
+define('FHD_DENSITY40','ABS UL 94 & SPCC(Black Coating)');
+define('FHD_DENSITY41','Optimierte Materialien');
+define('FHD_DENSITY42','ISO90001|RoHS');
+define('FHD_DENSITY43','Qualitätszertifikatn');
+define('FHD_DENSITY44','Vorteilhafter Service');
+define('FHD_DENSITY45','Schnelle Lieferung');
+define('FHD_DENSITY46','Mit großem Lagerbestand und leistungsstarker <br>Lagerüberwachung, um Ihre dringenden Bedürfnisse <br>jederzeit und rechtzeitig zu erfüllen.');
+define('FHD_DENSITY47','Technische Unterstützung');
+define('FHD_DENSITY48','FS.COM hat ein Team von Ingenieuren, die Produktlösungen <br>anbieten und Probleme für <br>unsere Kunden lösen.');
+define('FHD_DENSITY49','24-hour Online Service');
+define('FHD_DENSITY50','Egal wann und wo Sie Hilfe brauchen, <br>kontaktieren Sie uns.');
+
+define('FHD_DENSITY51','Eine bessere Ende-zu-Ende Sichtbarkeitsstrategie für das SDN-Framework');
+define('FHD_DENSITY52','Im Datenzentrum des Unternehmens und Unternehmensnetzwerken ist Echtzeit-Netzwerksichtbarkeit eine Notwendigkeit, die das Fallenlassen von Paketen vermeidet, so dass in verschiedenen Netzwerkschichten unterschiedliche TAP-Kassetten <br>aufgrund von Aufteilungsverhältnis, Raten, Signaltransiision, Leistungsbudget usw. benötigt werden.');
+define('FHD_DENSITY53','1G/10G TAP Kassette');
+define('FHD_DENSITY54','4x MTP und LC Duplex, 12x LC Duplex');
+define('FHD_DENSITY55','Duplex Signal');
+define('FHD_DENSITY56','70/30 OS2, 50/50 OM4 split ratio');
+define('FHD_DENSITY57','40G BIDI TAP Kassette');
+define('FHD_DENSITY58','12x LC Duplex');
+define('FHD_DENSITY59','BIDI Signal');
+define('FHD_DENSITY60','50/50 OM4 split ratio');
+define('FHD_DENSITY61','40G/100G TAP Kassette');
+define('FHD_DENSITY62','4x MTP male');
+define('FHD_DENSITY63','Parallel signal');
+define('FHD_DENSITY64','50/50 OM4 split ratio');
+
+
+
+ ?>

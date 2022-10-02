@@ -1,0 +1,14 @@
+{
+    "name": "UUMS",
+    "alias": "uums",
+    "description": "对应uums系统",
+    "keywords": [],
+    "order": 0,
+    "priority": 0,
+    "providers": [
+        "Modules\\UUMS\\Providers\\UUMSServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

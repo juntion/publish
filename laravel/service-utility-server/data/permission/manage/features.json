@@ -1,0 +1,652 @@
+{
+  "用户管理": [
+    {
+      "name": "users.index",
+      "comment": "获取所有用户列表",
+      "locale": {
+        "en": "Get a list of all users",
+        "zh-CN": "获取所有用户列表"
+      }
+    },
+    {
+      "name": "users.create",
+      "comment": "添加用户",
+      "locale": {
+        "en": "Add user",
+        "zh-CN": "添加用户"
+      }
+    },
+    {
+      "name": "users.show",
+      "comment": "获取用户信息",
+      "locale": {
+        "en": "Get user information",
+        "zh-CN": "获取用户信息"
+      }
+    },
+    {
+      "name": "users.delete",
+      "comment": "删除用户",
+      "locale": {
+        "en": "Delete user",
+        "zh-CN": "删除用户"
+      }
+    },
+    {
+      "name": "users.update",
+      "comment": "更新用户信息",
+      "locale": {
+        "en": "Update user information",
+        "zh-CN": "更新用户信息"
+      }
+    },
+    {
+      "name": "users.departments.setDefaultDepartment",
+      "comment": "设置用户默认部门",
+      "locale": {
+        "en": "Set user default department",
+        "zh-CN": "设置用户默认部门"
+      }
+    },
+    {
+      "name": "users.departments.batchSetDefaultDepartment",
+      "comment": "批量设置用户默认部门",
+      "locale": {
+        "en": "Batch set user default departments",
+        "zh-CN": "批量设置用户默认部门"
+      }
+    },
+    {
+      "name": "users.departments.setOtherDepartment",
+      "comment": "设置用户其他部门",
+      "locale": {
+        "en": "Set user other departments",
+        "zh-CN": "设置用户其他部门"
+      }
+    },
+    {
+      "name": "users.homepages.setHomepage",
+      "comment": "设置用户系统首页",
+      "locale": {
+        "en": "Set user system home page",
+        "zh-CN": "设置用户系统首页"
+      }
+    },
+    {
+      "name": "users.homepages.batchSetHomepage",
+      "comment": "批量设置用户系统首页",
+      "locale": {
+        "en": "Batch set user system home page",
+        "zh-CN": "批量设置用户系统首页"
+      }
+    },
+    {
+      "name": "users.homepages.getHomepage",
+      "comment": "查询用户各子系统首页",
+      "locale": {
+        "en": "Get user subsystem home page",
+        "zh-CN": "查询用户各子系统首页"
+      }
+    },
+    {
+      "name": "users.positions.setPosition",
+      "comment": "设置用户职称",
+      "locale": {
+        "en": "Set user position",
+        "zh-CN": "设置用户职称"
+      }
+    },
+    {
+      "name": "users.positions.batchSetPosition",
+      "comment": "批量设置用户职称",
+      "locale": {
+        "en": "Batch set user position",
+        "zh-CN": "批量设置用户职称"
+      }
+    },
+    {
+      "name": "users.sidebars.bindSidebarTemplate",
+      "comment": "批量绑定用户侧边栏模板",
+      "locale": {
+        "en": "Batch bind user sidebar template",
+        "zh-CN": "批量绑定用户侧边栏模板"
+      }
+    },
+    {
+      "name": "users.sidebars.pages.forbid",
+      "comment": "批量设置用户禁止展示的页面入口",
+      "locale": {
+        "en": "Batch bind user forbid pages",
+        "zh-CN": "批量设置用户禁止展示的页面入口"
+      }
+    },
+    {
+      "name": "users.sidebars.template",
+      "comment": "查询用户各子系统侧边栏模板",
+      "locale": {
+        "en": "Get user subsystem sidebar templates",
+        "zh-CN": "查询用户各子系统侧边栏模板"
+      }
+    },
+    {
+      "name": "users.subsystems.forbid.add",
+      "comment": "添加用户禁止登录的系统",
+      "locale": {
+        "en": "Add user forbid login subsystem",
+        "zh-CN": "添加用户禁止登录的系统"
+      }
+    },
+    {
+      "name": "users.subsystems.forbid.delete",
+      "comment": "删除用户禁止登录的系统",
+      "locale": {
+        "en": "Delete user forbid login subsystem",
+        "zh-CN": "删除用户禁止登录的系统"
+      }
+    },
+    {
+      "name": "users.subsystems.forbid",
+      "comment": "查询用户禁止登录的系统",
+      "locale": {
+        "en": "Get user forbid login subsystem",
+        "zh-CN": "查询用户禁止登录的系统"
+      }
+    },
+    {
+      "name": "users.subsystems.allow",
+      "comment": "查询系统允许登录的用户",
+      "locale": {
+        "en": "Get subsystem allow login users",
+        "zh-CN": "查询系统允许登录的用户"
+      }
+    },
+    {
+      "name": "users.permissions",
+      "comment": "查询用户权限",
+      "locale": {
+        "en": "Get user permissions",
+        "zh-CN": "查询用户权限"
+      }
+    },
+    {
+      "name": "users.permissions.syncPermissions",
+      "comment": "更新用户权限",
+      "locale": {
+        "en": "Update user permissions",
+        "zh-CN": "更新用户权限"
+      }
+    },
+    {
+      "name": "users.permissionLogs",
+      "comment": "查询用户权限日志",
+      "locale": {
+        "en": "Get user permission logs",
+        "zh-CN": "查询用户权限日志"
+      }
+    },
+    {
+      "name": "users.roles",
+      "comment": "查询用户角色",
+      "locale": {
+        "en": "Get user roles",
+        "zh-CN": "查询用户角色"
+      }
+    },
+    {
+      "name": "users.roles.syncRoles",
+      "comment": "更新用户角色",
+      "locale": {
+        "en": "Update user roles",
+        "zh-CN": "更新用户角色"
+      }
+    },
+    {
+      "name": "users.roles.attachRoles",
+      "comment": "批量绑定用户角色",
+      "locale": {
+        "en": "Bind user roles in batches",
+        "zh-CN": "批量绑定用户角色"
+      }
+    },
+    {
+      "name": "users.roles.getRolesAndPermissions",
+      "comment": "查询用户角色和权限",
+      "locale": {
+        "en": "Update user roles and permissions",
+        "zh-CN": "查询用户角色和权限"
+      }
+    },
+    {
+      "name": "users.setDuty",
+      "comment": "设置用户职责",
+      "locale": {
+        "en": "Set user duties",
+        "zh-CN": "设置用户职责"
+      }
+    },
+    {
+      "name": "users.setAllDuty",
+      "comment": "设置所有用户职责",
+      "locale": {
+        "en": "Set all users duties",
+        "zh-CN": "设置所有用户职责"
+      }
+    },
+    {
+      "name": "users.resetPassword",
+      "comment": "重置用户密码",
+      "locale": {
+        "en": "Reset user password",
+        "zh-CN": "重置用户密码"
+      }
+    },
+    {
+      "name": "users.companies.setUserCompany",
+      "comment": "设置用户子公司",
+      "locale": {
+        "en": "Set user company",
+        "zh-CN": "设置用户子公司"
+      }
+    },
+    {
+      "name": "users.companies.batchSetUserCompany",
+      "comment": "批量设置用户子公司",
+      "locale": {
+        "en": "Batch set user company",
+        "zh-CN": "批量设置用户子公司"
+      }
+    }
+  ],
+  "职称管理": [
+    {
+      "name": "positions.store",
+      "comment": "创建职称",
+      "locale": {
+        "en": "Create a position",
+        "zh-CN": "创建职称"
+      }
+    },
+    {
+      "name": "positions.update",
+      "comment": "更新职称",
+      "locale": {
+        "en": "update a position",
+        "zh-CN": "更新职称"
+      }
+    },
+    {
+      "name": "positions.delete",
+      "comment": "删除职称",
+      "locale": {
+        "en": "Delete a position",
+        "zh-CN": "删除职称"
+      }
+    }
+  ],
+  "部门管理": [
+    {
+      "name": "departments.store",
+      "comment": "创建部门",
+      "locale": {
+        "en": "Create a department",
+        "zh-CN": "创建部门"
+      }
+    },
+    {
+      "name": "departments.update",
+      "comment": "更新部门",
+      "locale": {
+        "en": "Update a department",
+        "zh-CN": "更新部门"
+      }
+    },
+    {
+      "name": "departments.delete",
+      "comment": "删除部门",
+      "locale": {
+        "en": "Delete a department",
+        "zh-CN": "删除部门"
+      }
+    },
+    {
+      "name": "departments.createBasic",
+      "comment": "创建基础部门",
+      "locale": {
+        "en": "Create basic department",
+        "zh-CN": "创建基础部门"
+      }
+    },
+    {
+      "name": "departments.deleteBasic",
+      "comment": "删除基础部门",
+      "locale": {
+        "en": "Delete basic department",
+        "zh-CN": "删除基础部门"
+      }
+    }
+  ],
+  "子系统管理": [
+    {
+      "name": "subsystems.update",
+      "comment": "更新子系统信息",
+      "locale": {
+        "en": "Update a subsystem",
+        "zh-CN": "更新子系统信息"
+      }
+    },
+    {
+      "name": "subsystems.setHomepage",
+      "comment": "设置子系统首页状态",
+      "locale": {
+        "en": "Set subsystem home page status",
+        "zh-CN": "设置子系统首页状态"
+      }
+    },
+    {
+      "name": "subsystems.setSidebar",
+      "comment": "设置子系统侧边栏状态",
+      "locale": {
+        "en": "Set subsystem sidebar status",
+        "zh-CN": "设置子系统侧边栏状态"
+      }
+    },
+    {
+      "name": "subsystems.addForbidUsers",
+      "comment": "添加禁止登录的用户",
+      "locale": {
+        "en": "Add subsystem forbid users",
+        "zh-CN": "添加禁止登录的用户"
+      }
+    },
+    {
+      "name": "subsystems.removeForbidUsers",
+      "comment": "删除禁止登录的用户",
+      "locale": {
+        "en": "Delete subsystem forbid users",
+        "zh-CN": "删除禁止登录的用户"
+      }
+    },
+    {
+      "name": "subsystems.forbidUsers",
+      "comment": "查询禁止登录的用户",
+      "locale": {
+        "en": "Get subsystem forbid users",
+        "zh-CN": "查询禁止登录的用户"
+      }
+    }
+  ],
+  "页面管理": [
+    {
+      "name": "pages.update",
+      "comment": "更新页面",
+      "locale": {
+        "en": "Update page information",
+        "zh-CN": "更新页面"
+      }
+    }
+  ],
+  "侧边栏管理": [
+    {
+      "name": "sidebars.templates.store",
+      "comment": "创建侧边栏模板",
+      "locale": {
+        "en": "Create sidebar template",
+        "zh-CN": "创建侧边栏模板"
+      }
+    },
+    {
+      "name": "sidebars.templates.update",
+      "comment": "更新侧边栏模板",
+      "locale": {
+        "en": "Update sidebar template",
+        "zh-CN": "更新侧边栏模板"
+      }
+    },
+    {
+      "name": "sidebars.templates.delete",
+      "comment": "删除侧边栏模板",
+      "locale": {
+        "en": "Delete sidebar template",
+        "zh-CN": "删除侧边栏模板"
+      }
+    },
+    {
+      "name": "sidebars.templates.categories",
+      "comment": "模板所有侧边栏分类",
+      "locale": {
+        "en": "Get sidebar template categories",
+        "zh-CN": "模板所有侧边栏分类"
+      }
+    },
+    {
+      "name": "sidebars.templates.trees",
+      "comment": "侧边栏模板树结构",
+      "locale": {
+        "en": "Get sidebar template trees",
+        "zh-CN": "侧边栏模板树结构"
+      }
+    },
+    {
+      "name": "sidebars.templates.pages",
+      "comment": "侧边栏模板页面",
+      "locale": {
+        "en": "Get sidebar template pages",
+        "zh-CN": "侧边栏模板页面"
+      }
+    },
+    {
+      "name": "sidebars.categories.store",
+      "comment": "创建侧边栏分类",
+      "locale": {
+        "en": "Create sidebar categories",
+        "zh-CN": "创建侧边栏分类"
+      }
+    },
+    {
+      "name": "sidebars.categories.update",
+      "comment": "更新侧边栏分类",
+      "locale": {
+        "en": "Update sidebar categories",
+        "zh-CN": "更新侧边栏分类"
+      }
+    },
+    {
+      "name": "sidebars.categories.delete",
+      "comment": "删除侧边栏分类",
+      "locale": {
+        "en": "Delete sidebar categories",
+        "zh-CN": "删除侧边栏分类"
+      }
+    },
+    {
+      "name": "sidebars.categories.addPages",
+      "comment": "添加关联页面",
+      "locale": {
+        "en": "Add sidebar category pages",
+        "zh-CN": "添加关联页面"
+      }
+    },
+    {
+      "name": "sidebars.categories.removePages",
+      "comment": "删除关联页面",
+      "locale": {
+        "en": "Delete sidebar category pages",
+        "zh-CN": "删除关联页面"
+      }
+    },
+    {
+      "name": "sidebars.categories.sort",
+      "comment": "侧边栏栏目排序",
+      "locale": {
+        "en": "Sidebar columns sort",
+        "zh-CN": "侧边栏栏目排序"
+      }
+    },
+    {
+      "name": "sidebars.categories.batchSort",
+      "comment": "批量侧边栏栏目排序",
+      "locale": {
+        "en": "Sidebar columns sort",
+        "zh-CN": "批量侧边栏栏目排序"
+      }
+    },
+    {
+      "name": "sidebars.categories.pages.sort",
+      "comment": "侧边栏栏目页面排序",
+      "locale": {
+        "en": "Sidebar columns page sort",
+        "zh-CN": "侧边栏栏目页面排序"
+      }
+    },
+    {
+      "name": "sidebars.categories.pages.batchSort",
+      "comment": "批量侧边栏栏目页面排序",
+      "locale": {
+        "en": "Sidebar columns page sort",
+        "zh-CN": "批量侧边栏栏目页面排序"
+      }
+    }
+  ],
+  "权限管理": [
+    {
+      "name": "permissions.list",
+      "comment": "权限列表",
+      "locale": {
+        "en": "Permissions list",
+        "zh-CN": "权限列表"
+      }
+    },
+    {
+      "name": "permissions.update",
+      "comment": "更新权限",
+      "locale": {
+        "en": "Update permission",
+        "zh-CN": "更新权限"
+      }
+    },
+    {
+      "name": "permissions.group",
+      "comment": "查询权限组数据",
+      "locale": {
+        "en": "Get permission group",
+        "zh-CN": "查询权限组数据"
+      }
+    },
+    {
+      "name": "users.erp.setProfiles",
+      "comment": "ERP设置权限",
+      "locale": {
+        "en": "Erp set permissions",
+        "zh-CN": "ERP设置权限"
+      }
+    },
+    {
+      "name": "users.erp.batchSetProfiles",
+      "comment": "ERP分配权限",
+      "locale": {
+        "en": "Erp allocation permissions",
+        "zh-CN": "ERP分配权限"
+      }
+    },
+    {
+      "name": "users.erp.deleteProfile",
+      "comment": "ERP删除权限",
+      "locale": {
+        "en": "Erp delete permissions",
+        "zh-CN": "ERP删除权限"
+      }
+    }
+  ],
+  "角色管理": [
+    {
+      "name": "permissions.roles.store",
+      "comment": "创建角色",
+      "locale": {
+        "en": "Create role",
+        "zh-CN": "创建角色"
+      }
+    },
+    {
+      "name": "permissions.roles.update",
+      "comment": "更新角色",
+      "locale": {
+        "en": "Update role",
+        "zh-CN": "更新角色"
+      }
+    },
+    {
+      "name": "permissions.roles.delete",
+      "comment": "删除角色",
+      "locale": {
+        "en": "Delete role",
+        "zh-CN": "删除角色"
+      }
+    },
+    {
+      "name": "permissions.roles.list",
+      "comment": "角色列表",
+      "locale": {
+        "en": "Get role list",
+        "zh-CN": "角色列表"
+      }
+    },
+    {
+      "name": "permissions.roles.all",
+      "comment": "所有角色",
+      "locale": {
+        "en": "Get all roles by guard name",
+        "zh-CN": "所有角色"
+      }
+    },
+    {
+      "name": "permissions.roles.givePermissions",
+      "comment": "更新角色权限",
+      "locale": {
+        "en": "Update roles permissions",
+        "zh-CN": "更新角色权限"
+      }
+    },
+    {
+      "name": "permissions.roles.getPermissions",
+      "comment": "获取角色权限",
+      "locale": {
+        "en": "Get roles permissions",
+        "zh-CN": "获取角色权限"
+      }
+    },
+    {
+      "name": "permissions.roles.getUsers",
+      "comment": "获取拥有角色的用户列表",
+      "locale": {
+        "en": "Get roles users list",
+        "zh-CN": "获取拥有角色的用户列表"
+      }
+    },
+    {
+      "name": "permissions.roles.logs",
+      "comment": "获取角色的操作记录",
+      "locale": {
+        "en": "Get roles operation records",
+        "zh-CN": "获取角色的操作记录"
+      }
+    },
+    {
+      "name": "permissions.roles.export",
+      "comment": "导出角色信息",
+      "locale": {
+        "en": "Export role information",
+        "zh-CN": "导出角色信息"
+      }
+    }
+  ],
+  "班次管理": [
+    {
+      "name": "schedules.update",
+      "comment": "管理班次",
+      "locale": {
+        "en": "Work schedules management",
+        "zh-CN": "管理班次"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?php
+/**************************content******************************/
+//ery		2016-9-7		add
+define('FS_CANONICAL_HREF',reset_url('iso-standard.html'));
+define('NAVBAR_TITLE','ISO-Standard');
+define('FS_ISO_STANDARD','ISO standard');
+define('FS_ISO_FIBERSTORE','Fiberstore konzentriert sich auf die Qualität und die Präzision. Die Qualität kommt zuerst. Ohne gute Qualität sind die anderen Sachen nicht mehr wichtig für uns. Qualität und Standards sind die Grundlage unserer Firma Fiberstore. Das Management und die Angestellten widmen sich, um den Kunden ausgezeichnete und standardmäßige Produkte und Service zu bieten. Im Rahmen dieser Verpflichtung ist Fiberstore nach ISO 9001:2008 zertifiziert. Es gibt strenges innerbetriebliches Produktionsverfahren einschließlich umfassender Prüfung und Verifizierung des jeden einzelnen Gerätes unserer Produkte. Produkte von Fiberstore haben die Verifizierung von vielen Qualitätsmanagementsystemen bestanden, z.B. CE, RoHS, FCC. Wir haben ein international standardisiertes Qualitätssicherungssystem gegründet und führen sehr strikt ein standardisiertes Management durch im Verlauf des Entwurfs, der Entwicklung, der Produktion, der Installation sowie der Dienstleistung.');
+define('FS_ISO_A','ISO9001:2008');
+define('FS_ISO_CERTIFICATE','Dieses Zertifikat zeigt, dass ein Komponenten / Subsystem in einer spezifischen Anwendung nach der Requirement Class (RC) oder Safety Integrity Level(SIL) benutzt werden kann. Der System-Integrator und der End-2nutzer sollen immer darauf achten, wie man zertifiziertes Komponenten / Subsystem in sicherheitsrelevanter Funktion, beziehungsweise einer instrumentierten Sicherheitssystem benutzt. Wegen der vielen verschiedenen Möglichkeiten und des Aufbaus von dem Sicherheitssystem müssen sich die Endnutzer an den Hersteller des zertifizierten Komponenten / Subsystem für die bezüglichen Informationen wenden.');
+define('FS_ISO_CE','CE');
+define('FS_ISO_MARKING','Die CE-Kennzeichnung ist eine obligatorische Europäische Kennzeichnung für Bestätigung der bestimmte Produktgruppen, die den essenziellen Anforderungen für Gesundheit und Sicherheit in Europa entsprechen. Wenn ein Produkt mit einer CE-Kennzeichnung bezeichnet werden will, muss Nachweis dafür dokumentiert worden sein.');
+define('FS_ISO_ROHS','RoHS');
+define('FS_ISO_WORKING','NWML( National Weights And Measures Laboratory ) ist die Strafverfolgungsbehörden von Großbritannien für die Beschränkung der Benutzung von bestimmten gefährlichen Stoffen im Bereich der elektrischen und elektronischen Anlage (the “RoHS Regulations”), die zusammen partnerschaftlich mit der von BERR (The Department for Business, Enterprise & Regulatory Reform) geleiteten Politik arbeitet. Hersteller sollen die Anforderungen der Anweisung von RoHS verstehen. Damit können sie sicherstellen, dass ihre Produkte und Bestandteile den Anforderungen entsprechen.');
+define('FS_ISO_FCC','FCC');
+define('FS_ISO_FEDERAL','Die Föderale Kommission für Kommunikation (Englische Abk: FCC) ist eine selbstständige Regierungsbehörde von den Vereinigten Staaten, die durch das Gesetz für Kommunikationen von 1934 gegründet wird. Und sie ist zuständig für die Regelung der innerstaatlichen und internationallen Kommunikationen durch Radio, Fernsehen, Draht, Satelliten und Kabel. Und die Umfang ihrer rechtlichen Zuständigkeit umfasst die 50 Bundesstaate, District of Columbia (DC) und andere USA-Abhängigkeiten.');
+
+
+?>

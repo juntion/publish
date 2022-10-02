@@ -1,0 +1,293 @@
+.new_40g_banner_bg.xWDM{
+    background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/specials/xwdm/xWDM-banner.jpg");
+}
+.new_40g_banner_txt.xWDM{
+    line-height: 28px;
+}
+.new_40g_product.xWDM ul li{
+    width: 16.6666666%;
+}
+.xWDM_netword{
+    margin-top: 40px;
+}
+.new_40g_tit.xWDM{
+    font-weight:400;
+    font-size: 26px;
+    line-height: 28px;
+    padding: 40px 0 15px;
+}
+.xWDM_netword_bg,.xWDM_control_bg{
+     position: absolute;
+     width: 100%;
+     left: 0;
+     background-color: #f7f7f7;
+     z-index: -1;
+ }
+.new_40g_txt.xWDM{
+    font-weight: 400;
+}
+.xWDM_netword_main{
+    padding: 45px 40px 0;
+}
+.xWDM_netword_main_left{
+    float: left;
+    padding-top: 50px;
+    width: 50%;
+}
+.xWDM_netword_main_left_dl{
+    float: left;
+    width: 50%;
+}
+.xWDM_netword_main_left_dl dt{
+    background-image: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/xwdm/xWDM-icon.png');
+}
+.xWDM_netword_main_left_dl:first-child dt{
+    width:57px;
+    height:55px;
+    background-position: -2px -8px;
+}
+.xWDM_netword_main_left_dl:nth-child(2) dt{
+    width:58px;
+    height:55px;
+    background-position: -1px -111px;
+}
+.xWDM_netword_main_left_dl:nth-child(3) dt{
+    width:60px;
+    height:65px;
+    background-position: 0 -214px;
+    margin-top: 50px;
+}
+.xWDM_netword_main_left_dl:last-child dt{
+    width:60px;
+    height:65px;
+    background-position: 0 -329px;
+    margin-top: 50px;
+}
+.xWDM_netword_main_left_dl dd{
+    font-size: 16px;
+    color:#616265;
+    margin-top: 25px;
+    line-height: 24px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.xWDM_netword_main_right{
+    float: right;
+    width:50%;
+}
+.xWDM_system{
+    padding-bottom:30px;
+}
+.xWDM_system .new_40g_txt.xWDM{
+	padding:0 350px;
+}
+.xWDM_system_href{
+    text-align: center;
+    margin-top: 25px;
+}
+.xWDM_system_href a{
+    color: #0070BC;
+    font-size: 14px;
+}
+.xWDM_system_href .icon{
+    color: #0070BC;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.xWDM_system_animation{
+    margin-top: 50px;
+    position: relative;
+    transition: all 2s cubic-bezier(.19,1,.22,1) .3s;
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+    opacity: 0;
+}
+.xWDM_system_animation.show{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.xWDM_system_animation_center{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 10;
+
+}
+.xWDM_system_animation_left,.xWDM_system_animation_right{
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    transition: all 2s cubic-bezier(.19,1,.22,1) 1s;
+    opacity: 0;
+}
+.xWDM_system_animation_left{
+    left: 350px;
+}
+.xWDM_system_animation_right{
+    right: 350px;
+}
+.xWDM_system_animation.show .xWDM_system_animation_left{
+    left: 130px;
+    opacity: 1;
+}
+.xWDM_system_animation.show .xWDM_system_animation_right{
+    right: 130px;
+    opacity: 1;
+}
+.xWDM_system_animation_m{
+    display: none;
+}
+.new_40g_why.xWDM{
+    margin-top: 0;
+}
+.new_40g_why.xWDM .new_40g_tit.xWDM{
+    padding-bottom: 15px;
+}
+.new_40g_why.xWDM ul{
+    margin-top: 35px;
+}
+@media(max-width:1440px){
+    .new_40g_banner_bg.xWDM{
+        background-position: 50% 50%;
+    }
+	.xWDM_system .new_40g_txt.xWDM{
+		padding:0 300px;
+	}
+}
+
+@media(max-width: 1220px){
+    .xWDM_netword_main{
+        padding: 45px 0 30px;
+    }
+    .xWDM_netword_main_right img{
+        max-width:100%;
+    }
+    .xWDM_system_animation.show .xWDM_system_animation_left{
+        left: 0;
+    }
+    .xWDM_system_animation.show .xWDM_system_animation_right{
+        right: 0;
+    }
+    .new_40g_product ul{
+        padding: 0;
+    }
+	.xWDM_system .new_40g_txt.xWDM{
+		padding:0 150px;
+	}
+}
+@media(max-width: 960px) {
+    .xWDM_netword_main_left,.xWDM_netword_main_right{
+        width: 100%;
+    }
+    .xWDM_netword_main_right img{
+        display: block;
+        margin: 20px auto 0;
+    }
+    .new_40g_banner_tit.xWDM,.new_40g_banner.xWDM .new_40g_banner_txt{
+        display: block;
+        padding-left: 15px;
+    }
+    .new_40g_banner{
+        height: 380px;
+
+    }
+    .new_40g_banner.xWDM .new_40g_banner_bg{
+        display: block;
+        background-image: url("https://img-en.fs.com/includes/templates/fiberstore/images/specials/xwdm/m-xWDM-banner.jpg");
+        background-size: cover;
+        height: 380px;
+        background-position: 50% 50%;
+    }
+    .new_40g_banner_tit.xWDM{
+        font-size: 28px;
+    }
+    .new_40g_banner.xWDM .new_40g_banner_txt{
+        font-size: 14px;
+    }
+    .new_40g_txt.xWDM br{
+        display: none;
+    }
+    .xWDM_system_animation_left,.xWDM_system_animation_center,.xWDM_system_animation_right{
+        display: none;
+    }
+    .xWDM_system_animation_m{
+        display: block;
+        max-width: 100%;
+    }
+    .new_40g_tit.xWDM{
+        font-size: 22px;
+        padding: 30px 0 20px;
+    }
+    .xWDM_netword_main_left{
+        padding-top: 0;
+    }
+    .new_40g_why_list{
+        width: 49%;
+        margin-right: 2%;
+    }
+    .new_40g_why_list:nth-child(2){
+        margin-right: 0;
+    }
+	.xWDM_system .new_40g_txt.xWDM{
+		padding:0;
+	}
+}
+@media(max-width:480px){
+    .new_40g_banner{
+        height: 220px;
+    }
+    .new_40g_banner.xWDM .new_40g_banner_bg{
+        height: 220px;
+    }
+    .new_40g_banner_tit.xWDM{
+        font-size: 18px;
+        padding-top: 60px;
+        max-width: 180px;
+        line-height: 26px;
+    }
+    .new_40g_banner_tit.xWDM br{
+        display: none;
+    }
+    .new_40g_banner.xWDM .new_40g_banner_txt{
+        display: none;
+    }
+    .xWDM_netword_main{
+        padding-bottom: 0;
+    }
+    .xWDM_netword_main_left_dl dd{
+        font-size: 14px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        display:-webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:3;
+    }
+    .xWDM_netword_main_left_dl{
+        width: 48%;
+        padding-right: 2%;
+    }
+    .xWDM_netword_main_left_dl:nth-child(3) dt,.xWDM_netword_main_left_dl:nth-child(4) dt{
+        margin-top: 20px;
+    }
+    .xWDM_netword_main_left_dl dd br{
+        display: none;
+    }
+    .new_40g_product p{
+         text-align:center;
+     }
+    .new_40g_why_list{
+        width: 100%;
+        margin-right: 0;
+    }
+
+}
+.new_40g_product.xWDM ul li img{
+    transition: all .3s
+}
+.new_40g_product.xWDM ul li:hover img{
+    opacity: .8;
+}

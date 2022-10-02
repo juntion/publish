@@ -1,0 +1,234 @@
+.content{
+	padding: 0 60px;
+}
+.cs_banner_bg{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	z-index: -1;
+	height: 460px;
+	background:url(https://img-en.fs.com/includes/templates/fiberstore/images/austomer_service/customer_service_banner.jpg) no-repeat center;
+}
+.customer_center_txt a{
+	font-size: 16px;
+	color: #0070BC;
+	text-decoration: none;
+}
+.customer_center_txt a:hover{
+	color: #0070BC;
+	text-decoration: underline;
+}
+.cs_promise_main{
+	text-align: center;
+	padding-bottom: 75px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.cs_promise_main dl{
+	display: inline-block;
+	margin-right: 100px;
+}
+.cs_promise_main dl:last-child{
+	margin-right: 0;
+}
+.cs_promise_main dl dt{
+	margin-bottom: 20px;
+}
+.cs_promise_main dl dd{
+	font-size: 14px;
+	line-height: 26px;
+}
+.cs_promise_main dl:nth-child(1) dd{
+	color: #0070BC;
+}
+.cs_promise_main dl:nth-child(2) dd{
+	color: #f4b183;
+}
+.cs_promise_main dl:nth-child(3) dd{
+	color: #92d050;
+}
+.cs_policy_table table{
+	width: 1320px;
+}
+.cs_policy_table table thead tr{
+	height: 80px;
+	background-color: #e3f0f9;
+	text-align: center;
+}
+.cs_policy_table table thead tr td{
+	font-size: 14px;
+	color: #616265;
+	line-height: 26px;
+}
+.cs_policy_table table tbody tr td{
+	height: 100px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 14px;
+	color: #999;
+	border: 1px solid #e6e9ee;
+	border-top: none;
+	border-right: none;
+}
+.cs_policy_table table tbody tr td:last-child{
+	border-right: 1px solid #e6e9ee;
+}
+.cs_notice_dl dt{
+	font-size: 16px;
+	color: #616265;
+	line-height: 22px;
+}
+.cs_notice_dl dt a{
+	color: #0070BC;
+	text-decoration: none;
+}
+.cs_notice_dl dt a:hover{
+	color: #0070BC;
+	text-decoration: underline;
+}
+.cs_notice_dl dd img{
+	margin: 80px auto 40px;
+}
+.cs_notice_dl dd p{
+	font-size: 14px;
+	color: #999;
+	margin: 12px 0 18px;
+	text-indent: 26px;
+	line-height: 20px;
+}
+.cs_notice_dl dd ul{
+	padding-left: 25px;
+	margin-top: 14px;
+}
+.cs_notice_dl dd ul li{
+	font-size: 14px;
+	color: #999;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.cs_notice_dl dd ul li span{
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	vertical-align: middle;
+	border-radius: 50%;
+	background-color: #999;
+	margin-right: 6px;
+}
+.cs_notice_dl dd ul li b{
+	font-weight: normal;
+	line-height: 20px;
+}
+.cs_explain{
+	margin-bottom: 40px;
+}
+.cs_explain_pic{
+	margin-bottom: 125px;
+}
+.cs_explain_pic_main{
+	width: 1320px;
+	position: relative;
+}
+.cs_explain_pic em{
+	position: absolute;
+	font-style: normal;
+	font-size: 14px;
+	color: #7d8180;
+	top: 80px;
+}
+.cs_explain_pic em:nth-child(2){
+	left: 165px;
+}
+.cs_explain_pic em:nth-child(3){
+	left: 320px;
+}
+.cs_explain_pic em:nth-child(4){
+	left: 475px;
+}
+.cs_explain_pic em:nth-child(5){
+	left: 632px;
+}
+.cs_explain_pic em:nth-child(6){
+	left: 789px;
+}
+.cs_explain_pic em:nth-child(7){
+	left: 947px;
+}
+.cs_explain_pic em:nth-child(8){
+	left: 1105px;
+}
+@media(max-width:1440px){
+	.cs_explain_pic{
+		overflow-x: auto;
+	}
+	.cs_policy_table{
+		overflow-x: auto;
+	}
+	.cs_notice_dl_pic{
+		overflow-x: auto;
+	}
+}
+@media(max-width:1200px){
+	.content{
+		padding: 0;
+	}
+	.cs_promise_main dl{
+		margin-right: 185px;
+	}
+	.cs_policy_table table tbody td{
+		padding: 0 10px;
+	}
+	.cs_policy_table table td br{
+		display: none;
+	}
+}
+@media(max-width:960px){
+	.content{
+		padding: 0 10px;
+	}
+	.cs_notice_dl dd ul li span{
+		float: left;
+		margin-top: 5px;
+	}
+	.cs_notice_dl dd ul li b{
+		float: left;
+		width: 95%;
+	}
+}
+@media(max-width:820px){
+	.cs_promise_main dl{
+		display: block;
+		margin: 0 auto 20px;
+	}
+}
+@media(max-width:480px){
+	.cs_promise_main dl dt img{
+		display: block;
+		margin: 0 auto;
+	}
+	.cs_promise_main{
+		padding-bottom: 35px;
+	}
+	.cs_policy_table table thead td{
+		width: 10% !important;
+		padding: 0 20px;
+	}
+	.cs_notice_dl dd p{
+		text-indent: 0;
+	}
+	.cs_notice_dl dt{
+		font-size: 14px;
+	}
+	.cs_notice_dl dd ul{
+		padding-left: 0;
+	}
+}
+.content{box-sizing: border-box;}
+@media(max-width:960px){
+	.cs_promise_main dl{display:inline-block;margin: 30px 40px 0;}
+	.cs_promise_main dl dt img{width: 90px;height: 90px;}
+}
+@media(max-width:640px){
+	.cs_promise_main dl{display: block;margin: 30px auto 20px;}
+	.cs_promise_main dl dt img{display:block;margin:0 auto;}
+}
+

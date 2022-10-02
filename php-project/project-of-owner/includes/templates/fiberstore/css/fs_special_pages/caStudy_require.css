@@ -1,0 +1,161 @@
+.box{width: 100%;background: initial;}
+.caStudy_common_width{width: 1000px;margin:auto;}
+.caStudy_common_width01{width: 1220px;margin:auto;}
+.caStudy_banner{height: 380px;}
+.caStudy_banner_bg{position: absolute;width: 100%;height: 380px;left: 0;z-index: -1;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/case_studies/caStudy_banner.jpg) no-repeat center;}
+.caStudy_banner_tit{font-size: 42px;color: #fff;font-weight: 400;text-align: center;padding-top: 130px;line-height: 48px;margin-bottom: 20px;}
+.caStudy_banner_txt{font-size: 22px;color: #fff;text-align: center;}
+.caStudy_require_box{max-height: 83px;min-height: 83px;z-index: 10;position: relative;}
+.caStudy_require_main{display: block;width: 1200px;border: 1px solid #ededed;margin: auto;padding: 31px 60px;background: #fff;box-sizing: border-box;}
+.caStudy_require_left{float: left;}
+.caStudy_require_right{padding-left: 150px;}
+.caStudy_require_tit{font-size: 26px;color: #232323;padding-bottom: 20px;font-weight: normal;}
+.caStudy_require_txt{font-size: 14px;color: #616265;}
+.caStudy_require_box01{height: 74px;background: #f6f6f6;}
+.caStudy_main_box{background: #f6f6f6;font-size: 14px;color: #616265;padding-top: 70px;}
+.caStudy_noc_box{text-align: center;padding-bottom: 30px;}
+.caStudy_noc_box:nth-child(3){padding-bottom: 10px;}
+.caStudy_noc_Ta{display: table;width: 100%;}
+.caStudy_noc_Td01{display: table-cell;width: 48.5%;text-align: right;}
+.caStudy_noc_Td02{display: table-cell;width: 2.6%;}
+.caStudy_noc_Td03{display: table-cell;width: 48.5%;text-align: left;}
+.caStudy_noc_txt01{display: inline-block;padding: 0 15px;}
+.caStudy_noc_img{text-align: center;padding-top: 42px;padding-bottom: 54px;}
+.caStudy_main_box01{width: 1200px;margin: auto;border-bottom: 1px solid #ededed;padding-bottom: 20px;}
+.caStudy_forCutomer_tit{font-size: 26px;color: #232323;text-align: center;padding-top: 70px;font-weight: normal;padding-bottom: 65px;}
+.caStudy_forCutomer_txt{font-size: 14px;color: #616265;text-align: center;}
+.caStudy_forCutomer_txt01{font-size: 14px;color: #616265;padding-bottom: 10px;}
+.caStudy_forCutomer_main{padding-top: 70px;}
+.caStudy_forCutomer_tit01{font-size: 16px;color: #232323;font-weight: 600;}
+.caStudy_proList_tit{font-size: 26px;color: #232323;font-weight: normal;padding-top: 70px;padding-bottom: 40px;text-align: center;}
+.caStudy_proList_box{padding-bottom: 60px;}
+/**/
+.otn-products-table-box {padding: 0 10px;}
+.otn-products-table th {text-align: left;font-weight: 400;padding: 16px 20px !important;line-height: 18px;font-size: 16px;color: #232323;}
+.otn-products-table .title{background: #e1f0f9;}
+.otn-products-table .left {text-align: left !important;padding: 10px 0px 10px 20px;}
+.otn-products-table tr td:last-child {padding-right: 0;}
+.otn-products-table .name {background: #f7f7f7;font-size: 16px;color: #232323;padding: 16px 20px !important;line-height: 18px;}
+.otn-products-table td {text-align: left;font-weight: 400;padding: 4px 20px;line-height: 22px;font-size: 14px;color: #616265;vertical-align: middle;border-bottom: 1px solid #e5e5e5;}
+.otn-products-table td img {width: 70px;height: 70px;}
+.otn-products-table td a {color: #616265;}
+/* .otn-products-table td.otn-describe {word-break: break-all;} */
+.otn-products-table td .stock u {font-style: normal;color: #76bb1f;text-decoration: none;}
+.otn-products-table td .stock em {display: inline-block;width: 8px;height: 8px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;background-color: #76bb1f;
+	vertical-align: middle;margin-right: 5px;}
+	.otn-products-table td .stock>span{color: #76bb1f;}
+.otn-products-table .product_list_qty{height: 38px;box-sizing: border-box;border-right: 0;}
+.otn-products-table .product_list_text {margin-top: 0;display: inline-block;float: none;vertical-align: middle;line-height: 0;}
+.otn-products-table .product_list_text>span{display: inline-block;}
+/**/
+.caStudy_proList_txt{font-size: 18px;color: #616265;margin-top: 30px;}
+.caStudy_proList_txt01{font-size: 18px;color: #1789d6;margin-top: 15px;display: inline-block;}
+.caStudy_proList_txt01 .icon{color:  #1789d6;font-size: 16px;margin-left: 5px;}
+.caStudy_proList_txt01:hover{color: #1789d6;}
+.caStudy_rack_box{background: #ebf0f3;}
+.caStudy_rack_img{width: 1200px;margin: auto;text-align: center;max-width: 100%;margin-top: 70px;position: relative;}
+
+/**/
+.sp-bg-gray {background: #f7f7f7;}
+.otn-platform-bottom {padding-bottom: 75px;}
+.sp-wrap-lg {width: 1420px;margin: 0 auto;}
+.otn-platform-case-left {float: left;width: 66.667%;padding: 0 10px;box-sizing: border-box;}
+.otn-platform-case-box {background: #ffffff;border-top: 6px solid #dedede;height: 423px;transition: all 0.3s ease;}
+.otn-platform-case-box:hover {box-shadow: 0px 5px 10px 1px rgba(199, 199, 199, 0.3);transition: all 0.8s ease;}
+.otn-platform-case-txt {text-align: center;}
+.otn-platform-case-txt h3 {color: #232323;font-size: 24px;padding: 50px 10px 25px 10px;font-weight: 400;}
+.otn-platform-case-txt p {font-size: 16px;color: #616265;line-height: 24px;padding-bottom: 30px;}
+.otn-platform-case-ul{padding-top: 50px;}
+.otn-platform-case-ul li {border-right: 1px solid #e5e5e5;width: 33.222%;float: left;}
+.otn-platform-case-ul li:last-child{border-right: none;}
+.otn-platform-case-ul li a {display: block;}
+.otn-platform-case-ul li a:hover {text-decoration: none;}
+.otn-platform-case-ul li a span {display: block;width: 60px;height: 60px;margin: 0 auto;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/sp_otn/case-study-icon.png) no-repeat;}
+.otn-platform-case-ul li a p {font-size: 14px;color: #616265;text-align: center;line-height: 22px;margin-top: 20px;}
+.otn-platform-case-ul li a p b{color: #616265;font-weight: normal;}
+.otn-platform-case-ul li a:hover b {text-decoration: underline;color: #0070BC;}
+.otn-platform-case-ul li a p em{font-size: 12px;}
+.otn-platform-case-ul li a:hover p em {text-decoration: none;color: #0070BC;}
+.otn-platform-case-box .otn-platform-sys-btn{padding: 50px 0 54px;text-align: center;}
+.otn-platform-sys-btn a {display: inline-block;width: 150px;height: 38px;line-height: 36px;text-align: center;color: #232323;font-size: 14px;border-radius: 2px;border: 1px solid #4c4948;}
+.otn-platform-case-right {float: left;padding: 0 10px;width: 33.333%;box-sizing: border-box;}
+.otn-profile {display: block;width: 82px;height: 82px;margin: 0 auto;border-radius: 100%;border: 1px solid #e5e5e5;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img_new/solution-contact-icon.png) no-repeat 1px -130px;}
+.otn-caStudy-profile{background-position: 0px -519px;}
+.otn-platform-expert p {font-size: 14px;color: #616265;line-height: 22px;padding: 12px 10px 16px 10px;}
+.otn-platform-case-btn {margin-bottom: 14px;}
+.otn-platform-case-btn a {display: inline-block;height: 38px;padding: 0 30px;line-height: 36px;text-align: center;color: #232323;font-size: 14px;border-radius: 2px;border: 1px solid #4c4948;}
+.otn-platform-expert p {font-size: 14px;color: #616265;line-height: 22px;padding: 12px 10px 16px 10px;}
+.otn-platform-case-right {text-align: center;}
+.otn-platform-sys-btn a:hover {background: #4c4948;color: #ffffff;text-decoration: none;}
+.otn-platform-case-btn a:hover {background: #4c4948;color: #ffffff;text-decoration: none;}
+.otn-platform-case-ul li:nth-of-type(1) a span{background-position: 5px -313px;}
+.otn-platform-case-ul li:nth-of-type(2) a span{background-position: -81px -313px;}
+.otn-platform-case-ul li:nth-of-type(3) a span{background-position: -177px -313px;}
+.caStudy_rack_proicon{display: inline-block;width: 35px;height: 35px;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/sp_otn/case-study-icon.png) no-repeat -160px -32px;
+	z-index: 10;position: absolute;cursor: pointer;}
+.caStudy_rack_proicon:hover{background-position: -138px -88px;}
+.proicon_one{left: 406px;top: 71px;}
+.proicon_two{left: 370px;top: 110px;}
+.proicon_three{left: 440px;top: 283px;}
+.proicon_four{left: 781px;top: 74px;}
+.proicon_five{left: 803px;top: 126px;}
+.proicon_six{left: 803px;top: 270px;}
+@media (max-width: 1420px){
+.caStudy_require_main{width: 960px;}
+.sp-wrap-lg {width: 1220px;}	
+}
+@media (max-width: 1220px){
+.box, .content, .product{width: auto;}
+.caStudy_common_width{width: 960px;}
+.caStudy_main_box01{width: auto;}
+.caStudy_forCutomer_img{overflow: auto;}
+.caStudy_noc_box{width: 960px;margin: auto;}
+.caStudy_noc_img{overflow: auto;width: 960px;margin: auto;}
+.caStudy_noc_img img{width: 1200px;}
+.caStudy_forCutomer_img img{width: auto;}
+.caStudy_forCutomer_box{width: 960px;margin: auto;}
+.otn-products-table-box-wrap{overflow-x: auto;}
+.otn-products-table{width: 1200px;}
+.caStudy_common_width01{width: 960px;}
+.sp-wrap-lg {width: 960px;}
+.caStudy_rack_img{width: 100%;overflow: auto;}
+.caStudy_rack_imgPo{width: 1200px;}
+}
+@media (max-width: 960px){
+.content {width: auto;}
+.pr_Public_top{margin: 40px 10px 42px;}
+.caStudy_require_main{width: 100%;padding: 20px;}	
+.caStudy_require_box{margin: 0 10px;}
+.caStudy_common_width{width: auto;}
+.otn-platform-case-left {width: 100%;margin-bottom: 20px;padding: 0;}
+.otn-platform-case-right {width: 100%;padding: 0;}
+.sp-wrap-lg {width: 100%;padding: 0 10px;box-sizing: border-box;}
+.caStudy_main_box{padding: 70px 10px 0;}
+.caStudy_noc_img{width: 100%;}
+.caStudy_main_box01{padding: 0 10px 20px;box-sizing: border-box;}
+.caStudy_forCutomer_box{width: 100%;}
+.caStudy_forCutomer_img{width: 100%;}
+.caStudy_common_width01{width: 100%;}
+.otn-products-table-box-wrap{width: 100%;}
+.caStudy_noc_box{box-sizing: border-box;width: 100%;}
+.sp-bg-gray{padding-bottom: 50px;}
+.otn-platform-case-box{height: auto;}
+}
+@media (max-width: 650px){
+.otn-platform-case-ul {padding-top: 20px;padding-bottom: 30px;}
+}
+@media (max-width: 480px){
+.caStudy_banner, .caStudy_banner_bg {height: 220px;}
+.caStudy_banner_bg {background-size: cover;}
+.caStudy_banner_tit {font-size: 22px;padding: 50px 10px 0;line-height: 30px;}
+.caStudy_banner_txt {font-size: 16px;}
+.caStudy_require_right{padding-left: 110px;}
+.caStudy_require_tit {font-size: 22px;}
+.caStudy_require_box{min-height: auto;max-height: none;}
+.caStudy_require_box01{display: none;}
+.caStudy_main_box {padding-top: 30px;}
+.otn-platform-case-ul li{width: 100%;float: none;}
+.caStudy_proList_tit,.caStudy_forCutomer_tit{line-height: 30px;padding: 40px 0 20px;}
+.caStudy_forCutomer_main{padding-top: 40px;}
+}

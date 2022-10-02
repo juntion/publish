@@ -1,0 +1,136 @@
+{
+  "finance": [
+    {
+      "uuid": "",
+      "name": "finance.receipt.receipts.action",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "ReceiptAction",
+        "zh-CN": "到款的操作权限"
+      },
+      "comment": "到款管理的操作权限，包括创建到款，到款导入，修改到款，取消到款，激活到款"
+    },
+    {
+      "uuid": "",
+      "name": "finance.receipt.receipts.all",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "ReceiptAll",
+        "zh-CN": "查看所有到款数据的权限"
+      },
+      "comment": "查看所有到款数据的权限，有此权限展示所有的到款"
+    },
+    {
+      "uuid": "",
+      "name": "finance.receipt.receipts.group",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "ReceiptGroup",
+        "zh-CN": "查看同组用户的到款数据的权限"
+      },
+      "comment": "查看同组用户的到款数据的权限，有此权限展示同组用户的到款数据"
+    },
+    {
+      "uuid": "",
+      "name": "finance.receipt.applications.action",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "ReceiptApplicationAction",
+        "zh-CN": "到款认领申请的操作权限"
+      },
+      "comment": "到款认领审请的操作权限，创建到款认领审请,取消到款认领申请,删除申请权限"
+    },
+    {
+      "uuid": "",
+      "name": "finance.receipt.applications.verify",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "ReceiptApplicationVerify",
+        "zh-CN": "到款认领申请的审核权限"
+      },
+      "comment": "到款认领审请的审核权限，认领/取消认领申请审核权限"
+    },
+    {
+      "uuid": "",
+      "name": "finance.voucher.vouchers.action",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "VoucherAction",
+        "zh-CN": "用款凭证的操作权限"
+      },
+      "comment": "用款凭证的操作权限，包括创建用款凭证"
+    },
+    {
+      "uuid": "",
+      "name": "finance.voucher.vouchers.all",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "VouchersAll",
+        "zh-CN": "查看所有用款凭证数据的权限"
+      },
+      "comment": "查看所有用款凭证数据的权限，有此权限展示所有的用款凭证"
+    },
+    {
+      "uuid": "",
+      "name": "finance.voucher.vouchers.group",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "VouchersGroup",
+        "zh-CN": "查看同组用户的用款凭证数据的权限"
+      },
+      "comment": "查看同组用户的用款凭证数据的权限，有此权限展示同组用户的用款凭证数据"
+    },
+    {
+      "uuid": "",
+      "name": "finance.invoice.invoices.action",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "InvoiceAction",
+        "zh-CN": "发票的操作权限"
+      },
+      "comment": "发票的操作权限，包括创建发票，作废发票"
+    },
+    {
+      "uuid": "",
+      "name": "finance.invoice.invoices.all",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "InvoiceAll",
+        "zh-CN": "查看所有发票数据的权限"
+      },
+      "comment": "查看所有发票数据的权限，有此权限展示所有的发票数据"
+    },
+    {
+      "uuid": "",
+      "name": "finance.invoice.invoices.group",
+      "guard_name": "",
+      "type": "",
+      "group": "",
+      "locale": {
+        "en-US": "InvoiceGroup",
+        "zh-CN": "查看同组用户的发票数据的权限"
+      },
+      "comment": "查看同组用户的发票数据的权限，有此权限展示同组用户的发票数据"
+    }
+  ]
+}

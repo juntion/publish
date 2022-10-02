@@ -1,0 +1,78 @@
+<?php
+// fairy 2017-08-17 add
+define('FS_PARTNER_COMPANY','Company Info');
+define('FS_PARTNER_ABOUT','About Us');
+define('FS_PARTNER_CONTACT','Contact Us');
+define('FS_PARTNER_WHY','Why Us');
+define('FS_PARTNER_NEWS','News');
+define('NAVBAR_TITLE','Business Account');
+
+define('FS_PARTNER_NAVBAR_TITLE','Business Account');
+define('FS_PARTNER_NAVBAR_DETAIL','Better Price, Free Advice.<br> Save 2% or more on all purchases, and access free advice from a dedicated representative. ');
+define('FS_PARTNER_REGISTER','Register Business Account');
+define('FS_PARTNER_UPGRADE','Upgrade to a Business Account');
+define('FS_PARTNER_MY','Enter My FS.COM Account');
+
+define('FS_PARTNER_WORK','How It Works');
+
+define('FS_PARTNER_WORK1_TITLE','Create an Account');
+define('FS_PARTNER_WORK1_TITLE_UPDATE','Upgrade an Account');
+define('FS_PARTNER_WORK1_TITLE_MY','Get a Quote');
+define('FS_PARTNER_WORK1_DETAIL','Create a business account, and start shopping right away with great account features such as preferential delivery.');
+define('FS_PARTNER_WORK1_DETAIL_UPDATE','Upgrade to a business account, and start shopping right away with great account features, such as preferential delivery.');
+define('FS_PARTNER_WORK1_DETAIL_MY','Want to get a quote? Live chat with us online or email us about your needs with your FS.COM account.');
+
+define('FS_PARTNER_WORK2_TITLE','Make a Purchase');
+define('FS_PARTNER_WORK2_DETAIL','Make any online purchase from our robust catalog of fiber optics with a discount of 2% or more.');
+
+define('FS_PARTNER_WORK3_TITLE','We\'ll Contact You');
+define('FS_PARTNER_WORK3_DETAIL','Within 12 hours, the FS.COM representative will call or email you to learn more about your needs.');
+define('FS_PARTNER_WORK3_DETAIL_MY','Within 12 hours, your FS.COM representative will call or email you to learn more about your requirements.');
+
+define('FS_PARTNER_WORK4_TITLE','Enjoy My FS.COM Advantage');
+define('FS_PARTNER_WORK4_DETAIL','Now you\'re on your way to great perks, including free solutions and savings of 2% or more on all future purchases.');
+
+define('FS_PARTNER_BENIFT','Shop online and save 2% or more on all FS.COM products. Perfect for all business types and sizes.');
+
+define('FS_PARTNER_BENIFT1_TITLE','Preferential Price');
+define('FS_PARTNER_BENIFT1_DETAIL','Wholesale price available; Members enjoy different discounts according to their member level.');
+
+define('FS_PARTNER_BENIFT2_TITLE','Quick Delivery');
+define('FS_PARTNER_BENIFT2_DETAIL','For corporate members, we will arrange for shipments as fast as possible and also provide the best shipping method.');
+
+define('FS_PARTNER_BENIFT3_TITLE','Professional Customization');
+define('FS_PARTNER_BENIFT3_DETAIL','FS.COM customized products: OEM products with your company’s name and logo.');
+
+define('FS_PARTNER_BENIFT4_TITLE','Easy Online Quotes');
+define('FS_PARTNER_BENIFT4_DETAIL','Want a better price? Create your own quotes online with your FS.COM business account.');
+
+define('FS_PARTNER_ADVANTAGE','Your FS.COM Advantage doesn\'t end at checkout');
+define('FS_PARTNER_ADVANTAGE_DETAIL1','Gain access to exclusive purchasing channels and promotion participation privileges.');
+define('FS_PARTNER_ADVANTAGE_DETAIL2','Receive full support before and after purchase, including help with deployment and ongoing management.');
+
+define('FS_PARTNER_SUPPORT','Gain more technical support and solutions through your dedicated sales representatives');
+define('FS_PARTNER_SUPPORT_NOTE','Once your business application is approved, access more professional support:');
+define('FS_PARTNER_SUPPORT_DETAIL1','Whether you’re a small business or an enterprise, we have experts in your industry to provide you with technical support.');
+define('FS_PARTNER_SUPPORT_DETAIL2','Our exclusive VIP customer service and management helps you to obtain the latest on new products.');
+define('FS_PARTNER_SUPPORT_DETAIL3','Let us help you plan for the future with information about new and emerging technologies based on your needs.');
+
+define('FS_PARTNER_PARTNER','See our Worldwide Business Partners');
+define('FS_PARTNER_PARTNER_DETAIL','FS.COM thanks every partner from 50 countries all around the world. We are dedicated to data center, enterprise and optical transmission network solution to help you build exactly what you need.');
+define('FS_PARTNER_MORE1','Learn More');
+
+define('FS_PARTNER_READY','Ready to register?');
+define('FS_PARTNER_READY_UPDATE','Ready to upgrade?');
+define('FS_PARTNER_READY_MY','Ready to talk with us?');
+
+define('FS_PARTNER_READY_DETAIL','Create a business account to access online discounts and our ready-to-help tech specialists.');
+define('FS_PARTNER_READY_DETAIL_UPDATE','Customers with an existing account can upgrade to a business account. Click the button below to get started.');
+define('FS_PARTNER_READY_DETAIL_MY','Send a message to your delicated representative to get a quote and gain more tech support.');
+
+define('FS_PARTNER_QUETION','Have a question?');
+define('FS_PARTNER_QUETION_DETAIL','Speak with an expert by calling +1 (877) 205 5306, or email us for a response within 12 hours.');
+
+define('FS_PARTNER_EMAIL','Email us');
+
+
+
+?>

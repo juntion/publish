@@ -1,0 +1,132 @@
+body{margin:0 auto;padding:0;font-size:13px;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-style:normal;font-weight:400;list-style:none}
+.box{width:1440px;padding:0;margin:0 auto;overflow:hidden}
+.content{padding:0}
+img{display:block}
+dd,div,dl,dt,form,h1,h2,h3,input,li,p,select,ul{margin:0;padding:0;list-style:none}
+.Rec_banner{height:320px}
+.Rec_banner_bg{position:absolute;left:0;width:100%;height:320px;z-index:-1;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/img/banner-01.jpg) no-repeat}
+.Rec_banner_tit{font-size:36px;color:#fff;text-align:center;padding-top:100px;margin-bottom:20px;font-weight:400;line-height:40px}
+.Rec_banner_txt{font-size:18px;color:#fff;font-weight:400;text-align:center;line-height:32px;padding-left:430px;padding-right:430px}
+.Rec_business{overflow:hidden}
+.Rec_Stairs:after{content:"";display:block;clear:both}
+.Rec_Stairs{height:94px;box-sizing:border-box;position:relative}
+.Rec_Stairs_bg{position:absolute;left:0;width:100%;height:94px;z-index:-1;background:#fff;box-shadow:0 1px 0 #E3E3E3}
+.Rec_Stairs_ul{float:left;box-sizing:border-box;width:100%;height:100%}
+.Rec_Stairs_ul li{text-align:center;float:left;font-size:16px;color:#232323;box-sizing:border-box;cursor:pointer;width:20%;height:100%;border-bottom:2px solid #a0a0a0}
+.Rec_Stairs_container:after{content:"";display:block;clear:both}
+.Rec_Stairs_container_ul:after{content:"";display:block;clear:both}
+.Pu_public:after{content:"";display:block;clear:both}
+.Rec_Stairs_container_ul li:after{content:"";display:block;clear:both}
+.Rec_Stairs_container_ul li{padding-top:50px;border-bottom:1px solid #dedede;padding-bottom:40px}
+.Rec_Stairs_container_ul li:last-child{border-bottom:none;}
+.Rec_Stairs_position:after{content:"";display:block;clear:both}
+.Rec_Stairs_position{width:1440px;height:100%}
+.Pu_tit{font-size:24px;line-height:26px;color:#232323;font-weight:400;padding-top:50px;padding-bottom:20px;text-align:center}
+.Pu_txt{font-size:14px;line-height:26px;color:#232323;font-weight:400;text-align:center;padding-left:60px;padding-right:60px;padding-bottom:50px}
+.Pu_dt{width:62px;height:48px;display:block;margin:0 auto;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/img/my-orders.png) no-repeat;background-position:-6px -9px}
+.Pu_dt_two{background-position:-69px -9px}
+.Pu_dt_three{background-position:-132px -9px}
+.Pu_dt_four{background-position:-196px -9px}
+.Pu_dt_five{background-position:-266px -9px}
+.Pu_dl dt{margin-top:8px}
+.Pu_dl dd{padding-top:6px}
+.Rec_Stairs_ul li.active{border-bottom:3px solid #0070BC}
+.Rec_Stairs_ul li.active{border-bottom:3px solid #0070BC}
+.Rec_Stairs_ul li.active .Pu_dl dd{color:#0070BC}
+.Rec_Stairs_ul li.active .Pu_dl .Pu_dt_one{background-position:-6px -74px}
+.Rec_Stairs_ul li.active .Pu_dl .Pu_dt_two{background-position:-69px -74px}
+.Rec_Stairs_ul li.active .Pu_dl .Pu_dt_three{background-position:-132px -74px}
+.Rec_Stairs_ul li.active .Pu_dl .Pu_dt_four{background-position:-196px -74px}
+.Rec_Stairs_ul li.active .Pu_dl .Pu_dt_five{background-position:-266px -74px}
+.Pu_li_tit{position:relative}
+.Pu_li_tit p{font-size:18px;line-height:26px;color:#232323;font-weight:600;padding-bottom:20px;margin-left:36px}
+.Pu_public_dl{width:50%;float:left;margin-bottom:10px}
+.Pu_li_tit i{display:inline-block;width:25px;height:22px;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/img/my.png) no-repeat;background-position:-2px -2px;position:absolute;top:3px}
+.Pu_li_bg_two i{background-position:-28px -2px}
+.Pu_li_bg_three i{background-position:-52px -2px}
+.Pu_li_bg_four i{background-position:-77px -2px}
+.Pu_li_bg_five i{background-position:-106px -2px}
+.Pu_public_dl dd,.Pu_public_dl dt{padding-left:36px;padding-right:148px}
+.Pu_public_dl dt{font-size:18px;color:#999;padding-bottom:15px;line-height:24px;font-weight:400;padding-top:10px}
+.Pu_public_dl dd p{font-size:14px;line-height:24px;color:#232323;font-weight:400;padding-bottom:8px;min-height:40px}
+.Pu_public_dl a{text-decoration:none;color:#0070BC}
+.Pu_public_dl a:hover{text-decoration:underline}
+.Pu_bottom h2{font-size:24px;line-height:24px;color:#232323;font-weight:400;padding:50px 0 20px 36px}
+.Pu_bottom p{font-weight:400;font-size:14px;line-height:24px;color:#232323;padding:0 0 50px 36px}
+.Pu_bottom p a{text-decoration:none;color:#0070BC}
+.Pu_bottom p a:hover{text-decoration:underline}
+.page_nav {
+    width: 100%;
+    line-height: 56px;
+    background: #fff;
+    position: fixed;
+    height: 56px;
+    top: 0;
+    display: none;
+    z-index: 22;
+    left: 0;
+    /* transition: all 250ms; */
+    box-shadow: 0px 1px 5px #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.page_nav_con {
+    width: 1440px;
+    margin: 0 auto;
+}
+.big_title {
+    font-size: 16px;
+    color: #232323;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    float: left;
+}
+.short_title {
+    float: right;
+}
+.big_title a {
+    font-size: 16px;
+    color: #232323;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 20px;
+    display: block;
+    width: 200px;
+}
+.short_title a.title_selected {
+    color: #c00000;
+}
+.short_title a {
+    padding: 0 30px;
+    text-decoration: none;
+    color: #232323;
+    font-size: 14px;
+    border-right: 1px solid #dedede;
+}
+@media(max-width:1440px){.box{width:1200px}
+.Rec_Stairs_position{width:1220px}
+.Rec_banner_txt{padding-left:0;padding-right:0}
+}
+@media(max-width:1220px){.box{width:960px}
+.Rec_Stairs_position{width:960px}
+.Pu_public_dl dd,.Pu_public_dl dt{padding-right:50px}
+}
+@media(max-width:960px){.box{width:100%}
+.content{width:auto;padding:0 10px}
+.Rec_Stairs_position{width:100%}
+.Pu_public_dl{width:100%}
+.Pu_public_dl dd,.Pu_public_dl dt{padding-right:0}
+.Pu_txt{padding-left:0;padding-right:0}
+}
+@media(max-width:830px){.Rec_Stairs_ul{display:none}
+.Rec_Stairs_a{float:initial}
+.Rec_Stairs{display:none}
+.Pu_txt{padding-bottom:0}
+}
+@media(max-width:480px){.Rec_banner{height:220px;overflow:hidden}
+.Rec_banner_bg{height:220px}
+.Rec_banner_tit{font-size:24px;padding-top:50px;line-height:40px;margin-bottom:5px;font-weight:400}
+.Rec_banner_txt{font-size:16px;line-height:22px;font-weight:400}
+.Rec_Stairs_container_ul li{padding-top:24px;padding-bottom:10px}
+}

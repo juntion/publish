@@ -1,0 +1,36 @@
+<?php 
+define('EMAIL_SUBJECT', 'Messaggio da ' . STORE_NAME);
+define('FS_LIVE_CHAT_SERVICE_CUSTOMER', 'Servizio clienti'); 
+define('FS_LIVE_CHAT_SERVICE_HEADER1', 'Ottieni tutto il supporto sull\'acquisto'); 
+define('FS_LIVE_CHAT_SERVICE_HEADER2', 'Il servizio professionale & il supporto sono disponibili in tre modi diversi'); 
+define('FS_LIVE_CHAT_SERVICE_HEADER3', 'Pubblicazione del tuo messaggio su FS.COM effettuata correttamente'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT1', 'Chatta dal vivo con FS.COM'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT2', 'Online'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT3', 'Parlare con noi e ottenere immediatamente le informazioni relative.'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT4', 'Chatta ora'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT5', 'Offline'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT6', 'Chat online'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT7', 'Invia un\'e-mail a FS.COM'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT8', 'Risposta entro 12 ore'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT9', 'Pubblica una domanda e ottieni una risposta rapida da FS.COM.'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT10', 'Invia un\'e-mail ora'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT11', 'Disponibile'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT12', 'Effettua una chiamata'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT13', '+ 027-87677765'); 
+define('FS_LIVE_CHAT_SERVICE_CONTENT14', 'O fai clic sul pulsante sottostante per farti richiamare da noi.'); 
+define('FS_LIVE_CHAT_SERVICE_FOOTER1', 'Copyright &copy; 2009-'.date("Y").'&nbsp;FS.COM Tutti i diritti riservati');
+define('FS_LIVE_SERVICE_WE', 'Siamo a tua disposizione.'); 
+define('FS_LIVE_SERVICE_CONNECT', 'Hai bisogno di aiuto? Scegli di seguito un\'opzione di servizio per connetterti a FS.COM'); 
+define('FS_LIVE_SERVICE_CHAT', 'Chat'); 
+define('FS_LIVE_SERVICE_WELCOME', 'Benvenuto nella Livechat di FS.COM! Chatta con gli esperti online e ottieni le risposte immediatamente.'); 
+define('FS_LIVE_SERVICE_EMAIL', 'E-mail'); 
+define('FS_LIVE_SERVICE_SEND', 'Invia le tue domande via e-mail. Il nostro team del servizio clienti ti risponderà il più presto possibile.'); 
+define('FS_LIVE_SERVICE_NOW', 'Invia un\'e-mail ora'); 
+define('FS_LIVE_SERVICE_CALL_US', 'Chiama'); 
+define('FS_LIVE_SERVICE_CALL', 'Chiama'); 
+define('FS_LIVE_SERVICE_OR', 'O'); 
+define('FS_LIVE_SERVICE_GET', 'Effettua una chiamata'); 
+define('FS_LIVE_SERVICE_SHARE', 'Condividi il tuo commento'); 
+define('FS_LIVE_SERVICE_PLEASE', 'Comunicaci i tuoi commenti e suggerimenti riguardanti il nostro sito web. Le informazioni che condividi con FS.COM sono utilizzate solo internamente onde avere la certezza di fornirti i migliori servizi per soddisfare le tue necessità.'); 
+define('FS_LIVE_SERVICE_ACCESS', 'Commento sull\'accessibilità'); 
+?>

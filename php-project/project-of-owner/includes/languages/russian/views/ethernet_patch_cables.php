@@ -1,0 +1,41 @@
+<?php
+define('FS_CAT_CABLE_01','Cat6 UTP <br> RJ45 Snagless PVC CM');
+define('FS_CAT_CABLE_02','Cat6 UTP RJ45 <br> None-booted PVC CM');
+define('FS_CAT_CABLE_03','Cat6 SFTP <br> RJ45 Snagless PVC');
+define('FS_CAT_CABLE_04','Cat6 Тонкий UTP <br> RJ45 Snagless PVC CM');
+define('FS_CAT_CABLE_05','Cat5e UTP <br> RJ45 Snagless PVC CM');
+define('FS_CAT_CABLE_06','Cat5e UTP <br> RJ45 None-booted PVC CM');
+define('FS_CAT_CABLE_07','Cat5e FTP <br> RJ45 Snagless PVC');
+define('FS_CAT_CABLE_08','Cat6a SFTP <br> RJ45 Snagless PVC');
+define('FS_CAT_CABLE_09','Cat7 SFTP RJ45 Snagless PVC');
+define('FS_CAT_CABLE_10','Cat8 SFTP RJ45 Snagless PVC');
+define('FS_CAT_CABLE_11','Цвет');
+define('FS_CAT_CABLE_11_COLOR','Тип & Цвет');
+define('FS_CAT_CABLE_12','Список Запасов Cat5e/Cat6/Cat6a Патч-Кордов');
+define('FS_CAT_CABLE_13','Большие запасы обеспечивают отправку в тот же день.');
+define('FS_CAT_CABLE_14','Международный склад, Отправка в тот же день');
+define('FS_CAT_CABLE_15','FS предоставляет богатый выбор и достаточные запасы патч-кордов с высоким качеством и конкурентоспособной ценой для ваших ЦОД, таких как <a href="javascript:;">Cat6 Патч-корды</a>, <a href="javascript:;">Cat6 Тонкие Патч-корды</a>, <a href="javascript:;">Cat5e Патч-корды</a>, <a href="javascript:;">Cat6a Патч-корды</a>. Кроме того, <a href="'.zen_href_link(FILENAME_DEFAULT,'cPath=980').'">Cat7 Патч-корды</a> и <a href="'.zen_href_link(FILENAME_DEFAULT,'cPath=3371').'">Cat8 Патч-корды</a> также предоставляются. Большой запас патч-кордов обеспечивает доставку в тот же день после получения онлайн-заказов клиентов.');
+define('FS_CAT_CABLE_16','Cat6 Патч-Корды');
+define('FS_CAT_CABLE_17','Cat6 Тонкие Патч-Корды');
+define('FS_CAT_CABLE_18','Cat5e Патч-Корды');
+define('FS_CAT_CABLE_19','Cat6a Патч-Корды');
+define('FS_CAT_CABLE_20','Cat7 Патч-Корды (SFTP, Snagless, PVC)');
+define('FS_CAT_CABLE_21','Cat8 Патч-Корды (SFTP, Snagless, PVC)');
+define('FS_CAT_CABLE_22','Строгий контроль качества продукта');
+define('FS_CAT_CABLE_23','100% тест на производительности для уверенности в том, что каждый патч-корд обеспечивает указанную карту проводки производительности, NEXT и обратные потери.');
+define('FS_CAT_CABLE_24','Смотреть видео');
+define('FS_CAT_CABLE_25','Как Тестировать Медный Ethernet Сетевой Кабель с Использованием Теста Fluke | FS.COM');
+//2019/2/14  Yoyo
+define('FS_CAT_CABLE_DES','Описание');
+define('FS_CAT_CABLE_LENGTH','Длина');
+define('FS_CAT_CABLE_STOCK',' В наличии');
+define('FS_CAT_CABLE_PRICE','Цена');
+define('FS_CAT_CABLE_QTY','Кол-во');
+define('CABLES_DATASHEET_TITLE','Ethernet Патч-корды Даташит');
+define('CABLES_DATASHEET_PDF_1','Cat5e UTP Даташит');
+define('CABLES_DATASHEET_PDF_2','Cat5e FTP Даташит');
+define('CABLES_DATASHEET_PDF_3','Cat6 UTP Даташит');
+define('CABLES_DATASHEET_PDF_4','Cat6 SFTP Даташит');
+define('CABLES_DATASHEET_PDF_5','Cat6 Тонкий UTP Даташит');
+define('CABLES_DATASHEET_PDF_6','Cat6a SFTP Даташит');
+?>

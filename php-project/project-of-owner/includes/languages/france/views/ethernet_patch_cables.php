@@ -1,0 +1,41 @@
+<?php
+define('FS_CAT_CABLE_01','Cat6 UTP <br> Snagless PVC CM');
+define('FS_CAT_CABLE_02','Cat6 UTP <br> Non-booted PVC CM');
+define('FS_CAT_CABLE_03','Cat6 SFTP <br> Snagless PVC');
+define('FS_CAT_CABLE_04','Cat6 Fin UTP <br> Snagless PVC CM');
+define('FS_CAT_CABLE_05','Cat5e UTP <br> Snagless PVC CM');
+define('FS_CAT_CABLE_06','Cat5e UTP <br>  Non-booted PVC CM');
+define('FS_CAT_CABLE_07','Cat5e FTP <br> Snagless PVC');
+define('FS_CAT_CABLE_08','Cat6a SFTP <br> Snagless PVC');
+define('FS_CAT_CABLE_09','Cat7 SFTP Snagless PVC');
+define('FS_CAT_CABLE_10','Cat8 SFTP Snagless PVC');
+define('FS_CAT_CABLE_11','Couleur');
+define('FS_CAT_CABLE_11_COLOR','Type & Couleur');
+define('FS_CAT_CABLE_12','Liste des Stocks des Câbles Réseau <br /> Cat5e/Cat6/Cat6a');
+define('FS_CAT_CABLE_13','Les stocks importants assurent l\'expédition le jour même.');
+define('FS_CAT_CABLE_14','Entrepôt Global, Expédition le Jour Même');
+define('FS_CAT_CABLE_15','FS fournit une vaste gamme et un inventaire suffisant de câbles réseau de haute qualité à un prix compétitif pour vos centres de données, tels que <a href="javascript:;">Câbles Réseau Cat6</a>, <a href="javascript:;">Câbles Réseau Fin Cat6</a>, <a href="javascript:;">Câbles Réseau Cat5e</a>, <a href="javascript:;">Câbles Réseau Cat6a</a>. De plus, <a href="'.zen_href_link(FILENAME_DEFAULT,'cPath=980').'">Câbles Réseau Cat7</a>  et <a href="'.zen_href_link(FILENAME_DEFAULT,'cPath=3371').'">Câbles Réseau Cat8</a> sont également fournis. Un vaste inventaire de câbles réseau assure l\'expédition le jour même après la réception des commandes en ligne des clients.');
+define('FS_CAT_CABLE_16','Câbles Réseau Cat6');
+define('FS_CAT_CABLE_17','Câbles Réseau Cat6 Fin');
+define('FS_CAT_CABLE_18','Câbles Réseau Cat5e');
+define('FS_CAT_CABLE_19','Câbles Réseau Cat6a');
+define('FS_CAT_CABLE_20','Câbles Réseau Cat7 (SFTP, Snagless, PVC)');
+define('FS_CAT_CABLE_21','Câbles Réseau Cat8 (SFTP, Snagless, PVC)');
+define('FS_CAT_CABLE_22','Contrôle de Qualité des Produits Excellent');
+define('FS_CAT_CABLE_23','Test de performance à 100% pour assurer que chaque câble réseau fournit un schéma de câblage de performance spécifié, NEXT et une perte de retour.');
+define('FS_CAT_CABLE_24','Regarder les Vidéos');
+define('FS_CAT_CABLE_25','Comment Tester un Câble Réseau Ethernet en Cuivre avec le Test de Réseau Fluke | FS.COM');
+//2019/2/14  Yoyo
+define('FS_CAT_CABLE_DES','Description');
+define('FS_CAT_CABLE_LENGTH','Longueur');
+define('FS_CAT_CABLE_STOCK','Stock');
+define('FS_CAT_CABLE_PRICE','Prix');
+define('FS_CAT_CABLE_QTY','Qté');
+define('CABLES_DATASHEET_TITLE','Fiche Technique des Câbles Réseau Ethernet');
+define('CABLES_DATASHEET_PDF_1','Fiche Technique de Cat5e UTP');
+define('CABLES_DATASHEET_PDF_2','Fiche Technique de Cat5e FTP');
+define('CABLES_DATASHEET_PDF_3','Fiche Technique de Cat6 UTP');
+define('CABLES_DATASHEET_PDF_4','Fiche Technique de Cat6 SFTP');
+define('CABLES_DATASHEET_PDF_5','Fiche Technique de Cat6 Fin');
+define('CABLES_DATASHEET_PDF_6','Fiche Technique de Cat6a SFTP');
+?>

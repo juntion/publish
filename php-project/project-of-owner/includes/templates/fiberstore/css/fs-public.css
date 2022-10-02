@@ -1,0 +1,112 @@
+:root{
+    /* 普通文字颜色 */
+    --txtFontColor:#646466;
+    /* 标题文字颜色 */
+    --titFontColor:#19191A;
+    /* 提示、辅助性文字颜色 */
+    --tipsFontColor:#89898C;
+    /* 去掉下划线 */
+    --noDecoration:none;
+    /* 添加下划线 */
+    --addDecoration:underline;
+    /* 蓝色链接文字颜色 */
+    --hrefNormalColor:#0060BF;
+    /* 文字加粗 */
+    --fontBold:600;
+    /* 正常文字 */
+    --fontNormal:400;
+    /* 页面背景颜色 */
+    --bgColor:#f7f7f7;
+    /* 加入购物车、登录注册、checkout按钮背景颜色 */
+    --addCartButtonBg:#c00000;
+    /* 加入购物车、登录注册、checkout按钮hover颜色 */
+    --addCartButtonHoverBg:#9b0912;
+    /* 加入购物车、登录注册、checkout按钮内部左右间距 */
+    --addCartButtonPadding:0 30px;
+    /* 矮一点的按钮高度 */
+    --shortButtonHeight:38px;
+    /* 高一点的按钮高度 */
+    --highButtonHeight:48px;
+    /* 灰色按钮背景颜色 */
+    --greyButton:#4b4b4d;
+
+    /* 白色文字 */
+    --whiteFontColor:#fff;
+
+    /* 成功提示背景颜色 */
+    --successTipsBg:#e7e6ee;
+    /* 成功提示文字颜色 */
+    --successTipsColor:#00a653;
+
+    /* 警示提示背景颜色 */
+    --warningTipsBg:#E5EFF8;
+    /* 警示提示文字颜色 */
+    --warningTipsColor:#035FBF;
+
+    /* 错误提示背景颜色 */
+    --errorTipsBg:#F7F7F7;
+    /* 错误提示边框颜色 */
+    --errorTipsBorder:#B2D0EC;
+
+    /* 提示n条新信息背景颜色 */
+    --newMessageTipsBg:#c00000;
+
+    /* 账户中心边框 */
+    --accountBorder:1px solid #ccc;
+    /* 正常边框 */
+    --normalBorder:1px solid #e5e5e5;
+    /* 边框圆角 */
+    --borderRadius:3px;
+    /* 触发输入框边框颜色 */
+    --focusBorderColor:#89898C;
+    /* 边框为圆 */
+    --circularBorder:50%;
+    /* input的text-indent */
+    --inputTextIndent:10px;
+
+    /* 卡片hover投影(首页、列表页) */
+    --boxShadow:0 15px 15px -10px rgba(0, 0, 0, .15);
+    /* 小投影(筛选下拉) */
+    --littleBoxShadow:0px 1px 8px 0 rgba(120,102,102,.3);
+
+    /* 辅助装饰性文字、头部、底部内容文字（如页面底部菜单文字等） */
+    --auxiliaryFontSize:12px;
+    --auxiliaryFont-lineHeight:18px;
+    /* 用于特殊文字（详情页面参数、首页价格库存等）*/
+    --specialFontSize:13px;
+    --specialFont-lineHeight:20px;
+    /* 用于篇幅较多的正文字体（产品标题处可使用20px行高) */
+    --normalFontSize:14px;
+    --normalFont-lineHeight:22px;
+    /* （导航、搜索）面板标题 */
+    --smallTitFontSize:16px;
+    --smallFont-lineHeight:26px;
+    /* 页面标题 */
+    --normalTitFontSize:20px;
+    --normalTitFont-lineHeight:30px;
+    /* banner标题文字 */
+    --bannerTitFontSize:28px;
+    --bannerTitFont-lineHeight:38px;
+
+    /* 最大弹层宽度，用于视频弹窗 */
+    --maxPopupWidth:880px;
+    /* 用于大多数弹层，如取消订单、修改编辑地址、操作成功提示等 */
+    --middlePopupWidth:680px;
+    /* 用于一些小的提示弹窗，如邮编设置等弹层，使用较少 */
+    --smallPopupWidth:480px;
+
+    /*账户中心状态颜色*/
+    --greenBackground:#00A653;
+
+}
+
+@media(max-width:768px){
+    :root{
+        /* 最大弹层宽度，用于视频弹窗 */
+        --maxPopupWidth:100%;
+        /* 用于大多数弹层，如取消订单、修改编辑地址、操作成功提示等 */
+        --middlePopupWidth:100%;
+        /* 用于一些小的提示弹窗，如邮编设置等弹层，使用较少 */
+        --smallPopupWidth:100%;
+    }
+}

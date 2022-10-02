@@ -1,0 +1,281 @@
+
+/*样式 开始*/
+.content {
+ padding-top: 0;
+}
+.jumpers_banner { width: 100%; height: 300px; }
+.jumpers_banner_bg { position: absolute; left: 0; z-index: -1; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/jumpers_test/banner_pic01.jpg) no-repeat center; height: 300px; width: 100%; }
+.jumpers_banner_tit { font-size: 26px; font-weight: 400; text-align: center; padding-top: 65px; color: #fff; line-height: 36px; }
+.jumpers_banner_txt { font-size: 20px; color: #fff; text-align: center; padding: 0 31%; margin-top: 30px; line-height: 34px; }
+.jumpers_tit { font-size: 26px; font-weight: 400; padding: 35px 0; color: #232323; text-align: center; }
+.jumpers_txt { font-size: 14px; color: #232323; font-weight:400; text-align: center; padding: 0 120px; line-height: 24px; }
+.jumpers_program ul { width:74%; text-align: center; margin-top: 30px; padding:0 13%; overflow:hidden;}
+.jumpers_program_list { float:left; width: 31%; margin:0 1%; overflow:hidden; }
+.jumpers_program_list div { width: 328px; height: 212px; }
+.jumpers_program_list:nth-child(1) div {
+ background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/jumpers_test/test-assured-program_pic01.png) center no-repeat #eef2f7;
+}
+.jumpers_program_list:nth-child(2) div {
+ background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/jumpers_test/test-assured-program_pic02.png) center no-repeat #eef2f7;
+}
+.jumpers_program_list:nth-child(3) div {
+ background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/jumpers_test/test-assured-program_pic03.png) center no-repeat #eef2f7;
+}
+.jumpers_program_list_tit { font-size: 16px; font-weight: 500; color: #232323; text-align: center; margin-top: 30px; }
+.jumpers_program_list span { display: block; width: 12px; height: 1px; background-color: #a0a0a0; margin: 15px auto; }
+.jumpers_program_list_txt { font-size: 14px; color: #232323; padding: 0 15px; line-height: 22px; }
+.jumpers_advantages { margin-top: 70px; height: 442px; }
+.jumpers_tit.jumpers_advantages_tit { padding-top:50px; }
+.jumpers_advantages_bg { position: absolute; width: 100%; left: 0; height: 442px; z-index: -1; background-color: #f4f4f4; }
+.jumpers_advantages ul { overflow: hidden; padding: 0 5%; margin-top: 20px; }
+.jumpers_advantages_list { width: 20%; text-align: center; float: left; margin-right: 6%; }
+.jumpers_advantages_list:nth-child(4) {
+ margin-right: 0;
+}
+.jumpers_advantages_list img { display: inline-block; }
+.jumpers_advantages_list_pic { width: 126px; height: 126px; display: inline-block; border-radius: 50%; background-color: #fff; text-align: center; }
+.jumpers_advantages_list_tit { font-size: 16px; color: #0295aa; font-weight: 400; padding: 15px 0 12px 0; }
+.jumpers_advantages_list_txt { font-size: 14px; font-weight:400; color: #232323; padding: 0 10%; }
+.jumpers_tit.jumpers_video_tit { padding-top: 55px; }
+.jumpers_video dl { width: 100%; overflow: hidden; }
+.jumpers_video_left { float: left; width: 616px; height: 348px; margin-right: 100px; }
+.jumpers_video_right { max-width: 670px; float: left; }
+.jumpers_video_right_tit { font-size: 23px; color: #232323; font-weight: 400; padding-top: 70px; }
+.jumpers_video_right_txt { font-size: 14px; color: #232323; margin-top: 25px; line-height: 22px; }
+.jumpers_video_right_href { display: block; width: 134px; height: 40px; background-color: #4c4948; color: #fff; font-size: 14px; text-align: center; line-height: 40px; border-radius: 3px; margin-top:30px; text-decoration: none; }
+.jumpers_video_right_href:hover { text-decoration: none; color: #fff;}
+.jumpers_center { width: 100%; margin-top: 70px; }
+.jumpers_center_bg { position: absolute; width: 100%; left: 0; background-color: #f4f4f4; height:940px; z-index: -1; }
+.jumpers_txt.jumpers_center_txt { font-weight: 400; }
+.jumpers_center_main { width: 100%; }
+.jumpers_center_main_box { width: 1440px; }
+.jumpers_center_main_box_ul { width: 1440px; overflow: hidden; margin-top: 45px; }
+.jumpers_center_main_list { width: 25%; height: 60px; line-height: 60px; text-align: center; box-sizing: border-box; border-right: 1px solid #e5e5e5; background-color: #fff; float: left; }
+.jumpers_center_main_list:nth-child(4) {
+ border-right: none;
+}
+.jumpers_center_main_list a { display: block; width: 100%; height:100%; text-decoration: none; color: #232323; font-size: 18px; }
+.jumpers_center_main_list a:hover { text-decoration: none; }
+.jumpers_center_main_pic { position: relative; height: 639px; }
+.jumpers_center_main_pic:hover .jumpers_center_main_pic_prev { display: block; }
+.jumpers_center_main_pic:hover .jumpers_center_main_pic_next { display: block; }
+.jumpers_center_main_pic ul { width: 100%; height: 100%; position: relative; }
+.jumpers_center_main_pic ul li { position: absolute; left: 0; top: 0; opacity: 0; width: 100%; }
+.jumpers_center_main_pic ul li img { width: 100%; }
+.jumpers_center_main_pic ul li.active { z-index: 5; }
+.jumpers_center_main_pic_prev { width: 60px; height: 78px; position: absolute; top: 50%; margin-top: -39px; overflow: hidden; border-radius: 3px; z-index: 99; cursor: pointer; display: none; left: 0; }
+.jumpers_center_main_pic_prev span { display: block; width: 100%; height: 100%; background-color: #616265; opacity: .3; }
+.jumpers_center_main_pic_prev i { position: absolute; width: 16px; height: 28px; left: 50%; top: 50%; margin-left: -8px; margin-top: -14px; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/jumpers_test/index_icon.png) no-repeat; background-position: -12px -227px; }
+.jumpers_center_main_pic_next { width: 60px; height: 78px; position: absolute; top: 50%; margin-top: -39px; overflow: hidden; border-radius: 3px; z-index: 99; cursor: pointer; display: none; right: 0; }
+.jumpers_center_main_pic_next span { display: block; width: 100%; height: 100%; background-color: #616265; opacity: .3; }
+.jumpers_center_main_pic_next i { position: absolute; width: 16px; height: 28px; left: 50%; top: 50%; margin-left: -8px; margin-top: -14px; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/jumpers_test/index_icon.png) no-repeat; background-position: -52px -227px; }
+.jumpers_center_main_pic_dot { position: absolute; text-align: center; z-index: 10; width: 100%; left: 0; bottom: 0; transform: translateY(-20px); }
+.jumpers_center_main_pic_dot em { display: inline-block; width: 12px; height: 12px; background-color: #0070BC; border-radius: 50%; margin-right: 13px; cursor: pointer; z-index: 10; opacity: .3; }
+.jumpers_center_main_pic_dot em.active { opacity: 1; }
+.jumpers_center_main_pic_more { position: absolute; height: 100%; width: 100%; left: 0; top: 0; z-index: 6; }
+.jumpers_center_main_pic_more_one { width: 25%; height: 100%; background-color: rgba(255, 255, 255, .5); float: left; visibility: hidden; }
+.jumpers_center_main_pic_more_one.show { visibility: visible; }
+.jumpers_center_main_pic_more_one ol { padding: 30px 50px 0 50px; margin: 0; }
+.jumpers_center_main_pic_more_one ol li { margin-bottom: 20px; }
+.jumpers_center_main_pic_more_one_dot { width: 8px; height: 8px; display: inline-block; border-radius: 50%; background-color: #497db3; margin-right: 14px; vertical-align: middle; }
+.jumpers_center_main_pic_more_one_txt { display: inline-block; vertical-align: middle; }
+.jumpers_center_main_pic_more_one_txt a { text-decoration: none; font-size: 14px; color: #232323; font-style: normal; }
+.jumpers_center_main_pic_more_one_txt a:hover{text-decoration:underline;}
+.jumpers_tit.jumpers_show_tit { padding-top: 90px; padding-bottom: 25px; }
+.jumpers_show_smalltit { font-size: 20px; color: #232323; font-weight: 400; text-align: center; margin-bottom: 25px; }
+.jumpers_txt.jumpers_show_txt { font-weight: 400; }
+.jumpers_show_main { width: 100%; overflow: hidden; margin-top: 50px; }
+.jumpers_show_main_one { width: 704px; float: left; margin-right: 12px; }
+.jumpers_show_main_one:nth-child(2) {
+ margin-right:0;
+}
+.jumpers_show_main_one img { width: 100%; }
+.jumpers_show_main_one_txt { width: 100%; /*border: 1px solid #e5e5e5; height: 54px; box-sizing: border-box;*/ text-align: center; line-height: 54px; font-size: 14px; color: #232323; }
+.jumpers_face { margin-top: 70px; }
+.jumpers_face_bg { position: absolute; width: 100%; left: 0; z-index: -1; background-color: #f4f4f4; height: 1440px; }
+.jumpers_tit.jumpers_face_tit { padding-bottom: 20px; }
+.jumpers_txt.jumpers_face_txt { font-weight: 400;margin-bottom: 40px;}
+.jumpers_pic_ul { width: 100%; overflow: hidden;}
+.jumpers_pic_list { width: 462px; float: left; margin-right: 17px; margin-bottom:40px; }
+.jumpers_pic_list:nth-of-type(3n) {
+ margin-right: 0;
+}
+.jumpers_pic_list img { max-width: 100%; display: block; }
+.jumpers_pic_list_txt { width: 100%;  background-color: #fff; text-align: center; line-height: 52px; font-size: 14px; color: #232323;/* border:1px solid #e5e5e5; box-sizing: border-box; border-top:0; */}
+.jumpers_tit.jumpers_loss_tit { padding-top: 80px; padding-bottom: 25px; }
+.jumpers_txt.jumpers_loss_txt { font-weight: 400; }
+.jumpers_loss_name_list { width: 100%; padding-bottom: 15px; margin-top: 30px; border-bottom: 2px solid #e5e5e5; text-align: center; }
+.jumpers_loss_list { font-size: 20px; color: #232323; padding: 0 20px; cursor: pointer; border-bottom: 2px solid rgba(255, 255, 255, 0); display: inline-block; padding-bottom: 15px; transform: translateY(17px); margin-right: 100px; }
+.jumpers_loss_list:nth-child(4) {
+ margin-right: 0;
+}
+.jumpers_loss_list.choose { color: #c00000; border-bottom: 2px solid #c00000; }
+.jumpers_loss_main { width: 100%; margin-top:50px;}
+/*.jumpers_loss_main_one { display: none; }*/
+.jumpers_loss_main_one b {font-size: 24px;margin-bottom: 20px;display: block;}
+.jumpers_loss_main_one.show { display: block; }
+.jumpers_loss_name_all h2{display:none;}
+.jumpers_loss_name_all.fix{position: fixed;top:0px;background-color: #fff;z-index:10;}
+.jumpers_loss_name_all.fix .jumpers_loss_name_list{margin-top:0;background: #fff;}
+
+@media(max-width: 1440px) {
+
+ .jumpers_advantages ul {
+ padding: 0;
+}
+ .jumpers_video_right {
+ width: 40%;
+}
+ .jumpers_center_main {
+ overflow-x: scroll;
+}
+ .jumpers_show_main_one {
+ width: 49%;
+ margin-right: 1%;
+}
+ .jumpers_center ul {
+ width: 100%;
+}
+ .jumpers_pic_list {
+ width: 32%;
+ margin-right: 1%;
+}
+.jumpers_program ul{    width: 88%;padding: 0 6%;}
+.jumpers_loss_list {
+    font-size: 18px;
+    margin-right: 0px;
+}
+}
+@media(max-width: 1220px) {
+
+ .jumpers_banner_txt {
+ padding: 0 10%;
+}
+ .jumpers_txt {
+ padding: 0 30px;
+}
+ .jumpers_video_left {
+ margin-right: 45px;
+ float: none;
+ text-align: center;
+ margin: auto;
+}
+ .jumpers_video_right_tit {
+ padding-top:30px;
+}
+ .jumpers_loss_name_list {
+ border-bottom: none;
+ transform: translateY(15px);
+}
+.jumpers_program ul{    width:100%;padding: 0 ;}
+.jumpers_face_bg { display:none;}
+.jumpers_loss_name_all.fix {border-bottom: 2px solid #dedede;padding-bottom: 16px;}
+.jumpers_video_right {
+ width: 100%;
+ float: none;
+ margin: 0 auto;
+ text-align:center;
+}
+.jumpers_video_right_href{margin-left: auto;margin-right: auto;}
+}
+@media(max-width: 960px) {
+.jumpers_banner_tit{font-size: 22px;}
+.jumpers_banner_txt{    font-size: 16px;line-height: 24px;margin-top:15px;}
+ .jumpers_program {
+ padding: 0 10px;
+}
+.jumpers_tit{font-size: 22px; padding:35px 0 15px 0;}
+.jumpers_video_right_tit{    font-size: 20px;}
+.jumpers_show_smalltit{margin-bottom:10px;}
+.jumpers_loss_list{font-size: 16px; margin-bottom:10px;margin-top:0;margin-bottom:15px;}
+ .jumpers_advantages_list {
+ width: 49%;
+ margin-right: 1%;
+ margin-bottom:3%;
+}
+ .jumpers_advantages {
+ height: auto;
+ padding: 0 10px;
+ background-color: #f4f4f4;
+ padding-bottom: 50px;
+}
+ .jumpers_advantages_bg {
+ display: none;
+}
+ .jumpers_video_left {
+ float: none;
+ margin:0 auto;
+ text-align: center;
+}
+ .jumpers_video_right {
+ width: 100%;
+ float: none;
+ margin: 0 auto;
+ text-align:center;
+}
+ .jumpers_video_right_href {
+ margin: 0 auto;
+ margin-top:30px;
+}
+ .jumpers_loss_list {
+ margin-right: 0
+}
+ .jumpers_video {
+ padding:0 10px;
+}
+ .jumpers_show {
+ padding: 0 10px;
+}
+ .jumpers_face {
+ padding: 0 10px;
+}
+ .jumpers_loss {
+ padding: 0 10px;
+}
+ .jumpers_loss_list {
+ transform: translateY(15px);
+    display: block;
+    text-align: left;
+    padding: 10px 0;
+    margin: 0 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+ .jumpers_loss_list.choose {border-bottom:1px solid #c00000;}
+ .jumpers_video_left {
+ height: auto;
+ width: 100%;
+}
+.jumpers_face_bg { display:none;}
+.jumpers_face { background:#f4f4f4;}
+.jumpers_loss_name_all h2 {
+    display: block;
+    padding-left: 20px;
+    font-weight: normal;
+}
+.jumpers_loss_name_list { margin-top:0;transform: translateY(0px); display:none;}
+.jumpers_loss_name_all {
+    padding:20px 0;
+}
+.jumpers_loss_name_all.fix { top:50px;left: 0;}
+}
+@media(max-width: 480px) {
+ .jumpers_txt {
+ padding: 0;
+}
+.jumpers_program_list{width: 100%; margin: 0 0 30px 0;}
+.jumpers_program_list div{ margin:0 auto;}
+ .jumpers_advantages_list {
+ min-height: 255px;
+}
+ .jumpers_show_main_one {
+ width: 100%;
+ margin-right:0;
+ margin-bottom:2%;
+}
+ .jumpers_pic_list {
+ width: 100%;
+ margin-right: 0;
+}
+}
+
+

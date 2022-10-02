@@ -1,0 +1,489 @@
+
+<style type="text/css">
+    .proforma_invoice {width: 900px; padding: 32px 30px 30px 30px;font-size: 14px;line-height: 28px;margin: 0px auto;overflow: hidden;background-color:#fff}
+    .invoice_info span { font-weight:normal; font-size:28px; color:#999; display:inline-block; margin-top:18px;}
+    .pint_pi a { background:#e5e5e5; border:1px solid #ccc;padding: 0 15px; line-height:40px; display:block; border-radius:3px; color:#616265;}
+    .pint_pi a em {font-size: 14px; margin-right:2px;}
+    .pint_pi a:hover {transition: background-position .05s linear; background:#e5e5e5; text-decoration:none;}
+    .invoice_info .date b{ font-weight:600; color:#232323; margin-right:5px}
+    .invoice_info .date { color:#232323; margin-left:5px;}
+    .shopping_cart tr td{ padding:10px;}
+    .checkout_btn { overflow:hidden; margin-bottom:10px;}
+    .checkout_btn button{ float:right;}
+    .other_comments b{ font-size:16px; font-weight:600; color:#232323;}
+    .other_comments {  min-height:60px; margin-bottom:30px;}
+    #save_print,#download_pdf{display:inline-block;padding:0 14px;height:40px;border:1px solid #dcdcdc;border-radius:3px;color:#616265;line-height:40px;font-size:14px;}
+    #save_print:hover,#download_pdf:hover{text-decoration:none}
+    #save_print{margin-right:10px;}
+    #save_print .icon,#download_pdf .icon{font-size:13px;margin-right:10px;margin-top:0;font-size:14px;color:#616265}
+    .table_bottom_s{margin-bottom:30px}
+
+    .Absender_txt{font-size: 13px;color: #232323;line-height: 22px;padding-top: 70px;}
+    .detailed_centent span{font-size: 16px;color: #232323;line-height: 22px;font-weight: 600;display: block;margin-top: 2px;}
+    .detailed_centent{margin-top: 8px;}
+    .deta_right_txt span{font-size: 13px;color: #232323;line-height: 22px;display: block;margin-top: 0;}
+    .deta_right_txt{padding-top: 42px;}
+    .num_invoice span{font-size: 16px;color: #232323;line-height: 24px;font-weight: 600;margin-top: 0;margin-right: 12px;}
+    .num_invoice{padding-top: 43px;}
+    .num_invoice p{font-size: 13px;color: #232323;line-height: 22px;}
+    .num_right table td{font-size: 13px;color: #232323;line-height: 22px;}
+    .num_right{padding-top: 40px;}
+    .company_info{border-top: 2px solid #616265;margin-top: 28px;}
+    .company_info table tr th{font-size: 14px;color: #232323;line-height: 20px;font-weight: 600;padding: 12px 0;box-sizing: border-box;border-bottom: 1px solid #616265;}
+    .company_info table tr td:first-child{text-align: left;padding-left: 20px;box-sizing: border-box;}
+    .company_info table tr th:first-child{padding-left: 20px;box-sizing: border-box;}
+    .company_info table tr td .invoice_txt{font-size: 13px;color: #232323;line-height: 18px;text-align: left;}
+    .company_info table tr td{padding: 12px 0;box-sizing: border-box;border-bottom: 1px solid #616265;text-align: center;height: 79px;}
+    .company_info table tr td:last-child{text-align: right;padding-right: 20px;box-sizing: border-box;}
+    .company_info table tr th:last-child{;padding-right: 20px;box-sizing: border-box;}
+    .order_view_total table tr td{font-size: 14px;color: #232323;line-height: 24px;font-weight: 400;}
+    .order_view_total table tr td:last-child{padding-right: 20px;box-sizing: border-box;}
+    .order_view_total table tr td:first-child{padding-left: 20px;box-sizing: border-box;}
+    .order_view_total{padding-top: 24px;}
+    .order_view_total table tr td.big_font_wight{font-size: 16px;line-height: 24px;color: #232323;font-weight: 600;padding-top: 12px;}
+    .order_view_total{border-bottom: 1px solid #616265;padding-bottom: 28px;}
+    .Lieferung_bottom_txt{font-size: 14px;color: #232323;line-height: 22px;font-weight: 600;}
+    .Lieferung_bottom{padding-top: 35px;}
+    .Lieferung_bottom_txt_s{padding-top: 20px;}
+    .Lieferung_bottom_txt_a{font-size: 13px;}
+    .Lieferung_bottom{border-bottom: 1px solid #616265;padding-bottom: 146px;}
+    .bottom_table table tr td{font-size: 13px;color: #616265;line-height: 22px;}
+    .bottom_table{padding-top: 14px;}
+    .padding_bottom_none{border: none;padding-bottom: 0;}
+    .invoice_info tr td:first-child{box-sizing: border-box;padding-left: 20px;}
+    .invoice_info tr td:last-child{padding-right: 2px;box-sizing: border-box;}
+    .num_right tr td:first-child{padding-left: 0;box-sizing: border-box;}
+    .alone_p05{font-size: 13px;line-height: 22px;color: #232323;padding-bottom: 4px;}
+    .bottom_table table tr td:nth-child(2){padding-left:0px;box-sizing:border-box}
+    .bottom_table table tr td:last-child{padding-left:0px;box-sizing:border-box}
+    .company_info table tr td .invoice_txt{font-size:13px;color:#232323;line-height:18px;text-align:left}
+    .company_info table tr td:nth-child(3){font-size:13px;color:#232323;line-height:18px;text-align:left}
+    .print-logo{width: 75px;height: 36px;margin: 15px 20px 15px 0}
+</style>
+<style text="text/css" media="print">
+    #save_print,#download_pdf{display:none}
+</style>
+<script src="/includes/templates/fiberstore/jscript/html2canvas.min.js"></script>
+<script src="/includes/templates/fiberstore/jscript/jspdf.js"></script>
+</head>
+
+<body>
+<div class="proforma_invoice">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="invoice_info">
+        <tbody>
+        <tr>
+            <td  width="60%"><img src="<?php echo HTTPS_IMAGE_SERVER;?>includes/templates/fiberstore/images/fs-logo1218.png" border="0" class="aaa print-logo"></td>
+            <td  width="40%" style="text-align: right;">
+                <a href="javascript:;" id="save_print"><span class="icon iconfont"></span><?php echo FS_BANK_DETAILS_1;?></a>
+                <a href="javascript:;" id="download_pdf"><span class="icon iconfont"></span><?php echo FS_BANK_DETAILS_2;?></a>
+            </td>
+        </tr>
+        <tr>
+            <td width="60%">
+                <p class="Absender_txt"><?php echo FS_BANK_DETAILS_3;?><br />
+                    <?php echo FS_BANK_DETAILS_4;?></p>
+                <div class="detailed_centent">
+                    <span><?php echo $order['billing_name'].' '.$order['billing_lastname'];?></span>
+                    <span><?php echo $order['billing_company'];?></span>
+                    <span><?php echo $order['billing_street_address'];?></span>
+                    <span><?php echo $order['billing_postcode'].' '.$order['billing_state'].' '.$order['billing_country'];?></span>
+                    <?php if(!empty($order['billing_tax_number'])){?>
+                        <span><?php echo FS_BANK_DETAILS_5.' '.$order['billing_tax_number'];?></span>
+                    <?php }?>
+                </div>
+            </td>
+            <td width="40%">
+                <div class="deta_right_txt">
+                    <?php echo $instock_html;?>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">
+                <div class="num_invoice">
+                    <span><?php if($_SESSION['languages_code']=='jp' && !in_array($order['orders_status_id'],array(1,5))){echo FS_INVOICE;}else{echo FS_BANK_DETAILS_11;}?></span> <span><?php echo $order['orders_number'];?></span>
+                    <?php if(in_array($order['orders_status_id'], array(1,5))){?>
+                        <p><?php echo FS_BANK_DETAILS_12;?></p>
+                    <?php }?>
+                </div>
+            </td>
+            <td>
+                <div class="num_right">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td><?php echo FS_BANK_DETAILS_13;?></td>
+                            <td><?php echo $invoice_date;?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo FS_BANK_DETAILS_14;?></td>
+                            <td><?php echo $delivery_date;?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo FS_BANK_DETAILS_15;?></td>
+                            <td><?php if($order['payment_module_code']=='purchase'){echo $order['purchase_order_num'];}else{echo $order['customers_po'];}?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo FS_BANK_DETAILS_16;?></td>
+                            <td><?php echo $customer_num;?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo FS_BANK_DETAILS_17;?></td>
+                            <td><?php
+                                if ($customer_pay_day && $order['payment_module_code'] == 'purchase') {
+                                    echo $customer_pay_day;
+                                } else {
+                                    echo zen_get_order_peyment_method($order['payment_module_code']);
+                                }?></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="company_info">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <th width="8%" style="text-align: left;"><?php echo FS_BANK_DETAILS_18;?></th>
+                <th width="14%"><?php echo FS_BANK_DETAILS_19;?></th>
+                <th width="30%" style="text-align: left;"><?php echo FS_BANK_DETAILS_20;?></th>
+                <th width="12%"><?php echo FS_BANK_DETAILS_21;?></th>
+                <th width="12%"><?php echo FS_BANK_DETAILS_22;?></th>
+                <?php
+                $billing_country_code = fs_get_data_from_db_fields('countries_iso_code_2', 'countries', 'countries_name LIKE "' . $order['origin_billing_country'] . '"', 'limit 1');
+                $is_eu = all_german_warehouse('country_code', $billing_country_code);
+                if($cost_data_value['ot_tax']) {
+                    if($order['delivery_country_id'] == 203 && $order['billing_company_type']=="IndividualType"){
+                        $vat = 0.25;
+                    }elseif (in_array($order['delivery_country_id'], [73, 141, 222, 244]) && $order['billing_company_type']=="IndividualType"){
+                        $vat = 0.2;
+                    }elseif ($order['delivery_country_id'] == 150 && $order['billing_company_type']=="IndividualType"){
+                        $vat = 0.21;
+                    }elseif ($order['delivery_country_id'] == 105 && $order['billing_company_type']=="IndividualType"){
+                        $vat = 0.22;
+                    }else{
+                        $vat = 0.19;
+                    }
+                }else{
+                    $vat = 0;
+                }
+                ?>
+                <th width="12%"><?php echo FS_BANK_DETAILS_VAT;?></th>
+                <th width="14%" style="text-align: right;"><?php echo FS_BANK_DETAILS_TOTAL;?></th>
+            </tr>
+            <?php
+            if($order['products']){
+                foreach($order['products'] as $key => $product){
+                    $product_href = zen_href_link(FILENAME_PRODUCT_INFO, '&products_id=' .$product['id'], 'SSL'); $attrHtml = '';
+                    if(sizeof($product['attribute'])){
+                        $attrHtml .= '<div class="cartAttribsList"><ul>';
+                        foreach($product['attribute'] as $attribute){
+                            if (!preg_match('/optional/i', $attribute['value'])){
+                                if($attribute['value'] == 'length'){
+                                    $attrHtml .= '<li>'.FS_LENGTH_NAME.': '.zen_show_product_length($attribute['option'],(int)$product_id).'</li>';
+                                }else{
+                                    $attrHtml .= '<li>'.$attribute['option'].': '.$attribute['value'].'</li>';
+                                }
+                            }
+                        }
+                        $attrHtml .= '</ul></div>';
+                    }
+                    $pHtml = '';
+                    $pHtml .= $currencies->total_format($product['final_price'],true,$order['currency'],$order['currency_value']);
+                    $tax_phtml = $vat*100;
+                    $tax_phtml = $tax_phtml.'%';
+                    $totalPHtml = '';
+                    $totalPHtml = $currencies->total_format($product['final_price']*$product['qty'],true,$order['currency'],$order['currency_value']);
+                    ?>
+                    <tr>
+                        <td><?php echo $key+1;?></td>
+                        <td><?php echo $product['id'];?></td>
+                        <td><p><a href="<?php echo $product_href;?>"><?php echo $product['products_name'];?></a>
+                                <?php echo $attrHtml;?>
+                        </td>
+                        <td><?php echo $product['qty'];?></td>
+                        <td><?php echo $pHtml;?></td>
+                        <td><?php echo $tax_phtml;?></td>
+                        <td><?php echo $totalPHtml;?></td>
+                    </tr>
+                <?php }}?>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="order_view_total">
+        <table class="tab_03" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <?php
+            if($cost_data_value['ot_tax']) {
+                // 2019-7-9  potato 添加摩纳哥(编号为141)的税率为20%
+                if($order['delivery_country_id'] == 203 && $order['billing_company_type']=="IndividualType"){
+                    $vat_pr = '25%';
+                }elseif (in_array($order['delivery_country_id'], [73, 141, 222, 244]) && $order['billing_company_type']=="IndividualType"){
+                    $vat_pr = '20%';
+                }elseif ($order['delivery_country_id'] == 150 && $order['billing_company_type']=="IndividualType"){
+                    $vat_pr = '21%';
+                }elseif ($order['delivery_country_id'] == 105 && $order['billing_company_type']=="IndividualType"){
+                    $vat_pr = '22%';
+                }else{
+                    $vat_pr = '19%';
+                }
+            }else{
+                $vat_pr = '0%';
+            }
+            ?>
+            <tbody>
+            <tr>
+                <td class="big text_right" style="font-size:14px;font-weight: 600;"><?php echo FS_BANK_DETAILS_23;?></td>
+                <td width="140" class="big text_right" style="font-size:14px;font-weight: 600;"><?php echo $currencies->total_format($cost_data_value['ot_subtotal'],true,$order['currency'],$order['currency_value']);?></td>
+            </tr>
+
+            <?php
+            if($cost_data_value['ot_tax']) {
+                $ot_subtotal_vat_val = $cost_data_value['ot_subtotal'] * $vat;
+            }else{
+                $ot_subtotal_vat_val = 0;
+            }
+            $ot_subtotal_vat = $currencies->total_format($ot_subtotal_vat_val, true, $order['currency'], $order['currency_value']);
+            echo '<tr>
+                <td class="big text_right" style="font-size:14px;">'.str_replace('$VAT',$vat_pr,FS_BANK_DETAILS_24).'</td>
+                <td width="140" class="big text_right" style="font-size:14px;">'.$ot_subtotal_vat.'</td>
+            </tr>';
+            ?>
+
+            <tr>
+                <td class="big text_right" style="font-size:14px;"><?php echo FS_BANK_DETAILS_25;?></td>
+                <td width="140" class="big text_right" style="font-size:14px;"><?php echo $currencies->total_format($cost_data_value['ot_shipping'],true,$order['currency'],$order['currency_value'])?></td>
+            </tr>
+
+            <?php
+            if($cost_data_value['ot_tax']){
+                $ot_tax = $cost_data_value['ot_tax'];
+
+//                $ot_shipping_vat = $cost_data_value['ot_shipping'] * $vat;
+
+                $ot_tax_for_value = $currencies->fs_format_new($ot_tax,true,$order['currency'],$order['currency_value']);
+
+                $ot_subtotal_for_val = $currencies->fs_format_new($ot_subtotal_vat_val,true,$order['currency'],$order['currency_value']);
+                $ot_shipping_vat = $ot_tax_for_value - $ot_subtotal_for_val;
+
+                $ot_shipping_vat = $currencies->total_format($ot_shipping_vat,true,$order['currency'],1);
+            }else{
+                $ot_shipping_vat = $currencies->total_format(0,true,$order['currency'],$order['currency_value']);
+                $ot_tax = $currencies->total_format(0,true,$order['currency'],$order['currency_value']);
+            }
+            echo ' <tr>
+                <td class="big text_right">'.str_replace('$VAT',$vat_pr,FS_BANK_DETAILS_26).'</td>
+                <td width="140" class="big text_right">'.$ot_shipping_vat.' </td>
+            </tr>';
+
+            echo '<tr>
+			  <td class="big text_right">'.str_replace('$VAT',$vat_pr,FS_BANK_DETAILS_27).'</td>
+			  <td width="140" class="big text_right">'.$currencies->total_format($ot_tax,true,$order['currency'],$order['currency_value']).'</td>
+			</tr>';
+            ?>
+            <tr>
+                <?php if ($_SESSION['languages_code'] == 'jp') { ?>
+                    <?php if ($order['delivery_country_id'] == 107){ ?>
+                        <td class="big text_right big_font_wight"><?php echo FS_BANK_DETAILS_28_JAPAN;?></td>
+                        <?php }else{ ?>
+                        <td class="big text_right big_font_wight"><?php echo FS_BANK_DETAILS_28;?></td>
+                    <?php } ?>
+                <?php }else{ ?>
+                     <td class="big text_right big_font_wight"><?php echo FS_BANK_DETAILS_28;?></td>
+                <?php } ?>
+                <td width="140" class="big text_right big_font_wight"><?php echo $currencies->total_format($cost_data_value['ot_total'],true,$order['currency'],$order['currency_value']);?></td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <?php if(!in_array($order['orders_status_id'], array(1,5))){?>
+        <div class="order_view_total padding_bottom_none">
+            <table class="tab_03" width="100%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+                <tr>
+                    <td class="big text_right" style="font-size:14px;"><?php echo FS_BANK_DETAILS_29;?></td>
+                    <td width="140" class="big text_right" style="font-size:14px;">
+                        <?php
+                        if($paidFlag == 0){
+                            $paid_mon = $currencies->total_format($paid,true,$order['currency'],$order['currency_value']);
+                        }else{
+                            $paid_mon = $currencies->total_format($paid,true,$order['currency'],1);
+                        }
+                        echo $paid_mon;
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="big text_right" style="font-size:14px;"><?php echo FS_BANK_DETAILS_30;?></td>
+                    <td width="140" class="big text_right" style="font-size:14px;">
+                        <?php
+                        if($paidFlag == 0){
+                            $amount_mon = $currencies->total_format($mount_compare,true,$order['currency'],$order['currency_value']);
+                        }else{
+                            $amount_mon = $currencies->total_format($mount_compare,true,$order['currency'],1);
+                        }
+                        echo $amount_mon;
+                        ?>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    <?php }?>
+    <div class="Lieferung_bottom">
+        <p class="Lieferung_bottom_txt"><?php echo $blank_info1;?></p>
+        <?php if(in_array($_SESSION['languages_code'],array('de','dn','uk'))){?>
+            <p class="Lieferung_bottom_txt"><?php echo $blank_info2;?></p>
+        <?php }?>
+        <?php if(!empty($blank_info3)){?>
+            <p class="Lieferung_bottom_txt"><?php echo $blank_info3;?></p>
+        <? }?>
+        <p class="Lieferung_bottom_txt Lieferung_bottom_txt_s"><?php echo FS_BANK_DETAILS_31;?></p>
+        <p class="Lieferung_bottom_txt Lieferung_bottom_txt_a"><?php echo FS_BANK_DETAILS_32.' '.$track_val;?></p>
+    </div>
+
+    <?php
+    if($order['warehouse'] == 20) {
+        if($order['currency'] == 'USD'){
+            $bank_type1 = 'Sparkasse Freising';
+            $bank_type2 = 'DE12 7005 1003 0970 0195 27';
+            $bank_type3 = 'BYLADEM1FSI';
+            $bank_type4 = '970 0195 27';
+        }elseif($order['currency'] == 'GBP'){
+            $bank_type1 = 'Sparkasse Freising';
+            $bank_type2 = 'DE38 7005 1003 0970 0272 07';
+            $bank_type3 = 'BYLADEM1FSI';
+            $bank_type4 = '970 0272 07';
+        }elseif($order['currency'] == 'CHF'){
+            $bank_type1 = 'Sparkasse Freising';
+            $bank_type2 = 'DE27 7005 1003 0970 0573 78';
+            $bank_type3 = 'BYLADEM1FSI';
+            $bank_type4 = '970 0573 78';
+        }elseif($order['currency'] == 'SEK'){
+            $bank_type1 = 'Sparkasse Freising';
+            $bank_type2 = 'DE98 7005 1003 0970 1070 25';
+            $bank_type3 = 'BYLADEM1FSI';
+            $bank_type4 = '970 1070 25';
+        }else{
+            $bank_type1 = 'Sparkasse Freising';
+            $bank_type2 = 'DE16 7005 1003 0025 6748 88';
+            $bank_type3 = 'BYLADEM1FSI';
+            $bank_type4 = '25674888';
+        }
+    ?>
+    <div class="bottom_table">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+            <tr>
+                <td width="33.33%"><?php echo FS_BANK_DETAILS_34;?></td>
+                <td width="33.33%"><?php echo FS_BANK_TYPE_01.$bank_type1;?></td>
+                <td width="33.33%"><?php echo FS_BANK_DETAILS_35;?></td>
+            </tr>
+            <tr>
+                <td><?php echo FS_BANK_DETAILS_7;?></td>
+                <td><?php echo FS_BANK_TYPE_02.$bank_type2;?></td>
+                <?php
+                $is_sweden = german_warehouse('country_number', $order['delivery_country_id']) && $order['delivery_country_id'] !== 81 && $order['delivery_country_id'] == 203;
+                $is_nl = german_warehouse('country_number', $order['delivery_country_id']) && $order['delivery_country_id'] !== 81 && $order['delivery_country_id']== 150;
+
+                ?>
+                <?php if($order['billing_company_type'] == 'BusinessType'){?>
+                    <td><?php echo FS_BANK_DETAILS_37; ?></td>
+                <?php }else{?>
+                    <?php if($is_sweden){ ?>
+                        <td><?php echo FS_BANK_DETAILS_SW;?></td>
+                    <?php }elseif ($is_nl){?>
+                        <td><?php echo FS_BANK_DETAILS_NL;?></td>
+                    <?php } elseif (in_array($order['delivery_country_id'],[73, 141])) { ?>
+                            <td><?php echo FS_BANK_DETAILS_36; ?></td>
+                    <?php } elseif (in_array($order['delivery_country_id'],[222, 244])) { ?>
+                            <td><?php echo FS_BANK_DETAILS_36_01; ?></td>
+                    <?php } elseif ($order['delivery_country_id'] == 105) { ?>
+                        <td><?php echo FS_BANK_DETAILS_IT; ?></td>
+                    <?php }else{ ?>
+                        <td><?php echo FS_BANK_DETAILS_37; ?></td>
+                        <?php } ?>
+                <?php } ?>
+            </tr>
+            <tr>
+                <td><?php echo FS_BANK_DETAILS_38;?></td>
+                <td><?php echo FS_BANK_TYPE_03.$bank_type3;?></td>
+                <td><?php echo FS_BANK_DETAILS_39;?></td>
+            </tr>
+            <tr>
+                <td><?php echo FS_BANK_DETAILS_40;?></td>
+                <td><?php echo FS_BANK_TYPE_04.$bank_type4;?></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><?php echo FS_BANK_DETAILS_41;?></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <?php }?>
+
+</div>
+</body>
+<script type="text/javascript">
+    $('#save_print').click(function(){
+        window.print();
+    })
+
+    $('#download_pdf').click(function(){
+        $('#save_print,#download_pdf').hide();
+        var oName = $('.invoice_no').text();
+        var oContent = $('.proforma_invoice');
+        var billing_name = '<?php echo $order['billing_name'];?>';
+        var billing_lastname = '<?php echo $order['billing_lastname'];?>';
+        html2canvas(oContent, {
+            useCORS: true,
+            onrendered:function(canvas) {
+
+                var contentWidth = canvas.width;
+                var contentHeight = canvas.height+85;
+
+                //一页pdf显示html页面生成的canvas高度;
+                var pageHeight = contentWidth / 592.28 * 841.89;
+                //未生成pdf的html页面高度
+                var leftHeight = contentHeight;
+                //pdf页面偏移
+                var position = 0;
+                //a4纸的尺寸[595.28,841.89]，html页面生成的canvas在pdf中图片的宽高
+                var imgWidth = 595.28;
+                var imgHeight = 592.28/contentWidth * contentHeight;
+
+                var pageData = canvas.toDataURL('image/jpeg', 1.0);
+
+                var pdf = new jsPDF('', 'pt', 'a4');
+
+                //有两个高度需要区分，一个是html页面的实际高度，和生成pdf的页面高度(841.89)
+                //当内容未超过pdf一页显示的范围，无需分页
+                if (leftHeight < pageHeight) {
+                    pdf.addImage(pageData, 'JPEG', 0, 0, imgWidth, imgHeight );
+                } else {
+                    while(leftHeight > 0) {
+                        pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight);
+                        leftHeight -= pageHeight;
+                        position -= 841.89;
+                        //避免添加空白页
+                        if(leftHeight > 0) {
+                            pdf.addPage();
+                        }
+                    }
+                }
+                pdf.save( billing_name+' '+billing_lastname+ ', PO NO. '+oName+'.pdf');
+            }
+        })
+        setTimeout(function(){
+            $('#save_print,#download_pdf').show();
+        },500)
+    })
+</script>
+
+</html>

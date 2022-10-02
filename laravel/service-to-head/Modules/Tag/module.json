@@ -1,0 +1,14 @@
+{
+    "name": "Tag",
+    "alias": "tag",
+    "description": "标签管理项目",
+    "keywords": [],
+    "priority": 0,
+    "order": 7,
+    "providers": [
+        "Modules\\Tag\\Providers\\TagServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

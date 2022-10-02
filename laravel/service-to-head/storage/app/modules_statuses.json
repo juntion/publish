@@ -1,0 +1,13 @@
+{
+    "Admin": true,
+    "Base": true,
+    "Customer": true,
+    "Permission": true,
+    "Route": true,
+    "Finance": true,
+    "UUMS": true,
+    "ERP": true,
+    "Share": true,
+    "Tag": true,
+    "Blog": true
+}

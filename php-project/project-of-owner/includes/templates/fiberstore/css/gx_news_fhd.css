@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+.main_content {float: none;width: auto;}
+.menu_02{ display:none;}
+.content{ padding:0; font-size:14px;}
+.content img{ height:initial; width:initial; max-width:100%}
+
+.Data_Center_banner { height:380px; }
+.Data_Center_banner_bg { position: absolute; width: 100%; height:380px; left: 0; z-index: -1; background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/index0914banner.jpg) no-repeat center; }
+.Data_Center_banner_tit { font-size: 38px; color: #fff; font-weight: 400; text-align: center; padding-top: 100px; line-height: 52px; margin-bottom: 10px; }
+.Data_Center_banner_txt { font-size: 18px; font-weight:400; text-align: center; color: #fff; line-height: 24px; }
+.Data_Center_banner_text {padding-top: 80px; padding-left:120px; max-width:548px;}
+.Data_Center_banner_text h2 {font-size:34px;font-weight: bold; color: #232323;margin-bottom: 30px; line-height:34px;}
+.Data_Center_banner_text p {font-size: 18px;font-weight:400;color: #616265;    line-height: 24px; }
+.Data_Center_banner_text span{ color:#232323; font-size:18px; margin-bottom:18px; display:block;min-width:272px;}
+.Data_Center_banner_text i{ font-size:20px; margin-right:6px;}
+/*.Data_Center_banner_text strong {font-size: 80px;display: block;margin-bottom:20px; line-height:60px;}
+.Data_Center_banner_text .banner_btn {background: #f69d00;color: #fff;border-radius: 3px;padding: 10px 20px;font-size: 16px;font-weight: 600;display: inline-block;margin-top: 10px;}*/
+
+.Data_Center_text h1 { font-size:30px;}
+.Data_Center_text h2 { font-size:20px;}
+.Data_Center_tit { font-size: 30px; color: #232323; text-align: center; font-weight: 400; padding-top: 45px; margin-bottom: 10px; line-height:40px; }
+.Data_con_txt{font-size: 14px; font-weight:400; color: #616265; text-align: center; line-height: 22px; margin-bottom: 30px;}
+
+.Data_Center_con { display: inline-block; width:100%}
+.Data_Center_con dl { display:inline-table; width:33%; text-align:center; padding-top:20px; border-right:1px solid #e5e5e5; margin-top:30px;}
+.Data_Center_con dl:last-child { border-right:none;}
+
+.Data_Center_con dl dt { font-size:22px; color:#0070BC; padding-bottom:10px; }
+.Data_Center_con dl dd.text_stlye_01 { font-size:18px; line-height:30px;}
+.Data_Center_con dl dd.text_stlye_02 { font-size:14px; color:#999; font-weight:400;}
+.Data_Center_con dl dd.text_stlye_03 { font-size:18px; padding:30px 20px 0 60px; text-align:left; line-height:24px;}
+.Data_Center_con dl dd.text_stlye_04 { font-size:22px; padding:10px 60px; text-align:left;}
+.Data_Center_con dl dd.text_stlye_05 { text-align:left; color:#616265; font-size:14px; font-weight:400;padding:10px 60px;}
+.Data_Center_con dl dd.text_stlye_05 p{ line-height:18px; padding:4px 0;}
+.Data_Center_con dl dd.text_stlye_06 { text-align:left; font-size:14px; padding:10px 60px;}
+.Data_Center_con dl dd.text_stlye_06 span { color:#999;}
+.Data_Center_con dl dd.text_stlye_06 span.products_in_stock{color:#232323;}
+.Data_Center_con dl dd.text_stlye_07 { padding:20px 60px; text-align:left;}
+.Data_Center_con dl dd.text_stlye_07 a {line-height:22px; text-align: center;background: #0070BC; border-radius: 3px; color: #fff; text-decoration: none; font-size:16px; padding:10px 50px; margin-top: 30px;}
+.Data_Center_con_bg { margin-top:50px; margin-bottom:80px; height:700px; display: table; text-align:center; }
+.Data_Center_con_bg01 { height:720px;  position: absolute;
+    width: 100%; left:0; background:#f6f6f6; padding:0 0 50px 0 ;}
+.Data_Center_con dl dd a.data_pic { display:block;}
+.Data_Center_con dl dd a.data_pic:hover {}
+.Data_Center_con dl dd img{ max-width:100%;}
+
+.Data_Center_two {}
+.Data_Center_two font { font-size:18px; color:#999; }
+.Data_Center_two span { font-size:14px;}
+.Data_Center_con_bg dl dd, .Data_Center_two dl dd { width:280px; display: inline-table; background:#fff; line-height:24px; padding:50px;}
+.Data_Center_con_bg dl dd { text-align:left; height:240px; line-height:30px; margin:0 30px;}
+.Data_Center_sub_tit{ font-size:22px; padding-bottom:10px; display:block;}
+.Data_Center_two dl dd { border-top:3px solid #ebebeb; height:100px; margin:50px 0; font-size:14px; }
+.Data_Center_con_bg dl dd span { font-size:24px;}
+.Data_Center_three { line-height:36px; text-align:center;}
+.Data_Center_explain{ padding:8px 0; line-height:18px;}
+.Data_Center_explain span{width: 5px;height: 5px;border-radius: 50%;margin-right: 6px;display: inline-block;background:#ccc;margin-top:8px;float:left;}
+.Data_Center_explain p{ padding-left:15px; color:#616265;}
+
+.Data_Center_four {}
+.Data_Center_four_top { display:table; width:100%;}
+.Data_Center_four_top a {display: block;}
+.Data_Center_four_top>div {vertical-align:top;width: 50%;text-align:center; float:left;}
+.Data_Center_four_top>div img{ max-width:100%;}
+.Data_Center_four_top dl {line-height:30px; vertical-align:top;width: 50%; float:left;}
+.Data_Center_four_top dl dd .four_top_text_qty_input .product_sticky_qty{ margin:0;}
+.Data_Center_four_top dl dt { font-size:24px; line-height:50px;}
+.four_top_text { font-size:18px; line-height:30px; font-weight:400; margin-bottom:10px;}
+.four_top_text01 { font-size:22px; line-height:36px; padding-top:15px;display: inline-block;}
+.text_gray {color: #8d8d8f;text-decoration: line-through; padding-top: 0;font-size: 16px;margin-right: 10px;}
+
+.four_top_text02 { font-size:14px; line-height:40px; color:#999;}
+.Data_Center_four_nate{ margin:10px 0; color:#999; font-size:14px;}
+/*.four_top_text02 span { color:#21a407;}*/
+.four_top_text02 span b,.Data_Center_con dl dd.text_stlye_06 b{ font-weight:inherit;}
+.four_top_text_qty,.four_top_text_qty_input{ display: inline-block;vertical-align: middle; margin-top:10px;}
+.Data_Center_four_top .four_top_text_qty_input {display: block;overflow: hidden;}
+.pro_mun { border-color:#dedede;}
+.four_top_text_qty_input .bos {height: 38px; margin-left:0;}
+.four_top_text03 { font-size:14px; color:#616265;    font-weight:400;}
+.four_top_text03 p{line-height: 18px;padding: 4px 0;}
+.Data_Center_four_line { margin:20px 0; padding:20px 0; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; }
+.Data_Center_four_line>div {color: #83bd39;}
+.Data_Center_four_line>font { font-size:18px; line-height:24px;}
+.Data_Center_four_line dl {display:table; width:100%; margin:10px 0; }
+.Data_Center_four_line dl img { width:40px; height:40px; padding:0 20px;}
+.Data_Center_four_line dl dt { display:inline-table;/* border:1px solid #dedede;padding:1px;*/ width:68%; border-radius:3px;}
+/*.Data_Center_four_line dl dt:hover{ border-color:#999; cursor:pointer;}*/
+.Data_Center_four_line dl dt.four_linehover{/* border:2px solid #999; padding:0;*/}
+.Data_Center_four_line dl dt span { float:right; padding:0 20px ; line-height:40px;}
+.Data_Center_four_line dl dd { display:inline-table; width:30%; text-align:right;}
+
+.Data_Center_four_footer { font-size:14px; line-height:50px; text-align:right; color:#999; }
+.Data_Center_four_footer dt { font-size:22px; color:#232323;}
+.Data_Center_four_footer dd span { color:#0070BC;}
+
+.networking_os_con { width:100%; height:400px; margin-top:30px;}
+.networking_os_con_bg { width:100%; height:400px; background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/Data_Center_bg.png) no-repeat center 0; position:absolute; left:0; z-index:-1;}
+.networking_os_con_text { text-align:center; padding-top:140px;}
+.networking_os_con_text h1 { font-size:48px; color:#fff; font-weight:normal; display:none;}
+.networking_os_con_text p { font-size:24px; color:#fff; margin-top:35px; line-height:32px;padding: 0 200px;}
+.networking_os_tit { text-align:center; font-size:24px; margin-top:50px; color:#616265; line-height:24px;}
+.networking_os_ul { margin-top:30px; width:100%;}
+.networking_os_ul li { float:left; width:33.3%}
+.networking_os_ul li img { display:block; margin:0 auto;}
+.networking_os_ul_text { text-align:center; padding:0 40px;}
+.networking_os_ul_text h2 { font-size:22px; color:#0070BC; font-weight:normal; margin-bottom:20px;}
+.networking_os_ul_text p { font-size:14px; color:#999;}
+
+/*helen增加-20170828*/
+.Data_Center_text { font-size:14px; line-height:22px; text-align:center; color:#616265; font-weight:400; width:1200px; margin:0 auto 20px auto;}
+.switch_con dl { width:44%; margin-right:20px; margin-top:20px; float:left; background:#f6f6f6; padding:36px 44px 36px 30px; min-height:350px;}
+.switch_con dl:nth-child(even) { margin-right:0;}
+.switch_con dl dt { width:50px; height:50px; float:left;}
+.switch_con dl dt.icon01 { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/switch_icon.png) no-repeat 0 0;}
+.switch_con dl dt.icon02 { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/switch_icon.png) no-repeat 0 -128px;}
+.switch_con dl dt.icon03 { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/switch_icon.png) no-repeat 0 -256px;}
+.switch_con dl dt.icon04 { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/switch_icon.png) no-repeat 0 -384px;}
+.switch_text { margin-left:80px;}
+.switch_text h1 { font-size:22px; color:#232323; font-weight:normal; margin-bottom:30px; line-height:24px;}
+.switch_text p{ font-size:14px; color:#616265; line-height:22px; margin-bottom:20px; font-weight:400;}
+.switch_text ul  { margin-left:18px;}
+.switch_text ul li { list-style: disc; font-size:14px; color:#616265; line-height:22px; margin-bottom:10px;font-weight:400;}
+.Data_Center_con dl:nth-child(4) { border-right:none;}
+.Data_Center_con dl:nth-child(5),.Data_Center_con dl:nth-child(6),.Data_Center_con dl:nth-child(7) { margin-top:0px; border-bottom:none; padding-bottom:0px;padding-top:30px;}
+.Data_Center_con dl { border-bottom:1px solid #e5e5e5; padding-bottom:30px;}
+.switch_bottom_con { margin-top:40px; width:100%; overflow:hidden;}
+.switch_bottom_text,.switch_bottom_pic{ width:50%; float:left; height:294px; background:#f6f6f6;}
+.switch_bottom_text dl{ padding:12%;}
+.switch_bottom_text dl dt { font-size:24px; color:#616265; margin-bottom:30px;}
+.switch_bottom_text dl dd { font-size:14px; color:#616265; line-height:22px; font-weight:400;}
+.switch_bottom_text dl dd ul { margin-left:18px;}
+.switch_bottom_text dl dd ul li { list-style:disc;}
+.bottom_text_right { float:right;}
+.Data_Center_short_tit { font-size:24px; color:#616265; text-align:center; margin:30px 0 0 0;}
+.Data_Center_table { overflow-x: auto; width:100%;}
+.Data_Center_table table { border-right:1px solid #e5e5e5; border-top:1px solid #e5e5e5; text-align:center; width:100%;min-width:880px;}
+.Data_Center_table table tr td { border-left:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; padding:10px 5px; width:16%; font-weight:400; color:#616265;}
+.Data_Center_table table tr td a:hover { color:#0070BC;}
+.Data_Center_table table tr td img { max-width:100%;}
+.Data_Center_table table tr td:first-child { font-weight:600;}
+.Data_Center_table table tr th:first-child { border-bottom:none;}
+.Data_Center_table table tr th {border-left:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; padding:10px 5px; color:#fff; font-weight:400; font-size:18px;}
+.Data_Center_table table tr td b { font-weight:600; color:#0070BC;}
+/*结束*/
+/*helen增加-20171109*/
+.Data_Center_table table tr td span { font-weight:600; color:#232323;}
+.Data_Center_table table tr td .products_stock span{color: #0070BC;font-weight:400;}
+.products_stock i { font-style:normal; color:#0070BC;}
+.four_top_text_qty_input {margin: 10px 0 5px 0;}
+.four_top_text_qty_input:hover {box-shadow: 0px 1px 5px rgba(0,0,0,0.2);border-radius: 3px;}
+.four_top_text_qty_input .product_sticky_qty {margin: 0;border: 1px solid #cacaca;color: #232323;height: 38px;line-height: 38 px;border-radius: 0;text-align: center;width: 65px;float: left;text-indent: 0;border: 1px solid #dedede;border-left-color: #ccc;border-radius: 3px 0 0 3px;border-right: none;}
+.four_top_text_qty_input .pro_mun {border-color: #dedede;}
+.product_list_btn a.button_02 {background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -169px -418px #fff; color: #c00000; border: 1px solid #c00000;}
+.product_list_btn a.button_02:hover {background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -170px -241px #c00000;color: #fff;}
+.short_tit_more { float:right; margin-bottom:10px}
+.short_tit_more a { font-size:16px; color:#232323;}
+.short_tit_more i {font-size:12px; color:#232323; margin-left:5px;}
+.Data_Center_icon { overflow:hidden; margin-top:20px;}
+.Data_Center_icon ul li { width:25%; float:left; text-align:center;}
+.Data_Center_icon ul li h2 { font-weight:normal; font-size:16px; color:#232323;}
+.Data_Center_icon ul li p { font-size:14px; line-height:22px; font-weight:400; padding:10px 20px 20px 20px;}
+.Data_Center_icon ul li span { width:60px; height:60px; display:block; margin:20px auto;}
+.Data_Center_icon ul li span.icon01 { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/switch_icon01.png) no-repeat 0 8px;}
+.Data_Center_icon ul li span.icon02 { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/switch_icon01.png) no-repeat 0 -102px;}
+.Data_Center_icon ul li span.icon03 { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/switch_icon01.png) no-repeat 0 -210px;}
+.Data_Center_icon ul li span.icon04 { background:url(https://img-en.fs.com/includes/templates/fiberstore/images/gx_news_fhd/switch_icon01.png) no-repeat 0 -320px;}
+.track_orders_wenhao{display: none;}
+
+/*结束*/
+
+
+@media(max-width:1440px) {
+    .Data_Center_con_bg dl dd, .Data_Center_two dl dd{ width:280px; margin:0 10px;}
+	.switch_con dl { width:43%; height:350px;}
+	.Data_Center_text { width:auto;}
+	.switch_bottom_text,.switch_bottom_pic { height:240px;}
+	.switch_bottom_text dl { padding-top:40px;}
+}
+@media(max-width:1220px) {
+    .Data_Center_con dl dd.text_stlye_03,.Data_Center_con dl dd.text_stlye_05,.Data_Center_con dl dd.text_stlye_04,.Data_Center_con dl dd.text_stlye_06,.Data_Center_con dl dd.text_stlye_07{ padding-left:30px; padding-right:30px;}
+    .Data_Center_con_bg dl dd, .Data_Center_two dl dd{ width:200px; margin: 0 5px;}
+	.Data_Center_banner_text { padding-left:0;}
+	.networking_os_con_text p { padding:0 10px;}
+	.switch_con dl { width:40%; height:460px;}
+	.switch_bottom_text dl dt {font-size: 20px;margin-bottom: 20px;}
+	.Data_Center_con dl dt {line-height: 30px;height: 60px;}
+	.Data_Center_text br { display:none;}
+}
+@media(max-width:960px) {
+    .Data_Center_con_box{ padding: 0 10px;}
+    .Data_Center_con dl{ width:100%; padding-bottom:20px; border-bottom:1px solid #dedede; border-right:0;}
+    .Data_Center_con dl dd.text_stlye_03,.Data_Center_con dl dd.text_stlye_05,.Data_Center_con dl dd.text_stlye_04,.Data_Center_con dl dd.text_stlye_06,.Data_Center_con dl dd.text_stlye_07{ padding-left:20px; padding-right:20px; text-align:center;}
+    .Data_Center_con dl dd.text_stlye_03{ line-height:24px; text-align:center; font-size:16px;}
+    .Data_Center_con_bg01,.Data_Center_con_bg{ height:inherit;    width: 100%; margin-bottom:0;
+        overflow: hidden;
+        position: inherit;}
+    .Data_Center_con_bg01 dl{ padding: 0 20px;}
+    .Data_Center_two{ width: inherit;}
+    .Data_Center_two img{ max-width:100%;height: initial; width: initial;}
+    .Data_Center_con_bg dl dd, .Data_Center_two dl dd{ background: none; padding:0 2%; margin:0 ;height:inherit;}
+    .Data_Center_con_bg dl dd{ padding-top:20px;}
+    .Data_Center_three{    padding: 0 10px; width:initial;}
+    .Data_con_txt br{ display:none;}
+	.Data_Center_four_top dl dt { line-height:30px;}
+	.four_top_text {line-height:24px;}
+.main_content{ padding:0 ;}
+.switch_con dl { width:inherit; height:auto; min-height:auto; margin-right:0; float:none;}
+	.switch_bottom { padding: 0 10px;}
+	.switch_con { padding:0 10px;}
+	.Data_Center_banner { display:none;}
+}
+@media (max-width:768px){
+	.switch_bottom_pic { float:none; width:100%; height:auto;}
+	.switch_bottom_text { float:none; width:100%; height:auto;}
+	.bottom_text_right { float:none;}
+	.Data_Center_icon ul li { width:50%;}
+	.short_tit_more{margin-top:20px;}
+	}
+@media(max-width:480px) {
+
+    .Data_Center_banner_tit{
+        font-size: 24px;
+        line-height: 40px;
+        padding:20px 10px 0 10px; }
+    .Data_Center_banner,.Data_Center_banner_bg{height: 220px;}
+    .Data_Center_tit{    font-size: 20px;
+        line-height: 30px;
+        padding-top: 30px;
+        margin-bottom: 15px;}
+    .networking_os_tit { font-size:18px;}
+    .networking_os_ul li { width:100%; float:none;}
+    .networking_os_con_text { padding-top:120px;}
+    .networking_os_con_text h1 { font-size:24px;}
+    .networking_os_con_text p { font-size:16px;}
+    .networking_os_ul_text h2 { font-size:18px;}
+	.Data_Center_four_top>div { width:100%;}
+	.Data_Center_four_top dl { width:100%;}
+	
+	.Data_Center_banner_text h2 {font-size: 24px; margin-bottom:20px;}
+	.Data_Center_banner_text p {font-size: 14px;font-weight: normal;margin-bottom: 10px;display:none;}
+	.Data_Center_banner_text strong {font-size: 40px;line-height: 30px;margin-bottom: 10px;}
+	.Data_Center_banner_text .banner_btn {margin-top: 0;font-size: 14px;}
+	.Data_Center_banner_text span{ font-size:16px; margin-bottom:10px;}
+	.switch_text h1 {
+    font-size: 18px;}
+	.switch_bottom_text dl dt { font-size:18px;}
+}
+
+
+
+
+

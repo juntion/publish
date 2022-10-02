@@ -1,0 +1,52 @@
+<?php
+/***************************content****************************/
+//skless		2016-12-14			add
+define('NAVBAR_TITLE','Quality Control');
+define('FS_QUA_CONTROL','Quality Control');
+define('FS_QUA_FIBERSTORE','FS.COM provides comprehensive and unrivaled quality control for all products.');
+define('FS_QUA_FOCUS','FS.COM is focused on quality and precision. Quality is first for us. Without quality, nothing else matters. FS.COM’s foundation is built on maintaining high quality standards. Our management and employees are dedicated to providing customers with outstanding standards-compliant products and services. ');
+//define('FS_QUA_PROVIDES','FS.COM provides a complete set of instruments to test optical transceivers, such as the latest version equipments for Cisco, Juniper , Brocade and other major brands,the manufacturing serial BERTs, the digital communication analyzers and the light-wave measurement system with a large selection of modules for monitoring, switching and attenuating the optical signals.Another very attractive products are the multi-port power meters.All needed is to add a DUT-board, some cabling and a computer.Our quality control procedures are unparalleled in the industry.');
+//define('FS_QUA_OPTICAL','Optical transmitter eye diagram,transmitter average output power and the optical receiver sensitivity are key parameters to be measured and documented for all optical transceivers. Our transceiver is individually tested in these key paramteres as well as the compatibility,full traffic test,laser color, the stable of the center wavelength and other important parameteres. FS.COM quality control is to ensure all the parameters meet required specifications.');
+define('FS_QUA_CLICK','Click here to see how far we go to guarantee our optics will work well in your network.');
+define('FS_QUA_OUR','Our process in the laboratory');
+define('FS_QUA_COMPATIBILITY','Compatibility');
+define('FS_QUA_COMPATIBILITYS','We check for compatibility in our test-center for all major brands.');
+define('FS_QUA_FULL','Full traffic test');
+define('FS_QUA_ALL','All optics are tested on full 1G or 10G to ensure quality and distance.');
+define('FS_QUA_LASER','Laser color');
+define('FS_QUA_FOR','For all CWDM and DWDM optics we ensure the channels are precisely calibrated.');
+define('FS_QUA_EEPROM','EEPROM and label contents');
+define('FS_QUA_MAKESURE','We make sure the right naming is on the label and inside the optic.');
+define('FS_QUA_LENS','Lens inspection and clean');
+define('FS_QUA_LENSES','Lenses of high-end optics are inspected and cleaned if necessary.');
+define('FS_QUA_ISO','ISO Standard');
+define('FS_QUA_PRECISION','FS.COM is focused on quality and precision. Quality is first, for us, without quality, nothing else matters. Quality and standards are the foundation of FS.COM. Management and employees are dedicated to providing customers with outstanding, standards-compliant products and services. As part of this commitment, FS.COM is ISO 9001: 2015 certified has rigorous in-house procedures, which include extensive testing and verification of every single device. FS.COM has passed many quality system verifications, like CE, RoHS, FCC, established an internationally standardized quality assurance system and strictly implemented standardized management and control in the course of design, development, production, installation and service.');
+define('FS_QUA_NINTH','ISO9001:2008');
+define('FS_QUA_CERTIFICATE','The certificate shows that a component/subsystem can be used in a specific application according to a requirement class (RC) or a integrity level (SIL). The system integrator and end user must always be aware of how to use certified components/subsystems in safety-related function, respectively a safety instrumented system. Because of the many different possibilities and how to configure a safety system, the end user must get the related information from the manufacturer of the certified component/subsystem.');
+define('FS_QUA_CE','CE');
+define('FS_QUA_THE','The CE marking is a mandatory European marking for certain product groups to indicate conformity with the essential health and safety requirements set out in European. To permit the use of a CE mark on a product, proof that the item meets the relevant requirements must be documented.');
+define('FS_QUA_ROHS','RoHS');
+define('FS_QUA_WORKING','Working in partnership with the policy lead at BERR (The Department for Business, Enterprise & Regulatory Reform), NWML is the UK Enforcement Authority for the Restriction of the Use of Certain Hazardous Substances in Electrical and Electronic Equipment Regulations 2008 (the “RoHS Regulations”).Manufacturers need to understand the requirements of the RoHS Directive to ensure that their products, and their components, comply.');
+define('FS_QUA_FCC','FCC');
+define('FS_QUA_FEDERAL','The Federal Communications Commission (FCC) is an independent United States government agency. The FCC was established by the Communications Act of 1934 and is charged with regulating interstate and international communications by radio, television, wire, satellite and cable. The FCC\'s jurisdiction covers the 50 states, the District of Columbia, and U.S. possessions.');
+
+
+define("QUATITY_CONTROL_01","ISO 9001:2015");
+define("QUATITY_CONTROL_02","FS.COM is ISO 9001:2015 certified. These quality management standards, maintained by the International Organization of Standardization (ISO), provide a number of business process requirements for consistent product manufacturing and delivery to meet customers’ expectations.");
+define("QUATITY_CONTROL_03","Review our Certificate of Registration ");
+define("QUATITY_CONTROL_04","Certificate Number: 02417Q3010657R0M");
+define("QUATITY_CONTROL_05","Registration Date: April 21, 2017");
+
+define("QUATITY_CONTROL_06","EU RoHS");
+define("QUATITY_CONTROL_07","FS.COM products meet the applicable requirements of Directive 2011/65/EU of the European Union Restriction of Hazardous Substances (RoHS) and will continually do so as the directive is updated and amended.");
+define("QUATITY_CONTROL_08","FS.COM products comply with CE.");
+define("QUATITY_CONTROL_09","The CE marking is a mandatory European marking for certain product groups to indicate conformity with the essential health and safety requirements set out in European Directives.");
+define("QUATITY_CONTROL_10","FCC Compliance");
+define("QUATITY_CONTROL_11","FS.COM products comply with the requirements of FCC Part15 Subpart A Rules.");
+define("QUATITY_CONTROL_12","The FCC is a certification mark employed on electronic products manufactured or sold in the United States which certifies that the electromagnetic interference from the device is under limits approved by the Federal Communications Commission.");
+define("QUATITY_CONTROL_13","ISO 9001");
+define("QUATITY_CONTROL_14","RoHS");
+define("QUATITY_CONTROL_15","CE");
+define("QUATITY_CONTROL_16","FCC");
+
+?>

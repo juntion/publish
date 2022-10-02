@@ -1,0 +1,7 @@
+<?php  
+define('FS_POPULAR_01','Willkommen bei Fiberstore, wir bieten Einzelhandel und Kundenservice');
+define('FS_POPULAR_02','Diese Seite ist ein Index für alle Produkte auf Fiberstore. Als weltweit führender Anbieter von optischen Faserprodukte in China bietet Fiberstore eine Fülle von Produkten, wie Glasfaserkabel, Transceiver, cwdm/dwdm mux, OADM, Patchkabel, Anschlüsse, Fused & plc Splitter, Werkzeuge von Tester und so weiter. Fiberstore entwirft, produziert und verkauft ein breites Portfolio an optischen Kommunikationsprodukten,einschließlich passiver optischer Netzwerke oder PON, Subsysteme, optische Transceiver, die in den Unternehmen, dem Zugriff und den Metropolitangebieten des Marktes sowie anderen optischen Komponenten, Modulen und Subsystemen verwendet werden. Insbesondere umfassen Produkte aus Fiberstore optische Subsysteme, die in Fibre-to-the-Premise oder FTTP-Implementierungen eingesetzt werden, die viele Telekommunikationsdienstanbieter verwenden, um Video-, Sprach- und Datendienste zu liefern.');
+define('FS_POPULAR_03','Unsere Index-Seite listet alle Produkte auf, die auf dem ersten Buchstaben des Stichwortes basieren und Ihnen erlauben, die Produkte schnell zu finden. Da so viele Produkte auf unserem Online-Shop zur Verfügung gestellt werden, muss diese Index-Seite sehr hilfreich für Sie sein.');
+
+
+?>

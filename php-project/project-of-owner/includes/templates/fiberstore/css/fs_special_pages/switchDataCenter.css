@@ -1,0 +1,1545 @@
+/*公共*/
+
+.proutList-a {
+	color: #0070BC !important;
+}
+
+.main_content {
+	width: 100%!important;
+}
+
+.mainBox {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none
+}
+
+.w1420 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.box {
+	width: 100%!important;
+}
+
+
+/*冲突样式*/
+
+.product_03_24 input.p_07：foucs {
+	border: none !important;
+}
+
+.newPro_common_num_cont .pro_mun {
+	border: 1px solid #e5e5e5 !important;
+	border-left: none !important;
+}
+
+.new_pro_addCart_btn:hover {
+	background: #4c4948 !important;
+	color: #fff !important;
+}
+
+.newDetail_addCart_box .new_pro_addCart_btn {
+	border: 1px solid #c00000 !important;
+	width: 164px !important;
+	color: #c00000 !important;
+}
+
+.newDetail_addCart_box .new_pro_addCart_btn:hover {
+	color: #fff !important;
+	background: #c00000 !important;
+}
+
+.question_text_01 {
+	min-width: 230px !important;
+	padding: 10px !important;
+}
+
+
+.new_pro_addCart_btn .add_to_cart_iconfont .font_14{
+	font-size: 14px;
+	font-style: normal;
+	display: inline-block;
+    float: inherit;position: inherit;
+    left: inherit;
+    top: inherit;
+}
+.list2_bgc>div {
+	font-size: 26px !important;
+	vertical-align: middle;
+	font-weight: 600 !important;
+	padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*
+.cartname .new_pro_addCart_btn:hover{
+	
+	color:#fff !important;
+}*/
+
+.table-add .pro_mun {
+	border: none !important;
+}
+
+
+/*冲突样式*/
+
+.bannerText {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+
+.sale_con {
+	position: absolute;
+	height: 200px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.sale_banner {
+	height: 762px;
+}
+
+.sale_banner_bg {
+	position: absolute;
+	width: 100%;
+	height: 762px;
+	left: 0;
+	z-index: -1;
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-bg.jpg') no-repeat center;
+}
+
+.sale_banner_tit {
+	text-align: center;
+	font-family: OpenSans-Semibold;
+	font-size: 48px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 48px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	margin-bottom: 28px;
+}
+
+.sale_banner_txt {
+	width: 690px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 28px;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+
+.desCenterText {
+	width: 100%;
+	height: 270px;
+	background-color: #f7f7f7;
+}
+
+.descenterBox {
+	width: 1200px;
+	height: 100%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.descenter_Img {
+	width: 33%;
+	height: 226px;
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-pic01.png') no-repeat center;
+	background-size: contain;
+}
+
+.descenter_info {
+	width: 64%;
+	padding-left: 2%;
+}
+
+.info_mt {
+	margin-bottom: 24px;
+}
+
+.descenter_info p {
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #616265;
+}
+
+.FHX_img {
+	max-width: 100%;
+	height: inherit;
+	display: block;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 101;
+	width: 100%;
+	height: 100%;
+}
+
+.show-img {
+	display: block;
+}
+
+
+/*工作示意图*/
+
+.netWorkline {
+	/*height:1028px;*/
+	padding-bottom: 60px;
+	background-color: #f7f7f7;
+}
+
+.workInfo {
+	height: 100%;
+	background-color: #f7f7f7;
+}
+
+.workDetil {
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 38px;
+}
+
+.workImg_top {
+	margin-top: 46px;
+}
+
+.workImg_scroll {
+	width: 100%;
+	overflow-x: auto;
+}
+
+.workImg {
+	width: 1200px;
+	height: 786px;
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-pic02.png') no-repeat center;
+	background-size: center;
+	position: relative;
+}
+
+.workimg_Left {
+	position: absolute;
+	top: 278px;
+	left: 110px;
+	width: 325px;
+	height: 190px;
+}
+
+.mod_b {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: 0.9;
+	position: absolute;
+}
+
+.workimg_poin {
+	width: 36px;
+	height: 36px;
+	/* background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat -222px 0px;*/
+	position: absolute;
+	top: 0;
+	right: -48px;
+	bottom: 0;
+	opacity: 0.9;
+	margin: auto;
+}
+
+.View_text {
+	z-index: 10;
+	position: absolute;
+	padding-left: 22px;
+}
+
+.View_text>h4 {
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	margin: 0;
+	padding-top: 24px;
+	padding-bottom: 14px;
+	color: #232323;
+}
+
+.View_text>p {
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #616265;
+	padding-bottom: 10px;
+	padding-right: 12px;
+}
+
+.View_text a {
+	font-size: 14px;
+	color: #0070BC;
+}
+
+.View_text span {
+	color: #0070BC !important;
+}
+
+.workimg_poin2 {
+	width: 36px;
+	height: 36px;
+	/*background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat -222px 0px;*/
+	position: absolute;
+	top: 0;
+	left: -48px;
+	bottom: 0;
+	opacity: 0.9;
+	margin: auto;
+}
+
+
+/*原点css3效果*/
+
+.the_cir {
+	display: block;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0;
+	margin: auto;
+	height: 12px;
+	border-radius: 50%;
+	cursor: pointer;
+	position: absolute;
+	width: 12px;
+}
+.the_cir .the_cir_a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #0070BC;
+	border-radius: 50%;
+	animation: circle_a 3s infinite;
+}
+.the_cir .the_cir_b {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #0070BC;
+	border-radius: 50%;
+	animation: circle_a 3s 1.5s infinite;
+}
+.the_cir span:nth-of-type(3) {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #0070BC;
+}
+@keyframes circle_a {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 0;
+		filter: alpha(opacity=0)\9
+	}
+	
+	10% {
+		opacity: 1;
+		filter: alpha(opacity=100)\9
+	}
+	
+	100% {
+		-webkit-transform: scale(3.75);
+		transform: scale(3.5);
+		opacity: 0;
+		filter: alpha(opacity=0)\9
+	}
+}
+/*原点css3效果*/
+
+.workimg_Right {
+	position: absolute;
+	top: 128px;
+	right: 240px;
+	width: 325px;
+	height: 200px;
+}
+.triangle_border_right {
+	width: 0;
+	height: 0;
+	border-width: 10px 0 10px 10px;
+	border-style: solid;
+	border-color: transparent transparent transparent #fff;
+	/*透明 透明 透明 灰*/
+	
+	position: absolute;
+	top: 0;
+	right: -10px;
+	bottom: 0;
+	opacity: 0.9;
+	margin: auto;
+}
+.triangle_border_left {
+	width: 0;
+	height: 0;
+	border-width: 10px 10px 10px 0;
+	border-style: solid;
+	border-color: transparent #fff transparent transparent;
+	/*透明 灰 透明 透明 */
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -10px;
+	margin: auto;
+	opacity: 0.9;
+}
+.workline_right {
+	position: absolute;
+	right: 0px;
+	top: 142px;
+	height: 170px;
+	width: 296px;
+}
+.workline_right_2 {
+	top: 332px;
+}
+.workline_right_3 {
+	top: 522px;
+}
+.workline_right>h4 {
+	padding-top: 32px;
+	margin: 0;
+	padding-bottom: 6px;
+	font-size: 14px;
+	font-weight: 500;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #232323;
+}
+.workline_right>p {
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #616265;
+}
+.workline_right>a {
+	color: #0070BC;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.workText>h3 {
+	font-family: OpenSans-Light;
+	font-size: 26px;
+	font-weight:400;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #232323;
+	text-align: center;
+	padding-top: 72px;
+	padding-bottom: 30px!important;
+}
+.workText>p {
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #616265;
+}
+
+/*帮助专科栏目*/
+.newsHelp {
+	width: 1420px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+.newsHelp>h3 {
+	font-family: OpenSans-Light;
+	font-size: 26px;
+	font-weight:400;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #232323;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 30px!important;
+}
+.newsHelp>ul>li {
+	padding-bottom: 60px;
+	width: 32%;
+}
+.list1_bgc {
+	background-color: #f1f5fa;
+}
+.list2_bgc {
+	background-color: #e8f2f6;
+}
+.list3_bgc {
+	background-color: #f0f7f5;
+}
+.newsHelp>ul {
+	margin: 0 110px;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	/* align-items: center;*/
+}
+.new_help_list_icon {
+	margin: 0 auto;
+	margin-top: 48px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat -22px 0px;
+}
+.list_icon2 {
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat -86px 0px;
+}
+.list_icon3 {
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat -144px 0px;
+}
+.new_help_list_tit {
+	font-size: 36px;
+	text-align: center;
+	font-weight: 600;
+	display: inline-block;
+	margin-bottom: 20px;
+	color: #232323;
+}
+.new_help_list_txt {
+	font-size: 18px;
+	color: #232323;
+	font-family: OpenSans;
+	font-weight: 500;
+	/* line-height: 22px;*/
+	
+	text-align: center;
+	/*padding: 0 30px;
+    padding-bottom:24px;*/
+	
+	padding: 20px 0 40px 0;
+}
+.new_help_list_p {
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #616265;
+}
+
+/*商品列表展示 */
+.prouctListMains {
+	width: 100%;
+}
+.prouctListMains_text {
+	width: 1200px;
+	margin: 0 auto;
+}
+.prouctListMains_text .workText>h3 {
+	font-size: 26px;
+	padding-top: 60px;
+}
+.prouctListMains_text .workText>p {
+	padding-bottom: 30px;
+}
+.prouctListMains_list {
+	width: 940px;
+	margin: 0 auto;
+	height: 383px;
+	background-color: #f7f7f7;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 130px;
+	margin-top: 38px;
+}
+.prouctListMains_list>li>h3 {
+	font-size: 20px;
+	color: #232323;
+	padding-bottom: 24px;
+}
+.prouctListMains_list>li>p {
+	width: 82%;
+	font-size: 14px;
+	color: #616265;
+}
+.bottom_line {
+	width: 1200px;
+	height: 6px;
+	background-color: #e8e9ea;
+	margin: 0 auto;
+}
+.prouctListMains_img {
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-pic03.png') no-repeat center;
+	background-size: cover;
+	width: 234px;
+	height: 363px;
+}
+.prouctListMains_img2 {
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-pic04.png') no-repeat center;
+}
+.prouctListMains_img3 {
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-pic05.png') no-repeat center;
+}
+.bianse {
+	cursor: pointer;
+	transition: all .2s;
+	background: #4c4948;
+}
+
+
+/*功能展示 */
+.prouct_workText>h3 {
+	padding-top: 50px;
+}
+.prouct_workImg_scroll {
+	width: 100%;
+	overflow-x: auto;
+}
+.prouct_workImg {
+	/*  margin-top:56px;*/
+	
+	width: 1200px;
+	height: 747px;
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-pic06.png') no-repeat center;
+	background-size: center;
+}
+
+/*列表*/
+.specialshopList {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.specialAllList {
+	height: 100%;
+}
+.allList {}
+.proutList {
+	width: 100%;
+	/*    overflow-x: auto;*/
+	
+	margin: 0 auto;
+	padding-bottom: 0px;
+}
+#proutTable {
+	width: 1200px;
+	border-collapse: collapse;
+	margin: 20px auto;
+	overflow-x: auto;
+}
+#proutTable .titleBgc {
+	height: 50px;
+	background-color: #f7f7f7;
+}
+.otn-products-sub {
+	text-align: right;
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+.icons-1 {
+	font-size: 12px !important;
+}
+#proutTable tr .stockColor {
+	cursor: pointer;
+}
+#proutTable tr .stockColor i {
+	display: inline-block;
+	background-color: #fff;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin-right: 0px !important;
+}
+#proutTable tr .stock_id_Color {
+	cursor: pointer;
+}
+#proutTable tr .stockColor span {
+	color: #76bb1f;
+}
+.track_orders_wenhao_only {
+	display: flex !important;
+	align-items: center !important;
+	width: 98px !important;
+}
+.track_orders_wenhao_only em {
+	width: 8px;
+	height: 8px;
+	display: block;
+	background: #76bb1f;
+	border-radius: 50%;
+	margin-right: 4px;
+}
+#proutTable th {
+	font-size: 16px;
+	border: none;
+	color: #232323;
+	font-weight: 400;
+	padding: 0px 12px;
+	text-align: left;
+}
+#proutTable td {
+	font-family: OpenSans;
+	border: none;
+	text-align: left;
+	font-weight: 400;
+	padding: 0px 12px;
+	line-height: 22px;
+	font-size: 14px;
+	color: #616265;
+	vertical-align: middle;
+	border-bottom: 1px solid #e5e5e5;
+}
+#proutTable td .table-img {
+	width: 70px;
+	height: 70px;
+}
+#proutTable td .table-add {
+	display: flex;
+	width: 72px;
+	height: 36px;
+	border: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.table-add input {
+	width: 45px;
+	height: 100%;
+	border: none !important;
+	text-align: center;
+}
+.pro_mun_my {
+	width: 25px;
+	border: none !important;
+	border-left: 0;
+	border-radius: 0 2px 2px 0;
+	float: right;
+	transition: all .2s;
+	cursor: pointer;
+	display: block;
+	height: 100%;
+}
+.cart_qty_add {
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -180px -335px;
+}
+.cart_qty_reduce {
+	display: block;
+	height: 18px;
+	width: 18px;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -180px -212px;
+}
+#proutTable td .table-img img {
+	width: 100%;
+	height: 100%;
+}
+#proutTable .left {
+	text-align: left;
+}
+#proutTable .right {
+	text-align: right;
+}
+#proutTable .center {
+	text-align: center;
+}
+
+/*帮助*/
+.helpInfo {
+	width: 100%;
+	padding-bottom:42px;
+	color: #fff;
+}
+.helpInfo_mains {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.helpInfo_text {
+	padding: 0 14px;
+}
+.helpInfo_text>h4 {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 26px;
+	line-height: 24px;
+	color: #232323;
+	padding-top: 50px;
+	text-align: center;
+	font-weight:400;
+	padding-bottom: 30px;
+}
+.helpInfo_text>p {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #616265;
+	padding-bottom: 46px;
+}
+.helpInfo_mains>ul {
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.helpInfo_mains>ul>li>a {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #f7f7f7;
+	height: 170px;
+	width: 460px;
+	margin: 0 18px 18px 0px;
+	text-decoration: none;
+}
+.helpInfo_text_img {
+	width: 80px;
+	height: 80px;
+	margin-left: 67px;
+	margin-right: 30px;
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat 0px -51px;
+}
+.helpInfo_text_img2 {
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat -100px -51px;
+}
+.helpInfo_text_img3 {
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat -200px -51px;
+}
+.helpInfo_text_img4 {
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopicThree/data-center-icon.png') no-repeat -300px -51px;
+}
+.helpInfo_text_mains>h3 {
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 8px;
+	letter-spacing: 0px;
+	color: #232323;
+	font-weight: 600;
+}
+.helpInfo_text_mains>p {
+	font-size: 14px;
+	width: 184px;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #616265;
+}
+.otn-profile {
+	display: block;
+	width: 82px;
+	height: 82px;
+	margin: 0 auto;
+	border-radius: 100%;
+	border: 1px solid #e5e5e5;
+	background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img_new/solution-contact-icon.png') no-repeat 1px -524px;
+}
+
+/*媒体查询*/
+@media(max-width:1440px) {
+	.specialshopList {
+		width: 1200px;
+	}
+	
+	.newsHelp {
+		width: 1200px;
+	}
+	
+	.workDetil {
+		width: 1200px;
+	}
+	
+	.prouctListMains_text {
+		width: 1200px;
+	}
+	
+	.prouctListMains_text .workText>p {
+		padding: 0 140px;
+	}
+}
+@media(max-width:1220px) {
+	.helpInfo_mains {
+		width: 960px;
+	}
+	
+	.bottom_line {
+		width: 960px;
+	}
+	
+	.helpMains {
+		width: 960px;
+	}
+	
+	.prouctListMains_list {
+		width: 700px;
+	}
+	
+	.descenterBox {
+		width: 960px;
+	}
+	
+	.specialshopList {
+		width: 960px;
+	}
+	
+	.workDetil {
+		width: 960px;
+	}
+	
+	.newsHelp {
+		width: 960px;
+	}
+	
+	.prouctListMains_text {
+		width: 960px;
+	}
+	
+	.prouctListMains_text .workText>p {
+		padding: 0 100px;
+	}
+}
+@media(max-width:960px) {
+	.bottom_line {
+		width: 700px;
+	}
+	
+	.sale_banner_txt {
+		width: 600px;
+	}
+	
+	.helpInfo_mains {
+		width: 700px;
+	}
+	
+	.bottom_line {
+		700
+	}
+	
+	.prouctListMains_list {
+		width: 440px;
+	}
+	
+	.descenterBox {
+		width: 700px;
+	}
+	
+	.helpMains {
+		width: 700px;
+	}
+	
+	.specialshopList {
+		width: 700px;
+	}
+	
+	.workDetil {
+		width: 700px;
+	}
+	
+	.newsHelp {
+		width: 700px;
+	}
+	
+	.prouctListMains_text {
+		width: 700px;
+	}
+	
+	.prouctListMains_text .workText>p {
+		padding: 0 0px;
+	}
+	
+	.IR-text-infos {
+		margin: 0;
+		height: auto;
+	}
+	/*弹窗*/
+	
+	.pupop_video {
+		margin-top: 0px;
+		z-index: 100;
+	}
+	
+	.popup_width880 {
+		width: 100%;
+		left: 0%;
+		top: 0;
+		margin-left: 0px;
+	}
+	
+	.new_popup_video {
+		height: 100%;
+	}
+	
+	.desCenterText {
+		width: 100%;
+		height: auto;
+	}
+	
+	.descenterBox {
+		display: block;
+		width: auto;
+		padding: 0 14px;
+		padding-bottom: 28px;
+	}
+	
+	.descenter_info {
+		width: auto;
+	}
+	
+	.descenter_Img {
+		width: 100%;
+		background-size: contain;
+	}
+}
+@media(max-width:700px) {
+	.specialshopList {
+		width: 100%;
+	}
+	
+	.workDetil {
+		width: 100%;
+	}
+	
+	.helpMains {
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+	
+	.sale_banner {
+		overflow: hidden;
+		box-sizing: border-box;
+		padding: 0 30px;
+	}
+	
+	.sale_banner,
+	.sale_banner_bg {
+		background-size: cover;
+		height: 232px;
+	}
+	
+	.bannerText {
+		width: 100%;
+	}
+	
+	.sale_banner_tit {
+		font-size: 20px;
+		line-height: 24px;
+		padding: 0px 30px;
+		margin-bottom: 20px;
+	}
+	
+	.sale_banner_txt {
+		width: 100%;
+		font-size: 12px;
+		font-weight: normal;
+		font-stretch: normal;
+		line-height: 20px;
+		letter-spacing: 0px;
+		color: #ffffff;
+	}
+	
+	.sale_con {
+		padding-top: 100px;
+		height: 100%;
+	}
+	
+	.desCenterText {
+		width: 100%;
+		height: auto;
+	}
+	
+	.descenterBox {
+		display: block;
+		width: auto;
+		padding: 0 14px;
+		padding-bottom: 28px;
+	}
+	
+	.descenter_info {
+		width: auto;
+	}
+	
+	.descenter_Img {
+		width: 100%;
+		background-size: contain;
+	}
+	/*.netWorkline .workImg{
+background-size:contain;
+height:128px;
+  margin-top:28px;
+}*/
+	
+	.workText {
+		padding: 0 14px;
+	}
+	
+	.workText>h3 {
+		width: auto;
+		margin: 0 auto;
+		font-size: 26px;
+		line-height: 30px;
+		padding: 0 10%;
+		padding-top: 33px;
+		padding-bottom: 18px !important;
+	}
+	
+	.workText>p {
+		width: 100%;
+		padding: 0px;
+	}
+	
+	.newsHelp {
+		width: 100%;
+		padding-bottom: 0px;
+	}
+	
+	.newsHelp>h3 {
+		line-height: 30px;
+		padding: 0 10%;
+		padding-top: 40px;
+		padding-bottom: 20px!important;
+	}
+	
+	.newsHelp>ul>li {
+		width: 100%;
+		padding-top: 48px;
+		margin-bottom: 10px;
+	}
+	
+	.newsHelp>ul {
+		display: block;
+		margin: 0;
+	}
+	
+	.new_help_list_icon {
+		margin-top: 0;
+	}
+	
+	.prouctListMains {
+		width: auto;
+		padding: 0 14px;
+		height: auto;
+		padding-bottom: 0px;
+	}
+	
+	.prouctListMains_text {
+		width: 100%;
+	}
+	
+	.prouctListMains_text .workText>h3 {
+		padding: 0 0;
+		padding-top: 48px;
+		width: 100%;
+		line-height: 30px;
+		padding-bottom: 28px !important;
+	}
+	
+	.prouctListMains_text .workText {
+		padding: 0px;
+	}
+	
+	.prouctListMains_text .workText>p {
+		padding: 0;
+	}
+	
+	.prouctListMains_list {
+		width: auto;
+		height: auto;
+		display: block;
+		padding: 0px;
+		padding-left: 14px;
+	}
+	
+	.prouctListMains_list>li>h3 {
+		padding-top: 33px;
+	}
+	
+	.prouctListMains_list>li>p {
+		width: 98%;
+	}
+	
+	.prouctListMains_img {
+		background-size: contain;
+		height: 363px;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	
+	.bottom_line {
+		width: 100%;
+	}
+	/*.prouct_workImg{
+	display: none;
+}*/
+	
+	.prouct_workImg_y {
+		width: 100%;
+		overflow-x: scroll;
+	}
+	
+	.prouct_workText>h3 {
+		padding-top: 40px;
+	}
+	
+	.helpInfo .helpInfo_mains {
+		width: 100%;
+	}
+	
+	.helpInfo_text>h4 {
+		line-height: 30px;
+		color: #232323;
+		padding-bottom: 20px;
+	}
+	
+	.helpInfo_mains>ul>li>a {
+		margin: 0 0px 10px 0px;
+	}
+	
+	.helpInfo_text_img {
+		margin-left: 30px;
+	}
+	
+	.helpInfo_mains>ul {
+		padding: 0 14px;
+	}
+	
+	.helpInfo_text>p {
+		padding-bottom: 16px;
+	}
+	/*.prouct_workbigImg_y{
+  margin-top:30px;
+  width:800px;
+  height:516px;
+  background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/prouctWorkimg.png') no-repeat center;
+  background-size:contain !important;
+}*/
+	
+	.allList {
+		padding: 0px 14px;
+	}
+	
+	.proutList {
+		padding-bottom: 0px;
+		overflow-x: auto;
+	}
+	
+	.submitCart {
+		height: 68px;
+	}
+	
+	#proutTable {
+		width: 1200px;
+	}
+	
+	.netWorkline {
+		padding-bottom: 30px;
+	}
+}
+@media(max-width:480px) {
+	.helpInfo {
+		height: auto;
+	}
+	
+	.specialshopList {
+		width: 100%;
+	}
+	
+	.workDetil {
+		width: 100%;
+	}
+	
+	.helpMains {
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+	
+	.sale_banner {
+		overflow: hidden;
+		box-sizing: border-box;
+		padding: 0 30px;
+	}
+	
+	.sale_banner,
+	.sale_banner_bg {
+		background-size: cover;
+		height: 232px;
+	}
+	
+	.bannerText {
+		width: 100%;
+	}
+	
+	.sale_banner_tit {
+		font-size: 20px;
+		line-height: 24px;
+		padding: 0px 30px;
+		margin-bottom: 20px;
+	}
+	
+	.sale_banner_txt {
+		width: 100%;
+		font-size: 12px;
+		font-weight: normal;
+		font-stretch: normal;
+		line-height: 20px;
+		letter-spacing: 0px;
+		color: #ffffff;
+	}
+	
+	.sale_con {
+		padding-top: 100px;
+		height: 100%;
+	}
+	
+	.desCenterText {
+		width: 100%;
+		height: auto;
+	}
+	
+	.descenterBox {
+		display: block;
+		width: auto;
+		padding: 0 14px;
+		padding-bottom: 28px;
+	}
+	
+	.descenter_info {
+		width: auto;
+	}
+	
+	.descenter_Img {
+		width: 100%;
+		background-size: contain;
+	}
+	/*.netWorkline .workImg{
+background-size:contain;
+height:128px;
+  margin-top:28px;
+}*/
+	
+	.workText {
+		padding: 0 14px;
+	}
+	
+	.workText>h3 {
+		width: auto;
+		margin: 0 auto;
+		font-size: 26px;
+		line-height: 30px;
+		padding: 0 10%;
+		padding-top: 33px;
+		padding-bottom: 18px !important;
+	}
+	
+	.workText>p {
+		width: 100%;
+		padding: 0px;
+	}
+	
+	.newsHelp {
+		width: 100%;
+		padding-bottom: 0px;
+	}
+	
+	.newsHelp>h3 {
+		line-height: 30px;
+		padding: 0 10%;
+		padding-top: 40px;
+		padding-bottom: 20px!important;
+	}
+	
+	.newsHelp>ul>li {
+		width: 100%;
+		padding-top: 48px;
+		margin-bottom: 10px;
+	}
+	
+	.newsHelp>ul {
+		display: block;
+		margin: 0;
+	}
+	
+	.new_help_list_icon {
+		margin-top: 0;
+	}
+	
+	.prouctListMains {
+		width: auto;
+		padding: 0 14px;
+		height: auto;
+		padding-bottom: 0px;
+	}
+	
+	.prouctListMains_text {
+		width: 100%;
+	}
+	
+	.prouctListMains_text .workText>h3 {
+		padding: 0 0;
+		padding-top: 48px;
+		width: 100%;
+		line-height: 30px;
+		padding-bottom: 28px !important;
+	}
+	
+	.prouctListMains_text .workText {
+		padding: 0px;
+	}
+	
+	.prouctListMains_text .workText>p {
+		padding: 0;
+	}
+	
+	.prouctListMains_list {
+		width: auto;
+		height: auto;
+		display: block;
+		padding: 0px;
+		padding-left: 14px;
+	}
+	
+	.prouctListMains_list>li>h3 {
+		padding-top: 33px;
+	}
+	
+	.prouctListMains_list>li>p {
+		width: 98%;
+	}
+	
+	.prouctListMains_img {
+		background-size: contain;
+		height: 363px;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	
+	.bottom_line {
+		width: 100%;
+	}
+	/*.prouct_workImg{
+	display: none;
+}*/
+	
+	.prouct_workImg_y {
+		width: 100%;
+		overflow-x: scroll;
+	}
+	
+	.prouct_workText>h3 {
+		padding-top: 40px;
+	}
+	
+	.helpInfo .helpInfo_mains {
+		width: 100%;
+	}
+	
+	.helpInfo_text>h4 {
+		line-height: 30px;
+		color: #232323;
+		padding-bottom: 20px;
+	}
+	
+	.helpInfo_mains>ul>li>a {
+		margin: 0 0px 10px 0px;
+	}
+	
+	.helpInfo_mains>ul>li {
+		width: 100%;
+	}
+	
+	.helpInfo_text_img {
+		margin-left: 30px;
+	}
+	
+	.helpInfo_mains>ul {
+		padding: 0 14px;
+	}
+	
+	.helpInfo_text>p {
+		padding-bottom: 16px;
+	}
+	/*.prouct_workbigImg_y{
+  margin-top:30px;
+  width:800px;
+  height:516px;
+  background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/prouctWorkimg.png') no-repeat center;
+  background-size:contain !important;
+}*/
+	
+	.allList {
+		padding: 0px 14px;
+	}
+	
+	.proutList {
+		padding-bottom: 0px;
+		overflow-x: auto;
+	}
+	
+	.submitCart {
+		height: 68px;
+	}
+	
+	#proutTable {
+		width: 1200px;
+	}
+	
+	.netWorkline {
+		padding-bottom: 30px;
+	}
+}

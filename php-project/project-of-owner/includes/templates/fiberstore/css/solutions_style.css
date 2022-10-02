@@ -1,0 +1,188 @@
+
+
+/*左banner样式*/
+.solutions_2016banner { height: 320px; width: 100%;  background: #07427e none repeat scroll 0% 0%; overflow: hidden; }
+.solutions_2016banner_bg { background:#f4f4f4; position: absolute; left: 0px; height: 320px; width: 100%; text-align: center; }
+.solutions_2016banner_pic { position: relative; left: 50%; margin-left: -600px; display: inline-block; padding: 30px 40px; font-size: 20px; margin-top: 35px; line-height: 32px; color:#232323; max-width:600px; }
+.solutions_2016banner_pic span { font-size: 38px; display: block; line-height:36px;  margin-bottom:15px; }
+.banner_white{ color:#fff;}
+.white_space{white-space:pre;}
+.banner_bg_color{background:rgba(255, 255, 255, 0.5);}
+
+.solutions_2016text_center{ text-align:center; max-width:inherit; width:1200px; padding: 30px 0px; }
+.solutions_2016text_right{ text-align:right;max-width:inherit; width:1200px; padding: 30px 0px;  }
+/*左banner样式*/
+/*banner图片*/
+.banner_151_pic{background: url(https://img-en.fs.com/images/tutorial/40G_QSF_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_150_pic{background: url(https://img-en.fs.com/images/tutorial/Solutions_HDHZ_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_149_pic{background: url(https://img-en.fs.com/images/tutorial/Solutions_EX_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_148_pic{background: url(https://img-en.fs.com/images/tutorial/Solution_DAC_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_147_pic{background: url(https://img-en.fs.com/images/tutorial/Solution_Trunk_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_146_pic{background: url(https://img-en.fs.com/images/tutorial/direct_connection_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_145_pic{background: url(https://img-en.fs.com/images/tutorial/Solutions_32ch_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_144_pic{background: url(https://img-en.fs.com/images/tutorial/Solutions_ZR_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_143_pic{background: url(https://img-en.fs.com/images/tutorial/Brocade-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_142_pic{background: url(https://img-en.fs.com/images/tutorial/Solutions_PLR4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_141_pic{background: url(https://img-en.fs.com/images/tutorial/Cisco-ER-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_140_pic{background: url(https://img-en.fs.com/images/tutorial/CO-LX-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_139_pic{background: url(https://img-en.fs.com/images/tutorial/Solutions_HD_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_138_pic{background: url(https://img-en.fs.com/images/tutorial/JU-ER4-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_137_pic{background: url(https://img-en.fs.com/images/tutorial/JU-PLRL4-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_136_pic{background: url(https://img-en.fs.com/images/tutorial/structured_cabling_solution_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_135_pic{background: url(https://img-en.fs.com/images/tutorial/Cisco-dac-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_134_pic{background: url(https://img-en.fs.com/images/tutorial/Cisco-40G-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_133_pic{background: url(https://img-en.fs.com/images/tutorial/cwdm_oadm_adds_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_132_pic{background: url(https://img-en.fs.com/images/tutorial/CO-40G-BD-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_131_pic{background: url(https://img-en.fs.com/images/tutorial/JU_PLR4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_130_pic{background: url(https://img-en.fs.com/images/tutorial/mux_oeo_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_129_pic{background: url(https://img-en.fs.com/images/tutorial/4ch-CWDM-Mux-Demux1117.jpg) no-repeat center 0 #b8c0bc;}
+.banner_128_pic{background: url(https://img-en.fs.com/images/tutorial/armored_fiber_optic_cable_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_127_pic{background: url(https://img-en.fs.com/images/tutorial/media_converter_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_126_pic{background: url(https://img-en.fs.com/images/tutorial/dwdm_system_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_125_pic{background: url(https://img-en.fs.com/images/tutorial/100G-CFP-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_124_pic{background: url(https://img-en.fs.com/images/tutorial/CO-SX-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_123_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_sr_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_122_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_LR_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_121_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_JULR4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_120_pic{background: url(https://img-en.fs.com/images/tutorial/CO_PLR4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_119_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_plc02_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_118_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_plc01_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_117_pic{background: url(https://img-en.fs.com/images/tutorial/cwdm_mux_demux_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_116_pic{background: url(https://img-en.fs.com/images/tutorial/attenuator_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_115_pic{background: url(https://img-en.fs.com/images/tutorial/enclosures_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_114_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_base_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_113_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_LR4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_112_pic{background: url(https://img-en.fs.com/images/tutorial/ER4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_111_pic{background: url(https://img-en.fs.com/images/tutorial/pre_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_110_pic{background: url(https://img-en.fs.com/images/tutorial/BIDI_SFP+_Banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_109_pic{background: url(https://img-en.fs.com/images/tutorial/BR_SR4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_108_pic{background: url(https://img-en.fs.com/images/tutorial/cisco_40G_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_107_pic{background: url(https://img-en.fs.com/images/tutorial/Network_Benner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_106_pic{background: url(https://img-en.fs.com/images/tutorial/BR-PLRL4-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_105_pic{background: url(https://img-en.fs.com/images/tutorial/40G_8LC_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_104_pic{background: url(https://img-en.fs.com/images/tutorial/JU_SR4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_103_pic{background: url(https://img-en.fs.com/images/tutorial/solution_cisco_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_102_pic{background: url(https://img-en.fs.com/images/tutorial/BR-LR-banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_101_pic{background: url(https://img-en.fs.com/images/tutorial/solution_bidi_banner.jpg) no-repeat center 0 #b8c0bc;}
+/*.banner_100_pic{background: url(https://img-en.fs.com/images/tutorial/edfaEDFA_banner.jpg) no-repeat center 0 #b8c0bc;}
+*/
+.banner_99_pic{background: url(https://img-en.fs.com/images/tutorial/solution0908_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_93_pic{background: url(https://img-en.fs.com/images/tutorial/lr4_transceivers_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_79_pic{background: url(https://img-en.fs.com/images/tutorial/40CH_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_78_pic{background: url(https://img-en.fs.com/images/tutorial/PLRL4_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_74_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_40G_banner.jpg) no-repeat center 0 #b8c0bc;}
+.banner_91_pic{background: url(https://img-en.fs.com/images/tutorial/solutions_100banner.jpg) no-repeat center 0 #b8c0bc;}
+/*banner图片结束*/
+
+.solutions_EDFA_tit_bg { width: 100%; background: #f9f9f9 none repeat scroll 0% 0%; overflow: hidden; min-height: 200px; }
+.solutions_EDFA_tit_con { background: #f9f9f9; width: 100%; position: absolute; left: 0px; min-height:200px; }
+.solutions_EDFA_tit_con { background: #f9f9f9; width: 100%; position: absolute; left: 0px; }
+.solutions_EDFA_tit { width: 1200px; margin: 0 auto; padding-bottom: 20px; }
+.solutions_EDFA_tit h1 { font-size: 24px; font-weight: normal; padding: 40px 0 20px 0; text-align: center; line-height: 30px; }
+.solutions_EDFA_tit p { color: #555; line-height: 24px; font-size: 14px; text-align: center; }
+
+.solutions_40G_con { padding: 50px 40px 0 40px; font-size: 14px; }
+.solutions_40G_con a { color: #0070BC; text-decoration: none; }
+.solutions_40G_con a:hover { text-decoration: underline; }
+.solutions_40G_tit { font-size: 24px; color: #232323; line-height: 30px; margin: 0px 0 20px 0; text-align: center; }
+.solutions_40G_con p { text-align: center; color: #555; line-height: 24px; }
+.solutions_40G_con .width_small { text-align: center; }
+.solutions_40G_con p.solutions_40G_hui { color: #999; font-size: 12px; }
+.solutions_40G_table { margin-top: 30px; line-height: 24px; }
+.solutions_40G_table tr th { color: #616265; font-weight: normal; padding: 10px 5px; background: #f4f4f4; border: 0;}
+.solutions_40G_table tr td { border-bottom: 1px solid #dedede; padding: 10px 5px; color: #232323; }
+.solutions_40G_line { height: 2px; line-height: 0; background: #8d8d8f; }
+.solutions_40G_text { background: #f6f6f6; padding: 30px 100px; font-size: 14px; color: #555; line-height: 24px; }
+.solutions_10G_line { height: 2px; line-height: 0; background: #8d8d8f; margin-top:30px; }
+.btn_blue { margin: 0; }
+.btn_blue a.button_02 { color: #c00000 !important; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -169px -418px #fff !important; border: 1px solid #c00000 !important; margin: 0; float: none; }
+.btn_blue a.button_02:hover { background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -169px -240px #c00000 !important; text-decoration: none;color: #fff !important;}
+.ztyuan { width:18px; margin: 0 auto; height:18px; border-radius:10px; background: #c00000; color: #fff; text-align: center; line-height:18px; display: block; }
+.ztyuan_line { width: 18px; margin: 0 auto; height:18px; border-radius:10px; background: #9c9c9c; color: #fff; text-align: center; line-height:18px; display: block; }
+.m_display { display: none; }
+.solutions_40G_table tr td.add_tit { border-bottom: 0; background: #f4f4f4; padding-left: 30px; }
+@media (max-width: 1220px) {
+
+/*左banner样式*/
+.solutions_2016banner_bg {
+background-position: -250px 0;
+}
+.solutions_2016banner_pic {
+margin-left: -480px;
+}
+/*左banner样式*/
+
+.solutions_40G_con { padding: 50px 0px 0 0; }
+.solutions_40G_text { padding: 15px; }
+.solutions_40G_ad_pic { margin-left: 0; }
+.solutions_EDFA_tit_bg {
+min-height: 230px;
+}
+.solutions_EDFA_tit {
+width: 960px;
+}
+}
+@media (max-width: 960px) {
+    .btn_blue a.button_02{ width:30px;}
+.m_display { display: block; }
+.solutions_40G_con { padding: 20px 10px 0 10px; font-size: 13px; }
+.solutions_40G_con p { line-height: inherit;text-align: left;}
+.solutions_40G_con img { max-width: 100%; }
+.m_solutions_40G_table { overflow-x: auto; }
+.solutions_40G_table { font-size: 12px; line-height: inherit }
+.solutions_40G_tit { font-size: 16px;    line-height: 24px; text-align:left;margin-bottom: 10px;}
+.ztyuan { width: 16px; height: 16px; line-height: 16px; margin: 0; }
+.solutions_40G_table tr td, .solutions_40G_table tr th { padding: 10px 5px; }
+.solutions_40G_table tr td:first-child, .solutions_40G_table tr th:first-child { display: none; text-align: center; }
+.solutions_40G_ad_pic { padding: 0 10px; margin-left: 0; left: 0; width: initial; font-size: 18px; }
+.solutions_40G_ad_pic span { font-size: 24px; }
+.solutions_40G_bg { background-position: -450px 0; height: 320px; }
+.solutions_40G { height: 300px; }
+.solutions_40G_table tr td:first-child.add_tit { display: table-cell; text-align: left; padding-left: 5px; }
+/*左banner样式*/
+.solutions_2016banner_pic {
+padding: 0 10px; line-height:24px;
+margin-left: 0;
+left: 0;
+width: initial;
+font-size: 18px;
+max-width:auto;
+color:#fff;
+margin-top:80px;
+display:block;
+z-index: 11;
+}
+.solutions_2016banner_pic br{
+	display:none;
+}
+.solutions_2016banner_pic span {
+font-size: 24px;
+line-height:28px;
+}
+.solutions_2016banner_bg {
+background-position: -850px 0;
+height: 300px;
+}
+.solutions_2016banner {
+height: 300px;
+}
+/*左banner样式*/
+.solutions_EDFA_tit_con {
+position: inherit;
+}
+.solutions_EDFA_tit {
+width: initial;
+padding: 10px;
+}
+.solutions_EDFA_tit h1 {
+font-size: 18px;
+padding: 30px 0 15px 0;
+}
+.solutions_960_bg{position: absolute;z-index: 10;width: 100%;height: 300px;background-color: #000;opacity: .3;left: 0;}
+}
+@media (max-width: 480px) {
+	.solutions_2016banner,.solutions_2016banner_bg { height:220px;}
+	.white_space{white-space:inherit;}
+	.solutions_960_bg{position: absolute;z-index: 10;width: 100%;height: 220px;background-color: #000;opacity: .3;}
+	.solutions_2016banner_pic{margin-top:40px;}
+	}

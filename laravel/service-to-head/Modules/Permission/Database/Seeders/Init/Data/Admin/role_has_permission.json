@@ -1,0 +1,7 @@
+[
+  {
+    "role": "super",
+    "permission": "all",
+    "index": "home.default"
+  }
+]

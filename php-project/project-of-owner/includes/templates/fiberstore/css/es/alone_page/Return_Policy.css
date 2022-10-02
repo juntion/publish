@@ -1,0 +1,191 @@
+
+/*Return_Policy*/
+.alone_banner .return_banner_bg{background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/payment_met/return_policy_banner.jpg)}
+.return_banner_tit{padding-top:52px}
+.return_container{padding:50px 0;box-sizing:border-box}
+.alone_tit{padding-top:25px;padding-bottom:15px}
+.policy_left{float:left;width:280px;padding-top: 20px;}
+.policy_left_fix.choosez{position:fixed;top:50px;background:#FFF}
+.policy_left_li{font-size:16px;color:#232323;width:220px;border-bottom:1px solid #dedede;padding:15px 0;line-height:24px;cursor:pointer;text-align: left;}
+.policy_left_li.choosez{color:#232323;border-bottom: 1px solid #232323;}
+.policy_right{text-align:left;width:920px;float:right}
+.return_width{width:1200px;margin:0 auto}
+.return_center{text-align:left;padding-top:0;}
+.return_padding{padding-top:40px}
+.return_left{text-align:left;padding-bottom:12px}
+.return_padding_none{text-align:left;padding-bottom:0}
+.return_padding_top{padding-top:15px}
+.return_left a:hover{color:#0070BC;text-decoration:underline}
+.return_img{padding-top:5px;padding-bottom:24px}
+.return_p_txt{font-size:16px;padding-top:15px;padding-bottom:15px;cursor:pointer;position: relative;padding-right: 40px;box-sizing: border-box;}
+.return_p_txt .icon{float:right;font-size:16px;font-weight:600;position: absolute;right: 0;}
+.return_refund_top{padding-top:18px;padding-bottom:20px}
+.rp_qa_con{border-bottom:1px solid #DEDEDE}
+.return_t_left{text-align:left}
+.return_rp_color{color:#999}
+.return_rp_left{width:100%;float:left}
+.return_rp_right{width:40%;float:left;text-align:right}
+.return_rp_right img{display:inline-block}
+.return_btn{padding-bottom:20px}
+.rp_qa_con_main{padding-bottom:40px;padding-top:25px}
+.return_padding_two{padding-top:8px;padding-bottom:30px}
+.return_table{width:100% !important;}
+.return_table tr:first-child td{line-height:50px;background:#e3f0f9;color:#232323;font-weight:400}
+.return_table tr td{text-align:center;font-size:14px;color:#616265;font-weight:400;line-height:42px;border-bottom:1px solid #e5e5e5}
+.return_table_over{padding-top:22px;padding-bottom:15px}
+.return_padding_three{padding-top:0;padding-bottom:18px}
+.return_rp_top01{padding-bottom:24px}
+.rp_qa_con_main{display:none}
+.return_div_bg{position:absolute;left:0;width:100%;background:#f7f7f7;z-index:-1}
+.return_btn_padding{padding-top:25px}
+.return_ly{padding-top:15px;}
+
+
+.shipping_delivery_padding{padding-top:10px;padding-bottom:10px}
+.menu_02{display:none}
+/*Payment_methods*/
+.alone_banner .payment_banner_bg{background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/AU/Payment-Methods-AU_02.jpg)}
+.payment_em{font-style:normal}
+.PU_beneficiary_table{width:100%}
+.PU_beneficiary_gray{background:#f6fbff}
+.PU_beneficiary_blue{background:#def1ff}
+.PU_beneficiary_table tr td{font-size:14px;line-height:44px;width:48%;display:block;float:left}
+.PU_beneficiary_left{text-align:right;padding-right:10px}
+.payment_icon{font-size:12px;color:#0070BC}
+.pu_bene_ul{width:100%}
+.pu_bene_ul li{float:left;width:20%;margin-bottom:10px;font-size:14px;line-height:24px;color:#232323}
+.pu_bene_ul li i{width:17px;height:14px;display:inline-block;background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/country.png);background-repeat:no-repeat;margin-right:6px;vertical-align:middle}
+.pay_border{border-bottom:1px solid #DEDEDE;padding-bottom:20px;margin-bottom:10px}
+.pay_border:last-child{border:none}
+.pay_left{text-align:left}
+.payment li{width:16%}
+.payment li i{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/payment_met/Payment-ideal-icon.png) no-repeat;background-position:2px -3px;width:30px;height:24px}
+.payment li i.an{background-position:-65px -3px}
+.payment li i.in{background-position:-137px -3px}
+.payment li i.kn{background-position:-215px -3px}
+.payment li i.tr{background-position:-293px -3px}
+.payment li i.va{background-position:-360px -3px}
+.payment li i.mo{background-position:-423px -3px}
+.payment li i.ra{background-position:-489px -3px}
+.payment li i.re{background-position:-561px -3px}
+.payment li i.sns{background-position:-634px -3px}
+.payment li i.bu{background-position:-704px -3px}
+
+
+/*shipping_Delivery*/
+.qaf_padding{padding-top:5px;padding-bottom:20px}
+.shipping_bg{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/AU/Shipping-&-Delivery-AU_02.jpg) no-repeat}
+.shipping_em{display:inline-block;width:4px;height:4px;border-radius:50%;background:#616265;vertical-align:middle;margin-right:10px;margin-top:8px;overflow:hidden;float: left;}
+.sh_left,.sh_right{float:left;width:50%;height:280px}
+.sh_right{background:#f7f7f7;padding:50px 70px;box-sizing:border-box}
+.sh_right .sh_p{font-size:16px;line-height:38px}
+.sd_tit{color:#232323;font-weight:400;text-align:center;line-height:24px;margin-bottom:20px;font-size:18px;text-align:left;padding-top: 10px;}
+.sd_tab_con_font{overflow:hidden}
+.sd_tab_con_font p{box-sizing:border-box;color:#616265;font-size:14px;float:left;width:50%;margin-bottom:10px}
+.sd_tab_con_font .public_auto{width:100% ;}
+.shipping_img_tit{padding-right: 10px;}
+.sd_tab_con_table.marginBottom40{margin-bottom:20px}
+.sd_tab_con_table table{width:100%}
+.sd_tab_con_table table thead tr{background:#e6f3fa}
+.sd_tab_con_table table thead td{line-height:22px;text-align:center;font-size:14px;color:#232323;padding: 12px 0;}
+.sd_tab_con_table table tbody td{line-height:22px;text-align:center;font-size:14px;color:#616265;border-bottom:1px solid #e5e5e5;padding: 10px 0;}
+.sd_tab_con_table{margin-bottom:20px}
+.sd_txt{font-size:14px;color:#616265;text-align:center;line-height:24px}
+.sd_txt.note{text-align:left;margin-bottom:10px}
+.shipping_banner_tit{padding-top:140px}
+.shipping_p{width: 90%;float: left;}
+.shipping_left{text-align: left;}
+.shipp_tit{padding-bottom: 5px;}
+
+/*purchase*/
+.purch_bg{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/payment_met/purchase_order_banner.jpg) no-repeat;}
+
+/*FQA*/
+.alone_banner .fqa_bg{background-image:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/payment_met/faq_banner.jpg)}
+.pur_top{padding-top: 15px;margin-top: -15px;}
+
+.par_img01{padding-bottom:20px;padding-top:20px;}
+
+
+@media(max-width:1220px){
+	.content{padding: 0 10px; box-sizing:border-box}
+	.policy_left{width:250px}
+    .return_width{width:960px;box-sizing:border-box}
+    .policy_right{width:700px;box-sizing:border-box}
+    .policy_left_li{padding-left:10px;box-sizing:border-box}
+    .return_container{padding-left:10px;padding-right:10px;box-sizing:border-box}
+    .rp_qa_con{position:relative}
+    .return_p_txt{padding-right:60px}
+    .return_p_txt .icon{position:absolute;right:10px;top:15px}
+    .pu_bene_ul li{width:25%}
+
+    .sd_tab_con_table{overflow-y: auto;}
+    .sd_tab_con_table table{width: 920px}
+    .sh_right{padding: 10px 40px;}
+}
+@media(max-width:960px){.policy_left{display:none}
+    .policy_right,.return_width{width:100%}
+    .policy_right{padding: 0 10px;}
+
+    .sh_right .sh_p{line-height: 34px;}
+    .sh_right{padding: 20px;}
+}
+@media(max-width:730px){.pu_bene_ul li{width:33%}
+}
+@media(max-width:480px){.return_banner_tit{padding-top:70px}
+    .pu_bene_ul li{width:50%}
+    .alone_banner_txt br{display: none;}
+    .policy_right{padding: 0;}
+    .shipping_banner_tit{padding-top: 70px;}
+    .sh_left, .sh_right{width: 100%;height: inherit;}
+    .sd_tab_con_font p{width: 100%;}
+	.return_padding{padding-top:21px}
+}
+
+.new_h2_bold{font-size: 18px;font-weight: normal;}
+.alone_new_wap:after{content:"";display:block;clear:both;}
+.alone_new_wap{width: 800px;margin: 0 auto;}
+.alone_dl_only01{width: 25%;float: left;}
+.alone_em_only{width: 21px;height: 21px;border-radius: 50%;background: #80bbe1;text-align: center;line-height: 21px;font-size: 14px;font-style: normal;color: #fff;display: inline-block;margin-right: 4px;}
+.alone_dl_only01 dt:after{content:"";display:block;clear:both;}
+.alone_dl_only01 dt{font-size: 14px;color: #0070BC;min-height: 44px;padding-bottom: 4px;text-align: center;}
+.alone_dl_only01 dt p{display: inline-block;text-align: left;}
+.alone_dl_only01 dd{text-align: center;position: relative;}
+.alone_dl_only01:last-child dt{text-align: left;}
+.alone_dl_only01:last-child .alone_em_only{float: left;margin-left: 20px;}
+.alone_dl_only01:last-child dt p{width: 66%;}
+.img_p_only{font-size: 12px;color: #0070BC;line-height: 22px;}
+.alone_dl_only01 dd{min-height: 102px;}
+.alone_img_left{position: absolute;right: -40px;top: 35px;}
+.alone_b_o{font-weight:600;font-style: normal;color:#616265;}
+@media (max-width: 960px){
+	.alone_new_wap{width: 100%;}
+	.alone_img_left{display: none;}
+}
+@media (max-width: 700px){
+	.alone_dl_only01{width: 30%;margin-bottom: 20px;}
+	.alone_dl_only01:last-child dt{text-align: center;}
+}
+@media (max-width: 540px){
+	.alone_dl_only01{width: 50%;}
+}
+@media (max-width:480px){
+	.alone_dl_only01{width: 100%;}
+	.alone_dl_only01:last-child dt{text-align: center;}
+	.alone_dl_only01:last-child .alone_em_only{float: inherit;}
+	.alone_dl_only01:last-child dt p{width: auto;float: inherit;}
+}
+
+.rp_qa_con_main{margin-top:15px}
+.rp_qa_con_main ul{overflow:hidden}
+.rp_qa_con_main li{float:left;width:49%;margin-right:2%;background-color:#fff;height:248px;position:relative;box-sizing:border-box;padding:30px 0 0 25px}
+.rp_qa_con_main li:last-child{margin-right:0}
+.rp_qa_con_main_li_h2{font-size:14px;color:#232323;font-weight:600;margin-bottom:5px}
+.rp_qa_con_main li span{font-size:14px;color:#999;display:block;margin-bottom:5px}
+.rp_qa_con_main li p{font-size:14px;color:#616265}
+.rp_qa_con_main li p.marginBottom20{margin-bottom:20px}
+.rp_qa_con_main li img{position:absolute;right:50px;bottom:30px}
+
+@media (max-width: 700px){.rp_qa_con_main li{width:100%}}
+
+.MT20{margin-top:20px;}

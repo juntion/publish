@@ -1,0 +1,679 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 13px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	list-style: none;
+}
+.box {
+	width: 1200px;
+	padding: 0 2px;
+	margin: 0 auto;
+}
+.content {
+	padding: 0;
+}
+h1, h2, h3, p, ul, li, dl, dt, dd, input, select, form, div {
+	margin: 0;
+	padding: 0;
+}
+/*样式开始*/
+
+.copper_banner {
+	width: 100%;
+	height: 500px;
+	transition: all 1s;
+}
+.copper_banner_main {
+	position: absolute;
+	left: 0;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	transition: all .75s;
+}
+.copper_banner_ul {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.copper_banner_ul li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: 1;
+	list-style: none;
+	height: 100%;
+	width: 100%;
+}
+.copper_banner_ul li img {
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+	z-index: -1;
+}
+.copper_banner_prev {
+	width: 44px;
+	height: 76px;
+	float: left;
+	margin-left: 351px;
+	margin-top: 202px;
+	z-index: 10;
+	position: relative;
+	text-align: center;
+	line-height: 96px;
+	cursor: pointer;
+	opacity: 0;
+	transition: all .5s;
+}
+.copper_banner_prev i {
+	display: inline-block;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/copper_banenr_prev.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	margin-top: 18px;
+}
+.copper_banner_prev span, .copper_banner_next span {
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: .2;
+}
+.copper_banner_next {
+	width: 44px;
+	height: 76px;
+	float: right;
+	margin-right: 351px;
+	margin-top: 202px;
+	z-index: 10;
+	position: relative;
+	text-align: center;
+	line-height: 96px;
+	cursor: pointer;
+	opacity: 0;
+	transition: all .5s;
+}
+.copper_banner_next i {
+	display: inline-block;
+	background: url(https://img-en.fs.com/includes/templates/fiberstore/images/copper_banenr_next.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	margin-top: 18px;
+}
+.copper_banner_dot {
+	position: absolute;
+	text-align: center;
+	z-index: 10;
+	width: 100%;
+	left: 0;
+	transform: translateY(450px);
+}
+.copper_banner_dot em.active {
+	background: rgba(100, 100, 100, 0.7);
+	border: 1px solid #fff;
+}
+.copper_banner_dot em {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid #616265;
+	border-radius: 50%;
+	margin-right: 13px;
+	cursor: pointer;
+	z-index: 10;
+	opacity: .3;
+}
+.copper_banner_main:hover .copper_banner_prev {
+	opacity: 1;
+}
+.copper_banner_main:hover .copper_banner_next {
+	opacity: 1;
+}
+.copper_banner_text, .copper_banner_text_center {
+	width: 1200px;
+	margin: 0 auto;
+}
+.copper_banner_text h2 {
+	text-align: center;
+	font-size: 36px;
+	padding-left: 40%;
+	padding-top: 15%;
+	font-weight: normal;
+	margin-bottom: 34px;
+	color: #fff;
+}
+.copper_banner_text p {
+	padding-left: 40%;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.copper_banner_text_center h2 {
+	text-align: center;
+	padding-top: 4%;
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+.copper_banner_text_center p {
+	font-size: 18px;
+	text-align: center;
+}
+.copper_con {
+	margin: 60px 0;
+	overflow: hidden;
+}
+.copper_process_text {
+	text-align: center;
+	line-height: 36px;
+	font-size: 16px;
+	color: #232323;
+}
+.copper_process {
+	text-align: center;
+	margin: 20px 0;
+}
+.copper_process img {
+	max-width: 100%;
+}
+.copper_process_cat {
+	width: 100%;
+	height: auto;
+	min-height: 750px;
+}
+.copper_process_cat_bg {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	min-height: inherit;
+	background: #f7f7ff;
+	z-index: -1;
+}
+.copper_process_cat_con {
+	width: 100%;
+	padding-top: 30px;
+	border-bottom: 2px solid #f0f0ff;
+	overflow: hidden;
+}
+.copper_process_cat_pic {
+	float: left;
+	width: 50%
+}
+.copper_process_cat_pic img {
+	max-width: 100%;
+}
+.copper_process_cat_text {
+	float: right;
+	width: 45%;
+	padding-top: 10%;
+    margin-left: 40px;
+}
+.copper_process_cat_text h2, .copper_process_project_text h2 {
+	font-size: 32px;
+	color: #232323;
+	font-weight: normal;
+	margin-bottom: 20px;
+
+}
+.copper_process_cat_text span, .copper_process_project_text span {
+	font-size: 22px;
+    padding: 0px 33px;
+    line-height: 15px;
+    display: inline-block;
+    margin-left: -27px;
+}
+.copper_process_cat_text span:nth-child(4n), .copper_process_project_text span:nth-child(4n) {
+	border-right: none;
+}
+.copper_process_cat_text p, .copper_process_project_text p {
+	font-size: 14px;
+	margin-top: 30px;
+	color: #616265;
+	line-height: 24px;
+}
+.copper_tit {
+	text-align: center;
+	margin-top: 60px;
+	font-weight: normal;
+	font-size: 24px;
+}
+.copper_con_text {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.copper_rotate_more {
+	width: 40px;
+	height: 40px;
+	background-color: #616265;
+	color: #fff;
+	border-radius: 50%;
+	margin: 30px auto;
+	cursor: pointer;
+	text-align: center;
+	line-height: 22px;
+	transition: all .75s;
+	position: relative;
+	transform: rotate(45deg);
+}
+.copper_rotate_more span {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 50%;
+	margin-left: -10px;
+	top: 50%;
+	margin-top: -10px;
+	background: url(https://img-en.fs.com/images/copper_more.png) no-repeat;
+	z-index: 100;
+}
+.copper_rotate_more.rotate {
+	transform: rotate(0deg);
+	background-color: #0070BC;
+}
+.copper_slide {
+	width: 100%;
+	height:710px;
+}
+.copper_slide_table table {
+	margin-bottom: 20px;
+}
+.copper_slide_bg {
+	position: absolute;
+	width: 100%;
+	height: inherit;
+	background: #f7f7ff;
+	left: 0;
+	z-index: -2;
+}
+.copper_slide_height {
+	display: none;
+}
+.copper_slide table tr:nth-child(even) {
+	background: #fff;
+}
+.copper_slide table tr td:first-child {
+	width: 10%;
+}
+.copper_slide table tr td img {
+	border-radius: 3px;
+	border: 1px solid #e5e5e5;
+	margin-top: 5px;
+	width: 40px;
+	height: 40px;
+}
+.copper_slide table tr td {
+	font-size: 16px;
+	padding: 15px;
+}
+.copper_slide table tr td:first-child {
+	padding-left: 20px;
+}
+.copper_slide table tr td a {
+	font-size: 14px;
+	color: #0070BC;
+	cursor: pointer;
+}
+.copper_slide table tr td a:hover {
+	text-decoration: underline;
+}
+.copper_slide table tr td .pro_green_stock {
+	float: none;
+	font-size: 14px;
+	display: block;
+	color: #76bb1f;
+}
+.pro_green_stock i {
+	width: 6px;
+	height: 6px;
+	margin-right: 4px;
+	background: #76bb1f;
+	border-radius: 8px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.copper_button {
+	text-align: center;
+	padding-top: 20px;
+}
+.copper_button a {
+	font-size: 16px;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #0070BC;
+	color: #0070BC;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+.copper_button a:hover {
+	background: #027cce;
+	color: #fff;
+}
+.copper_stock_button {
+	width: 100%;
+	height: 100px;
+}
+.copper_stock_button_bg {
+	position: absolute;
+	height: inherit;
+	left: 0;
+	background: #f7f7ff;
+	width: 100%;
+	z-index: -2;
+}
+.copper_process_project {
+	width: 100%;
+	height: 1006px;
+}
+.copper_process_project_bg {
+	width: 100%;
+	position: absolute;
+	background: #eaf3fa;
+	height: inherit;
+	left: 0;
+	z-index: -2;
+}
+.copper_process_project_con {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 2px solid #e0eef9;
+}
+.copper_process_project_text {
+	float: left;
+	width: 45%;
+	text-align: center;
+	padding-top: 10%;
+}
+.copper_process_project_pic {
+	float: right;
+	width: 50%;
+}
+.copper_process_project_pic img {
+	max-width: 100%;
+}
+.copper_product {
+	margin-top: 70px;
+}
+.copper_product ul {
+	overflow: hidden;
+	width: 100%;
+}
+.copper_product_li img {
+	max-width: 100%;
+	display: block;
+	margin: 20px auto;
+}
+.copper_product_li {
+	width: 31.8%;
+	float: left;
+	position: relative;
+	list-style: none;
+	margin-right: 2%;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	box-sizing: border-box;
+	min-height: 380px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.copper_product_li:nth-child(3n+0) {
+	margin-right: 0;
+}
+.copper_product_li p {
+	font-size: 14px;
+	text-align: center;
+}
+.copper_product_more {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	left: 0;
+	margin-top: 10px;
+}
+.copper_product_more ul {
+	overflow: hidden;
+	padding-bottom: 38px;
+}
+.copper_product_more_li_two {
+	width: 49%;
+}
+.copper_product_more_li {
+	height: 50px;
+	float: left;
+	margin-right: 2%;
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	display: inline-block;
+}
+.copper_product_more_li a {
+	text-decoration: none;
+}
+.copper_product_more_span01 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #e5e5e5;
+	color: #616265;
+	font-size: 14px;
+	font-weight:400;
+	line-height: 50px;
+	text-align: center;
+}
+.copper_product_more_span02 {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #027cce;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	transform: translateY(50px);
+	transition: all .5s;
+}
+.copper_product_more_li:last-child {
+	margin-right: 0;
+}
+.copper_product_more_li:hover .copper_product_more_span02 {
+	transform: translateY(0);
+}
+.copper_tool {
+	width: 100%;
+	height: 1006px;
+}
+.copper_tool_bg {
+	width: 100%;
+	height: inherit;
+	position: absolute;
+	left: 0;
+	z-index: -2;
+	background: #ddecf3;
+}
+.copper_tool_con {
+	overflow: hidden;
+	padding-top: 40px;
+}
+.copper_product_li_con01 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #e5e5e5;
+	color: #616265;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 15px 0;
+	text-align: center;
+}
+.copper_product_li_con02 {
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	transform: translateY(0);
+	transition: all .5s;
+	background: #027cce;
+	bottom: -50px;
+	position: absolute;
+}
+.copper_product_li:hover .copper_product_li_con02 {
+	transform: translateY(-50px);
+}
+.copper_Integrated {
+	width: 100%;
+	height: 1100px;
+}
+.copper_Integrated_bg {
+	width: 100%;
+	height: inherit;
+	position: absolute;
+	left: 0;
+	background: #f9f9f9;
+	z-index: -2;
+}
+.copper_Integrated_con {
+	overflow: hidden;
+}
+.copper_oem {
+	margin-top: 70px;
+}
+.copper_oem hr {
+	border: 1px dashed #e7e6e6;
+	width: 1200px;
+}
+.copper_oem_tit {
+	font-size: 22px;
+	width: 250px;
+	margin: -24px auto;
+	background: #fff;
+	font-weight: normal;
+	text-align: center
+}
+.copper_oem_con {
+	margin-top: 70px;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+.copper_oem_con ul li {
+	float: left;
+	list-style: none;
+	width: 19%;
+	margin-right: 1.2%;
+	background: #f9f9f9;
+	text-align: center;
+	min-height: 280px;
+}
+.copper_oem_con ul li:last-child {
+	margin-right: 0;
+}
+.copper_oem_con ul li span {
+	width: 42px;
+	height: 42px;
+	display: block;
+	margin: 40px auto 0 auto;
+}
+.copper_oem_con ul li span.icon01 {
+	background: url(https://img-en.fs.com/images/copper_icon0515.png) no-repeat 0px 0px;
+}
+.copper_oem_con ul li span.icon02 {
+	background: url(https://img-en.fs.com/images/copper_icon0515.png) no-repeat 0px -92px;
+}
+.copper_oem_con ul li span.icon03 {
+	background: url(https://img-en.fs.com/images/copper_icon0515.png) no-repeat -1px -184px;
+}
+.copper_oem_con ul li span.icon04 {
+	background: url(https://img-en.fs.com/images/copper_icon0515.png) no-repeat 0px -475px;
+}
+.copper_oem_con ul li span.icon05 {
+	background: url(https://img-en.fs.com/images/copper_icon0515.png) no-repeat 0px -590px;
+}
+.copper_oem_con ul li h2 {
+	font-size: 20px;
+	font-weight:400;
+	margin-top: 18px;
+	margin-bottom: 30px;
+}
+.copper_oem_con ul li p {
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.45);
+}
+@media (max-width:1220px) {
+.box, .content, .copper_con {
+	width: 960px;
+}
+.box {
+	overflow: hidden;
+}
+.copper_banner_prev {
+	margin-left: 0;
+}
+.copper_banner_next {
+	margin-right: 0;
+}
+.copper_banner_text, .copper_banner_text_center {
+	width: initial;
+	padding: 0 10px;
+}
+.copper_stock_button {
+	padding-top: 40px;
+}
+}
+@media (max-width:960px) {
+.box, .content {
+	width: 100%;
+	padding: 0;
+}
+.copper_con {
+	width: initial;
+	padding: 0 10px;
+}
+.copper_process_cat_text span, .copper_process_project_text span {
+	margin-bottom: 20px;
+}
+.copper_process_cat_text, .copper_process_project_text {
+	padding-top: 5%;
+}
+.copper_product_li {
+	width: 100%;
+}
+.copper_slide_table {
+	overflow-x: auto;
+}
+.copper_process_cat, .copper_slide,.copper_stock_button,.copper_process_project,.copper_tool,.copper_Integrated {
+	height: inherit;
+}
+.copper_process_cat_bg, .copper_slide_bg,.copper_stock_button_bg,.copper_process_project_bg,.copper_tool_bg,.copper_Integrated_bg {
+	position: inherit;
+	background: none;
+	display:none;
+}
+.copper_process_cat_con,.copper_process_project_con { border-bottom: none;}
+}
+@media (max-width:480px) {
+.copper_process_cat_text span, .copper_process_project_text span {
+	border-right: none;
+	line-height: 24px;
+}
+.copper_process_cat_pic, .copper_process_cat_text, .copper_process_project_text, .copper_process_project_pic {
+	float: none;
+	width: 100%;
+}
+.copper_oem_con ul li { width:100%; margin-bottom:20px;}
+}

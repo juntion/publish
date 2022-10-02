@@ -1,0 +1,31 @@
+<?php 
+define('TEXT_GOOGLE_FROOGLE_STARTED', 'Feeder v%s di Google Merchant Center avviato ' . data ("A/m/g H:i:s"));
+define('TEXT_GOOGLE_FROOGLE_FILE_LOCATION', 'File del Feed -'); 
+define('TEXT_GOOGLE_FROOGLE_FEED_COMPLETE', 'File di Google Merchant Center completo'); 
+define('TEXT_GOOGLE_FROOGLE_FEED_TIMER', 'Ora:'); 
+define('TEXT_GOOGLE_FROOGLE_FEED_SECONDS', 'Secondi'); 
+define('TEXT_GOOGLE_FROOGLE_FEED_RECORDS', 'Record'); 
+define('GOOGLE_FROOGLE_TIME_TAKEN', 'In'); 
+define('GOOGLE_FROOGLE_VIEW_FILE', 'Visualizza file:'); 
+define('ERROR_GOOGLE_FROOGLE_DIRECTORY_NOT_WRITEABLE', 'La tua cartella di Google Merchant Center non è scrivibile! Esegui chmod della /' . GOOGLE_FROOGLE_DIRECTORY . ' cartella in 755 o 777 in funzione del tuo host.');
+define('ERROR_GOOGLE_FROOGLE_DIRECTORY_DOES_NOT_EXIST', 'La tua directory di output di Google Merchant Center non esiste! Crea una /' . GOOGLE_FROOGLE_DIRECTORY . ' directory ed esegui il chmod in 755 o 777 in funzione del tuo host.');
+define('ERROR_GOOGLE_FROOGLE_OPEN_FILE', 'Errore nell\'apertura del file di output di Google Merchant Center "' . DIR_FS_CATALOG . GOOGLE_FROOGLE_DIRECTORY . GOOGLE_FROOGLE_OUTPUT_FILENAME . '');
+define('TEXT_GOOGLE_FROOGLE_UPLOAD_STARTED', 'Caricamento iniziato...'); 
+define('TEXT_GOOGLE_FROOGLE_UPLOAD_FAILED', 'Caricamento non riuscito...'); 
+define('TEXT_GOOGLE_FROOGLE_UPLOAD_OK', 'Caricamento ok!'); 
+define('TEXT_GOOGLE_FROOGLE_ERRSETUP', 'Errore setup di Google Merchant Center:'); 
+define('TEXT_GOOGLE_FROOGLE_ERRSETUP_L', 'Lingua "%s" del feed di Google Merchant Center non definita nello store zen-cart.'); 
+define('TEXT_GOOGLE_FROOGLE_ERRSETUP_C', 'Valuta predefinita "%s" di Google Merchant Center non definita nello store zen-cart.'); 
+define('FTP_FAILED', 'Il tuo servizio di hosting non supporta le funzioni ftp.'); 
+define('FTP_CONNECTION_FAILED', 'Connessione non riuscita:'); 
+define('FTP_CONNECTION_OK', 'Connesso a:'); 
+define('FTP_LOGIN_FAILED', 'Accesso non riuscito:'); 
+define('FTP_LOGIN_OK', 'Accesso ok:'); 
+define('FTP_CURRENT_DIRECTORY', 'La directory attuale è:'); 
+define('FTP_CANT_CHANGE_DIRECTORY', 'Impossibile cambiare la directory su:'); 
+define('FTP_UPLOAD_FAILED', 'Caricamento non riuscito'); 
+define('FTP_UPLOAD_SUCCESS', 'Caricamento riuscito'); 
+define('FTP_SERVER_NAME', 'Nome server:'); 
+define('FTP_USERNAME', 'Nome utente:'); 
+define('FTP_PASSWORD', 'Password:'); 
+?>

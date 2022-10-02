@@ -1,0 +1,150 @@
+
+    	<script>
+//滚动后导航固定
+$(function(){
+	$(window).scroll(function(){
+          height = $(window).scrollTop();
+   	  	  if(height > 170){
+   	  	  	$('.page_nav').fadeIn();
+   	  	  }else{
+   	  	  	$('.page_nav').hide();
+   	  	  };
+
+});
+});
+</script>
+<div class="page_nav">
+      <div class="page_nav_con">
+        <div class="big_title">
+        <a><?php echo FS_FOOTER_CUSTOMER_SERVICE;?></a> 
+        </div>      
+        <div class="short_title"><a href="<?php echo zen_href_link(FILENAME_OEM);?>"><?php echo FS_FOOTER_OEM;?></a><a href="<?php echo zen_href_link(FILENAME_DAY_RETURN_POLICY);?>"><?php echo FS_FOOTER_POLICY;?></a><a class="title_selected" href="<?php echo zen_href_link(FILENAME_WARRANTY);?>"><?php echo FS_FOOTER_WARRANTY;?></a><a href="<?php echo zen_href_link('quality_control');?>"><?php echo FS_FOOTER_QUALITY;?></a><a href="/partner.html"><?php echo FS_FOOTER_PARTNER;?></a></div>
+      </div>
+    </div>
+        <div class="page_banner">
+          <div class="page_banner_con warranty_banner">
+            <div class="page_banner_text">
+              <span><?php echo NAVBAR_TITLE_NEW; ?></span>
+             <?php echo FS_WAR_TEXT_1; ?>
+            </div>
+          </div>
+        </div>
+        <div class="warranty_main">
+          <div class="warranty_main_con">
+            <img src="/includes/templates/fiberstore/images/Warranty-Service-_-FS.COM---9.5_03.png" width="64px" height="64px" />
+            <h2 class="warranty_main_con_tit"><?php echo FS_WAR_TEXT_2; ?></h2>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_3; ?></p>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_4 ;?></p>
+          </div>
+        </div>
+        <div class="warranty_main">
+          <div class="warranty_main_bg lifetime"></div>
+          <div class="warranty_main_con">
+            <img src="/includes/templates/fiberstore/images/Warranty-Service-_-FS.COM---9.5_07.png" width="64px" height="64px" />
+            <h2 class="warranty_main_con_tit"><?php echo FS_WAR_TEXT_5;?></h2>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_6 ;?></p>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_7; ?></p>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_8; ?></p>
+            <div>
+              <table cellpadding="0" cellspacing="0">
+                <thead>
+                  <tr>
+                    <td width="33%"><?php echo FS_WAR_TEXT_9 ;?></td>
+                    <td width="33%"><?php echo FS_WAR_TEXT_10; ?></td>
+                    <td width="33%"><?php echo FS_WAR_TEXT_11; ?></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_12; ?></td>
+                    <td>5 <?php echo FS_WAR_YEARS; ?></td>
+                    <td>5 <?php echo FS_WAR_YEARS; ?></td>
+                  </tr>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_13;?></td>
+                    <td>5 <?php echo FS_WAR_YEARS; ?></td>
+                    <td>5 <?php echo FS_WAR_YEARS; ?></td>
+                  </tr>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_14; ?></td>
+                    <td>5 <?php echo FS_WAR_YEARS; ?></td>
+                    <td>5 <?php echo FS_WAR_YEARS;?></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="warranty_main">
+          <div class="warranty_main_con">
+            <img src="/includes/templates/fiberstore/images/Warranty-Service-_-FS.COM---9.5_10.png" width="64px" height="64px" />
+            <h2 class="warranty_main_con_tit"><?php echo FS_WAR_TEXT_16 ;?></h2>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_17; ?></p>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_18; ?></p>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_19; ?></p>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_20; ?></p>
+            <div>
+              <table cellpadding="0" cellspacing="0">
+                <thead>
+                  <tr>
+                    <td width="33%"><?php echo FS_WAR_TEXT_9; ?></td>
+                    <td width="33%"><?php echo FS_WAR_TEXT_10; ?></td>
+                    <td width="33%"><?php echo FS_WAR_TEXT_11; ?></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_21; ?></td>
+                    <td>20 <?php echo FS_WAR_YEARS; ?></td>
+                    <td>1 <?php echo FS_WAR_YEAR; ?></td>
+                  </tr>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_22; ?></td>
+                    <td>10 <?php echo FS_WAR_YEARS ;?></td>
+                    <td>1 <?php echo FS_WAR_YEAR ;?></td>
+                  </tr>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_23; ?></td>
+                    <td>10 <?php echo FS_WAR_YEARS; ?></td>
+                    <td>1 <?php echo FS_WAR_YEAR; ?></td>
+                  </tr>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_24; ?></td>
+                    <td>5-10 <?php echo FS_WAR_YEARS; ?></td>
+                    <td>1 <?php echo FS_WAR_YEAR ;?></td>
+                  </tr>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_25; ?></td>
+                    <td>3 <?php echo FS_WAR_YEARS; ?></td>
+                    <td>1 <?php echo FS_WAR_YEAR ;?></td>
+                  </tr>
+                  <tr>
+                    <td><?php echo FS_WAR_TEXT_26; ?></td>
+                    <td>2 <?php echo FS_WAR_YEARS ;?></td>
+                    <td>6 <?php echo FS_WAR_MONTH; ?></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="warranty_main">
+          <div class="warranty_main_bg what"></div>
+          <div class="warranty_main_con">
+            <img src="/includes/templates/fiberstore/images/Warranty-Service-_-FS.COM---9.5_12.png" width="64px" height="64px" />
+            <h2 class="warranty_main_con_tit"><?php echo FS_WAR_TEXT_28; ?></h2>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_29; ?></p>
+            <p class="warranty_main_con_txt warranty_main_con_txt_list"><?php echo FS_WAR_TEXT_30; ?></p>
+            <p class="warranty_main_con_txt warranty_main_con_txt_list"><?php echo FS_WAR_TEXT_31; ?></p>
+            <p class="warranty_main_con_txt warranty_main_con_txt_list"><?php echo FS_WAR_TEXT_32; ?></p>
+          </div>
+        </div>
+        <div class="warranty_main">
+          <div class="warranty_main_con">
+            <img src="/includes/templates/fiberstore/images/Warranty-Service-_-FS.COM---9.5_15.png" width="64px" height="64px" />
+            <h2 class="warranty_main_con_tit"><?php echo FS_WAR_TEXT_33; ?> </h2>
+            <p class="warranty_main_con_txt"><?php echo FS_WAR_TEXT_34; ?> <a href="https://www.fs.com/day_return_policy.html"><?php echo FS_WAR_TEXT_35; ?></a> page.</p>
+          </div>
+        </div>
+     
+ 

@@ -1,0 +1,854 @@
+.content { padding-top:0 !important; }
+.menu_02 { display:none;}
+.fiber_optic_banner { width:100%; height:380px;}
+.fiber_optic_banner_bg { background:url(../../images/specials/10G_img/10G_banner.png) no-repeat center 0;  width:100%; height:380px; position:absolute; left:0; z-index:-1;}
+.switch_banner { background: url(../../images/specials/switch_img/Switch-banner.jpg) no-repeat center 0;}
+.fiber_optic_sort { margin-bottom:20px; overflow:hidden; width:100%;}
+.fiber_optic_sort ul li { float:left; width:12.5%;}
+.fiber_optic_sort ul li img { display:block; margin:0 auto;max-width: 100%;}
+.fiber_optic_sort ul li p { text-align:center; font-size:14px;}
+.fiber_optic_sort ul li:hover { opacity:0.8;}
+.fiber_optic_banner_con { text-align:center; padding-top:120px;}
+.fiber_optic_banner_con h1 { color:#fff; font-size:40px; font-weight:normal; margin-bottom:20px; line-height:52px;}
+.fiber_optic_banner_con p { color:#fff; font-size:20px; font-weight:400;}
+.fiber_optic_con { width:100%; margin:0 auto;}
+.fiber_optic_con_bg { background:#f6f6f6; position:absolute; left:0; width:100%; height:3480px; z-index:-1;}
+.fiber_optic_section { width:100%; height:auto; overflow:hidden;}
+.fiber_optic_section ul li { width:32%; margin-right:2%; float:left; margin-top:30px; background:#fff; text-align:center; padding-bottom:30px;}
+.fiber_optic_section ul li:hover { opacity:0.9;}
+.fiber_optic_section ul li:last-child { margin-right:0;}
+.fiber_optic_section ul li img { display:block; margin:0 auto; max-width:100%;}
+.fiber_optic_section ul li h1 { font-size:22px; color:#232323;font-weight:normal; margin-top:30px; line-height:24px;}
+.fiber_optic_section01 {margin:30px 0 20px 0; text-align:center;}
+.fiber_optic_section01 span { border:1px solid #dedede; border-radius:3px; padding:5px 10px; font-size:14px; margin-right:20px; font-weight:400;}
+.fiber_optic_section01 span:last-child { margin-right:0;}
+.fiber_optic_section ul li a{ display:block;}
+.fiber_optic_section ul li a:hover { text-decoration:none;}
+.fiber_optic_section ul li p { color:#616265; font-weight:400; font-size:14px;min-height:40px;}
+.fiber_transceiver {padding-top: 50px;}
+.fiber_transceiver:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;font-size: 0;}
+.fiber_transceiver h1 { font-size:26px; font-weight:400; color:#232323; float:left; line-height:32px;}
+.fiber_transceiver_link { float:right; line-height:32px;}
+.fiber_transceiver_link a { font-size:18px;transition: all .3s;}
+.fiber_transceiver_link a:hover { text-decoration:none; opacity:0.8;}
+.fiber_transceiver_link i { font-size:14px;margin-left: 5px}
+.fiber_transceiver_banner { width:100%; height:400px;}
+.fiber_transceiver_banner_bg { width:100%; height:400px; background:url(../../images/specials/10G_img/10G_banner01.png) no-repeat center 0;width:100%; height:400px; position:absolute; left:0; z-index:-1;}
+.fiber_transceiver_banner01_bg { background:url(../../images/specials/10G_img/10G_banner02.png) no-repeat center 0;}
+.fiber_transceiver_banner02_bg { background:url(../../images/specials/10G_img/10G_banner05.jpg) no-repeat center 0;}
+.fiber_transceiver_banner03_bg { background:url(../../images/specials/10G_img/10G_banner04.png) no-repeat center 0;}
+.fiber_transceiver_title { overflow:hidden; margin-bottom:20px;}
+.fiber_transceiver_banner_con {padding-top:100px;}
+.fiber_transceiver_banner_pro {min-height:300px; width:576px; background:#fff; position: relative;transition: all .3s ease;vertical-align: bottom;}
+.fiber_transceiver_banner_pro a:hover {text-decoration:none;}
+.fiber_transceiver_banner_pic { position:absolute; left:0; width:50%;margin-left: 20px;margin-top:50px;}
+.fiber_transceiver_banner_pic img { display:block; max-width:100%;width: 180px;max-height: 100%;height: 180px;}
+.fiber_transceiver_banner_text {position:absolute; right:0; width:50%; padding-top:80px; padding-right:20px;}
+.fiber_transceiver_banner_text h1 { font-size:20px; font-weight: normal; line-height:28px; margin-bottom:10px; float:none;}
+.fiber_transceiver_banner_text p { font-size:16px; margin-bottom:20px; font-weight:400; line-height:24px;}
+.fiber_transceiver_banner_text .price,.fiber_transceiver_pro ul li .price { color:#999; font-size:14px;}
+.fiber_transceiver_banner_text .price h6,.fiber_transceiver_pro ul li .price h6 { color:#232323; font-size:14px;font-weight: 400;margin: 0}
+.fiber_transceiver_banner_text .price br,.fiber_transceiver_pro ul li .price br{display: none}
+.fiber_transceiver_banner_text .price i { font-style:normal;}
+.fiber_transceiver_banner_pro:hover {box-shadow: 0 15px 15px -10px rgba(0,0,0,.15);transition: all .3s;}
+.fiber_transceiver_pro { margin-top:20px; overflow:hidden;}
+.fiber_transceiver_pro ul:after{content:"";display:block;clear:both;}
+.fiber_transceiver_pro ul li { width:19.84%; float:left; background:#fff; border-right:1px solid #f6f6f6; margin-bottom: 20px;}
+.fiber_transceiver_pro ul li:last-child { border-right:none;}
+.fiber_transceiver_pro ul li img { display:block; margin:0 auto;width: 180px;height:180px; max-width:100%;}
+.fiber_transceiver_pro ul li h1 { font-size:14px; color:#232323; font-weight: normal; margin-bottom:10px; line-height:22px; float:none;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.fiber_transceiver_pro ul li:hover { opacity:0.8;}
+.fiber_transceiver_pro ul li p { font-size:14px; color:#616265; font-weight:400; margin-bottom:10px; height:40px; overflow:hidden;}
+.fiber_transceiver_pro_text { margin:0 20px; margin-bottom:30px;}
+.fiber_title { min-height:48px;}
+.fiber_transceiver_pro ul li a:hover { text-decoration:none;}
+.our_advantages { margin-top:100px; overflow:hidden;}
+.our_advantages h1 { font-size:30px; font-weight:normal; text-align:center; margin-bottom:25px; line-height:34px;}
+.our_advantages p { text-align:center; font-size:14px; font-weight:400; color:#616265;}
+.our_advantages ul { margin-top:50px;}
+.our_advantages ul li { float:left; width: 25%; text-align:center;}
+.our_advantages ul li img { display:block; margin:0 auto;}
+.our_advantages_text { padding:20px 40px;}
+.our_advantages ul li h1 { font-size:18px; font-weight:normal; color:#232323; margin-bottom:10px; line-height:24px;}
+.our_advantages ul li p { font-size:14px; color:#616265; font-weight:400;}
+.fiber_optic_section ul li h1.switch_tit { font-size:18px; margin-top:30px;}
+.switch_banner01 { background:url(../../images/specials/switch_img/Switch-pic2.jpg) no-repeat center 0;}
+.switch_banner02 { background:url(../../images/specials/switch_img/Switch-pic3.jpg) no-repeat center 0;}
+.switch_banner03 { background:url(../../images/specials/switch_img/Switch-pic4.jpg) no-repeat center 0;}
+.switch_banner04 { background:url(../../images/specials/switch_img/Switch-pic5.jpg) no-repeat center 0;}
+.switch_pro ul li { float:left; width: 32%; margin-right: 2%; background:#fff; margin-top:20px; transition: all .3s ease;}
+.switch_pro ul li:last-child { margin-right:0;}
+.switch_pro ul li img { display:block; margin:0 auto; max-width:100%;}
+.switch_pro_text { text-align:center; margin-bottom:40px; padding:0 20px;}
+.switch_pro_text h1 { font-size:18px; font-weight:normal; color:#232323; margin-bottom:10px; float:none; line-height:20px;height: 40px;}
+.switch_pro_text p { font-weight:400; color:#616265; font-size:16px; margin-bottom:10px;}
+.switch_pro_text .price { color:#999; font-size:14px;}
+.switch_pro_text .price br{display: none}
+.switch_pro_text .price h6,.price h6{margin:0;color: #232323;font-weight: 400;font-size: 14px}
+.switch_pro_text .price i{ font-style:normal;}
+.switch_pro ul li a:hover { text-decoration:none;} 
+.switch_pro ul li:hover {box-shadow: 0 15px 15px -10px rgba(0,0,0,.15);transition: all .3s ease;}
+.switch_con_bg { height:5070px;}
+.switch_con_section ul li:hover { box-shadow:none;}
+.patch_contact h2.patch_contact_tit {font-size: 30px;font-weight:400;color: #232323;}
+.transceiver_banner { background:url(../../images/specials/1G_img/1G_Transceivers_banner.jpg) no-repeat center 0;}
+.transceiver_banner01 { background:url(../../images/specials/1G_img/1G_Transceivers_banner01.jpg) no-repeat center 0;}
+.transceiver_banner02 { background:url(../../images/specials/1G_img/1G_Transceivers_banner02.jpg) no-repeat center 0;}
+.transceiver_banner03 { background:url(../../images/specials/1G_img/1G_Transceivers_banner03.jpg) no-repeat center 0;}
+.transceiver_banner04 { background:url(../../images/specials/1G_img/1G_Transceivers_banner04.jpg) no-repeat center 0;}
+.mtp_banner { background:url(../../images/specials/mtp_img/mtp_banner_bac.jpg) no-repeat center 0;}
+.mtp_banner01 { background:url(../../images/specials/mtp_img/mtp2_banner_01.jpg) no-repeat center 0;}
+.mtp_banner02 { background:url(../../images/specials/mtp_img/mtp2_banner_02.jpg) no-repeat center 0;}
+.mtp_banner03 { background:url(../../images/specials/mtp_img/mtp2_banner_03.jpg) no-repeat center 0;}
+.mtp_banner04 { background:url(../../images/specials/mtp_img/mtp2_banner_04.jpg) no-repeat center 0;}
+.mtp_pro ul li{ width:24.94%;}
+.mtp_bg {height: 3500px;}
+.patch_cables_banner { background:url(../../images/specials/patch_cables_img/Patch-Cable-banner.jpg) no-repeat center 0;}
+.patch_cables_banner01 { background:url(../../images/specials/patch_cables_img/Patch-Cable-banner-pic1.jpg) no-repeat center 0;}
+.patch_cables_banner02 { background:url(../../images/specials/patch_cables_img/Patch-Cable-banner-pic2.jpg) no-repeat center 0;}
+.patch_cables_banner03 { background:url(../../images/specials/patch_cables_img/Patch-Cable-banner-pic3.jpg) no-repeat center 0;}
+.patch_cables_banner04 { background:url(../../images/specials/patch_cables_img/Patch-Cable-banner-pic4.jpg) no-repeat center 0;}
+.patch_cables_banner05 { background:url(../../images/specials/patch_cables_img/Patch-Cable-banner-pic5.jpg) no-repeat center 0;}
+.patch_cables_banner06 { background:url(../../images/specials/patch_cables_img/Patch-Cable-banner-pic6.jpg) no-repeat center 0;}
+.fiber_optic_banner_con p { line-height:24px;}
+.patch_cables_bg {height: 5240px;}
+.dac_banner {background: url(../../images/specials/dac_img/DAC_bg_01.jpg) no-repeat center 0;}
+.dac_banner01 { background:url(../../images/specials/dac_img/DAC_bac_01.jpg) no-repeat center 0;}
+.dac_banner02 { background:url(../../images/specials/dac_img/DAC_bac_02.jpg) no-repeat center 0;}
+.dac_banner03 { background:url(../../images/specials/dac_img/DAC_bac_03.jpg) no-repeat center 0;}
+.dac_banner04 { background:url(../../images/specials/dac_img/DAC_bac_04.jpg) no-repeat center 0;}
+.dac_sort ul li{ width:16.2%;}
+.fiber_optic_section ul li .dac_text { font-size:16px; margin-top:20px;}
+.fiber_optic_section ul li .more { color:#232323; font-size:16px; margin-top:20px;}
+.fiber_optic_section ul li .more i {width: 7px;display: inline-block;margin-left: 5px; font-size: 12px;line-height: 11px;margin-top: 6px;height: 10px;overflow: hidden;}
+.fiber_optic_section ul li a:hover .more { text-decoration:underline;}
+.dac_bg {height: 3500px;}
+
+.fiber_mtpp1_wap{
+	overflow: hidden;
+}
+.fiber_mtpp1_wap_dl{
+	width: 16%;
+	float: left;
+}
+.fiber_mtpp1_wap_dl dt img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.fiber_mtpp1_wap_dl dd{
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	color: #232323;
+	padding-bottom:20px;
+}
+.Fib_splitter{
+	overflow: hidden;
+}
+.Fib_splitter_dl{
+	width: 32%;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 34px;
+}
+.Fib_splitter_dl:last-child{
+	margin-right: 0;
+}
+.Fib_splitter_dl dt img{
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+}
+.Fib_splitter_dl dt{
+	padding-bottom: 30px;
+}
+.Fib_splitter_h3{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	color: #232323;
+	line-height: 60px;
+}
+.Fib_splitter_p_wap{
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 26px;
+}
+.Fib_splitter_p{
+	border: 1px solid #dedede;
+	padding: 6px;
+	display: inline-block;
+	font-size: 14px;
+	color: #616265;
+}
+.Fib_splitter_p:nth-child(1){
+	margin-right:12px ;
+}
+.Fib_splitter_strong{
+	text-align: center;
+	display: block;
+	font-weight: 400;
+	color: #616265;
+	font-size: 14px;
+}
+.fiber_mtpp1_wap_dl dt img:hover{
+	opacity: .8;
+}
+.swiper-container_two{
+	display: none;
+}
+.swiper-container{width:auto;}
+.swiper-wrapper{width:auto;max-width:none}
+.swiper-slide dt img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.fiber_optic_sort.SC .swiper-button-prev{
+	left:10px;
+}
+.swiper-slide img{width:auto;}
+.swiper-slide dd{
+	padding-bottom: 20px;
+	text-align: center;
+}
+.swiper-button-next{
+	background: none !important;
+    text-align: right;
+    font-size: 20px;
+    line-height: 44px;
+    color: #828282;
+    right: -2px;
+}
+.swiper-button-prev{
+	background: none !important;
+	text-align: left;
+    font-size: 20px;
+    line-height: 44px;
+    color: #828282;
+    left: -2px;
+}
+
+/*箱体*/
+.fiber_optic_banner_bg.box_banner{
+	background: url(../../images/specials/fhd_img/box-banner.jpg) no-repeat center;
+}
+.fiber_optic_section ul li a{
+	display: block;
+	text-decoration: none;
+}
+.fiber_transceiver_banner_bg.box_banner01{
+	background: url(../../images/specials/fhd_img/box-banner01.jpg) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner02{
+	background: url(../../images/specials/fhd_img/box-banner02.jpg) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner03{
+	background: url(../../images/specials/fhd_img/box-banner03.jpg) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner04{
+	background: url(../../images/specials/fhd_img/box-banner04.jpg) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner05{
+	background: url(../../images/specials/fhd_img/box-banner05.jpg) no-repeat center;
+}
+.fiber_transceiver_banner_bg.box_banner06{
+	background: url(../../images/specials/fhd_img/box-banner05.jpg) no-repeat center;
+}
+.switch_pro ul li:nth-of-type(3n){
+	margin-right: 0;
+}
+.fiber_optic_con_bg.box_con_bg{
+	height: 3880px;
+}
+.fiber_optic_con_bg.box_con_bg01{
+	height: 3320px;
+}
+.fiber_bg_h{
+	height: 6040px;
+}
+.fiber_optic_section01 span{
+	display: inline-block;
+}
+.fiber_transceiver_pro.copper ul li {
+    width: 25%;
+    float: left;
+    background: #fff;
+    border-right: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f6f6f6;
+}
+.tn_slide{
+	padding: 50px 24px 0;
+	position: relative;
+	margin-bottom: 50px;
+}
+.tn_slide_main{
+	width: 100%;
+	overflow: hidden;
+}
+.tn_slide_main_show{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+}
+.tn_slide_main ul{
+	width: 1400px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+}
+.tn_slide_main.copper ul{
+	width: 1740px;
+}
+.tn_slide_prev{
+    width: 16px;
+    height: 28px;
+    position: absolute;
+    background: url(../../images/index_icon.png) -11px -320px no-repeat;
+    left: 0;
+    top: 50%;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.tn_slide_next{
+    width: 16px;
+    height: 28px;
+    position: absolute;
+    background: url(../../images/index_icon.png) -53px -320px no-repeat;
+    right: 0;
+    top: 50%;
+    margin-top: -14px;
+    cursor: pointer;
+}
+.tn_slide_main.copper .tn_slide_list{
+	width: 170px;
+	margin-right:4px;
+}
+.tn_slide_list{
+	width: 200px;
+	float: left;
+}
+.tn_slide_list a,.swiper-slide a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: all .3s;
+}
+.tn_slide_list a:hover{
+	opacity: .8;
+}
+.tn_slide_list a img,.swiper-slide a img{
+	display: inline-block;
+}
+.tn_slide_list a h2,.swiper-slide a h2{
+	font-size: 14px;
+	color: #232323;
+	font-weight: 400;
+}
+.swiper-container{
+	display: none;
+}
+.tn_slide .swiper-button-prev{
+	background: none;
+	text-align: left;
+    font-size: 20px;
+    line-height: 44px;
+    color: #828282;
+    left: -2px;
+}
+.tn_slide .swiper-button-next{
+    background: none;
+    text-align: right;
+    font-size: 20px;
+    line-height: 44px;
+    color: #828282;
+    right: -2px;
+}
+.fiber_mtpp1_wap_fiber dl{
+	width: 12%;
+}
+.fiber_optic_banner_bg.copper{background:url(../../images/specials/copper_img/Copper_bg_01.jpg) no-repeat center;}
+.fiber_transceiver_banner_bg.copper {background:url(../../images/specials/copper_img/Copper_bac_01.jpg) no-repeat center 0;width:100%; height:400px; position:absolute; left:0; z-index:-1;}
+.fiber_transceiver_banner01_bg.copper01 { background:url(../../images/specials/copper_img/Copper_bac_02.jpg) no-repeat center 0;}
+.fiber_transceiver_banner02_bg.copper02 { background:url(../../images/specials/copper_img/Copper_bac_03.jpg) no-repeat center 0;}
+.fiber_optic_con_bg.copper{height: 3290px;}
+.swiper-container_one{display: block;}
+@media (max-width: 1440px) {
+	.fiber_transceiver_pro ul li { width:19.8%; }
+	.fiber_optic_sort ul li { width:12%;}
+	.fiber_mtpp1_wap_dl{
+		width: 33%;
+	}
+	.Fib_splitter_dl{
+		width: 50%;
+		margin-right: 0;
+	}
+	.switch_con_bg{
+		height:4460px; 
+	}
+	.fiber_bg_h{
+		height: 5996px;
+	}
+	.tn_slide_main_show{width: 1044px;margin: 0 auto;}
+	.tn_slide_list{width: 170px;margin-right: 4px;}
+	.fiber_mtpp1_wap_fiber dl{
+		width: 25%;
+	}
+	}
+@media (max-width: 1220px) {
+	.fiber_optic_section01 span {display:block; margin-bottom:10px; margin-right:0;}
+	.fiber_optic_section ul li h1 { height:48px;}
+	.fiber_optic_sort ul li { width:25%;}
+	.fiber_optic_con_bg {height: 3080px;}
+	.switch_pro ul li { min-height:450px;}
+	.fiber_transceiver_pro ul li img { width:150px; height:150px;}
+	.fiber_optic_section01 {padding: 0 40px; height:116px;}
+	.switch_con_section ul li img {height:220px;}
+	.fiber_optic_section ul li p br{display: none;}
+	.fiber_optic_con_bg.box_con_bg {height: 5300px;}
+	.tn_slide_main_show{width: 870px;}
+	.swiper-container{display: block;}
+	.tn_slide_main{display: none;}
+	.fiber_optic_con_bg.copper{height: 2960px;}
+	.fiber_bg_h {height: 6280px;}
+	.fiber_title{min-height: 60px;}
+}
+@media (max-width: 960px) {
+	.fiber_optic_section01 span {display:inline-block; margin-right:20px;}
+	.fiber_optic_section ul li h1,.fiber_optic_section01{height:auto;}
+	.main_content { padding:0;}
+	.fiber_optic_con { background: #f6f6f6; overflow:hidden;  height:auto;width: initial;padding: 0 10px 20px;}
+	.fiber_optic_con_bg { display:none;}
+	.fiber_transceiver_banner_bg { display:none;}
+	.fiber_transceiver_banner_con { padding-top:0; max-width:100%; max-height:100%;}
+	.fiber_transceiver_banner_pro { width:100%;}
+	.fiber_optic_section ul li { width:100%; margin-right:0;}
+	.fiber_transceiver_banner { height:inherit;}
+	.fiber_transceiver_pro ul li { width:49.6% !important; border-bottom:1px solid #f6f6f6}
+	.our_advantages ul li { width:50%;}
+	.switch_pro_text h1 { font-size:16px;}
+	.switch_pro_text p { font-size:14px;}
+	.switch_pro ul li { min-height:412px;}
+	.fiber_transceiver_pro ul li img { max-width:100%;}
+	/*.fiber_transceiver_pro ul li:last-child { display:none;}*/
+	.fiber_mtpp1_wap_dl{
+		width: 50%;
+	}
+	.Fib_splitter_dl{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	.fiber_bg_h{
+		display: none;
+	}
+	.swiper-container_two{
+		display: block;
+	}
+	.swiper-container_one{
+		display: none;
+	}
+	.switch_pro ul li{min-height: 430px;}
+	.fiber_optic_banner_con p br{display: none;}
+	.fiber_mtpp1_wap_fiber dl{
+		width: 50%;
+	}
+	.fiber_title{min-height: 40px;}
+}
+@media (max-width: 768px) {.switch_pro ul li { width: 100%;margin-right:0;}
+.switch_pro ul li:nth-child(even) {
+    margin-right: 0;
+}
+.switch_pro ul li:nth-of-type(3n) { margin-right:2%;}
+.switch_pro ul li:last-child { margin-right:0;}
+.switch_pro ul li:nth-child(3) { margin-right:2%;}
+.fiber_optic_sort ul li { width:50%;}
+.our_advantages_text {min-height:105px;}
+}
+@media (max-width: 480px) {
+	.fiber_optic_banner,.fiber_optic_banner_bg { height:220px;}
+	.fiber_transceiver h1 { float:none; margin-bottom:20px; font-size:24px;}
+	.fiber_transceiver_banner_text h1 { font-size:18px;}
+	.fiber_transceiver_link { float:none;}
+	.fiber_transceiver_banner_text {position:inherit; width: inherit;padding-left:20px;padding-bottom: 20px; padding-top:0;}
+	.fiber_transceiver_banner_pic {position: inherit;width:inherit; margin:0;}
+	.fiber_transceiver_banner_pic img { display:block; margin:0 auto;}
+	.fiber_optic_banner_con {width: initial;padding: 50px 10px 0 10px;}
+	.fiber_optic_banner_con h1 {font-size:24px; line-height:30px; margin-bottom:10px;}
+	.fiber_optic_banner_con p { font-size:16px;line-height: 20px;}
+	.our_advantages ul li { width:100%;}
+	.switch_pro_text h1 { font-size:14px !important;overflow: hidden;}
+	.switch_pro_text p { font-size:14px;}
+	.patch_contact h2.patch_contact_tit { font-size:20px;}
+	.fiber_transceiver h1 { font-size:20px;}
+	.fiber_transceiver_link a { font-size:16px;}
+	.fiber_mtpp1_wap_dl{
+		width: 100%;
+	}
+	.fiber_mtpp1_wap_dl dd{
+		padding-bottom: 0;
+	}
+	.fiber_mtpp1_wap_dl:nth-child(6){
+		padding-bottom: 50px;
+	}
+	.fiber_optic_section01 span { display:block;margin-right:0;}
+	.switch_pro ul li {
+    min-height: 300px;
+}
+.switch_pro ul li img {
+    width: 150px;
+    height: 150px;
+}
+	}
+	
+
+
+
+/*2017-11-22.carr*/
+.box{box-sizing:border-box}
+.lc_banner{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/lc_special/lc_series_fiber_cables_banner.jpg) no-repeat center 0}
+.lc_banner_01{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/lc_special/lc_series_fiber_cables_img3a.jpg) no-repeat}
+.lc_banner_02{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/lc_special/lc_series_fiber_cables_img3b.jpg) no-repeat}
+.lc_banner_03{background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/lc_special/lc_series_fiber_cables_img3c.jpg) no-repeat}
+.lc_01{height:2608px}
+.fiber_optic_section .lc_h1{font-size:18px;height: 48px;}
+.fiber_optic_sort{padding:0!important;margin-bottom:0!important}
+.lc_bottom{margin-top:70px!important}
+@media (max-width:1220px){
+.lc_01{height:2458px}
+.lc_ul{display:none}
+}
+@media (max-width:480px){
+	.lc_contet .fiber_transceiver_pro li{width: 100% !important;}
+}
+
+/*2017.11.27 Barry  40G_100G样式*/
+.Crate_banner{height:380px}
+.Crate_banner_bg{position:absolute;left:0;width:100%;height:380px;z-index:-1;background:url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img/10G_banner.png) no-repeat center}
+.Crate_txt{padding:44px 0;text-align:center;font-size:16px;line-height:30px;color:#616265;font-weight:400}
+.Crate_banner_tit{font-size:40px !important;color:#fff !important;text-align:center;padding-top:130px;margin-bottom:14px;letter-spacing:2px;font-weight:400;line-height:48px}
+.Crate_banner_txt{font-size:21px;color:#fff;font-weight:400;text-align:center;line-height:34px}
+.Crate_banner_txt a{color:#fff;text-decoration:none;margin-left:10px}
+.Crate_business{overflow:hidden}
+.Crate_business_tit{font-size:30px !important;color:#232323 !important;font-weight:400;line-height:30px;text-align:center; padding-top: 45px;padding-bottom: 25px;}
+.Crate_business_txt{font-size:14px;color:#616265;text-align:center;line-height:22px;font-weight:400;padding: 0 230px;padding-bottom: 35px;}
+
+.se_container,.patch_contact{width: 1440px;margin: 0 auto;overflow: hidden;}
+.se_dl_top{width: 16%;float: left;}
+.se_dl_top dt img{max-width: 100%;height: inherit;display: block;margin: 0 auto;}
+.se_dl_top dd{text-align: center;font-size: 14px;}
+.se_dl_top a{text-decoration: none; color: #232323;}
+.se_dl_top:hover dd{text-decoration: underline;}
+.se_dl_top:hover{opacity: .7;}
+.se_public{background: #f6f6f6; padding-bottom: 30px;}
+.se_dl_middle{width: 480px;height: 494px;background: #FFFFFF;}
+.dl_left,.dl_right{width: 50%;float: left;}
+.dl_left dl{float: right;margin-right: 10px;}
+.dl_right dl{margin-left: 10px;}
+.se_dl_middle dt img{display: block;margin: 0 auto; padding-top: 40px;transition: all .3s;}
+.se_dl_middle dt img:hover{opacity: .8;}
+.se_dl_middle dd{padding: 0 40px; box-sizing: border-box;}
+.se_tit{font-size: 18px;font-weight: 400;color: #232323;text-align: center;padding-top: 25px;padding-bottom: 15px;}
+.se_txt{display: block;border-bottom: 1px dashed #dedede;line-height: 38px;text-align: center;}
+.se_txt p{text-align: left;width: 68%;display: inline-block;font-size: 14px;}
+.se_txt .icon{width: 26px;height: 22px;display: inline-block;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img/10G_SFP_Series_Fiber_Optic_icon1.png) no-repeat;    vertical-align: middle;margin-top: -9px;margin-right: 20px;}
+.se_txt .icon.two{background-position: -42px 0px;}
+.se_txt .icon.three{background-position: -81px 0px;}
+.se_padding{padding: 0 120px; overflow: hidden;}
+.se_padding .Crate_business_txt{padding: 0 120px;}
+.se_dl_bottom{width: 33.3%;float: left;}
+.se_dl_bottom dt img{display: block;margin: 0 auto;height: inherit;max-width: 100%;}
+.se_dl_bottom dd{font-size: 14px;color: #232323;font-weight:400;text-align: center;padding: 15px 0 25px 0;}
+.se_container_only{padding-bottom: 20px;}
+.se_dl_bottom_01{width: 384px;height: 130px;background: #FFFFFF;}
+.se_padding_only{display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;padding-bottom: 20px;flex-wrap: wrap;-webkit-wrap: wrap;}
+.se_dl_bottom_01 dt{width: 54px;height: 74px;float: left; background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img/10G_SFP_Series_Fiber_Optic_country2.png) no-repeat;margin-left: 30px;box-sizing: border-box;margin-top: 28px;}
+.se_dl_bottom_01 dd{padding-top: 30px; box-sizing: border-box;}
+.se_dl_bottom_01 dd h2{font-size: 14px;color: #232323;line-height: 22px;font-weight: 400;}
+.se_dl_bottom_01 dd p{font-size: 14px;color: #616265;line-height: 22px;font-weight:400;}
+.dl_content{overflow: hidden;padding-top: 35px;}
+.se_padding_only_fied dl:nth-child(2) dt{background-position: -100px 0px;}
+.se_padding_only_fied dl:nth-child(3) dt{background-position: -198px  0px;}
+
+.dl_Finally{width: 284px;}
+.dl_Finally dt{width: 54px;height: 50px;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img/10G_SFP_Series_Fiber_Optic_icon2.png) no-repeat;margin: 0 auto;margin-top: 50px;}
+.dl_Finally dd h2{font-size: 18px;line-height: 22px;color: #232323;font-weight: 400;text-align: center;padding: 30px 0 10px 0;}
+.dl_Finally dd p{font-size: 14px;color: #616265;line-height: 22px;font-weight:400;text-align: center;}
+.img_container img{display: block;margin: 0 auto;}
+.img_container{position: relative;}
+.se_padding_only_bottom dl:nth-child(2) dt{background-position: -122px 0;}
+.se_padding_only_bottom dl:nth-child(3) dt{background-position: -244px 0;}
+
+
+
+.circle {position:absolute;display:block;top:174px;left:325px;width:12px;height:12px;border-radius:50%;}
+.circle .circle_a {display:block;position:absolute;top:0;left:0;width:10px;height:10px;border:1px solid #0070BC;border-radius:50%;animation:circle_a 3s infinite;}
+.circle .circle_b {display:block;position:absolute;top:0;left:0;width:10px;height:10px;border:1px solid #0070BC;border-radius:50%;animation:circle_a 3s 1.5s infinite;}
+.circle span:nth-of-type(3) {display:block;position:absolute;top:0;left:0;width:12px;height:12px;border-radius:50%;background:#0070BC;}
+.circle em {position:absolute;left:-84px;top:-175px;border-radius:4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;line-height:24px;font-size:14px;color:#616265;text-align:center;display:none;font-style:normal;border: 2px solid #8cb8ff;padding: 0;}
+.circle em strong{font-size: 13px;color: #0070BC;font-weight: 400;text-align: center;display: block;background: #fff;}
+.circle:hover em {display:block;}
+.circle:nth-of-type(2) {left:655px;top:154px;}
+.circle:nth-of-type(3) {left: 690px;top: 159px;}
+.circle:nth-of-type(4) {left: 960px;top: 198px;}
+.circle:nth-of-type(5) {left: 1048px;top: 393px;}
+.circle:nth-of-type(6) {left:960px;top:326px;}
+.select {display:block;opacity:1;}
+@keyframes circle_a {0% {-webkit-transform:scale(1);transform:scale(1);opacity:0;filter:alpha(opacity=0) \9;}
+10% {opacity:1;filter:alpha(opacity=100) \9;}
+100% {-webkit-transform:scale(3.75);transform:scale(3.5);opacity:0;filter:alpha(opacity=0) \9;}}
+.circle p{font-size: 14px;color: #232323;font-weight:400;}
+.se_one p{ position: absolute;width: 150px;top: 30px;left: -56px;}
+.se_one p i{width: 24px;height: 20px;display: inline-block;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat;vertical-align: middle;margin-right: 10px;}
+.se_one em{top: -165px;left: -84px;display: block;}
+.se_two p{ position: absolute;width: 165px;top: -32px;left: -56px;}
+.se_two p i{width: 24px;height: 20px;display: inline-block;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat -105px 0;vertical-align: middle;margin-right: 10px;}
+.se_two em{top: -175px;left: -84px;}
+.se_three p{ position: absolute;width: 96px;top: 32px;left: -40px;}
+.se_three p i{width: 26px;height: 20px;display: inline-block;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat;vertical-align: middle;margin-right: 10px; background-position: -34px 0;}
+.se_three em{top: 60px;left: -125px;}
+.se_four p{     position: absolute;width: 46px;top: -25px;left: 32px;}
+.se_four p i{width: 26px;height: 20px;display: inline-block;vertical-align: middle;margin-right: 10px; background-position: -34px 0;}
+.se_five p{     position: absolute;width: 86px;top: 28px;left: -28px;}
+.se_five p i{width: 26px;height: 20px;display: inline-block;vertical-align: middle;margin-right: 10px; background-position: -34px 0;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat; background-position: -70px 0;}
+.se_five em{top: -150px;left: -80px;}
+.se_fix p{     position: absolute;width: 100px;top: 28px;left: -50px;}
+.se_fix p i{width: 24px;height: 20px;display: inline-block;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat -177px 0;vertical-align: middle;margin-right: 10px;}
+.se_fix em{top: -160px;left: 5px;}
+.se_fix em img{width: 170px;}
+.se_seven p{     position: absolute;width: 100px;top: 28px;left: -24px;}
+.se_seven p i{width: 24px;height: 20px;display: inline-block;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/secondary_classification/10G_SFP_Series_Fiber_Optic_country1.png) no-repeat -141px 0;vertical-align: middle;margin-right: 10px;}
+.se_seven em{top: -85px;left: -205px;}
+
+.Crate_banner_bg.a40g_100g{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img/1G_Transceivers_banner.jpg) no-repeat center;}
+.dl_container{overflow: hidden;padding-top:30px;}
+.dl_container.a40g_100g .dl_con{width: 32%;margin-right: 2%;margin-bottom: 2%;}
+.dl_container.a40g_100g .dl_con:nth-of-type(3n){margin-right: 0;}
+.dl_container.a40g_100g .se_dl_middle{width: 100%;margin-right: 0;height: auto;padding-bottom: 38px;}
+.dl_container.a40g_100g .se_txt{height: 38px;}
+.dl_container.a40g_100g .se_txt p{width: 83%;white-space: pre;color: #232323;}
+.se_container_href{text-align: center;color: #232323;font-size: 16px;margin-top: 25px;}
+.se_container_href a{text-decoration: none;color: #232323;}
+.se_container_href a:hover{text-decoration: underline;}
+.se_container_href .icon{font-size: 14px;margin-left: 5px;background: none;margin-top: 0;margin-right: 0}
+@media(max-width:1440px){
+.box,.se_container,.patch_contact{width:1200px}
+.dl_container{padding-top: 0;}
+.se_public{ border:1px solid #dedede; border-left:0; border-right:0; background:#fff;}
+.dl_container.a40g_100g .se_dl_middle{padding-bottom: 0;}
+.se_dl_bottom{width: 50%;}
+.se_dl_bottom_01{margin-bottom:15px;}
+.se_padding_only_fied dl:last-child{margin-bottom: 0;}
+.circle:nth-of-type(1) {left:225px;top:180px;}
+.circle:nth-of-type(2) {left:545px;top:154px;}
+.circle:nth-of-type(3){left: 586px;top: 162px;}
+.circle:nth-of-type(4){left: 858px;top: 228px;}
+.circle:nth-of-type(5){left: 938px;top: 393px;}
+.circle:nth-of-type(6) {left:849px;top:326px;}
+}
+@media(max-width:1220px){
+.box,.se_container,.patch_contact{width:960px}
+.content{margin: 0 auto; width:inherit;}
+.se_dl_middle dd{ padding:0 10px;}
+.dl_container.a40g_100g .se_txt p{width: 100%;}
+.se_dl_middle dt img{max-width: 200px;}
+.se_txt .icon{margin-right: 10px;}
+.se_txt p{font-size: 12px;}
+.se_dl_bottom{width: 48%;}
+.se_dl_bottom_01{width: 48%;}
+.img_container{overflow-x: auto;}
+.img_over{width: 1200px;}
+.Crate_business_txt,.Crate_business_txt{padding-left: 0 !important;padding-right: 0 !important;}
+.se_padding{padding: 0;}
+}
+@media(max-width:960px){
+.box,.se_container,.patch_contact{width:100%}
+.content{width:auto;padding:0 10px}
+.se_dl_top{width: 33%;}
+.dl_left{margin-bottom: 20px;}
+.dl_left, .dl_right{width: 100%;}
+.dl_left dl,.dl_right dl{float: none;margin: 0 auto;}
+.dl_content{display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;padding-bottom: 20px;flex-wrap: wrap;-webkit-wrap: wrap;}
+
+.dl_Finally{width: 48%;}
+.Crate_banner_tit{padding-top: 90px;}
+}
+@media(max-width:650px){
+	.se_dl_top{width: 50%;}
+	.se_dl_bottom_01{width: 100%;}
+	.se_dl_middle{width: 100%;}
+	.se_txt p{width: 72%;}
+}
+@media(max-width:480px){
+.Crate_banner{height:220px;overflow:hidden}
+.Crate_banner_bg{height:220px}
+.Crate_banner_tit{font-size:24px !important;padding-top:50px;line-height:30px;margin-bottom:10px;font-weight:400;letter-spacing:0;}
+.Crate_banner_txt{font-size:16px;line-height:22px;font-weight:400}
+.Crate_business_tit{font-size:24px !important;line-height:40px !important;font-weight:400}
+.Crate_business_txt{font-size:16px;line-height:22px;font-weight:400}
+.dl_Finally,.se_dl_bottom{width: 100%;}
+.se_container_only,.dl_content{padding-bottom: 0;}
+.se_dl_bottom_01{margin-bottom: 20px;}
+.Crate_business_tit{padding-top: 25px;padding-bottom: 10px;}
+.se_txt p{width: 100% !important;padding-left: 20px;}
+.content{padding: 0;}
+.se_txt .icon{margin-right: 10px;}
+.se_public{padding: 0 10px;padding-bottom: 40px;}
+.se_pa{padding: 0 10px; box-sizing: border-box;}
+.se_padding_only_fied{padding-bottom:40px;}
+.se_dl_middle dd{padding: 0}
+.se_dl_middle dt img{padding-top: 0;max-width: 240px;}
+}
+@media(max-width:960px){.dl_container.a40g_100g .dl_con{width:49%;}.dl_container.a40g_100g .dl_con:nth-of-type(2n){margin-right: 0;}.dl_container.a40g_100g .dl_con:nth-child(3){margin-right: 2%;}}
+@media(max-width:651px){.dl_container.a40g_100g .dl_con{width:100%;margin-right: 0;}}
+/*40G_100G样式结束*/
+
+/*mtp_mpo样式*/
+
+.content{padding: 0;}
+.mm_banner{height: 380px;padding-left: 75px;}
+.mm_banner_bg{position: absolute;left: 0;z-index: -1;width: 100%;height: 380px;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/mtp_img/MTP_MPO-Trunk_Breakout-Cable-banner.jpg) no-repeat center;}
+.mm_banner_tit{font-size: 36px;color: #fff;line-height: 48px;font-weight: 400;padding-top: 110px;margin-bottom: 15px;}
+.mm_banner_txt{font-size: 18px;font-weight:400;line-height: 30px;color: #fff;}
+.mm_hot{padding-bottom: 50px;}
+.mm_hot_bg,.mm_quality_bg,.mm_advantaged_bg{position: absolute;left: 0;background-color: #f6f6f6;width: 100%;z-index: -1;}
+.mm_hot_tit{padding: 47px 0 27px;font-size: 24px;color: #232323;font-weight: 400;line-height: 30px;}
+.mm_hot ul{overflow: hidden;margin-bottom: 50px;}
+.mm_hot ul:last-child{margin-bottom: 0;}
+.mm_hot_four{width: 23.5%;float: left;margin-right: 2%;background-color: #fff;padding-bottom: 35px;}
+.mm_hot_four:last-child,.mm_hot_three:last-child{margin-right: 0;}
+.mm_hot img{display: block;margin: 0 auto;max-width: 100%;}
+.mm_hot a{text-decoration: none;}
+.mm_hot_fout_tit{text-align: center;font-size: 14px;font-weight:400;color: #616265;margin-bottom: 15px;}
+.mm_hot_fout_price{text-align: center;font-size: 14px;font-weight: 600;color: #232323;}
+.mm_hot_three{float: left;width: 32%;margin-right: 2%;background-color: #fff;padding-bottom: 60px;}
+.mm_hot_three_main{padding-left: 90px;}
+.mm_hot_three_tit{font-size: 18px;color: #232323;font-weight: 400;line-height: 24px;margin-bottom: 25px;}
+.mm_hot_three_txt{font-size: 14px;font-weight:400;color: #616265;margin-bottom: 10px;}
+.mm_hot_three_txt span{display: inline-block;width: 8px;height: 8px;vertical-align: middle;border-radius: 50%;background-color: #cdcdcd;margin-right: 10px;}
+.mm_tit{font-size: 28px;color: #232323;text-align: center;font-weight: 400;line-height: 30px;padding:45px 0 30px ;}
+.mm_txt{font-size: 14px;font-weight:400;color: #616265;text-align: center;margin-bottom: 30px;line-height: 22px;}
+.mm_which{overflow: hidden;}
+.mm_which .mm_txt{margin-bottom: 90px;}
+.mm_which_con{float: left;width: 49%;border: 1px solid #dedede;position: relative;height: 370px;box-sizing: border-box;}
+.mm_which_con_main{padding: 110px 0 0 105px;}
+.mm_which_con_main_tit{font-size: 18px;color: #232323;font-weight: 400;margin-bottom: 30px;}
+.mm_which_con_pic{position: absolute;width: 102px;height: 102px;top: -51px;left: 50%;margin-left: -51px;border-radius: 15px;}
+.mm_which_con_pic.pic01{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/mtp_img/icon.png) no-repeat -181px 0 #adbdd8;}
+.mm_which_con_pic.pic02{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/mtp_img/icon.png) no-repeat -355px -1px #adbdd8;}
+.mm_which_con_main_txt{font-size: 14px;font-weight:400;color: #616265;line-height: 20px;margin-bottom: 12px;}
+.mm_which_con_main_txt span{display: inline-block; width: 8px; height: 8px; vertical-align: middle; border-radius: 50%; background-color: #cdcdcd; margin-right: 10px;}
+.marginRight{margin-right: 2%;}
+.mm_quality{margin-top: 50px;padding-bottom: 60px;}
+.mm_quality ul{overflow: hidden;margin-top: 40px;}
+.mm_quality_list{float: left;width: 32%;margin-right: 2%;text-align: center;}
+.mm_quality_list:last-child{margin-right: 0;}
+.mm_quality_list img{display: block;margin: 0 auto;}
+.mm_quality_list h3{font-size: 14px;font-weight:400;color: #616265;line-height: 20px;margin-bottom: 25px;margin-top: 20px;}
+.mm_quality_list p{font-size: 18px;font-weight:400;color: #000;}
+.mm_test{overflow: hidden;}
+.mm_test_dl{float: left;width: 49%;margin-right: 2%;margin-bottom: 30px;}
+.mm_test_dl:nth-of-type(2n){margin-right: 0;}
+.mm_test_dl img{width: 100%;}
+.mm_test_dl dd{width: 100%;color: #616265;font-size: 14px;font-weight:400;line-height: 50px;text-align: center;}
+.mm_advantaged{padding-bottom: 50px;}
+.mm_advantaged ul{overflow: hidden;margin-top: 30px;}
+.mm_advantaged_list{float: left;width: 32%;margin-right: 2%;text-align: center;}
+.mm_advantaged_list:last-child{margin-right: 0;}
+.mm_advantaged_list_icon{display: block;width: 50px;height: 50px;margin: 0 auto;}
+.mm_advantaged_list_icon.icon01{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/mtp_img/icon.png) no-repeat -88px -109px;}
+.mm_advantaged_list_icon.icon02{width: 53px;height: 53px;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/mtp_img/icon.png) no-repeat -287px -107px;}
+.mm_advantaged_list_icon.icon03{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/mtp_img/icon.png) no-repeat -496px -109px;}
+.mm_advantaged_list h3{font-size: 18px;color: #232323;font-weight: 400;line-height: 20px;margin-top: 30px;}
+.mm_advantaged_list p{font-size: 14px;font-weight:400;color: #616265;line-height: 22px;margin-top: 15px;}
+@media(max-width:1440px){.mm_hot_three_main,.mm_which_con_main{padding-left: 40px;}}
+@media(max-width:1220px){.mm_hot_three_tit,.mm_hot_three_txt{white-space: pre;text-overflow: ellipsis;overflow: hidden;}}
+@media(max-width:960px){.content{width: auto;padding: 0 10px;}.mm_hot_four{width: 49%;margin-right: 2%;margin-bottom: 2%;}.mm_hot_four:nth-child(2){margin-right: 0;}.mm_hot_three{width: 100%;margin-right: 0;margin-bottom: 2%;}.mm_which_con{width: 100%;margin-right: 0;}.mm_which_con_main{padding-left: 100px;}.mm_which_con:last-child{margin-top: 100px;}.mm_txt br{display: none;}.mm_quality_list img{max-width: 100%;height:auto;}.mm_advantaged_list p br{display: none;}}
+@media(max-width:670px){.mm_banner{height: 220px;padding-left: 20px;}.mm_banner_bg{height: 220px;background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/mtp_img/m_MTP_MPO_Trunk_banner1.jpg);background-size: cover;}.mm_banner_tit{font-size: 24px;line-height: 30px;padding-top: 20px;}.mm_banner_txt{font-size: 16px;line-height: 20px;padding-right: 140px;}.mm_hot_tit,.mm_tit{padding: 30px 0 10px;font-size: 20px;text-align: center !important;}.mm_hot_four{width: 100%;margin-right: 0;}.mm_hot_three_main{padding-left: 10px;}.mm_hot_three{padding-bottom: 20px;}.mm_which_con_main{padding-left: 10px;}.mm_which_con{height: auto;padding-bottom: 20px;}.mm_which_con_main_txt{position: relative;padding-left: 20px;}.mm_which_con_main_txt span{position: absolute;left: 0;top: 6px;}.mm_which_con_main_tit{text-align: center;}.mm_quality_list{width: 100%;margin-right: 0;}.mm_test_dl{width: 100%;margin-right: 0;margin-bottom: 2%;}.mm_advantaged_list{width: 100%;margin-right: 0;margin-bottom: 5%;}.mm_advantaged_list p{padding: 0 ;    text-align: left;}.mm_advantaged_list h3{margin-top: 15px;}.mm_advantaged_list p br{ display:none}.mm_hot ul{margin-bottom: 0;}}
+
+
+/*mtp_mpo样式结束*/
+/*FC页面样式*/
+.fiber_optic_banner_bg.FC{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fiber_lc_fc_3/FC-Series-Fiber-Cables-banner.jpg) no-repeat center;}
+.fiber_transceiver_banner_bg.FC01{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fiber_lc_fc_3/pic-1-banner.jpg) no-repeat center;}
+.fiber_transceiver_banner_bg.FC02{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fiber_lc_fc_3/pic-2-banner.jpg) no-repeat center;}
+.fiber_transceiver_banner_bg.FC03{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/fiber_lc_fc_3/pic-3-banner.jpg) no-repeat center;}
+.fiber_optic_con_bg.st_bg01{height: 2600px;}
+@media(max-width:1220px){.fiber_optic_con_bg.st_bg01{height: 2460px;}}
+/*FC页面样式结束*/
+
+/*dac页面样式*/
+
+.content{padding: 0;}
+.box{padding: 0;}
+.fiber_optic_banner_bg.dac_banner{background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/dac_img/DAC_bg_01.jpg) no-repeat center;}
+.dac_sort ul{text-align: center;}
+.dac_sort_list{display: inline-block;}
+.dac_sort_list:hover{opacity: .8;}
+.dac_sort_list p{font-size: 14px;color: #232323;font-weight:400;}
+.dac_sort ul li{width: 14%;}
+.dac_sort.fiber_splitter ul li{width:16.6%}
+.dac_two{overflow: hidden;margin-top: 50px;}
+.dac_two_con{float: left;width: 700px;height: 450px;background-color: #f6f6f6;text-align: center;}
+.dac_two_con:first-child{margin-right: 20px;}
+.dac_two_con_tit{font-size: 26px;color: #232323;font-weight: 400;line-height: 26px;padding-top: 60px;margin-bottom: 15px;}
+.dac_two_con_smalltit{font-size: 20px;color: #232323;font-weight: 400;line-height: 20px;margin-bottom: 30px;}
+.dac_two_con_txt{font-size: 16px;font-weight:400;color: #616265;line-height: 26px;margin-bottom: 30px;}
+.dac_why{margin-top: 50px;padding-bottom: 50px;}
+.dac_why_bg{position: absolute;width: 100%;left: 0;z-index: -1;background-color: #f6f6f6;}
+.dac_tit{font-size: 30px;color: #232323;font-weight: 400;line-height: 30px;padding: 50px 0 30px;text-align: center;}
+.dac_why ul:after{content:"";display:block;clear:both;visibility:hidden;}
+.dac_why_list{float: left;width: 32%;margin-right: 2%; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(0, 0, 0, 0.1); background-color: #fff; box-sizing: border-box; padding: 40px 55px; text-align: center;}
+.dac_why_list:last-child{margin-right: 0;}
+.dac_why_list img{display: block;margin: 0 auto 30px;}
+.dac_why_list_tit{font-size: 20px;color: #232323;font-weight: 400;line-height: 20px;margin-bottom: 20px;}
+.dac_why_list_txt{font-size: 14px;color: #616265;font-weight:400;line-height: 20px;}
+.dac_txt{font-size: 14px;color: #616265;line-height: 20px;text-align: center;margin-bottom: 18px;}
+.dac_test_href{text-align: center;}
+.dac_test_href a{font-size: 16px;color: #0070BC;text-decoration: none;}
+.dac_test_href a:hover{text-decoration: underline;}
+.dac_test_href .icon{font-size: 14px;color:#0070BC ;margin-left: 5px;}
+.dac_test ul{margin-top: 50px;overflow: hidden;padding: 0 120px;}
+.dac_test_list{float: left;width: 32%;margin-right: 2%;margin-bottom: 2%;}
+.dac_test_list:nth-of-type(3n){margin-right: 0;}
+.dac_test_list img{max-width: 100%;}
+.dac_test_list p{width: 100%;height: 60px;line-height: 60px;background-color: #f6f6f6;color: #616265;font-size: 14px;text-align: center;}
+@media(max-width:1440px){.dac_sort_list p{white-space: pre;overflow: hidden;text-overflow: ellipsis;}.dac_sort ul li,.dac_sort.fiber_splitter ul li{box-sizing: border-box;padding: 0 10px;}.dac_two_con{width: 49%;}.dac_two_con:first-child{margin-right: 2%;}.dac_test ul{padding: 0;}}
+@media(max-width:1220px){.dac_sort ul{overflow: hidden;}.dac_sort ul li,.dac_sort.fiber_splitter ul li{width: 25%;float: left;text-align: center;}.dac_why_list{padding: 40px 15px;}.dac_txt br{display: none;}.dac_test_list img{height: auto;}}
+@media(max-width:960px){.content{padding: 0 10px;}.dac_two_con img{max-width: 100%;}}
+@media(max-width:720px){.dac_sort ul li,.dac_sort.fiber_splitter ul li{width: 50%;}.dac_two_con{width: 100%;margin-right: 0;}.dac_two_con:first-child{margin-bottom: 20px;}.dac_why_list{width: 100%;margin-right: 0;margin-bottom: 20px;}.dac_why_list:last-child{margin-bottom: 0;}.dac_test_list{width: 100%;margin-right: 0;}}
+
+
+/*dac页面样式结束*/
+
+
+/*mtp_mpo样式*/
+.se_container, .patch_contact{
+    /*width: 1420px;*/
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px !important;
+    margin-bottom: 45px !important;
+}
+.se_dl_top a{text-decoration: none;color: #232323;}
+.se_dl_top dt img{max-width: 80%;height: inherit;display: block;margin: 0 auto;}
+.se_dl_top dd{    text-align: center;font-size: 14px;}
+.mm_hot ul{padding-top:50px;}
+.new_container .se_dl_top{width:20%}
+@media (max-width: 1440px){
+	.se_container{width: 1200px;}
+}
+@media (max-width: 1220px){
+	.se_container{width: 960px;}
+}
+@media (max-width: 960px){
+	.se_container{width: 100%;box-sizing:border-box;}
+	.new_container .se_dl_top{width: 33%;}
+	.patch_contact{box-sizing: border-box;}
+}
+@media (max-width: 650px){
+	.new_container .se_dl_top {width: 50%;}
+}

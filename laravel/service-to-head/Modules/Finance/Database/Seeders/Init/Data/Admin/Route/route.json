@@ -1,0 +1,67 @@
+[
+  {
+    "permission": "finance.receipt.receipts.view",
+    "uuid": "",
+    "guard_name": "",
+    "type": "",
+    "route": "/finance/receipt",
+    "name": "finance.receipt",
+    "locale": {
+      "en-US": "ReceiptList",
+      "zh-CN": "到款列表"
+    },
+    "comment": "到款列表页"
+  },
+  {
+    "permission": "finance.receipt.receipts.detail",
+    "uuid": "",
+    "guard_name": "",
+    "type": "",
+    "route": "/finance/receipt/detail",
+    "name": "finance.receipt.detail",
+    "locale": {
+      "en-US": "ReceiptDetail",
+      "zh-CN": "到款详情"
+    },
+    "comment": "到款详情页"
+  },
+  {
+    "permission": "finance.voucher.vouchers.view",
+    "uuid": "",
+    "guard_name": "",
+    "type": "",
+    "route": "/finance/voucher",
+    "name": "finance.voucher",
+    "locale": {
+      "en-US": "VoucherList",
+      "zh-CN": "凭证列表"
+    },
+    "comment": "用款凭证列表页"
+  },
+  {
+    "permission": "finance.invoice.invoices.view",
+    "uuid": "",
+    "guard_name": "",
+    "type": "",
+    "route": "/finance/invoice",
+    "name": "finance.invoice",
+    "locale": {
+      "en-US": "InvoiceList",
+      "zh-CN": "发票列表"
+    },
+    "comment": "发票列表页"
+  },
+  {
+    "permission": "finance.invoice.invoices.detail",
+    "uuid": "",
+    "guard_name": "",
+    "type": "",
+    "route": "/finance/invoice/related",
+    "name": "finance.invoice.related",
+    "locale": {
+      "en-US": "InvoiceDetail",
+      "zh-CN": "发票详情"
+    },
+    "comment": "发票详情页"
+  }
+]

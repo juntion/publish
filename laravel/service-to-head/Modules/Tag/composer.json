@@ -1,0 +1,25 @@
+{
+    "name": "modules/tag",
+    "description": "标签管理项目",
+    "authors": [
+        {
+            "name": "king.li",
+            "email": "king.li@feisu.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Tag\\Providers\\TagServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tag\\": "Modules/Tag/"
+        }
+    }
+}

@@ -1,0 +1,841 @@
+/*公共*/
+.proutList-a{
+    color: #0070BC !important;
+}
+.main_content {
+    width:100%!important;
+}
+.mainBox{
+    margin:0;
+    padding:0;
+}
+ul,li{ padding:0;margin:0;list-style:none}
+.w1420{
+    width: 100%;
+    margin:0 auto;
+}
+.box{
+    width:100%!important;
+}
+.sale_banner { height:380px;}
+.sale_banner_bg { position: absolute; width: 100%; height: 380px; left: 0;  z-index: -1;background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/Cumulus-banner-en.jpg') no-repeat center;}
+.FHX_img{
+    max-width: 100%;
+    height: inherit;
+    display: block;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+}
+.show-img{
+    display: block;
+}
+/*工作示意图*/
+.netWorkline{
+    /*height:1028px;*/
+    padding-bottom:50px;
+    background-color: #fff;
+}
+.workInfo{
+    height:100%;
+}
+.workDetil{
+    height:100%;
+    width:1420px;
+    margin:0 auto;
+}
+.workImg{
+    margin-top:56px;
+    width:100%;
+    height:289px;
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/prouctImg.png') no-repeat center;
+    background-size:center;
+}
+
+.workText>h3{
+    font-family: OpenSans-Light;
+    font-size: 26px;
+    font-weight: 400;
+    font-stretch: normal;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #232323;
+    text-align: center;
+    padding-top:42px;
+    padding-bottom: 22px!important;
+}
+.workText>p{
+    width: auto;
+    text-align: center;
+    padding:0 110px;
+    margin:0 auto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #616265;
+}
+/*帮助专科栏目*/
+.newsHelp{
+    width: 1420px;
+    height:auto;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+.newsHelp>ul{
+    margin:0 110px;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.new_help_list_icon{
+    margin:0 auto;
+    display: block;
+    width: 105px;
+    height: 118px;
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/icon1.png') no-repeat center;
+    background-size:cover;
+
+}
+.list_icon2{
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/iocn2.png') no-repeat center;
+}
+.list_icon3{
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/icon3.png') no-repeat center;
+}
+.new_help_list_tit {
+    font-size: 20px;
+    color: #232323;
+    text-align: center;
+    font-weight: 400;
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+.new_help_list_txt {
+    font-size: 14px;
+    color: #616265;
+    line-height: 22px;
+    text-align: center;
+    padding: 0 30px;
+    padding-bottom:24px;
+}
+.new_help_list_href {
+    /*position: absolute;
+      bottom: 35px;
+      left: 50%;
+      transform: translateX(-50%);*/
+    text-align: center;
+}
+.new_help_list_href a {
+    font-size: 14px;
+    color: #0272a2;
+}
+.new_help_list_href .icons-1 {
+    font-size: 11px;
+    color: #0272a2;
+    margin-left: 3px;
+}
+/*商品列表展示 */
+.prouctListMains{
+    width:100%;
+    height:872px;
+}
+.prouctListMains_text{
+    width:1420px;
+    margin:0 auto;
+}
+.prouctListMains_text .workText>h3{
+    font-size: 26px;
+    padding-top: 42px;
+    color:#fff;
+}
+.prouctListMains_text .workText>p{
+    padding:0 190px;
+    color:#fff;
+}
+.prouctListMains_bg{
+    position: absolute;
+    width: 100%;
+    height: 869px;
+    left: 0;
+    z-index: -1;
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/prouctbanner.jpg') no-repeat center;
+}
+.prouctListMains_list{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.prouctListMains_list li{
+    padding:40px 70px;
+    background:#fff;
+}
+.prouctListMains_list li:nth-child(2){
+    margin:0 20px;
+}
+.prouct_Ico{
+    margin:0 auto;
+    display: block;
+    width: 250px;
+    height: 200px;
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/prouctlist.png') no-repeat center;
+    background-size:cover;
+}
+.prouctListMains_list li h4{
+    font-size: 20px;
+    color: #232323;
+    text-align: center;
+    font-weight: 400;
+}
+.prouctListMains_list li h4 a{
+    text-decoration: none !important;
+    color: #232323;
+}
+
+.prouct_text{
+    padding-left:28px;
+    padding-bottom:10px;
+}
+.prouct_text>p{
+    text-align: left;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 24px !important;
+    padding:6px 0!important;
+    letter-spacing: 0px;
+    color: #616265;
+
+}
+.prouctListMains_list li h3{
+    color:#232323;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding:28px 0 20px 0 !important;
+}
+.prouctListMains_list li h3 a{color:#232323;}
+.prouctListMains_list li .prouct_add_cart{
+    width:100%;
+    height:40px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+.prouct_add_cart .prouct-add{
+    display: flex;
+    width: 72px;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    margin-left:18px;
+}
+.prouct-add input{
+    width: 45px;
+    height: 100%;
+    border: none !important;
+    text-align: center;
+}
+.prout_cart_qty_add{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -180px -335px;
+}
+.prout_cart_qty_reduce{
+    display: block;
+    height: 18px;
+    width: 18px;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -180px -212px;
+}
+.prout_cart_button{
+    width:auto;
+    height:auto;
+    border-radius: 2px;
+    line-height: 36px;
+    /* border: 1px solid #c00000; */
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* .new_pro_addCart_btn{
+	border:none !important;
+	    display: flex;
+	    width:100% !important;
+	} */
+.newDetail_addCart_box{
+	padding-bottom:0 !important;
+}
+/* .bianse{
+    cursor:pointer;
+    transition: all .2s;
+    background: #c00000;
+} */
+.color-cart{
+    color: #c00000;
+    font-size: 14px;
+}
+.color_add_text{
+    color: #c00000;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+/*功能展示 */
+.prouct_workText>h3{
+    padding-top: 42px;
+}
+.prouct_workImg{
+    margin-top:56px;
+    width:100%;
+    height:747px;
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/prouctWorkimg.png') no-repeat center;
+    background-size:center;
+}
+/*列表*/
+.specialshopList{
+    width:1200px;
+    height:100%;
+    margin: 0 auto;
+}
+.specialAllList{
+    height:100%;
+}
+.allList{
+    padding:0px 30px;
+}
+.allList>h2{
+    text-align: center;
+    font-family: OpenSans-Light;
+    font-size: 26px;
+    font-weight: 400;
+    padding-top:42px;
+    font-stretch: normal;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #232323;
+    padding-bottom:12px;
+}
+.proutList{
+    width:100%;
+   /* overflow-x: auto;*/
+    margin:0 auto;
+    padding-bottom:0px;
+}
+#proutTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+#proutTable .titleBgc{
+    height:50px;
+    background: #e2f0f9;
+}
+.otn-products-sub{
+    text-align: right;
+    margin-bottom: 70px;
+    margin-top:30px;
+}
+.icons-1{
+    font-size: 12px !important;
+}
+#proutTable tr .stockColor{
+    cursor: pointer;
+}
+#proutTable tr .stockColor i{
+    display: inline-block;
+    background-color: #76bb1f;
+    width:8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right:10px;
+}
+#proutTable tr .stockColor .arr_top{
+    display: flex;
+    align-items: center;
+    
+
+}
+#proutTable tr .stockColor .arr_top i{
+	display: inline-block;
+   text-align: center;
+   line-height: 4px;
+    background-color: #fff;
+    width:6px;
+    height: 6px;
+    border-radius: 50%;
+ 	margin-right:0px;
+}
+
+#proutTable tr .stock_id_Color{
+    color: #0272a2;
+    cursor: pointer;
+}
+#proutTable tr .stockColor span{
+    color:#76bb1f;
+}
+.track_orders_wenhao_only{
+    display: flex !important;
+    align-items: center !important;
+
+}
+#proutTable th {
+    font-size: 16px;
+    border:none;
+    color:#232323;
+    font-weight:400;
+    padding: 0px 12px;
+    text-align: left;
+}
+#proutTable th.left{text-align: center;}
+
+#proutTable td {
+    font-family: OpenSans;
+    border:none;
+    text-align: left;
+    font-weight: 400;
+    padding: 0px 12px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #616265;
+    vertical-align: middle;
+    border-bottom: 1px solid #e5e5e5;
+}
+#proutTable td .table-img{
+    width:70px;
+    height:70px;
+}
+#proutTable td .table-add{
+    display: flex;
+    width:72px;
+    height:36px;
+    border:1px solid #e5e5e5;
+    overflow: hidden;
+}
+.table-add input{
+    width:45px;
+    height:100%;
+    border:none !important;
+    text-align: center;
+}
+.pro_mun_my{
+    width: 25px;
+    border:none !important;
+    border-left: 0;
+    border-radius: 0 2px 2px 0;
+    float: right;
+    transition: all .2s;
+    cursor: pointer;
+    display: block;
+    height:100%;
+}
+.cart_qty_add{
+    display:block;
+    width:18px;
+    height: 18px;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -180px -335px;
+}
+.cart_qty_reduce{
+    display:block;
+    height: 18px;
+    width:18px;
+    background: url(https://img-en.fs.com/includes/templates/fiberstore/images/bg2016.png) no-repeat -180px -212px;
+}
+
+
+#proutTable td .table-img img{
+    width:100%;
+    height:100%;
+}
+#proutTable .left{
+    text-align: left;
+}
+#proutTable .right{
+    text-align: right;
+}
+#proutTable .center{
+    text-align: center;
+}
+.submitCart{
+    position: relative;
+    height:118px;
+}
+.prout_cart_right{
+    position: absolute;
+    right:0px;
+}
+.helpInfo{
+    width:100%;
+    height:491px;
+    background:#f7f8fa;
+
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/helpinfo.jpg') no-repeat center;
+    background-size:center;
+
+}
+.helpInfo>h3{
+    font-family: OpenSans-Light;
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    padding:42px 0 22px 0;
+    margin: 0px;
+}
+.helpInfo .newsHelp ul li{
+    background: #fff;
+    width:33.3%;
+}
+.helpInfo .newsHelp ul li:nth-child(2){
+    margin:0 20px;
+}
+.helpInfo .newsHelp ul li .new_help_list_icon{
+    height:82px;
+    width:82px;
+    border-radius: 50%;
+    border:1px solid #e5e5e5;
+    overflow: hidden;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+.helpInfo .newsHelp>ul{
+    margin:0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:normal;
+}
+.helpInfo .newsHelp .new_help_list_tit{
+    font-size: 20px;
+}
+.helpInfo .newsHelp .new_help_list_txt{
+    font-size: 14px;
+    color: #616265;
+    line-height: 22px;
+    height:66px;
+    overflow: hidden;
+}
+.helpInfo .newsHelp .new_help_list_href{
+    margin:30px 0 40px 0;
+}
+.helpInfo .newsHelp .new_help_list_href>a{
+    font-size: 14px;
+}
+.helpInfo .newsHelp ul li .list_icon1{
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img_new/solution-contact-icon.png');
+    background-position: 0 0;
+}
+.helpInfo .newsHelp ul li .list_icon2{
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/head_select/head_dropdown_headicon.png');
+    background-position: -158px 0px;
+    background-repeat: no-repeat;
+}
+.helpInfo .newsHelp ul li .list_icon3{
+
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img_new/solution-contact-icon.png');
+    background-position: 0 -260px;
+}
+.otn-profile {
+    display: block;
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 1px solid #e5e5e5;
+    background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/1G_img_new/solution-contact-icon.png') no-repeat 1px -524px;
+}
+.m_sale_banner{
+    display: none;
+}
+/*媒体查询*/
+@media(max-width:1440px){
+
+    .specialshopList{
+        width:1200px;
+    }
+    .newsHelp{
+        width:1200px;
+
+    }
+    .workDetil{
+        width:1200px;
+    }
+    .prouctListMains_text{
+        width:1200px;
+    }
+    .prouctListMains_list li{
+        padding: 20px 40px;
+    }
+    .prouctListMains_text .workText>p {
+        padding: 0 140px;
+        color: #fff;
+    }
+}
+@media(max-width:1220px){
+    .helpMains{
+        width:960px;
+    }
+    .specialshopList{
+        width:960px;
+    }
+    .workDetil{
+        width:960px;
+    }
+    .newsHelp{
+        width:960px;
+
+    }
+    .prouctListMains_text{
+        width:960px;
+    }
+    .prouctListMains_list li{
+        padding: 20px 30px;
+    }
+    .prouctListMains_text .workText>p {
+        padding: 0 100px;
+        color: #fff;
+    }
+}
+@media(max-width:960px){
+
+    .helpMains{
+        width:700px;
+    }
+    .specialshopList{
+        width:700px;
+    }
+    .workDetil{
+        width:700px;
+    }
+    .newsHelp{
+        width:700px;
+
+    }
+    .prouctListMains_text{
+        width:700px;
+    }
+    .prouctListMains_list li{
+        padding: 20px 16px 30px;
+    }
+    .prouctListMains_text .workText>p {
+        padding: 0 0px;
+        color: #fff;
+    }
+
+    .IR-text-infos{
+        margin:0;
+        height:auto;
+    }
+    /*弹窗*/
+    .pupop_video {
+        margin-top: 0px;
+        z-index: 100;
+    }
+    .popup_width880 {
+        width: 100%;
+        left: 0%;
+        top: 0;
+        margin-left: 0px;
+    }
+    .new_popup_video{
+        height:100%;
+    }
+    .sale_banner{
+        display: none;
+    }
+    .m_sale_banner img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    .m_sale_banner{
+        display: block;
+    }
+}
+
+@media(max-width:480px){
+    .specialshopList{
+        width:100%;
+    }
+    .workDetil{
+        width:100%;
+    }
+    .helpMains{
+        width:100%;
+        display: block;
+        height:auto;
+    }
+
+    .sale_banner{box-sizing: border-box;padding: 0 30px;}
+
+    .sale_banner,.sale_banner_bg{
+        background-size:cover;
+        height:172px;
+    }
+    .workImg{
+
+    }
+    .netWorkline .workImg{
+        background-size:contain;
+        height:128px;
+        margin-top:28px;
+    }
+    .workText{
+        padding:0 15px;
+    }
+    .workText>h3{
+        width:100%;
+        margin:0 auto;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top:35px;
+        padding-bottom:15px !important;
+
+    }
+    .workText>p{
+        width:100%;
+        padding:0px;
+    }
+    .newsHelp{
+        width:100%;
+        padding-bottom: 0px;
+    }
+    .newsHelp>ul{
+        display: block;
+        margin:0;
+    }
+    .new_help_list_href{
+        margin-bottom:24px;
+    }
+    .newsHelp ul li:nth-child(3) .new_help_list_href{margin-bottom: 31px;}
+    .prouctListMains{
+        width:auto;
+        padding:0 14px;
+        background: #23a497;
+        height:auto;
+        padding-bottom: 20px;
+
+    }
+    .prouctListMains_text{
+        width:100%;
+    }
+    .prouctListMains_text .workText>h3{
+        padding-top: 35px;
+        width:100%;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .prouctListMains_text .workText{
+        padding: 0px;
+    }
+    .prouctListMains_text .workText>p{
+        padding:0;
+    }
+    .prouctListMains_bg{
+        display: none;
+
+    }
+    .prouctListMains_list{
+        display: block;
+    }
+    .prouctListMains_list li{
+        margin-bottom: 20px;
+    }
+    .prouctListMains_list li:nth-child(2){
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .prouct_workImg{
+        display: none;
+    }
+    .prouct_workImg_y{
+        width:100%;
+        overflow-x: scroll;
+    }
+    .prouct_workbigImg_y{
+        margin-top:18px;
+        width:800px;
+        height:516px;
+        background: url('https://img-en.fs.com/includes/templates/fiberstore/images/specials/SpecialTopic2/prouctWorkimg.png') no-repeat center;
+        background-size:contain !important;
+    }
+    .allList{
+        padding:0px 14px;
+    }
+    .allList>h2{
+        font-size: 20px;
+        padding: 35px 0px 0px 0px;
+    }
+    .proutList{
+        padding-bottom: 0px;
+        overflow-x: auto;
+    }
+    .submitCart{
+        height:auto;
+        text-align: center;
+    }
+    .helpInfo{
+        /*padding: 20px 0;*/
+        height: 100%;
+        background-size: cover;
+        padding-bottom: 40px;
+    }
+    .helpInfo>h3{
+        font-size:20px;
+        margin-bottom: 0px;
+        padding: 35px 0 15px;
+    }
+    .helpInfo .newsHelp ul li:nth-child(2) {
+        margin:20px 0;
+    }
+    .helpInfo .newsHelp>ul{
+        display: block;
+        padding: 0 14px;
+    }
+
+    .helpInfo .newsHelp ul li{
+        width:auto;
+        padding-top: 30px;
+
+        padding-bottom:40px;
+    }
+    .helpInfo .newsHelp ul li .new_help_list_icon{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .helpInfo .newsHelp .new_help_list_href{
+        margin: 0;
+    }
+    #proutTable{
+        width:1200px;
+        margin-top: 13px;
+    }
+    .netWorkline{
+        padding-bottom: 30px;
+    }
+
+    .new_help_list_tit{margin-top: 24px;margin-bottom: 12px;}
+    .new_help_list_txt{padding-bottom: 20px;}
+    .prouctListMains_list li h4{margin-bottom: 11px;}
+    .prouct_text>p{padding: 0!important;}
+    .prouctListMains_list li h3{padding: 20px 0 17px 0 !important;}
+    .workText>p{text-align: left;}
+    #proutTable th {font-size: 14px;}
+    .prout_cart_button{border: 0;}
+    .prout_cart_right{position: relative;right: 0px;margin-bottom: 40px;}
+}
+

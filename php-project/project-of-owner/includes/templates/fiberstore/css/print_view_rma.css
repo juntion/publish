@@ -1,0 +1,129 @@
+body{background:#f7f7f7}
+.proforma_invoice{background:#fff;width:800px;padding:80px 80px 75px 80px;font-size:14px;line-height:24px;margin:0 auto;overflow:hidden}
+.issued{color:#232323;font-size:12px}
+.issued b{padding-top:26px;font-size:14px;display:block;color:#232323;padding-bottom:8px}
+.proforma_invoice .shopping_cart tr td,.proforma_invoice .shopping_cart tr th{font-size:13px}
+.proforma_invoice_logo_wap{overflow:hidden;border-bottom:1px solid #232323;display:flex;justify-content:space-between;align-items:center;padding-bottom:13px}
+.proforma_invoice_logo{display:inline-block}
+.proforma_invoice_logo img{float:left;margin-right:12px;height:38px}
+.proforma_invoice_logo_wap .proforma_invoice_span_01{color:#232323;display:inline-block;line-height:28px;font-size:16px;font-weight:700;vertical-align:middle;margin-top:-26px;}
+.proforma_invoice_logo_wap .proforma_invoice_span_02{font-size:12px;font-weight:400;line-height:22px}
+.proforma_dl_01{float:left}
+.proforma_dl_01 dt{position:relative}
+.proforma_dl_01 dt img{display:block;max-width:100%;height:inherit;margin-left:30px}
+.proforma_dl_three{position:relative;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;flex-wrap:wrap;-webkit-wrap:wrap;margin-top:25px;border-bottom:1px solid #232323;padding-bottom:22px}
+.proforma_dl_01 dd h2{margin-bottom:3px;font-size:14px;color:#232323;font-weight:600;margin-top:28px;min-height:50px;line-height:20px}
+.proforma_dl_01 dd p{color:#232323;font-size:12px}
+.proforma_dl_four h2{font-size:16px;color:#232323;font-weight:600;margin:26px 0}
+.proforma_dl_four table{width:100%;border-bottom:1px solid #e9e9e9;padding-bottom:10px}
+.proforma_dl_four table em{font-style:normal;font-size:12px;color:#232323;padding-right:10px}
+.proforma_dl_four table td{font-size:12px;color:#232323}
+.shopcart_summary{padding-top:60px}
+.proforma_dl_four{margin-bottom:8px}
+.pro_d span{width:4px;height:4px;background:#84afd5;border-radius:50%;display:inline-block;margin-right:5px}
+.pro_d span:last-child{margin-right:0}
+.pro_d{position:absolute;left:132px;top:42px}
+.pro_d001{right:290px;left:inherit;position:absolute;top:42px}
+.pro_d001 span{width:4px;height:4px;background:#84afd5;border-radius:50%;display:inline-block;margin-right:5px}
+.shopping_cart_checkout tr th{font-weight:600;font-size:14px!important}
+.new17choose_details_rea b{font-weight:600}
+.new17choose_details_rea p{font-size:13px}
+.shopping_cart_checkout tr .text_center{border-bottom:1px solid #a9a9a9}
+.shopping_cart_checkout tr .text_center_23{border-bottom:1px solid #232323}
+.order_view_total{padding:20px 0;border-bottom:1px dashed #232323}
+.order_view_total tr td{font-weight:600}
+.new17choose_details_rea{padding-top:26px}
+.table_box td{text-align:right;font-weight:700}
+.shopping_cart_checkout tr td{padding:12px 10px}
+.shopping_cart_bottom tr:last-child .text_center{border-bottom:1px solid #232323}
+.order_view_eidt{border-bottom:none}
+.eidt_color{color:#232323;font-size:12px;font-weight:600;padding-top:20px}
+.new17choose_details_rea .eidt_b{font-weight:400}
+.shopcart_summary .shopping_cart_checkout .Ship_boder{border-bottom:1px solid #a9a9a9;text-align:left;padding-left:0}
+.order_view_total .sed_color_eidt td{font-weight:400;font-size:12px}
+.order_view_total .sed_color_eidt .text_center{text-align:right}
+.order_view_eidt .text_center{text-align:right}
+.shopping_cart_checkout tr td:last-child{text-align:right;padding-right:0}
+.shopping_cart_checkout tr th:last-child{text-align:right;padding-right:0}
+.button_send{float:right;margin-top:22px}
+.button_send a{display:inline-block;width:191px;height:38px;border-radius:2px;line-height:38px;color:#fff;font-size:13px;text-align:center;background:#c00000}
+.proforma_invoice_logo_wap span{color:#232323;font-size:16px;font-weight:600}
+.shopping_cart_checkout a:hover{color:#232323;cursor:default}
+.issued td:last-child{text-align:right}
+.additional_comments{padding-top:28px}
+.additional_comments_tit{font-size:14px;line-height:24px;color:#232323}
+.additional_comments_txt{font-size:13px;line-height:22px;color:#232323}
+.new_invoice_pi{width: 100%;margin-top: 28px;}
+.new_invoice_pi td{font-size: 13px;color: #232323;line-height: 22px;padding-bottom: 2px;width: 70%;}
+.new_invoice_pi td span{font-weight: 600;min-width: 150px;display: inline-block;
+}
+.new_invoice_pi td:last-child{text-align: right;}
+.new_invoice_pi_three{text-align: left;width: 100%;margin-top: 34px;}
+.new_invoice_pi_three th{font-size: 14px;color: #232323;font-weight: 600;line-height: 24px;padding-bottom: 8px;}
+.new_invoice_pi_three td{font-size: 12px;color: #232323;line-height: 22px;vertical-align: top;}
+.new_invoice_pi_three th:nth-child(1){width: 35%;}
+.new_invoice_pi_three th:nth-child(2){width: 35%;}
+.new_invoice_pi_three th:nth-child(3){width: 30%;}
+.new_invo_table{width: 100%;text-align: center;margin-top: 52px;}
+.new_invo_table th{background: #4C4948;color: #fff;height: 35px;line-height: 25px;font-size: 14px;font-weight: 600;-webkit-print-color-adjust: exact;}
+.new_invo_table td{font-size: 13px;color: #232323;line-height: 22px;border-bottom: 1px solid #232323;border-right: 1px solid #232323;padding: 15px 0 12px 0;}
+.new_invo_table th:nth-child(1){width: 8.8%;}
+.new_invo_table th:nth-child(2){width: 21% !important;}
+.new_invo_table th:nth-child(3){width: 38.8%;}
+.new_invo_table th:nth-child(4){width: 10%;}
+.new_invo_table th:nth-child(5){width: 14.3%;}
+.new_invo_table th:nth-child(6){width: 14%;}
+.new_invo_table td:first-child{border-left: 1px solid #232323;}
+.new_invo_table td:nth-child(2){word-break: break-all;}
+.new_invo_settlement{width: 100%;margin-top: 24px;border-bottom: 1px dashed #232323;padding-bottom: 22px;}
+.new_invo_settlement td{vertical-align: top;}
+.new_invo_settlement td i{font-size: 14px;font-weight: 600;line-height: 24px;display: block;width: 100%;font-style: normal;}
+.new_invo_settlement td em{font-style: normal;display: block;}
+.new_invo_settlement td span{min-width: 160px;display: inline-block;font-weight: 400;}
+.new_invo_settlement td b{font-weight: 600;}
+.new_invo_settlement td{font-size: 13px;color: #232323;line-height: 22px;width: 50%;padding-bottom: 2px;}
+.new_invo_settlement td span{font-size: 14px;font-weight: 600;line-height: 24px;}
+.new_invo_settlement td p{display: inline-block;min-width: 110px;text-align: left;float: left;}
+.new_invo_settlement td:last-child{text-align: right;width: 60%;}
+.new_invo_settlement td:first-child{width: 40%;}
+.new_invo_settlement strong{font-weight: 400;display: inline-block;min-width: 205px;}
+.new_invo_bottom_table td p{font-size: 14px;color: #232323;line-height: 24px;font-weight: 600;padding-bottom: 12px;}
+.new_invo_bottom_table td{font-size: 13px;color: #232323;line-height: 24px;}
+.new_invo_bottom_table td span{font-weight: 600;display: inline-block;
+    min-width: 220px;}
+.new_invo_bottom_table{margin-top: 22px;width: 100%;}
+.new_invo_bottom_table td:first-child{width: 70%;}
+.new_invo_bottom_table td:last-child{width: 30%;text-align: left;}
+.new_invo_bottom_table td em{font-style: normal;min-width: 80px;display: inline-block;float: right;text-align: right;}
+.new_invo_bottom_table td strong{font-weight: 400;display: inline-block;min-width: 200px;text-align: left;width: 100%;}
+.new_invo_custom_attribute li{text-align: left;line-height: 18px;}
+.new_invo_table tr td:nth-child(3){text-align: left;padding-left: 10px;padding-right: 10px;}
+.new_invo_custom_attribute{margin-top: 4px;}
+.proforma_invoice_logo_left,.proforma_invoice_logo_left{width: 50%;}
+.proforma_invoice_logo_left em{display: inline-block;height: 36px;border-right: 1px solid #8d8d8f;margin-right: 12px;}
+.proforma_invoice_logo_right{text-align: right;}
+.proforma_invoice_logo_right a{font-size: 14px;color: #232323;padding: 11px 12px;box-sizing: border-box;border: 1px solid #4C4948;margin-left: 6px;transition: all .3s;border-radius: 2px;}
+.proforma_invoice_logo_right a .icon{font-size: 16px;color: #4C4948;margin-right: 8px;}
+.proforma_invoice_logo_right a:hover{text-decoration: none;}
+.invoice_no {font-style: normal;}
+.new_invoice_pi td .print_eu_span{min-width: 302px}
+.germany th{height: auto;line-height: 24px;padding: 6px 0;}
+.new_invoice_germany_table td{font-size: 13px;}
+.new_invoice_germany_table td span{font-weight: 600;}
+@media (max-width:960px){.shopping_cart tr td:first-child{width:auto;display:table-cell}
+.shopping_cart tr td:first-child+td+td,.shopping_cart tr td:first-child+td+td+td,.shopping_cart tr td:first-child+td+td+td+td,.shopping_cart tr td:last-child,.shopping_cart tr th,.shopping_cart tr th:last-child{display:table-cell}
+.shopping_cart tr td:first-child+td+td,.shopping_cart tr td:first-child+td+td+td,.shopping_cart tr td:first-child+td+td+td+td,.shopping_cart tr td:last-child,.shopping_cart tr th,.shopping_cart tr th:last-child{display:table-cell}
+}
+
+.proforma_invoice_achAlone_txt{font-size: 14px;color: #232323;line-height: 24px;font-weight: 600;margin: 20px 0 0;}
+.proforma_invoice_achAlone_txt + .new_invo_bottom_table{margin-top: 12px;}
+.proforma_invoice_achAlone_txt + .new_invo_bottom_table p{padding-bottom: 5px;}
+.new_invo_bottom_table td p.proforma_invoice_achAlone_txt01{padding-top: 16px;}
+.m-print-btn{padding: 50px 38px;background-color: #fff;margin-top: 50px;position: fixed;width: 100%;left: 0;bottom: 0;box-sizing: border-box;}
+.m-print-btn a{display: block;line-height: 100px;border:2px solid #4C4948;border-radius: 5px;font-size: 34px;color: #232323;transition: all .2s;text-align: center;}
+.m-print-btn a:hover{text-decoration: none;background-color: #4C4948;color: #fff;}
+.m-print-btn .icon{font-size: 40px;margin-right: 20px;}
+.m-print-btn a:first-child{margin-bottom: 40px;}
+@media print {
+    .m-print-btn { display: none }
+}

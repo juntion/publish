@@ -1,0 +1,516 @@
+
+.content { padding: 0; }
+.menu_02{ display:none;}
+/*样式开始*/
+.box { box-sizing: border-box; }
+.Ent_banner { height: 380px; }
+.Ent_banner_bg { position: absolute; left: 0; width: 100%; height: 380px; z-index: -1; background: url(../../images/specials/enterprise_img/Enterprise_Network-banner.jpg) no-repeat center; }
+.Ent_banner_tit { font-size: 40px; color: #fff; text-align: center; padding-top: 100px; margin-bottom: 20px; letter-spacing: 2px; font-weight: 400; line-height: 40px; }
+.Ent_banner_txt { font-size: 20px; color: #fff; font-weight:400; text-align: center; line-height: 32px; }
+/*.Ent_business{
+	padding-bottom: 85px;
+}*/
+.Ent_business_tit { font-size: 30px; color: #232323; font-weight: 400; text-align: center; padding-top:50px; line-height:36px; padding-bottom:10px; }
+.Ent_business_txt { font-size: 14px; color: #616265; text-align: center; line-height: 22px; padding-bottom: 60px; }
+.Ent_cus_content {position: relative; }
+.Ent_customer_content_left { height: 100%; width: 32%; }
+.Ent_customer_left { position: absolute; left: 0; top: 0; }
+.Ent_customer_right { position: absolute; right: 0; top: 0; }
+.Ent_customer_content_bg { width: 36%; margin: 0 auto; }
+.Ent_customer_content_bg img { height: 100%; padding: 8px 0; max-width: 100%; display: block; margin: 0 auto; }
+.Ent_customer_content_left_dl { width: 100%; height: 70px; float: left; margin-bottom: 43px; }
+.Ent_customer_content_left_dl dt { float: left; width: 36%; }
+.Ent_customer_content_left_dl dt img { max-width: 100%; margin: 0 auto; display: block;  transition: all .3s;
+transform: scale(1); }
+.Ent_customer_content_left_dl:hover img { transform: scale(1.1); }
+.Ent_customer_content_left_dl dd { float: left; width: 64%; }
+.Ent_customer_content_left_dl_tit { font-size: 18px; color: #232323; font-weight: 400; padding-bottom: 17px; height: 18px; padding-left: 6px; }
+.Ent_customer_content_left_dl_txt { font-size: 14px; color: #616265; padding-left: 6px; line-height: 22px; }
+.Ent_customer_content_right_dl { width: 100%; height: 72px; float: left; margin-bottom: 46px; }
+.Ent_customer_content_right_dl dt { float: right; width: 36%; }
+.Ent_customer_content_right_dl dt img { margin: 0 auto; max-width: 100%; display: block;  transition: all .3s;
+transform: scale(1); }
+.Ent_customer_content_right_dl:hover img { transform: scale(1.1); }
+.Ent_customer_content_right_dl dd { float: right; width: 64%; }
+.Ent_customer_content_right_dl_tit { font-size: 18px; color: #232323; font-weight: 400; padding-bottom: 17px; height: 18px; padding-left: 30px; }
+.Ent_customer_content_right_dl_txt { font-size: 14px; color: #616265; padding-left: 30px; }
+.Ent_banner_bg_two { position: absolute; left: 0; width: 100%; height: 380px; z-index: -1; background: url(../../images/specials/enterprise_img/Enterprise_Network-pic2-0.jpg) no-repeat center; }
+.Ent_banner_two { margin-top: 70px; }
+.Ent_banner_two_tit { padding-left: 80px; padding-top: 100px; font-size: 30px; color: #fff; font-weight: 400; line-height:36px; }
+.Ent_banner_two_txt { padding-left: 80px; color: #fff; font-weight:400; font-size: 18px; padding-top: 20px; line-height: 24px; }
+.Ent_product { overflow: hidden; }
+.Ent_product_bg { background: #f6f6f6; position: absolute; left: 0; width: 100%; height: 1200px; z-index: -1; }
+.Ent_product_warp { width: 100%; float: left; }
+.Ent_product_dl_warp { width: 100%; margin: 20px 0; overflow: hidden; }
+.Ent_product_dl_warp a { text-decoration: none; }
+.Ent_product_dl_warp dl { width: 24.8%; height: 50%; float: left; border-right: 1px solid #f6f6f6; border-bottom: 1px solid #f6f6f6; background: #fff; padding-bottom: 44px; }
+.Ent_product_dl_warp dl:hover { opacity: .8; }
+.Ent_product_dl_dt { height: 59%; width: 100%; }
+.Ent_product_dl_dt img { margin: 0 auto; max-width: 100%; display: block}
+.Ent_product_dl_dd { height: 41%; width: 100%; text-align: center; }
+.Ent_product_dl_dd p { font-size: 14px; color: #232323; padding-bottom: 14px; line-height: 22px; font-weight: 400; }
+.Ent_product_dl_dd em { display: block; font-style: normal; font-size: 14px; color: #616265; padding-bottom: 26px; font-weight:400; }
+.Ent_product_dl_dd span { color: #232323; font-size: 14px; display: block; }
+.Ent_banner_bg_three { position: absolute; left: 0; width: 100%; height: 380px; z-index: -1; background: url(../../images/specials/enterprise_img/Enterprise_Network-pic3-0.jpg) no-repeat center; }
+.Ent_product_two { }
+.Ent_product_bg_two { }
+.Ent_product_dl_warp_two { }
+.Ent_product_dl_warp_two dl { width: 24.8%; height: 33.2%; float: left; }
+.Ent_customer_content_left_dl dt img:hover { max-height: 100%; max-width: 100%;  transition: all .3s;
+}
+.our_advantages { padding-top:60px; overflow:hidden; }
+.our_advantages h1 { font-size:30px; font-weight:normal; text-align:center; margin-bottom:50px; }
+.our_advantages p { font-size: 14px; font-weight:400; color: #616265; line-height: 22px; text-align: center; margin-bottom: 50px; }
+.our_advantages ul li { float:left; width: 25%; text-align:center; }
+.our_advantages ul li img { display:block; margin:0 auto; }
+.our_advantages_text { padding:20px 40px; }
+.our_advantages ul li h1 { font-size:18px; font-weight:normal; color:#232323; margin-bottom:10px; }
+.our_advantages ul li p { font-size:14px; color:#616265; font-weight:400; }
+.Ent_cus_Entrance{
+	overflow: hidden;
+	margin-top: 80px;
+}
+.Ent_cus_Entrance dl{
+	overflow: hidden;
+	background: #eef1f3;	
+}
+.Ent_cus_Entrance dl dt{
+	float: left;
+	width: 58%;
+}
+.Ent_cus_Entrance dl dt img{
+	max-width: 100%;
+	display: block;
+}
+.Ent_cus_Entrance dl dd{
+	float: left;
+	width: 42%;
+}
+.Ent_cus_h2{
+	padding-top: 76px;
+	padding-bottom: 24px;
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #232323;
+}
+.Ent_cus_p{
+	padding-bottom: 28px;
+	font-size: 18px;
+	font-weight:400;
+	line-height: 30px;
+	color: #616265;
+}
+.Ent_cus_span{
+	padding-bottom: 70px;
+	display: block;
+}
+.Ent_cus_a{
+	border: 1px solid #0070BC;
+	padding: 10px 30px;
+	border-radius: 3px;
+	color: #0070BC;
+	text-decoration: none;
+	transition: all .3s;
+}
+.Ent_cus_span:hover a{
+	background-color:#0070BC;
+	color: #fff;
+	text-decoration:none;
+}
+ @media(max-width:1440px) {
+ .box {
+ width: 1200px;
+}
+ .Ent_why_list {
+ padding-left:0;
+ padding-right:0;
+}
+ .Ent_product_dl_dd p br {
+ display: none;
+}
+ .Ent_product_dl_dd p {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ display: block;
+}
+ .Ent_product_bg {
+ background: #f6f6f6;
+ position: absolute;
+ left: 0;
+ width: 100%;
+ height: 1120px;
+ z-index: -1;
+}
+.Ent_cus_h2,.Ent_cus_p{
+		padding-left: 20px;
+	}
+	.Ent_cus_a{
+		margin-left: 20px;
+	}
+	.Ent_cus_Entrance br{
+		display: none;
+	}
+}
+@media(max-width:1220px) {
+ .box {
+ width: 960px;
+}
+ .Ent_why_list {
+ width: 49%;
+ margin-right: 1%;
+ min-height: 278px;
+ margin-bottom: 90px;
+}
+ .Ent_customer_content_bg {
+ width: 100%;
+}
+ .Ent_customer_content_bg img {
+ margin: 0 auto;
+}
+ .Ent_customer_left {
+ position: static;
+ float: left;
+ width: 50%;
+}
+ .Ent_customer_right {
+ position: static;
+ float: left;
+ width: 50%;
+}
+ .Ent_customer_content_right_dl dt {
+ float: left;
+}
+ .Ent_customer_content_right_dl_txt {
+ font-size: 14px;
+ color: #616265;
+ padding-left: 6px;
+ line-height: 22px;
+}
+ .Ent_customer_content_right_dl_tit {
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ color: #232323;
+ padding-bottom: 6px;
+ padding-left: 6px;
+}
+ .Ent_banner_two {
+ margin-top: 0;
+}
+ .Ent_product_bg {
+ height: 992px;
+}
+.Ent_cus_Entrance dl dt{
+		width: 100%;
+	}
+	.Ent_cus_Entrance dl dt img{
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	.Ent_cus_Entrance dl dd{
+		width: 100%;
+	}
+}
+@media(max-width:960px) {
+ .box {
+ width: 100%;
+}
+ .content {
+ width: auto;
+ padding: 0 10px;
+}
+ .Ent_product_dl_warp dl {
+ width: 49%;
+ height: 49%;
+ float: left;
+ background: #fff;
+ padding-bottom: 30px;
+}
+ .Ent_business_txt br {
+ display: none;
+}
+ .Ent_customer_content_bg {
+ width: 100%;
+}
+ .Ent_customer_content_bg img {
+ margin: 0 auto;
+}
+ .Ent_customer_left {
+ position: static;
+ float: left;
+ width: 100%;
+}
+ .Ent_customer_right {
+ position: static;
+ float: left;
+ width: 100%;
+}
+ .Ent_customer_content_right_dl dt {
+ float: left;
+}
+ .Ent_customer_content_right_dl_txt {
+ font-size: 14px;
+ color: #616265;
+ padding-left: 6px;
+ line-height: 22px;
+}
+ .Ent_customer_content_right_dl_tit {
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ color: #232323;
+ padding-bottom: 6px;
+ padding-left: 6px;
+}
+ .Ent_banner_two {
+ margin-top: 0;
+}
+ .Ent_banner_two_tit br {
+ display: none;
+}
+ .Ent_product_dl_dd p {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ display: block;
+ padding: 0 10px;
+}
+ .our_advantages ul li {
+width:50%;
+}
+ .Ent_product_bg {
+ display: none;
+}
+ .Ent_product_dl_warp dl:nth-child(1), .Ent_product_dl_warp dl:nth-child(2) {
+ border-top: 1px solid #f6f6f6;
+}
+ .Ent_product_dl_warp dl:nth-child(1), .Ent_product_dl_warp dl:nth-child(3) {
+ border-left: 1px solid #f6f6f6;
+}
+ .Ent_product_dl_warp dl:nth-child(5), .Ent_product_dl_warp dl:nth-child(7) {
+ border-left: 1px solid #f6f6f6;
+}
+ .Ent_product_dl_warp dl:nth-child(9), .Ent_product_dl_warp dl:nth-child(11) {
+ border-left: 1px solid #f6f6f6;
+}
+.Ent_cus_content{overflow:hidden;}
+}
+@media(max-width:480px) {
+ .Ent_banner {
+ height: 220px;
+ overflow: hidden;
+}
+ .Ent_banner_bg {
+ height: 220px;
+}
+ .Ent_banner_tit {
+ font-size: 24px;
+ padding-top: 50px;
+ line-height:30px;
+ margin-bottom:10px;
+ font-weight: 400;
+}
+ .Ent_banner_txt {
+ font-size: 16px;
+ line-height: 20px;
+ font-weight:400;
+}
+ .Ent_business_tit {
+ font-size: 20px;
+ line-height: 30px;
+ font-weight: 400;
+ color: #232323;
+}
+ .Ent_business_txt {
+ font-size: 14px;
+ line-height: 22px;
+ font-weight:400;
+ color: #616265; text-align:left;
+ padding-bottom: 15px;
+}
+ .Ent_customer_content_left {
+ width: 100%;
+}
+ .Ent_customer_content_bg {
+ width: 100%;
+}
+ .Ent_customer_content_bg img {
+ height: initial
+}
+ .Ent_customer_content_right_dl dt {
+ float: left;
+}
+ .Ent_business_tit {
+ padding-top: 30px;
+ padding-bottom: 15px;
+}
+ .Ent_customer_content_left_dl_tit {
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ color: #232323;
+ padding-bottom: 6px;
+}
+ .Ent_customer_content_left_dl_txt {
+ font-size: 14px;
+ color: #616265;
+ padding-left: 6px;
+ line-height: 22px;
+}
+ .Ent_customer_content_left_dl {
+ margin-bottom: 0px;
+ margin-top: 10px;
+ height: initial;
+}
+ .Ent_customer_content_right_dl_tit {
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ color: #232323;
+ padding-bottom: 6px;
+ padding-left: 6px;
+}
+ .Ent_customer_content_right_dl_txt {
+ font-size: 14px;
+ color: #616265;
+ padding-left: 6px;
+ line-height: 22px;
+}
+ .Ent_customer_content_right_dl {
+ margin-bottom: 0px;
+ margin-top: 10px;
+ height: initial;
+}
+ .Ent_banner_bg_two {
+ height: 220px;
+}
+ .Ent_banner_two_tit {
+ font-size: 24px;
+ padding-top: 20px;
+ line-height:30px;
+ margin-bottom:10px;
+ font-weight: 400;
+}
+ .Ent_banner_two_txt {
+ font-size: 16px;
+ line-height: 22px;
+ font-weight:400;
+}
+ .Ent_banner_two_tit {
+ padding: 0;
+ text-align: center;
+ font-size: 24px;
+ line-height: 40px;
+ font-weight: 400;
+}
+ .Ent_banner_two_txt {
+ padding: 0;
+ text-align: center;
+ font-size: 16px;
+ line-height: 22px;
+ font-weight:400;
+}
+ .Ent_product_dl_warp dl {
+ width: 99%;
+ border: 1px solid #f6f6f6;
+ border-bottom: none;
+}
+ .Ent_product_dl_warp dl:nth-child(8) {
+ border-bottom: 1px solid #f6f6f6;
+}
+ .Ent_product_dl_warp dl:nth-child(12) {
+ border-bottom: 1px solid #f6f6f6;
+}
+ .Ent_product {
+ height: initial;
+}
+ .Ent_product_bg {
+ height: initial;
+}
+ .Ent_product_warp {
+ height: initial;
+}
+ .Ent_banner_two {
+ margin-top: 20px;
+}
+ .Ent_banner_bg_three {
+ height: 220px;
+}
+ .Ent_banner_two_tit {
+ font-size: 24px;
+ padding-top: 20px;
+ line-height: 40px;
+ margin-bottom: 5px;
+ font-weight: 400;
+}
+ .Ent_banner_two_txt {
+ font-size: 16px;
+ line-height: 22px;
+ font-weight:400;
+}
+ .Ent_banner_tit br {
+ display: none;
+}
+ .Ent_banner_txt br {
+ display: none;
+}
+ .Ent_business_txt br {
+ display: none;
+}
+ .Ent_banner_two_tit br {
+ display: none;
+}
+ .Ent_banner_two_txt br {
+ display: none;
+}
+ .Ent_product_dl_dd p {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ display: block;
+}
+ .Ent_customer_content_right_dl_tit {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ display: block;
+}
+ .Ent_customer_content_left_dl_tit {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ display: block;
+}
+ .our_advantages ul li {
+width:100%;
+}
+ .our_advantages h1 {
+font-size: 20px;
+line-height: 30px;
+}
+.Ent_cus_h2{
+		font-size: 20px;
+	    line-height: 30px;
+	    font-weight: 400;
+	    color: #232323;
+	    text-align: center;
+	    padding-left: 0;
+	    padding:30px 0 15px 0;
+	}
+	.Ent_cus_p{
+		font-size: 14px;
+	    line-height: 22px;
+	    font-weight:400;
+	    color: #616265;
+	    margin-bottom: 40px;
+	    padding: 0 10px;
+	    text-align: left;
+	}
+	.Ent_cus_a{
+		margin-left:10px;
+	}
+
+}

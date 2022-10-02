@@ -1,0 +1,15 @@
+{
+    "name": "Finance",
+    "alias": "finance",
+    "description": "财务系统",
+    "keywords": [],
+    "order": 5,
+    "providers": [
+        "Modules\\Finance\\Providers\\FinanceServiceProvider",
+        "Modules\\Finance\\Providers\\DeferrableServiceProvider",
+        "Modules\\Finance\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

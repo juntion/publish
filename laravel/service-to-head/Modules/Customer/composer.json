@@ -1,0 +1,28 @@
+{
+    "name": "modules/customer",
+    "description": "客户管理",
+    "authors": [
+        {
+            "name": "fly.fei",
+            "email": "fly.fei@feisu.com"
+        }
+    ],
+    "require": {
+        "tymon/jwt-auth": "^1.0.0-rc.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Customer\\Providers\\CustomerServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Customer\\": "Modules/Customer/"
+        }
+    }
+}

@@ -1,0 +1,141 @@
+/* adil新样式上线 */
+.box {width: 100%;background-color: #f6f6f6;padding: 0 0 45px;}
+.new-soluSupt-banner{height: 200px;}
+.new-soluSupt-bg{position: absolute;width: 100%;height: 200px;left: 0;z-index: 1;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/solution_support/Solution-bg.jpg) no-repeat center;}
+.new-soluSupt-tit{font-size: 30px;color: #fff;font-weight: 400;line-height: 48px;margin-bottom: 10px;padding-top: 45px;text-align: center;position: relative;z-index: 2;}
+.new-soluSupt-txt{font-size: 14px;color: #fff;font-weight:400;text-align: center;line-height: 24px;position: relative;z-index: 2;}
+.new-soluSupt-main{width: 960px;margin: 0 auto;padding: 40px 0 0;}
+.new-soluSupt-form{width: 100%;height: 100%;background-color: #fff;padding-bottom: 50px;}
+.new-soluSupt-form-main{width: 480px;margin: 0 auto;padding-top: 40px;}
+.new-soluSupt-main-con{margin-bottom: 18px;}
+.new-soluSupt-main-tit{font-size: 13px;color: #616265;font-weight: 400;margin-bottom: 5px;}
+.new-soluSupt-ipt{width: 100%;border: 1px solid #ccc;border-radius: 3px;height: 38px;text-indent: 10px;color: #232323;font-size: 13px;box-sizing: border-box;}
+.new-soluSupt-prefix{position: relative; padding-left: 50px;}
+.new-soluSupt-prefix .fs-new-plainInput{border-top-left-radius: 0;border-bottom-left-radius:0 }
+.new-soluSupt-prefix b{position: absolute;width: 49px;height: 36px;background-color: #e5e5e5;color: #232323;text-align: center;line-height: 35px;left: 0;top: 0;font-size: 14px;font-weight: 400;border: 1px solid #ccc;border-right: none;border-top-left-radius: 3px;border-bottom-left-radius: 3px}
+.new-soluSupt-main-con01 {margin-bottom: 5px;}
+.new-soluSupt-main-con01 .fs-new-common-checkBox{margin-right: 20px;margin-bottom: 10px;}
+.new-soluSupt-main-con02{margin-bottom: 3px;}
+.new-soluSupt-main-con .error_prompt,.new-soluSupt-main-con01 .error_prompt,.new-soluSupt-main-con02 .error_prompt{margin-bottom: 0;}
+	/*上传文件的样式*/
+.new-soluSupt-upload{position: relative;font-size: 0;}
+.new-soluSupt-upload-allbtn{display: inline-block;}
+.new-soluSupt-upload-btn{position: relative;overflow: hidden;display: inline-block;height: 30px;vertical-align: middle;}
+.new-soluSupt-upload-btn input{opacity: 0;position: absolute;left: -100px;cursor: pointer;top: 0;font-size: 20px;z-index: 1;}
+.new-soluSupt-upload-btn a{display: inline-block;position: relative;margin-right: 10px;height: 28px;font-size: 14px;color: #0070BC;line-height: 29px;border-radius: 3px;}
+.new-soluSupt-upload-btn a span{position: absolute;width: 14px;height: 14px;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/solution_support/3.png) no-repeat -61px -30px;left: 0;top: 50%;margin-top: -7px;}
+.new-soluSupt-upload-btn a span.icon{background: none;position: inherit;left: auto;top: auto;margin-right: 5px;}
+.new-soluSupt-upload-prompt{display: inline-block;vertical-align: middle;position: relative;}
+.new-soluSupt-upload-prompt span{display: block;width: 16px;height: 16px;
+	margin-left: -5px;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/solution_support/3.png) no-repeat -34px -31px;}
+.new-soluSupt-prompt-content{position: absolute;left: 25px;top: -16px;border: 1px solid #e5e5e5;border-radius: 3px;box-shadow: 0 0 10px 0 rgba(51,51,51,.1);padding: 3px 10px;display: none;background-color: #fff;}
+.new-soluSupt-prompt-arrow{position: absolute;width: 7px;height: 10px;left: -7px;top: 17px;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/solution_support/3.png) no-repeat -22px -20px;}
+.new-soluSupt-prompt-content p{font-size: 13px;color: #999;white-space: pre;}
+.new-soluSupt-upload-name{margin-top: 10px;display: none;}
+.new-soluSupt-upload-prompt:hover .new-soluSupt-prompt-content{display: block;}
+	/*上传文件的样式结束*/
+.new-soluSupt-cookie{color: #999;font-size: 13px;}
+.new-soluSupt-cookie a{color: #616265 !important;text-decoration: none;}
+.new-soluSupt-cookie a:hover {text-decoration: none;color: #232323 !important;}
+.new-soluSupt-form-sub{min-width: 80px;height: 38px;background: #c00000;border: 1px solid #c00000;border-radius: 3px;color: #fff;font-size: 14px;cursor: pointer;transition: all .3s;margin-top: 14px;padding: 0 30px;}
+.new-soluSupt-form-sub:hover {color: #fff;background-color: #9b0912;border: 1px solid #9b0912;}
+.new_popup.success-tipWindow .new_popup_addCart_tit{margin-bottom: 5px;}
+.new-soluSupt-success-tipIcBox .icon{font-size: 28px;font-weight: 600;color: #097;display: inline-block;vertical-align: middle;float: left;}
+.new-soluSupt-successTxt{padding-left: 38px;font-size: 18px;color: #232323;font-weight: 400;margin-bottom: 14px;}
+.new-soluSupt-successTxt01{color: #232323;font-size: 14px;}
+.choose_country{
+	line-height: 36px;
+	margin-bottom: 15px;
+}
+.choose_country em{
+	background-image: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/solution_support/country.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 15px;
+	top: 11px;
+}
+.searchCountry{
+	left: -1px;
+}
+.countryList li{
+	width: 100%;
+}
+@media (max-width: 960px){
+	.box{background: #fff;padding: 0;}
+	.new-soluSupt-main{width: 100%;}
+	.success-tipWindow.addCart .popup_width680{width: 480px;}
+}
+@media (max-width: 480px){
+	.new-soluSupt-form-main{width:100%;padding: 0 10px;box-sizing: border-box;}
+	.success-tipWindow.addCart .popup_width680{width: 320px;}
+	.success-tipWindow .new_popup_content.addCart_cont{padding-bottom: 20px;}
+}
+/* .......... 后面需要统一用到的样式............... */
+/*下拉框样式*/
+.fs-new-selectCon {position: relative;}
+.fs-new-selfSelect{height: 38px;border: 1px solid #e5e5e5;border-radius: 2px;width: 100%;padding-left: 10px;box-sizing: border-box;color: #616265;appearance: none;-moz-appearance: none;-webkit-appearance: none;cursor: pointer;position: relative;}
+.fs-new-selfSelect-txtBox{height: 38px;line-height: 38px;padding-right: 25px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #232323;}
+.fs-new-selfSelect .icon{font-size: 13px;display: inline-block;position: absolute;right: 6px;top: 10px;color: #8d8d8f;transition: all .3s;}
+.fs-new-selfSelect-optionBox{position: absolute;width: 100%;background: #fff;border: 1px solid #e5e5e5;box-sizing: border-box;border-top: 0;display: none;z-index: 10;max-height: 151px;overflow: auto;}
+.fs-new-selfSelect-optionLi{cursor: pointer;padding: 6px 30px 10px 10px;line-height: 14px;position: relative;word-wrap: break-word;}
+.fs-new-selfSelect-optionLi:hover {text-decoration: underline;}
+.fs-new-selfSelect-optionLi .icon {position: absolute;right: 9px;top: 8px;display: none;display: inline-block;transition: all .3s;opacity: 0;color: #616265;font-size: 14px;font-weight: 600;}
+.fs-new-selfSelect-optionLi:hover .icon{opacity: 1;}
+/*输入框样式*/
+.fs-new-plainInput{transition: all .2s;border: 1px solid #e5e5e5;line-height: 36px;height: 38px;width: 100%;text-indent: 0;font-size: 13px;font-family: Open Sans;color: #232323;border-radius: 2px;vertical-align: middle;padding-left: 10px;box-sizing: border-box;}
+.fs-new-plainTxtarea{transition: all .2s;border: 1px solid #e5e5e5;border-radius: 2px;width: 100%;padding-left: 10px;box-sizing: border-box;color: #616265;box-shadow: none;text-indent: 0;min-height:88px;box-sizing: border-box;font-size: 13px;line-height: 22px;}
+.fs-new-plainInput:focus,.fs-new-plainTxtarea:focus{border-color: #8d8d8f;}
+.fs-new-plainInput.fs-new-cantInput{background: #e5e5e5;cursor: no-drop;}
+/*复选框*/
+.fs-new-common-checkBox{display: inline-block;cursor: pointer;}
+.fs-new-common-checkBox .icon{font-size: 16px;float: left;display: inline-block;width: 15px;}
+.fs-new-common-checkBoxIcTxt{color: #707473;padding-left: 21px;white-space: nowrap;font-size: 13px;display: block;}
+/*文件上传后*/
+.new-soluSupt-upload-name{margin-top: 10px;display: none;}
+.new-soluSupt-upload-name p{display: inline-block;max-width: 193px;font-size: 13px;color: #555;padding: 5px 30px 5px 10px;border: 1px solid #aeaeae;border-radius: 3px;position: relative;cursor: pointer;margin-bottom: 10px;box-sizing: border-box;height: 30px;margin-right: 10px;}
+.new-soluSupt-upload-name p b{font-weight: 400;margin-right: 5px;}
+.new-soluSupt-upload-name p em{font-style: normal;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display: inline-block;width: 155px;}
+
+.new-soluSupt-upload-name p span{position: absolute;right: 8px;top: 6px;font-size: 14px;}
+
+/* 按钮交互 */
+.fs-comSub-loadBtn .loader_order{display: none;left: 50%;margin-left: -9px;top: 50%;margin-top: -9px;}
+.fs-comSub-loadBtn.choosez{position: relative;}
+.fs-comSub-loadBtn.choosez .loader_order{display: block;}
+.fs-comSub-loadBtn.choosez .fs-comSub-loadBtn_txt{opacity: 0;}
+.new-soluSupt-form-sub.choosez{background: #e08080;border-color: #e08080;}
+
+/*2019-09-18 页面改版*/
+.fs-new-selfSelect .icon{right: 0;}
+/*project inquiry样式*/
+.new-proInquire-banner{height: 380px;}
+.new-proInquire-bg{position: absolute;width: 100%;height: 380px;left: 0;z-index: 1;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/project-inquiry-banner/project-inquiry-banner.jpg) no-repeat center;}
+.new-proInquire-tit{font-size: 40px;color: #fff;font-weight: 400;line-height: 48px;padding-top: 156px;text-align: center;position: relative;z-index: 2;}
+.new-proInquire-AgreementMain {display: inline-block;cursor: pointer;}
+.new-proInquire-AgreementMain .icon{font-size: 16px;color: #999999;float: left;line-height: 22px;}
+.new-proInquire-AgreementTxt{font-size: 13px;color: #999;line-height: 22px;padding-left: 24px;}
+.new-proInquire-AgreementTxt a{color: #232323;}
+.new-proInquire-AgreementMain.choosez .icon{color: #232323;}
+.new-soluSupt-successTxt01{color: #616265;}
+.new-soluSupt-successTxt01 a{color: #0070BC;}
+@media (max-width: 960px){
+	.new-proInquire-bg{background-position-x: 60%;}
+	.new-soluSupt-content.new-proInquire-content{background: #f7f7f7;padding: 15px;}
+	.new-soluSupt-content.new-proInquire-content .new-soluSupt-main{background: #fff;padding: 25px 0;box-sizing: border-box;}
+	.new-soluSupt-content.new-proInquire-content .new-soluSupt-form-main{padding: 0 20px;width: 100%;box-sizing: border-box;}
+}
+@media (max-width: 480px){
+	.new-proInquire-banner{height: 244px;}
+	.new-proInquire-bg{background-position-x: 100% !important;background: url(https://img-en.fs.com/includes/templates/fiberstore/images/specials/project-inquiry-banner/project-inquiry-bannerM.jpg) no-repeat center !important;height: 244px;}
+	.new-proInquire-tit{font-size: 20px;line-height: 30px;padding: 107px 0 0 30px;text-align: left;}
+	.new-soluSupt-content.new-proInquire-content .new-soluSupt-form-sub{width: 100%;}
+	.new-soluSupt-content.new-proInquire-content .new-soluSupt-form{padding-bottom: 10px;}
+	/*弹窗样式覆盖*/
+	.success-tipWindow.addCart .popup_width680{width: 100%;min-height: 100%;position: fixed;left: 0;top: 0;}
+	.new_popup.success-tipWindow .new_popup_addCart_tit{margin-bottom: 42px;}
+	.success-tipWindow .new_popup_content.addCart_cont{padding: 0 30px 30px 30px;}
+	.new-soluSupt-successTxt{line-height: 28px;}
+	.new-soluSupt-success-tipIcBox .icon{margin-top: 6px;}
+}
