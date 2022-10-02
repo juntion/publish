@@ -1,9 +1,3 @@
-## uums-server
-- [开发文档](./doc/readme.md)
-- [前后端分离开发流程](https://git.whgxwl.com:10025/King.Li/document/blob/master/前后端分离开发流程.md)
-- [其他开发文档](https://git.whgxwl.com:10025/King.Li/document/blob/master/README.md)
-- [前端项目（uums-client）](https://git.whgxwl.com:10025/fs/uums-client)
-
 ### 安装
 ```shell
 composer install
