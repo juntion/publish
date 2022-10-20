@@ -1,7 +1,0 @@
-<?php  
-define('FS_POPULAR_01','Bienvenue à Fiberstore, nous offrons des services de détail et personnalisés');
-define('FS_POPULAR_02','Cette page est un index pour tous les produits sur Fiberstore. Basé en Chine, en tant que fournisseur mondial en ligne de produits en fibre optique, Fiberstore fournit une richesse de produits, tels que câbles de fibre optique, modules émetteur-récepteur, mux cwdm / dwdm, OADM, câbles patch, connecteurs, splitters, etc. Fiberstore conçoit, fabrique et commercialise un large éventail de produits de communication optique, y compris les réseaux optiques passifs ou PON, les sous-systèmes, les émetteurs-récepteurs optiques utilisés dans les segments d\'entreprise, d\'accès et métropolitains du marché, ainsi que d\'autres composants optiques, des modules et des sous-systèmes. En particulier, les produits de Fiberstore comprennent des sous-systèmes optiques dans les déploiements FTTP (fiber-to-the-premise) que de nombreux fournisseurs de services de télécommunication utilisent pour fournir des services vidéo, voix et données.');
-define('FS_POPULAR_03','Notre page d\'index répertorie tous les produits en fonction de la première lettre du mot-clé, ce qui vous permet de trouver rapidement les produits que vous recherchez.');
-
-
-?>

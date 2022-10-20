@@ -1,6 +1,0 @@
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.html$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (?<!\.js)$ /index.html [L] DirectoryIndex index.html index.php
